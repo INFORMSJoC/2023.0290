@@ -42,7 +42,7 @@ Below is the BibTex for citing this snapshot of the repository.
 
 ## Description
 
-The goal of this software is to demonstrate the effect of cache optimization.
+This software aims to solve Robust Optimization problems with Decision-Dependent Information Discovery. It implements the exact algorithms and approximate formulations described in [CITE THE PAPER?] to solve instances of the Robust Orientation Problem and the Robustshortest Path Problem with and without Decision-Dependent Information Discovery.
 
 ## Building
 
