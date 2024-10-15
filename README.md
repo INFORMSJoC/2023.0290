@@ -77,17 +77,25 @@ ALRIJNE_COLL_NODE_TIME		  = 360;
 where RESULTS_FOLDER can be used to set a folder to store the results. TIME_LIMIT set the CPU Time limit in seconds. DDID_VERSION is used to set the version of the problem to be solved: set it to 1 to solve the Decision-Dependent Information Discovery version of the problem, and 0 otherwise. MAX_NUM_DISCOVERY_FRACTION is used to set the maximum number of discovery that can be used in the solution. In the paper, this is the $\delta$ parameter. The other parameters are problem-specific or algorithm-specific and will be explained in the following sections as needed.
  
 ### Sensor Placement Orienteering Problem (Section 5.1)
-
 To run the code to solve the Sensor Placement Orienteering Problem and reproduce the results in Section 5.1 of the paper, use the following command:
 
 ROPEU.exe <config_file> -i <instance_file>
 
-where <config_file> is the path to the configuration file, <instance_file> is the path to the instance file. To solve the problem using the exact algorithm described in Section 3, set SOLVE_EXACT_OP = 1 in the configuration file. To solve the K-Adaptability version of the problem, set SOLVE_K_ADAPT_OP = 1 and NUM_K to the desired number of K. US_TYPE is used to set the uncertainty set type. Set it to 2 to use the uncertainty set described in Section 5.1 of the paper. US_PARAM is used to set the parameter of the uncertainty set, i.e., parameter $U$ in the paper. Set this value according to the instance you want to solve as explained in Table 10 to reproduce the results. To use the hybrid decomposition described in Section 3.3. of the paper, set EXACT_OP_USE_SCENARIOS = 1. To use the information cuts described in Section 3.1.1 of the paper, set EXACT_USE_INFO_CUTS = 1, and 0 to use the standard Logic Benders Cuts. If the K-Adaptability version of the problem is solved, the parameters ALPHA_SYMMETRY_BREAKING, ALPHA_BOUNDS_REDUCTION, BEST_SCENARIO_CUTS, and X_TILDE_CUTS are used to activate the symmetry breaking inequality (Section 4.1), the strengthened McCormick (Section 4.2), the Optimistic Inequalities (Section 4.3), and the RLT Inequalities (Section 4.4), respectively.
+where <config_file> is the path to the configuration file, <instance_file> is the path to the instance file. Make sure SOLVE_EXACT = 0 in the configuration file. To solve the problem using the exact algorithm described in Section 3, set SOLVE_EXACT_OP = 1 in the configuration file. To solve the K-Adaptability version of the problem, set SOLVE_K_ADAPT_OP = 1 and NUM_K to the desired number of K. US_TYPE is used to set the uncertainty set type. Set it to 2 to use the uncertainty set described in Section 5.1 of the paper. US_PARAM is used to set the parameter of the uncertainty set, i.e., parameter $U$ in the paper. Set this value according to the instance you want to solve as explained in Table 10 to reproduce the results. To use the hybrid decomposition described in Section 3.3. of the paper, set EXACT_OP_USE_SCENARIOS = 1. To use the information cuts described in Section 3.1.1 of the paper, set EXACT_USE_INFO_CUTS = 1, and 0 to use the standard Logic Benders Cuts. If the K-Adaptability version of the problem is solved, the parameters ALPHA_SYMMETRY_BREAKING, ALPHA_BOUNDS_REDUCTION, BEST_SCENARIO_CUTS, and X_TILDE_CUTS are used to activate the symmetry breaking inequality (Section 4.1), the strengthened McCormick (Section 4.2), the Optimistic Inequalities (Section 4.3), and the RLT Inequalities (Section 4.4), respectively.
 
 
 
 ### Case Study: Alrijne Hospital (Section 6)
-To reproduce the results in Section 6 of the paper, run the ...
+To reproduce the results in Section 6 of the paper, run the executable file as described for the Sensor Placement Orienteering Problem. The instance file should be the files in the "Alrijne_Case_Study_Instances" in the "data" folder, and you should set READ_D_MATRIX = 1 in the configuration file. The other parameters work as for the Sensor Placement Orienteering Problem. However, to use the uncertainty set $\Xi_2$ in section 6.2.1 set US_TYPE = ?.
+
+### Robust Shortest Path Problem (Section 7)
+To run the code to solve the Robust Shortest Path Problem with the exact algorithm and reproduce the results in Appendix E of the paper, use the following command:
+
+ROPEU.exe <config_file> -s <number_of_nodes> <seed_min> <seed_max> <budget_of_uncertainty_set>
+
+and make sure SOLVE_EXACT = 1 in the configuration file and all the other SOLVE_* parameters are set to 0. The parameters <number_of_nodes>, <seed_min>, <seed_max>, and <budget_of_uncertainty_set> are used to generate the instances: the code generates and solve seed_max - seed_min + 1 networks with number_of_nodes nodes, and the budget of the uncertainty set is set to budget_of_uncertainty_set. To use the information cuts described in Section 3.1.1 of the paper, set EXACT_USE_INFO_CUTS = 1, and 0 to use the standard Logic Benders Cuts. To use the hybrid decomposition described in Section 3.3. of the paper, set EXACT_GI_USE_SCENARIOS = 1.
+
+ 
 
 
 ## Results
