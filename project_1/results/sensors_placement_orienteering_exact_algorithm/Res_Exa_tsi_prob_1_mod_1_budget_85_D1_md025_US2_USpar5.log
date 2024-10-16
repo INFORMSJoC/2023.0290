@@ -1,0 +1,317 @@
+++++ Instance Info ++++
+Instance name: tsi_prob_1_mod_1_budget_85_D1_md025_US2_USpar5
+Network name: tsi_prob_1_mod_1_budget_85
+Number of nodes: 32
+Number of profitable nodes: 30
+Max number of discovery: 8
+Max duration: 8500
+Alrijne Collecting Time: 360.000000
+++++ Uncertainty  ++++
+Uncertainty Set Type: 2
+Uncertainty Set Parameter: 0.050000
+Total Deterministic Profit in the Network: 285.000000
+++++ Solution of the Model ++++
+-----------------------------------------------
+Objective:
+Best Lower Bound: -1.000000
+Best upper bound: -1.000000
+Elapsed time Branch-and-Cut: 0.002000
+Elapsed time Starting Cuts: 2.443000
+Cplex Gap: 0.000000
+B&C nodes: 0
+Number Logic Benders Cuts: 0
+Number Starting Scenarios: 0
+Cardinality of Y: 19
+Number of Tight y in the sub-problem: 2
+
+Variables Master Problem:
+
+Phi =-1.000000 
+
+Discoveries: w_i (i is a profitable node). 
+
+Scenarios and Tight Ys Sub-Problem
+
+Overline Scenario: ovxi_i (i is a profitable node). 
+ ov_xi_[node:1] = 0.050000
+ ov_xi_[node:2] = 0.050000
+ ov_xi_[node:3] = 0.000000
+ ov_xi_[node:4] = 0.000000
+ ov_xi_[node:5] = 0.000000
+ ov_xi_[node:6] = 0.000000
+ ov_xi_[node:7] = 0.000000
+ ov_xi_[node:8] = 0.000000
+ ov_xi_[node:9] = 0.000000
+ ov_xi_[node:10] = 0.000000
+ ov_xi_[node:11] = 0.000000
+ ov_xi_[node:12] = 0.000000
+ ov_xi_[node:13] = 0.050000
+ ov_xi_[node:14] = 0.050000
+ ov_xi_[node:15] = 0.050000
+ ov_xi_[node:16] = 0.050000
+ ov_xi_[node:17] = 0.050000
+ ov_xi_[node:18] = 0.050000
+ ov_xi_[node:19] = 0.050000
+ ov_xi_[node:20] = 0.050000
+ ov_xi_[node:21] = 0.050000
+ ov_xi_[node:22] = 0.050000
+ ov_xi_[node:23] = 0.050000
+ ov_xi_[node:24] = 0.050000
+ ov_xi_[node:25] = 0.050000
+ ov_xi_[node:26] = 0.050000
+ ov_xi_[node:27] = 0.050000
+ ov_xi_[node:28] = 0.050000
+ ov_xi_[node:29] = 0.050000
+ ov_xi_[node:30] = 0.050000
+
+ Tigth Ys: 
+
+ y = 1 { 
+Node 1: {
+y_[node:1] = 1
+xi_y_i_[y:1][node:1] = 0.050000
+} 
+Node 2: {
+y_[node:2] = 1
+xi_y_i_[y:1][node:2] = 0.050000
+} 
+Node 3: {
+y_[node:3] = 1
+xi_y_i_[y:1][node:3] = 0.000000
+} 
+Node 4: {
+y_[node:4] = 1
+xi_y_i_[y:1][node:4] = 0.000000
+} 
+Node 5: {
+y_[node:5] = 0
+xi_y_i_[y:1][node:5] = 0.000000
+} 
+Node 6: {
+y_[node:6] = 0
+xi_y_i_[y:1][node:6] = 0.000000
+} 
+Node 7: {
+y_[node:7] = 0
+xi_y_i_[y:1][node:7] = 0.000000
+} 
+Node 8: {
+y_[node:8] = 1
+xi_y_i_[y:1][node:8] = 0.000000
+} 
+Node 9: {
+y_[node:9] = 1
+xi_y_i_[y:1][node:9] = 0.000000
+} 
+Node 10: {
+y_[node:10] = 1
+xi_y_i_[y:1][node:10] = 0.000000
+} 
+Node 11: {
+y_[node:11] = 1
+xi_y_i_[y:1][node:11] = 0.000000
+} 
+Node 12: {
+y_[node:12] = 1
+xi_y_i_[y:1][node:12] = 0.000000
+} 
+Node 13: {
+y_[node:13] = 1
+xi_y_i_[y:1][node:13] = 0.050000
+} 
+Node 14: {
+y_[node:14] = 1
+xi_y_i_[y:1][node:14] = 0.050000
+} 
+Node 15: {
+y_[node:15] = 1
+xi_y_i_[y:1][node:15] = 0.050000
+} 
+Node 16: {
+y_[node:16] = 1
+xi_y_i_[y:1][node:16] = 0.050000
+} 
+Node 17: {
+y_[node:17] = 1
+xi_y_i_[y:1][node:17] = 0.050000
+} 
+Node 18: {
+y_[node:18] = 1
+xi_y_i_[y:1][node:18] = 0.050000
+} 
+Node 19: {
+y_[node:19] = 1
+xi_y_i_[y:1][node:19] = 0.050000
+} 
+Node 20: {
+y_[node:20] = 1
+xi_y_i_[y:1][node:20] = 0.050000
+} 
+Node 21: {
+y_[node:21] = 1
+xi_y_i_[y:1][node:21] = 0.050000
+} 
+Node 22: {
+y_[node:22] = 1
+xi_y_i_[y:1][node:22] = 0.050000
+} 
+Node 23: {
+y_[node:23] = 1
+xi_y_i_[y:1][node:23] = 0.050000
+} 
+Node 24: {
+y_[node:24] = 1
+xi_y_i_[y:1][node:24] = 0.050000
+} 
+Node 25: {
+y_[node:25] = 1
+xi_y_i_[y:1][node:25] = 0.050000
+} 
+Node 26: {
+y_[node:26] = 1
+xi_y_i_[y:1][node:26] = 0.050000
+} 
+Node 27: {
+y_[node:27] = 1
+xi_y_i_[y:1][node:27] = 0.050000
+} 
+Node 28: {
+y_[node:28] = 1
+xi_y_i_[y:1][node:28] = 0.050000
+} 
+Node 29: {
+y_[node:29] = 1
+xi_y_i_[y:1][node:29] = 0.050000
+} 
+Node 30: {
+y_[node:30] = 1
+xi_y_i_[y:1][node:30] = 0.050000
+} 
+
+ } 
+
+ y = 18 { 
+Node 1: {
+y_[node:1] = 1
+xi_y_i_[y:18][node:1] = 0.000000
+} 
+Node 2: {
+y_[node:2] = 1
+xi_y_i_[y:18][node:2] = 0.050000
+} 
+Node 3: {
+y_[node:3] = 1
+xi_y_i_[y:18][node:3] = 0.050000
+} 
+Node 4: {
+y_[node:4] = 1
+xi_y_i_[y:18][node:4] = 0.050000
+} 
+Node 5: {
+y_[node:5] = 1
+xi_y_i_[y:18][node:5] = 0.000000
+} 
+Node 6: {
+y_[node:6] = 1
+xi_y_i_[y:18][node:6] = 0.000000
+} 
+Node 7: {
+y_[node:7] = 1
+xi_y_i_[y:18][node:7] = 0.000000
+} 
+Node 8: {
+y_[node:8] = 1
+xi_y_i_[y:18][node:8] = 0.000000
+} 
+Node 9: {
+y_[node:9] = 1
+xi_y_i_[y:18][node:9] = 0.050000
+} 
+Node 10: {
+y_[node:10] = 1
+xi_y_i_[y:18][node:10] = 0.050000
+} 
+Node 11: {
+y_[node:11] = 1
+xi_y_i_[y:18][node:11] = 0.050000
+} 
+Node 12: {
+y_[node:12] = 1
+xi_y_i_[y:18][node:12] = 0.050000
+} 
+Node 13: {
+y_[node:13] = 1
+xi_y_i_[y:18][node:13] = 0.050000
+} 
+Node 14: {
+y_[node:14] = 1
+xi_y_i_[y:18][node:14] = 0.000000
+} 
+Node 15: {
+y_[node:15] = 1
+xi_y_i_[y:18][node:15] = 0.050000
+} 
+Node 16: {
+y_[node:16] = 1
+xi_y_i_[y:18][node:16] = 0.000000
+} 
+Node 17: {
+y_[node:17] = 1
+xi_y_i_[y:18][node:17] = 0.050000
+} 
+Node 18: {
+y_[node:18] = 1
+xi_y_i_[y:18][node:18] = 0.050000
+} 
+Node 19: {
+y_[node:19] = 1
+xi_y_i_[y:18][node:19] = 0.050000
+} 
+Node 20: {
+y_[node:20] = 1
+xi_y_i_[y:18][node:20] = 0.050000
+} 
+Node 21: {
+y_[node:21] = 1
+xi_y_i_[y:18][node:21] = 0.050000
+} 
+Node 22: {
+y_[node:22] = 1
+xi_y_i_[y:18][node:22] = 0.050000
+} 
+Node 23: {
+y_[node:23] = 1
+xi_y_i_[y:18][node:23] = 0.050000
+} 
+Node 24: {
+y_[node:24] = 1
+xi_y_i_[y:18][node:24] = 0.000000
+} 
+Node 25: {
+y_[node:25] = 1
+xi_y_i_[y:18][node:25] = 0.000000
+} 
+Node 26: {
+y_[node:26] = 1
+xi_y_i_[y:18][node:26] = 0.000000
+} 
+Node 27: {
+y_[node:27] = 1
+xi_y_i_[y:18][node:27] = 0.050000
+} 
+Node 28: {
+y_[node:28] = 1
+xi_y_i_[y:18][node:28] = 0.050000
+} 
+Node 29: {
+y_[node:29] = 1
+xi_y_i_[y:18][node:29] = 0.050000
+} 
+Node 30: {
+y_[node:30] = 1
+xi_y_i_[y:18][node:30] = 0.050000
+} 
+
+ } 
+Legenda_Model:Instance_Name	Network_Name	Num_Nodes	Num_Prof_Nodes	Max_Tour_Duration	Max_Num_Discoveries	Max_Discoveries_Fraction	Best_LB	Best_Ub	Cplex_Gap	Root_Node_LB	Branch_and_Cut_Elapsed_Time	Starting_Cuts_Elapsed_Time	Tot_Time	Num_Logic_Benders_Cuts	Number_Starting_Scenarios	Num_BandC_Nodes	Number_Discoveries	Profit_cost	Discovery_cost	Card_Y	Num_Tight_Y	US_Type	US_Param	US_Tot_Det_Profit
+Table_Model:tsi_prob_1_mod_1_budget_85_D1_md025_US2_USpar5	tsi_prob_1_mod_1_budget_85	32	30	8500	8	0.250000	-1.000000	-1.000000	0.000000	0.000000	0.002000	2.443000	2.445000	0	0	0	0	-1.000000	0.000000	19	2	2	0.050000	285.000000

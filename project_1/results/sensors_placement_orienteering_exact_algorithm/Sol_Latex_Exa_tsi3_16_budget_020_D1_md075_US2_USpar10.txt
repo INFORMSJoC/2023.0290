@@ -1,0 +1,30 @@
+\begin{tikzpicture}
+\begin{axis} [legend pos=south east,
+scatter/classes={%
+	start={mark=triangle*},
+	end={mark=triangle},
+discovery_on={mark=square*},
+discovery_off={mark=o}}]
+\addplot[scatter, only marks,  scatter src = explicit symbolic, forget plot] table[meta = label]{
+x     y      label
+14.950000	22.250000	start
+14.950000	22.250000	end
+20.700000	28.200000	discovery_on
+21.800000	27.300000	discovery_on
+22.500000	17.000000	discovery_on
+19.900000	15.000000	discovery_on
+14.900000	15.100000	discovery_on
+12.400000	29.800000	discovery_on
+17.800000	28.100000	discovery_on
+9.100000	29.800000	discovery_off
+10.000000	32.600000	discovery_off
+13.900000	33.100000	discovery_off
+19.950000	10.300000	discovery_on
+15.200000	8.000000	discovery_off
+14.700000	31.200000	discovery_on
+7.400000	36.500000	discovery_on
+21.000000	25.500000	discovery_on
+17.900000	28.900000	discovery_on
+};
+\end{axis}
+\end{tikzpicture}

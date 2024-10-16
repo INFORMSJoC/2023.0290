@@ -1,0 +1,83 @@
+Instance_Name: SPP_n40_s8_K2_B3_D1_d25.log
+K: 2
+U_Budget: 3
+Num_Nodes: 40
+Num_Archs: 468
+Max_Num_Discoveries: 117
+DDDI_Version: 1
+BUB: 14.7663
+BLB: 5.08086
+Gap: 0.655914
+Elapsed_Time 7200.04
+
+
+Solution:
+
+w[] variables
+:w_8: arc (1, 24) = 1
+w_10: arc (1, 27) = 1
+w_11: arc (1, 37) = 1
+w_25: arc (3, 7) = 1
+w_33: arc (4, 10) = 1
+w_46: arc (5, 21) = 1
+w_47: arc (5, 31) = 1
+w_49: arc (5, 33) = 1
+w_68: arc (6, 40) = 1
+w_70: arc (7, 5) = 1
+w_82: arc (8, 19) = 1
+w_95: arc (9, 1) = 1
+w_96: arc (9, 11) = 1
+w_98: arc (9, 16) = 1
+w_100: arc (9, 27) = 1
+w_101: arc (9, 37) = 1
+w_105: arc (10, 15) = 1
+w_108: arc (10, 27) = 1
+w_116: arc (11, 18) = 1
+w_135: arc (13, 33) = 1
+w_158: arc (15, 18) = 1
+w_161: arc (15, 38) = 1
+w_168: arc (16, 27) = 1
+w_188: arc (18, 38) = 1
+w_197: arc (19, 25) = 1
+w_203: arc (19, 32) = 1
+w_220: arc (21, 33) = 1
+w_262: arc (24, 39) = 1
+w_265: arc (25, 9) = 1
+w_281: arc (26, 27) = 1
+w_283: arc (26, 29) = 1
+w_285: arc (26, 32) = 1
+w_297: arc (27, 19) = 1
+w_300: arc (27, 24) = 1
+w_350: arc (31, 8) = 1
+w_357: arc (31, 33) = 1
+w_361: arc (32, 6) = 1
+w_374: arc (32, 31) = 1
+w_384: arc (34, 3) = 1
+w_405: arc (35, 21) = 1
+w_412: arc (35, 33) = 1
+w_421: arc (37, 4) = 1
+w_428: arc (37, 27) = 1
+w_437: arc (38, 34) = 1
+w_455: arc (39, 35) = 1
+w_457: arc (40, 5) = 1
+
+**********************
+y_k[] variables:
+y_k0_i10: arc (1, 27) = 1
+y_k0_i95: arc (9, 1) = 1
+y_k0_i220: arc (21, 33) = 1
+y_k0_i262: arc (24, 39) = 1
+y_k0_i300: arc (27, 24) = 1
+y_k0_i405: arc (35, 21) = 1
+y_k0_i455: arc (39, 35) = 1
+y_k1_i100: arc (9, 27) = 1
+y_k1_i285: arc (26, 32) = 1
+y_k1_i302: arc (27, 26) = 1
+y_k1_i357: arc (31, 33) = 1
+y_k1_i374: arc (32, 31) = 1
+
+
+------------------------
+
+Legenda:Instance_Name   K   Num_Nodes   Num_Archs Seed  U_budget    Max_Num_Discoveries    DDDI_Version Delta    BUB BLB Gap Elapsed_Time
+Table:SPP_n40_s8_K2_B3_D1_d25.log   2  40 468 8 3    117  1 0.25 14.7663 5.08086   0.655914 7200.04 

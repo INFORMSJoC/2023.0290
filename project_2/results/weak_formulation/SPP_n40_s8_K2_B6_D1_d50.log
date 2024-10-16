@@ -1,0 +1,84 @@
+Instance_Name: SPP_n40_s8_K2_B6_D1_d50.log
+K: 2
+U_Budget: 6
+Num_Nodes: 40
+Num_Archs: 468
+Max_Num_Discoveries: 234
+DDDI_Version: 1
+BUB: 16.6247
+BLB: 5.06204
+Gap: 0.695511
+Elapsed_Time 7200.05
+
+
+Solution:
+
+w[] variables
+:w_4: arc (1, 12) = 1
+w_7: arc (1, 19) = 1
+w_10: arc (1, 27) = 1
+w_43: arc (5, 13) = 1
+w_53: arc (5, 40) = 1
+w_62: arc (6, 31) = 1
+w_90: arc (8, 31) = 1
+w_95: arc (9, 1) = 1
+w_96: arc (9, 11) = 1
+w_97: arc (9, 12) = 1
+w_98: arc (9, 16) = 1
+w_99: arc (9, 25) = 1
+w_100: arc (9, 27) = 1
+w_101: arc (9, 37) = 1
+w_117: arc (11, 27) = 1
+w_120: arc (12, 2) = 1
+w_122: arc (12, 19) = 1
+w_127: arc (12, 26) = 1
+w_135: arc (13, 33) = 1
+w_188: arc (18, 38) = 1
+w_196: arc (19, 24) = 1
+w_198: arc (19, 26) = 1
+w_202: arc (19, 30) = 1
+w_205: arc (20, 2) = 1
+w_214: arc (21, 13) = 1
+w_220: arc (21, 33) = 1
+w_294: arc (27, 12) = 1
+w_297: arc (27, 19) = 1
+w_299: arc (27, 22) = 1
+w_300: arc (27, 24) = 1
+w_301: arc (27, 25) = 1
+w_303: arc (27, 29) = 1
+w_314: arc (28, 31) = 1
+w_316: arc (28, 35) = 1
+w_333: arc (29, 35) = 1
+w_334: arc (29, 39) = 1
+w_335: arc (30, 8) = 1
+w_344: arc (30, 31) = 1
+w_351: arc (31, 13) = 1
+w_357: arc (31, 33) = 1
+w_366: arc (32, 21) = 1
+w_397: arc (34, 40) = 1
+w_412: arc (35, 33) = 1
+w_428: arc (37, 27) = 1
+w_444: arc (39, 14) = 1
+w_460: arc (40, 13) = 1
+w_465: arc (40, 33) = 1
+
+**********************
+y_k[] variables:
+y_k0_i97: arc (9, 12) = 1
+y_k0_i122: arc (12, 19) = 1
+y_k0_i202: arc (19, 30) = 1
+y_k0_i344: arc (30, 31) = 1
+y_k0_i357: arc (31, 33) = 1
+y_k1_i100: arc (9, 27) = 1
+y_k1_i220: arc (21, 33) = 1
+y_k1_i256: arc (24, 26) = 1
+y_k1_i283: arc (26, 29) = 1
+y_k1_i300: arc (27, 24) = 1
+y_k1_i331: arc (29, 32) = 1
+y_k1_i366: arc (32, 21) = 1
+
+
+------------------------
+
+Legenda:Instance_Name   K   Num_Nodes   Num_Archs Seed  U_budget    Max_Num_Discoveries    DDDI_Version Delta    BUB BLB Gap Elapsed_Time
+Table:SPP_n40_s8_K2_B6_D1_d50.log   2  40 468 8 6    234  1 0.5 16.6247 5.06204   0.695511 7200.05 

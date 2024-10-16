@@ -1,0 +1,83 @@
+Instance_Name: SPP_n40_s3_K4_B6_D1_d25.log
+K: 4
+U_Budget: 6
+Num_Nodes: 40
+Num_Archs: 468
+Max_Num_Discoveries: 117
+DDDI_Version: 1
+BUB: 13.9927
+BLB: 13.7993
+Gap: 0.0138174
+Elapsed_Time 7200.31
+
+
+Solution:
+
+w[] variables
+:w_5: arc (1, 16) = 1
+w_20: arc (2, 38) = 1
+w_24: arc (3, 7) = 1
+w_29: arc (3, 21) = 1
+w_34: arc (3, 39) = 1
+w_35: arc (4, 1) = 1
+w_42: arc (4, 18) = 1
+w_47: arc (4, 32) = 1
+w_77: arc (7, 17) = 1
+w_82: arc (7, 26) = 1
+w_86: arc (7, 33) = 1
+w_96: arc (8, 38) = 1
+w_130: arc (11, 31) = 1
+w_175: arc (16, 2) = 1
+w_177: arc (16, 8) = 1
+w_185: arc (16, 31) = 1
+w_199: arc (17, 38) = 1
+w_206: arc (18, 16) = 1
+w_248: arc (21, 17) = 1
+w_255: arc (21, 33) = 1
+w_275: arc (24, 11) = 1
+w_282: arc (24, 32) = 1
+w_301: arc (26, 38) = 1
+w_325: arc (28, 26) = 1
+w_340: arc (30, 3) = 1
+w_341: arc (30, 4) = 1
+w_346: arc (30, 24) = 1
+w_347: arc (30, 34) = 1
+w_349: arc (30, 39) = 1
+w_359: arc (31, 38) = 1
+w_373: arc (32, 31) = 1
+w_383: arc (33, 26) = 1
+w_390: arc (34, 1) = 1
+w_391: arc (34, 3) = 1
+w_392: arc (34, 4) = 1
+w_443: arc (39, 7) = 1
+w_456: arc (39, 32) = 1
+
+**********************
+y_k[] variables:
+y_k0_i42: arc (4, 18) = 1
+y_k0_i96: arc (8, 38) = 1
+y_k0_i177: arc (16, 8) = 1
+y_k0_i206: arc (18, 16) = 1
+y_k0_i347: arc (30, 34) = 1
+y_k0_i392: arc (34, 4) = 1
+y_k1_i34: arc (3, 39) = 1
+y_k1_i77: arc (7, 17) = 1
+y_k1_i199: arc (17, 38) = 1
+y_k1_i340: arc (30, 3) = 1
+y_k1_i443: arc (39, 7) = 1
+y_k2_i282: arc (24, 32) = 1
+y_k2_i346: arc (30, 24) = 1
+y_k2_i359: arc (31, 38) = 1
+y_k2_i373: arc (32, 31) = 1
+y_k3_i86: arc (7, 33) = 1
+y_k3_i242: arc (21, 7) = 1
+y_k3_i301: arc (26, 38) = 1
+y_k3_i349: arc (30, 39) = 1
+y_k3_i383: arc (33, 26) = 1
+y_k3_i451: arc (39, 21) = 1
+
+
+------------------------
+
+Legenda:Instance_Name   K   Num_Nodes   Num_Archs Seed  U_budget    Max_Num_Discoveries    DDDI_Version Delta    BUB BLB Gap Elapsed_Time
+Table:SPP_n40_s3_K4_B6_D1_d25.log   4  40 468 3 6    117  1 0.25 13.9927 13.7993   0.0138174 7200.31 

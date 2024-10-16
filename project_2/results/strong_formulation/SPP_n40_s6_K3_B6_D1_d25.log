@@ -1,0 +1,94 @@
+Instance_Name: SPP_n40_s6_K3_B6_D1_d25.log
+K: 3
+U_Budget: 6
+Num_Nodes: 40
+Num_Archs: 468
+Max_Num_Discoveries: 117
+DDDI_Version: 1
+BUB: 15.8218
+BLB: 15.8218
+Gap: 0
+Elapsed_Time 340.595
+
+
+Solution:
+
+w[] variables
+:w_2: arc (1, 5) = 1
+w_45: arc (5, 6) = 1
+w_46: arc (5, 10) = 1
+w_63: arc (6, 25) = 1
+w_66: arc (6, 32) = 1
+w_71: arc (7, 22) = 1
+w_72: arc (7, 24) = 1
+w_73: arc (7, 33) = 1
+w_86: arc (9, 16) = 1
+w_87: arc (9, 17) = 1
+w_91: arc (9, 26) = 1
+w_105: arc (10, 28) = 1
+w_115: arc (11, 14) = 1
+w_135: arc (13, 6) = 1
+w_140: arc (13, 28) = 1
+w_142: arc (13, 32) = 1
+w_146: arc (13, 37) = 1
+w_164: arc (15, 16) = 1
+w_180: arc (17, 16) = 1
+w_188: arc (18, 14) = 1
+w_193: arc (18, 34) = 1
+w_200: arc (19, 9) = 1
+w_204: arc (19, 15) = 1
+w_215: arc (19, 38) = 1
+w_222: arc (20, 19) = 1
+w_225: arc (20, 24) = 1
+w_230: arc (20, 36) = 1
+w_244: arc (22, 5) = 1
+w_246: arc (22, 13) = 1
+w_247: arc (22, 20) = 1
+w_251: arc (22, 33) = 1
+w_253: arc (22, 35) = 1
+w_254: arc (22, 36) = 1
+w_257: arc (23, 16) = 1
+w_262: arc (24, 18) = 1
+w_268: arc (24, 35) = 1
+w_272: arc (25, 16) = 1
+w_273: arc (25, 17) = 1
+w_275: arc (25, 23) = 1
+w_282: arc (26, 9) = 1
+w_309: arc (28, 25) = 1
+w_353: arc (32, 17) = 1
+w_355: arc (32, 25) = 1
+w_363: arc (33, 13) = 1
+w_371: arc (33, 36) = 1
+w_389: arc (35, 19) = 1
+w_393: arc (35, 26) = 1
+w_401: arc (36, 6) = 1
+w_411: arc (36, 32) = 1
+w_415: arc (36, 37) = 1
+w_416: arc (36, 38) = 1
+w_424: arc (37, 25) = 1
+w_436: arc (38, 17) = 1
+
+**********************
+y_k[] variables:
+y_k0_i66: arc (6, 32) = 1
+y_k0_i71: arc (7, 22) = 1
+y_k0_i254: arc (22, 36) = 1
+y_k0_i272: arc (25, 16) = 1
+y_k0_i355: arc (32, 25) = 1
+y_k0_i401: arc (36, 6) = 1
+y_k1_i72: arc (7, 24) = 1
+y_k1_i86: arc (9, 16) = 1
+y_k1_i200: arc (19, 9) = 1
+y_k1_i268: arc (24, 35) = 1
+y_k1_i389: arc (35, 19) = 1
+y_k2_i73: arc (7, 33) = 1
+y_k2_i180: arc (17, 16) = 1
+y_k2_i371: arc (33, 36) = 1
+y_k2_i416: arc (36, 38) = 1
+y_k2_i436: arc (38, 17) = 1
+
+
+------------------------
+
+Legenda:Instance_Name   K   Num_Nodes   Num_Archs Seed  U_budget    Max_Num_Discoveries    DDDI_Version Delta    BUB BLB Gap Elapsed_Time
+Table:SPP_n40_s6_K3_B6_D1_d25.log   3  40 468 6 6    117  1 0.25 15.8218 15.8218   0 340.595 

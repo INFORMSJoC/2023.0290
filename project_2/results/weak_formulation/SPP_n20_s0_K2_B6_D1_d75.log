@@ -1,0 +1,55 @@
+Instance_Name: SPP_n20_s0_K2_B6_D1_d75.log
+K: 2
+U_Budget: 6
+Num_Nodes: 20
+Num_Archs: 114
+Max_Num_Discoveries: 86
+DDDI_Version: 1
+BUB: 18.3687
+BLB: 15.0503
+Gap: 0.180658
+Elapsed_Time 7200.04
+
+
+Solution:
+
+w[] variables
+:w_4: arc (1, 10) = 1
+w_8: arc (2, 4) = 1
+w_14: arc (3, 4) = 1
+w_17: arc (3, 14) = 1
+w_22: arc (4, 6) = 1
+w_23: arc (4, 9) = 1
+w_29: arc (5, 8) = 1
+w_40: arc (6, 12) = 1
+w_43: arc (6, 20) = 1
+w_45: arc (7, 3) = 1
+w_53: arc (8, 17) = 1
+w_65: arc (10, 8) = 1
+w_70: arc (11, 2) = 1
+w_71: arc (11, 3) = 1
+w_72: arc (11, 7) = 1
+w_74: arc (11, 18) = 1
+w_78: arc (12, 17) = 1
+w_87: arc (14, 1) = 1
+w_96: arc (16, 2) = 1
+w_108: arc (18, 16) = 1
+
+**********************
+y_k[] variables:
+y_k0_i8: arc (2, 4) = 1
+y_k0_i22: arc (4, 6) = 1
+y_k0_i40: arc (6, 12) = 1
+y_k0_i70: arc (11, 2) = 1
+y_k0_i78: arc (12, 17) = 1
+y_k1_i17: arc (3, 14) = 1
+y_k1_i53: arc (8, 17) = 1
+y_k1_i65: arc (10, 8) = 1
+y_k1_i71: arc (11, 3) = 1
+y_k1_i92: arc (14, 10) = 1
+
+
+------------------------
+
+Legenda:Instance_Name   K   Num_Nodes   Num_Archs Seed  U_budget    Max_Num_Discoveries    DDDI_Version Delta    BUB BLB Gap Elapsed_Time
+Table:SPP_n20_s0_K2_B6_D1_d75.log   2  20 114 0 6    86  1 0.75 18.3687 15.0503   0.180658 7200.04 

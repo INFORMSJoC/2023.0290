@@ -1,0 +1,191 @@
+++++ Instance Info ++++
+Instance name: tsi3_16_budget_070_D1_md050_US2_USpar10
+Network name: tsi3_16_budget_070
+Number of nodes: 18
+Number of profitable nodes: 16
+Max number of discovery: 8
+Max duration: 7000
+Alrijne Collecting Time: 360.000000
+++++ Uncertainty  ++++
+Uncertainty Set Type: 2
+Uncertainty Set Parameter: 0.100000
+Total Deterministic Profit in the Network: 550.000000
+++++ Solution of the Model ++++
+-----------------------------------------------
+Objective:
+Best Lower Bound: -0.900000
+Best upper bound: -0.900000
+Elapsed time Branch-and-Cut: 0.002000
+Elapsed time Starting Cuts: 1.336000
+Cplex Gap: 0.000000
+B&C nodes: 0
+Number Logic Benders Cuts: 0
+Number Starting Scenarios: 0
+Cardinality of Y: 20
+Number of Tight y in the sub-problem: 2
+
+Variables Master Problem:
+
+Phi =-0.900000 
+
+Discoveries: w_i (i is a profitable node). 
+
+Scenarios and Tight Ys Sub-Problem
+
+Overline Scenario: ovxi_i (i is a profitable node). 
+ ov_xi_[node:1] = 0.100000
+ ov_xi_[node:2] = 0.100000
+ ov_xi_[node:3] = 0.000000
+ ov_xi_[node:4] = 0.000000
+ ov_xi_[node:5] = 0.000000
+ ov_xi_[node:6] = 0.000000
+ ov_xi_[node:7] = 0.000000
+ ov_xi_[node:8] = 0.000000
+ ov_xi_[node:9] = 0.100000
+ ov_xi_[node:10] = 0.100000
+ ov_xi_[node:11] = 0.100000
+ ov_xi_[node:12] = 0.100000
+ ov_xi_[node:13] = 0.100000
+ ov_xi_[node:14] = 0.100000
+ ov_xi_[node:15] = 0.100000
+ ov_xi_[node:16] = 0.100000
+
+ Tigth Ys: 
+
+ y = 8 { 
+Node 1: {
+y_[node:1] = 1
+xi_y_i_[y:8][node:1] = 0.100000
+} 
+Node 2: {
+y_[node:2] = 1
+xi_y_i_[y:8][node:2] = 0.100000
+} 
+Node 3: {
+y_[node:3] = 0
+xi_y_i_[y:8][node:3] = 0.000000
+} 
+Node 4: {
+y_[node:4] = 1
+xi_y_i_[y:8][node:4] = 0.000000
+} 
+Node 5: {
+y_[node:5] = 1
+xi_y_i_[y:8][node:5] = 0.000000
+} 
+Node 6: {
+y_[node:6] = 0
+xi_y_i_[y:8][node:6] = 0.000000
+} 
+Node 7: {
+y_[node:7] = 0
+xi_y_i_[y:8][node:7] = 0.000000
+} 
+Node 8: {
+y_[node:8] = 1
+xi_y_i_[y:8][node:8] = 0.000000
+} 
+Node 9: {
+y_[node:9] = 1
+xi_y_i_[y:8][node:9] = 0.100000
+} 
+Node 10: {
+y_[node:10] = 1
+xi_y_i_[y:8][node:10] = 0.100000
+} 
+Node 11: {
+y_[node:11] = 1
+xi_y_i_[y:8][node:11] = 0.100000
+} 
+Node 12: {
+y_[node:12] = 1
+xi_y_i_[y:8][node:12] = 0.100000
+} 
+Node 13: {
+y_[node:13] = 1
+xi_y_i_[y:8][node:13] = 0.100000
+} 
+Node 14: {
+y_[node:14] = 0
+xi_y_i_[y:8][node:14] = 0.100000
+} 
+Node 15: {
+y_[node:15] = 1
+xi_y_i_[y:8][node:15] = 0.100000
+} 
+Node 16: {
+y_[node:16] = 1
+xi_y_i_[y:8][node:16] = 0.100000
+} 
+
+ } 
+
+ y = 16 { 
+Node 1: {
+y_[node:1] = 1
+xi_y_i_[y:16][node:1] = 0.000000
+} 
+Node 2: {
+y_[node:2] = 1
+xi_y_i_[y:16][node:2] = 0.000000
+} 
+Node 3: {
+y_[node:3] = 1
+xi_y_i_[y:16][node:3] = 0.000000
+} 
+Node 4: {
+y_[node:4] = 1
+xi_y_i_[y:16][node:4] = 0.100000
+} 
+Node 5: {
+y_[node:5] = 1
+xi_y_i_[y:16][node:5] = 0.000000
+} 
+Node 6: {
+y_[node:6] = 1
+xi_y_i_[y:16][node:6] = 0.100000
+} 
+Node 7: {
+y_[node:7] = 1
+xi_y_i_[y:16][node:7] = 0.100000
+} 
+Node 8: {
+y_[node:8] = 1
+xi_y_i_[y:16][node:8] = 0.100000
+} 
+Node 9: {
+y_[node:9] = 1
+xi_y_i_[y:16][node:9] = 0.000000
+} 
+Node 10: {
+y_[node:10] = 1
+xi_y_i_[y:16][node:10] = 0.100000
+} 
+Node 11: {
+y_[node:11] = 1
+xi_y_i_[y:16][node:11] = 0.100000
+} 
+Node 12: {
+y_[node:12] = 1
+xi_y_i_[y:16][node:12] = 0.100000
+} 
+Node 13: {
+y_[node:13] = 1
+xi_y_i_[y:16][node:13] = 0.000000
+} 
+Node 14: {
+y_[node:14] = 0
+xi_y_i_[y:16][node:14] = 0.100000
+} 
+Node 15: {
+y_[node:15] = 1
+xi_y_i_[y:16][node:15] = 0.100000
+} 
+Node 16: {
+y_[node:16] = 1
+xi_y_i_[y:16][node:16] = 0.100000
+} 
+
+ } 
+Legenda_Model:Instance_Name	Network_Name	Num_Nodes	Num_Prof_Nodes	Max_Tour_Duration	Max_Num_Discoveries	Max_Discoveries_Fraction	Best_LB	Best_Ub	Cplex_Gap	Root_Node_LB	Branch_and_Cut_Elapsed_Time	Starting_Cuts_Elapsed_Time	Tot_Time	Num_Logic_Benders_Cuts	Number_Starting_Scenarios	Num_BandC_Nodes	Number_Discoveries	Profit_cost	Discovery_cost	Card_Y	Num_Tight_Y	US_Type	US_Param	US_Tot_Det_Profit
+Table_Model:tsi3_16_budget_070_D1_md050_US2_USpar10	tsi3_16_budget_070	18	16	7000	8	0.500000	-0.900000	-0.900000	0.000000	0.000000	0.002000	1.336000	1.338000	0	0	0	0	-0.900000	0.000000	20	2	2	0.100000	550.000000

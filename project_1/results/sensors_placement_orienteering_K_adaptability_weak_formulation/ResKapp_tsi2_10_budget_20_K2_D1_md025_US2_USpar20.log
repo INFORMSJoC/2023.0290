@@ -1,0 +1,106 @@
+++++ Instance Info ++++
+Instance name: tsi2_10_budget_20_K2_D1_md025_US2_USpar20
+Network name: tsi2_10_budget_20
+Number of nodes: 12
+Number of profitable nodes: 10
+Max number of discovery: 3
+Max duration: 2000
+Alrijne Collecting Time: 360.000000
+++++ Uncertainty  ++++
+Number of K-policy: 2
+Uncertainty Set Type: 2
+Uncertainty Set Parameter: 0.200000
+Total Deterministic Profit in the Network: 265.000000
+++++ Solution of the Model ++++
+-----------------------------------------------
+Objective:
+Best Lower Bound: -0.300000
+Best upper bound: -0.300000
+Elapsed time: 0.355000
+Cplex Gap: 0.000000
+Exact W evaluation: -0.300000
+B&C nodes: 546
+Number Added VI on integer variables: 480
+Number Added VI on tilde variables: 0
+Number Added McCormick VI: 0
+
+Variables:
+
+Discoveries: w_i (i is a profitable node). 
+ w_[node:7] = 1.000000
+ w_[node:8] = 1.000000
+ w_[node:9] = 1.000000
+Beta Variables. 
+beta_l[0] = 0.000000
+beta_l[1] = 0.000000
+beta_l[2] = 0.000000
+beta_l[3] = 0.000000
+beta_l[4] = 0.000000
+beta_l[5] = 0.000000
+beta_l[6] = 0.000000
+beta_l[7] = 0.000000
+beta_l[8] = 0.000000
+beta_l[9] = 0.000000
+beta_l[10] = 0.000000
+beta_l[11] = 0.000000
+beta_l[12] = 0.000000
+beta_l[13] = 0.000000
+beta_l[14] = 0.000000
+beta_l[15] = 0.000000
+beta_l[16] = 0.000000
+beta_l[17] = 0.000000
+beta_l[18] = 0.000000
+beta_l[19] = 0.000000
+beta_l[20] = 0.000000
+beta_l[21] = 0.000000
+K-policies. 
+Visited nodes:
+y_k[0]_i[2] = 1
+tilde_y_k[0]_i[2] = 0.50 
+y_k[0]_i[3] = 1
+tilde_y_k[0]_i[3] = 0.50 
+y_k[0]_i[4] = 1
+tilde_y_k[0]_i[4] = 0.50 
+y_k[0]_i[5] = 1
+tilde_y_k[0]_i[5] = 0.50 
+y_k[0]_i[6] = 1
+tilde_y_k[0]_i[6] = 0.50 
+Duals:
+alpha_k[0] = 0.500000
+gamma_k[0]_n[1] = 0.000000
+gamma_k[0]_n[2] = 0.000000
+gamma_k[0]_n[3] = 0.000000
+gamma_k[0]_n[4] = 0.000000
+gamma_k[0]_n[5] = 0.000000
+gamma_k[0]_n[6] = 0.000000
+gamma_k[0]_n[7] = -0.500000
+gamma_k[0]_n[8] = -0.500000
+gamma_k[0]_n[9] = -0.500000
+gamma_k[0]_n[10] = 0.000000
+Policy-0 description
+<0-5-6-4-2-3-11> : Length = 1927.000000
+_________________________________________________
+Visited nodes:
+y_k[1]_i[7] = 1
+tilde_y_k[1]_i[7] = 0.50 
+y_k[1]_i[8] = 1
+tilde_y_k[1]_i[8] = 0.50 
+y_k[1]_i[9] = 1
+tilde_y_k[1]_i[9] = 0.50 
+Duals:
+alpha_k[1] = 0.500000
+gamma_k[1]_n[1] = 0.000000
+gamma_k[1]_n[2] = 0.000000
+gamma_k[1]_n[3] = 0.000000
+gamma_k[1]_n[4] = 0.000000
+gamma_k[1]_n[5] = 0.000000
+gamma_k[1]_n[6] = 0.000000
+gamma_k[1]_n[7] = 0.500000
+gamma_k[1]_n[8] = 0.500000
+gamma_k[1]_n[9] = 0.500000
+gamma_k[1]_n[10] = 0.000000
+Policy-1 description
+<0-9-8-7-11> : Length = 1962.000000
+_________________________________________________
+Legenda_Model:Instance_Name	Network_Name	Num_K	Num_Nodes	Num_Prof_Nodes	Max_Tour_Duration	Max_Num_Discoveries	Max_Discoveries_Fraction	Best_LB	Best_Ub	Cplex_Gap	Root_Node_LB	Elapsed_Time	Num_VI_int_var	Num_VI_tilde_var	Num_Dyn_McCormick	Num_BandC_Nodes	Number_Discoveries	Profit_cost	Discovery_cost	US_Type	US_Param	US_Tot_Det_Profit	Exact_W_Evaluation
+Table_Model:tsi2_10_budget_20_K2_D1_md025_US2_USpar20	tsi2_10_budget_20	2	12	10	2000	3	0.250000	-0.300000	-0.300000	0.000000	-0.977256	0.355000	480	0	0	546	3	-0.300000	0.000000	2	0.200000	265.000000	-0.300000

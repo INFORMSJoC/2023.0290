@@ -1,0 +1,88 @@
+Instance_Name: SPP_n30_s4_K4_B6_D1_d25.log
+K: 4
+U_Budget: 6
+Num_Nodes: 30
+Num_Archs: 261
+Max_Num_Discoveries: 66
+DDDI_Version: 1
+BUB: 14.4635
+BLB: 14.3356
+Gap: 0.00884895
+Elapsed_Time 7200.63
+
+
+Solution:
+
+w[] variables
+:w_4: arc (1, 12) = 1
+w_5: arc (1, 13) = 1
+w_9: arc (1, 19) = 1
+w_26: arc (4, 8) = 1
+w_44: arc (6, 12) = 1
+w_48: arc (6, 19) = 1
+w_53: arc (7, 1) = 1
+w_55: arc (7, 6) = 1
+w_56: arc (7, 11) = 1
+w_57: arc (7, 20) = 1
+w_59: arc (7, 26) = 1
+w_76: arc (11, 1) = 1
+w_78: arc (11, 6) = 1
+w_87: arc (12, 15) = 1
+w_90: arc (12, 21) = 1
+w_91: arc (12, 23) = 1
+w_100: arc (13, 21) = 1
+w_101: arc (13, 23) = 1
+w_103: arc (13, 27) = 1
+w_110: arc (14, 13) = 1
+w_113: arc (14, 19) = 1
+w_115: arc (14, 24) = 1
+w_151: arc (19, 1) = 1
+w_159: arc (19, 21) = 1
+w_160: arc (19, 23) = 1
+w_163: arc (20, 1) = 1
+w_168: arc (20, 14) = 1
+w_169: arc (20, 16) = 1
+w_172: arc (21, 4) = 1
+w_173: arc (21, 5) = 1
+w_174: arc (21, 8) = 1
+w_175: arc (21, 12) = 1
+w_191: arc (23, 4) = 1
+w_193: arc (23, 8) = 1
+w_199: arc (23, 21) = 1
+w_201: arc (23, 27) = 1
+w_215: arc (24, 28) = 1
+w_227: arc (26, 14) = 1
+w_232: arc (27, 8) = 1
+w_242: arc (28, 8) = 1
+
+**********************
+y_k[] variables:
+y_k0_i26: arc (4, 8) = 1
+y_k0_i57: arc (7, 20) = 1
+y_k0_i113: arc (14, 19) = 1
+y_k0_i160: arc (19, 23) = 1
+y_k0_i168: arc (20, 14) = 1
+y_k0_i172: arc (21, 4) = 1
+y_k0_i199: arc (23, 21) = 1
+y_k1_i4: arc (1, 12) = 1
+y_k1_i56: arc (7, 11) = 1
+y_k1_i76: arc (11, 1) = 1
+y_k1_i91: arc (12, 23) = 1
+y_k1_i174: arc (21, 8) = 1
+y_k1_i199: arc (23, 21) = 1
+y_k2_i26: arc (4, 8) = 1
+y_k2_i48: arc (6, 19) = 1
+y_k2_i55: arc (7, 6) = 1
+y_k2_i101: arc (13, 23) = 1
+y_k2_i155: arc (19, 13) = 1
+y_k2_i191: arc (23, 4) = 1
+y_k3_i5: arc (1, 13) = 1
+y_k3_i53: arc (7, 1) = 1
+y_k3_i101: arc (13, 23) = 1
+y_k3_i193: arc (23, 8) = 1
+
+
+------------------------
+
+Legenda:Instance_Name   K   Num_Nodes   Num_Archs Seed  U_budget    Max_Num_Discoveries    DDDI_Version Delta    BUB BLB Gap Elapsed_Time
+Table:SPP_n30_s4_K4_B6_D1_d25.log   4  30 261 4 6    66  1 0.25 14.4635 14.3356   0.00884895 7200.63 

@@ -1,0 +1,91 @@
+Instance_Name: SPP_n20_s2_K2_B6_D1_d50.log
+K: 2
+U_Budget: 6
+Num_Nodes: 20
+Num_Archs: 114
+Max_Num_Discoveries: 57
+DDDI_Version: 1
+BUB: 15.5711
+BLB: 15.5711
+Gap: 0
+Elapsed_Time 0.825
+
+
+Solution:
+
+w[] variables
+:w_0: arc (1, 6) = 1
+w_1: arc (1, 9) = 1
+w_2: arc (1, 13) = 1
+w_4: arc (2, 9) = 1
+w_6: arc (2, 11) = 1
+w_7: arc (2, 12) = 1
+w_8: arc (2, 13) = 1
+w_9: arc (2, 19) = 1
+w_10: arc (2, 20) = 1
+w_11: arc (3, 6) = 1
+w_12: arc (3, 15) = 1
+w_13: arc (4, 5) = 1
+w_14: arc (4, 7) = 1
+w_15: arc (4, 8) = 1
+w_18: arc (4, 12) = 1
+w_19: arc (4, 18) = 1
+w_21: arc (5, 7) = 1
+w_22: arc (5, 8) = 1
+w_23: arc (5, 9) = 1
+w_24: arc (5, 10) = 1
+w_28: arc (6, 1) = 1
+w_29: arc (6, 3) = 1
+w_30: arc (6, 15) = 1
+w_31: arc (7, 4) = 1
+w_32: arc (7, 5) = 1
+w_33: arc (7, 8) = 1
+w_34: arc (7, 9) = 1
+w_35: arc (7, 10) = 1
+w_36: arc (7, 15) = 1
+w_37: arc (7, 18) = 1
+w_38: arc (8, 4) = 1
+w_40: arc (8, 7) = 1
+w_41: arc (8, 18) = 1
+w_43: arc (9, 2) = 1
+w_44: arc (9, 4) = 1
+w_49: arc (9, 13) = 1
+w_54: arc (10, 7) = 1
+w_57: arc (10, 13) = 1
+w_62: arc (11, 14) = 1
+w_64: arc (11, 17) = 1
+w_67: arc (12, 4) = 1
+w_71: arc (12, 11) = 1
+w_72: arc (12, 13) = 1
+w_78: arc (13, 11) = 1
+w_81: arc (13, 20) = 1
+w_86: arc (15, 1) = 1
+w_88: arc (15, 6) = 1
+w_90: arc (15, 9) = 1
+w_94: arc (16, 20) = 1
+w_96: arc (17, 14) = 1
+w_104: arc (19, 5) = 1
+w_111: arc (20, 14) = 1
+w_113: arc (20, 17) = 1
+
+**********************
+y_k[] variables:
+y_k0_i2: arc (1, 13) = 1
+y_k0_i12: arc (3, 15) = 1
+y_k0_i65: arc (11, 20) = 1
+y_k0_i78: arc (13, 11) = 1
+y_k0_i86: arc (15, 1) = 1
+y_k0_i111: arc (20, 14) = 1
+y_k1_i6: arc (2, 11) = 1
+y_k1_i11: arc (3, 6) = 1
+y_k1_i30: arc (6, 15) = 1
+y_k1_i43: arc (9, 2) = 1
+y_k1_i64: arc (11, 17) = 1
+y_k1_i90: arc (15, 9) = 1
+y_k1_i96: arc (17, 14) = 1
+
+
+------------------------
+
+Legenda:Instance_Name   K   Num_Nodes   Num_Archs Seed  U_budget    Max_Num_Discoveries    DDDI_Version Delta    BUB BLB Gap Elapsed_Time
+Table:SPP_n20_s2_K2_B6_D1_d50.log   2  20 114 2 6    57  1 0.5 15.5711 15.5711   0 0.825 

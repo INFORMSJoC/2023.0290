@@ -1,0 +1,72 @@
+\begin{tikzpicture}
+\begin{axis} [legend pos=south east,
+scatter/classes={%
+	start={mark=triangle*},
+	end={mark=triangle},
+discovery_on={mark=square*},
+discovery_off={mark=o}}]
+\addplot[scatter, only marks,  scatter src = explicit symbolic, forget plot] table[meta = label]{
+x     y      label
+15.000000	22.300000	start
+15.000000	22.300000	end
+12.600000	24.900000	discovery_on
+14.400000	28.000000	discovery_on
+16.900000	28.100000	discovery_on
+20.700000	28.200000	discovery_off
+12.500000	26.600000	discovery_on
+21.800000	27.300000	discovery_off
+12.500000	22.600000	discovery_on
+22.500000	17.000000	discovery_off
+19.900000	15.000000	discovery_off
+14.900000	15.100000	discovery_on
+11.500000	18.600000	discovery_on
+12.400000	29.800000	discovery_on
+17.800000	28.100000	discovery_on
+9.100000	29.800000	discovery_on
+10.000000	32.600000	discovery_on
+13.900000	33.100000	discovery_off
+19.950000	10.300000	discovery_off
+15.200000	8.000000	discovery_off
+14.700000	31.200000	discovery_on
+7.400000	36.500000	discovery_off
+21.000000	25.500000	discovery_off
+18.000000	25.300000	discovery_off
+19.500000	24.700000	discovery_off
+21.400000	21.800000	discovery_off
+16.000000	21.400000	discovery_off
+18.650000	26.200000	discovery_off
+17.900000	28.900000	discovery_on
+14.300000	19.900000	discovery_off
+17.000000	19.000000	discovery_on
+10.800000	21.000000	discovery_on
+15.700000	23.700000	discovery_on
+};
+	\addplot[thick, dashed, mark=none] coordinates {
+(15, 22.3)
+(15.7, 23.7)
+(17.8, 28.1)
+(17.9, 28.9)
+(16.9, 28.1)
+(14.4, 28)
+(12.5, 26.6)
+(12.6, 24.9)
+(12.5, 22.6)
+(15, 22.3)
+};
+	\addplot[thick,dash dot,mark=none, color=blue] coordinates {
+(15, 22.3)
+(18, 25.3)
+(18.65, 26.2)
+(20.7, 28.2)
+(21.8, 27.3)
+(21, 25.5)
+(19.5, 24.7)
+(16, 21.4)
+(15, 22.3)
+};
+\addlegendentry{{\scriptsize k = 1}}
+\addlegendentry{{\scriptsize k = 2}}
+\addlegendentry{{\scriptsize k = 3}}
+\addlegendentry{{\scriptsize k = 4}}
+\end{axis}
+\end{tikzpicture}

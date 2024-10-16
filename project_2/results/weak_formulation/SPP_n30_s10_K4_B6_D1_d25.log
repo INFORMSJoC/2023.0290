@@ -1,0 +1,84 @@
+Instance_Name: SPP_n30_s10_K4_B6_D1_d25.log
+K: 4
+U_Budget: 6
+Num_Nodes: 30
+Num_Archs: 261
+Max_Num_Discoveries: 66
+DDDI_Version: 1
+BUB: 15.7485
+BLB: 3.02505
+Gap: 0.807915
+Elapsed_Time 0
+
+
+Solution:
+
+w[] variables
+:w_0: arc (1, 2) = 1
+w_1: arc (1, 8) = 1
+w_6: arc (1, 29) = 1
+w_7: arc (2, 1) = 1
+w_10: arc (2, 9) = 1
+w_33: arc (5, 21) = 1
+w_36: arc (5, 27) = 1
+w_41: arc (6, 16) = 1
+w_42: arc (6, 20) = 1
+w_69: arc (9, 1) = 1
+w_77: arc (9, 29) = 1
+w_90: arc (11, 16) = 1
+w_91: arc (11, 20) = 1
+w_95: arc (11, 26) = 1
+w_98: arc (12, 5) = 1
+w_99: arc (12, 13) = 1
+w_101: arc (12, 23) = 1
+w_102: arc (12, 25) = 1
+w_103: arc (12, 27) = 1
+w_105: arc (13, 6) = 1
+w_106: arc (13, 11) = 1
+w_139: arc (16, 26) = 1
+w_161: arc (19, 9) = 1
+w_165: arc (19, 29) = 1
+w_167: arc (20, 2) = 1
+w_171: arc (20, 9) = 1
+w_189: arc (23, 5) = 1
+w_194: arc (23, 27) = 1
+w_209: arc (25, 11) = 1
+w_216: arc (26, 2) = 1
+w_218: arc (26, 7) = 1
+w_220: arc (26, 9) = 1
+w_230: arc (27, 6) = 1
+w_231: arc (27, 11) = 1
+
+**********************
+y_k[] variables:
+y_k0_i10: arc (2, 9) = 1
+y_k0_i77: arc (9, 29) = 1
+y_k0_i95: arc (11, 26) = 1
+y_k0_i101: arc (12, 23) = 1
+y_k0_i194: arc (23, 27) = 1
+y_k0_i216: arc (26, 2) = 1
+y_k0_i231: arc (27, 11) = 1
+y_k1_i6: arc (1, 29) = 1
+y_k1_i69: arc (9, 1) = 1
+y_k1_i102: arc (12, 25) = 1
+y_k1_i139: arc (16, 26) = 1
+y_k1_i212: arc (25, 16) = 1
+y_k1_i220: arc (26, 9) = 1
+y_k2_i6: arc (1, 29) = 1
+y_k2_i7: arc (2, 1) = 1
+y_k2_i91: arc (11, 20) = 1
+y_k2_i99: arc (12, 13) = 1
+y_k2_i106: arc (13, 11) = 1
+y_k2_i167: arc (20, 2) = 1
+y_k3_i6: arc (1, 29) = 1
+y_k3_i42: arc (6, 20) = 1
+y_k3_i69: arc (9, 1) = 1
+y_k3_i103: arc (12, 27) = 1
+y_k3_i171: arc (20, 9) = 1
+y_k3_i230: arc (27, 6) = 1
+
+
+------------------------
+
+Legenda:Instance_Name   K   Num_Nodes   Num_Archs Seed  U_budget    Max_Num_Discoveries    DDDI_Version Delta    BUB BLB Gap Elapsed_Time
+Table:SPP_n30_s10_K4_B6_D1_d25.log   4  30 261 10 6    66  1 0.25 15.7485 3.02505   0.807915 0 

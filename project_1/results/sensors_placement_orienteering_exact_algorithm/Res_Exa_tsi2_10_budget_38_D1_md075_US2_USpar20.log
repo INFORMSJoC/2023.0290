@@ -1,0 +1,357 @@
+++++ Instance Info ++++
+Instance name: tsi2_10_budget_38_D1_md075_US2_USpar20
+Network name: tsi2_10_budget_38
+Number of nodes: 12
+Number of profitable nodes: 10
+Max number of discovery: 8
+Max duration: 3800
+Alrijne Collecting Time: 360.000000
+++++ Uncertainty  ++++
+Uncertainty Set Type: 2
+Uncertainty Set Parameter: 0.200000
+Total Deterministic Profit in the Network: 265.000000
+++++ Solution of the Model ++++
+-----------------------------------------------
+Objective:
+Best Lower Bound: -1.000000
+Best upper bound: -1.000000
+Elapsed time Branch-and-Cut: 0.002000
+Elapsed time Starting Cuts: 0.352000
+Cplex Gap: 0.000000
+B&C nodes: 0
+Number Logic Benders Cuts: 0
+Number Starting Scenarios: 0
+Cardinality of Y: 29
+Number of Tight y in the sub-problem: 7
+
+Variables Master Problem:
+
+Phi =-1.000000 
+
+Discoveries: w_i (i is a profitable node). 
+
+Scenarios and Tight Ys Sub-Problem
+
+Overline Scenario: ovxi_i (i is a profitable node). 
+ ov_xi_[node:1] = 0.200000
+ ov_xi_[node:2] = 0.200000
+ ov_xi_[node:3] = 0.000000
+ ov_xi_[node:4] = 0.000000
+ ov_xi_[node:5] = 0.000000
+ ov_xi_[node:6] = 0.000000
+ ov_xi_[node:7] = 0.200000
+ ov_xi_[node:8] = 0.200000
+ ov_xi_[node:9] = 0.200000
+ ov_xi_[node:10] = 0.000000
+
+ Tigth Ys: 
+
+ y = 2 { 
+Node 1: {
+y_[node:1] = 1
+xi_y_i_[y:2][node:1] = 0.200000
+} 
+Node 2: {
+y_[node:2] = 1
+xi_y_i_[y:2][node:2] = 0.200000
+} 
+Node 3: {
+y_[node:3] = 1
+xi_y_i_[y:2][node:3] = 0.000000
+} 
+Node 4: {
+y_[node:4] = 0
+xi_y_i_[y:2][node:4] = 0.000000
+} 
+Node 5: {
+y_[node:5] = 1
+xi_y_i_[y:2][node:5] = 0.000000
+} 
+Node 6: {
+y_[node:6] = 1
+xi_y_i_[y:2][node:6] = 0.000000
+} 
+Node 7: {
+y_[node:7] = 1
+xi_y_i_[y:2][node:7] = 0.200000
+} 
+Node 8: {
+y_[node:8] = 1
+xi_y_i_[y:2][node:8] = 0.200000
+} 
+Node 9: {
+y_[node:9] = 1
+xi_y_i_[y:2][node:9] = 0.200000
+} 
+Node 10: {
+y_[node:10] = 1
+xi_y_i_[y:2][node:10] = 0.000000
+} 
+
+ } 
+
+ y = 12 { 
+Node 1: {
+y_[node:1] = 1
+xi_y_i_[y:12][node:1] = 0.200000
+} 
+Node 2: {
+y_[node:2] = 1
+xi_y_i_[y:12][node:2] = 0.200000
+} 
+Node 3: {
+y_[node:3] = 1
+xi_y_i_[y:12][node:3] = 0.000000
+} 
+Node 4: {
+y_[node:4] = 1
+xi_y_i_[y:12][node:4] = 0.000000
+} 
+Node 5: {
+y_[node:5] = 1
+xi_y_i_[y:12][node:5] = 0.000000
+} 
+Node 6: {
+y_[node:6] = 0
+xi_y_i_[y:12][node:6] = 0.000000
+} 
+Node 7: {
+y_[node:7] = 1
+xi_y_i_[y:12][node:7] = 0.200000
+} 
+Node 8: {
+y_[node:8] = 1
+xi_y_i_[y:12][node:8] = 0.200000
+} 
+Node 9: {
+y_[node:9] = 1
+xi_y_i_[y:12][node:9] = 0.200000
+} 
+Node 10: {
+y_[node:10] = 1
+xi_y_i_[y:12][node:10] = 0.000000
+} 
+
+ } 
+
+ y = 20 { 
+Node 1: {
+y_[node:1] = 1
+xi_y_i_[y:20][node:1] = 0.200000
+} 
+Node 2: {
+y_[node:2] = 1
+xi_y_i_[y:20][node:2] = 0.200000
+} 
+Node 3: {
+y_[node:3] = 1
+xi_y_i_[y:20][node:3] = 0.200000
+} 
+Node 4: {
+y_[node:4] = 1
+xi_y_i_[y:20][node:4] = 0.000000
+} 
+Node 5: {
+y_[node:5] = 1
+xi_y_i_[y:20][node:5] = 0.200000
+} 
+Node 6: {
+y_[node:6] = 1
+xi_y_i_[y:20][node:6] = 0.200000
+} 
+Node 7: {
+y_[node:7] = 1
+xi_y_i_[y:20][node:7] = 0.000000
+} 
+Node 8: {
+y_[node:8] = 1
+xi_y_i_[y:20][node:8] = 0.000000
+} 
+Node 9: {
+y_[node:9] = 1
+xi_y_i_[y:20][node:9] = 0.000000
+} 
+Node 10: {
+y_[node:10] = 0
+xi_y_i_[y:20][node:10] = 0.000000
+} 
+
+ } 
+
+ y = 25 { 
+Node 1: {
+y_[node:1] = 0
+xi_y_i_[y:25][node:1] = 0.000000
+} 
+Node 2: {
+y_[node:2] = 1
+xi_y_i_[y:25][node:2] = 0.000000
+} 
+Node 3: {
+y_[node:3] = 1
+xi_y_i_[y:25][node:3] = 0.200000
+} 
+Node 4: {
+y_[node:4] = 1
+xi_y_i_[y:25][node:4] = 0.000000
+} 
+Node 5: {
+y_[node:5] = 0
+xi_y_i_[y:25][node:5] = 0.000000
+} 
+Node 6: {
+y_[node:6] = 1
+xi_y_i_[y:25][node:6] = 0.200000
+} 
+Node 7: {
+y_[node:7] = 1
+xi_y_i_[y:25][node:7] = 0.200000
+} 
+Node 8: {
+y_[node:8] = 1
+xi_y_i_[y:25][node:8] = 0.200000
+} 
+Node 9: {
+y_[node:9] = 1
+xi_y_i_[y:25][node:9] = 0.200000
+} 
+Node 10: {
+y_[node:10] = 1
+xi_y_i_[y:25][node:10] = 0.000000
+} 
+
+ } 
+
+ y = 26 { 
+Node 1: {
+y_[node:1] = 1
+xi_y_i_[y:26][node:1] = 0.000000
+} 
+Node 2: {
+y_[node:2] = 0
+xi_y_i_[y:26][node:2] = 0.000000
+} 
+Node 3: {
+y_[node:3] = 1
+xi_y_i_[y:26][node:3] = 0.000000
+} 
+Node 4: {
+y_[node:4] = 1
+xi_y_i_[y:26][node:4] = 0.200000
+} 
+Node 5: {
+y_[node:5] = 1
+xi_y_i_[y:26][node:5] = 0.200000
+} 
+Node 6: {
+y_[node:6] = 1
+xi_y_i_[y:26][node:6] = 0.200000
+} 
+Node 7: {
+y_[node:7] = 1
+xi_y_i_[y:26][node:7] = 0.000000
+} 
+Node 8: {
+y_[node:8] = 1
+xi_y_i_[y:26][node:8] = 0.200000
+} 
+Node 9: {
+y_[node:9] = 1
+xi_y_i_[y:26][node:9] = 0.200000
+} 
+Node 10: {
+y_[node:10] = 1
+xi_y_i_[y:26][node:10] = 0.000000
+} 
+
+ } 
+
+ y = 27 { 
+Node 1: {
+y_[node:1] = 0
+xi_y_i_[y:27][node:1] = 0.000000
+} 
+Node 2: {
+y_[node:2] = 1
+xi_y_i_[y:27][node:2] = 0.000000
+} 
+Node 3: {
+y_[node:3] = 1
+xi_y_i_[y:27][node:3] = 0.200000
+} 
+Node 4: {
+y_[node:4] = 1
+xi_y_i_[y:27][node:4] = 0.000000
+} 
+Node 5: {
+y_[node:5] = 1
+xi_y_i_[y:27][node:5] = 0.200000
+} 
+Node 6: {
+y_[node:6] = 1
+xi_y_i_[y:27][node:6] = 0.200000
+} 
+Node 7: {
+y_[node:7] = 0
+xi_y_i_[y:27][node:7] = 0.000000
+} 
+Node 8: {
+y_[node:8] = 1
+xi_y_i_[y:27][node:8] = 0.200000
+} 
+Node 9: {
+y_[node:9] = 1
+xi_y_i_[y:27][node:9] = 0.200000
+} 
+Node 10: {
+y_[node:10] = 1
+xi_y_i_[y:27][node:10] = 0.000000
+} 
+
+ } 
+
+ y = 28 { 
+Node 1: {
+y_[node:1] = 1
+xi_y_i_[y:28][node:1] = 0.000000
+} 
+Node 2: {
+y_[node:2] = 1
+xi_y_i_[y:28][node:2] = 0.000000
+} 
+Node 3: {
+y_[node:3] = 1
+xi_y_i_[y:28][node:3] = 0.200000
+} 
+Node 4: {
+y_[node:4] = 1
+xi_y_i_[y:28][node:4] = 0.200000
+} 
+Node 5: {
+y_[node:5] = 1
+xi_y_i_[y:28][node:5] = 0.200000
+} 
+Node 6: {
+y_[node:6] = 1
+xi_y_i_[y:28][node:6] = 0.000000
+} 
+Node 7: {
+y_[node:7] = 1
+xi_y_i_[y:28][node:7] = 0.000000
+} 
+Node 8: {
+y_[node:8] = 1
+xi_y_i_[y:28][node:8] = 0.200000
+} 
+Node 9: {
+y_[node:9] = 1
+xi_y_i_[y:28][node:9] = 0.200000
+} 
+Node 10: {
+y_[node:10] = 1
+xi_y_i_[y:28][node:10] = 0.000000
+} 
+
+ } 
+Legenda_Model:Instance_Name	Network_Name	Num_Nodes	Num_Prof_Nodes	Max_Tour_Duration	Max_Num_Discoveries	Max_Discoveries_Fraction	Best_LB	Best_Ub	Cplex_Gap	Root_Node_LB	Branch_and_Cut_Elapsed_Time	Starting_Cuts_Elapsed_Time	Tot_Time	Num_Logic_Benders_Cuts	Number_Starting_Scenarios	Num_BandC_Nodes	Number_Discoveries	Profit_cost	Discovery_cost	Card_Y	Num_Tight_Y	US_Type	US_Param	US_Tot_Det_Profit
+Table_Model:tsi2_10_budget_38_D1_md075_US2_USpar20	tsi2_10_budget_38	12	10	3800	8	0.750000	-1.000000	-1.000000	0.000000	0.000000	0.002000	0.352000	0.354000	0	0	0	0	-1.000000	0.000000	29	7	2	0.200000	265.000000

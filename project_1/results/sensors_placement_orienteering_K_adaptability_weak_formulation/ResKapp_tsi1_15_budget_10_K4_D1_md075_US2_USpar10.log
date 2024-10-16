@@ -1,0 +1,149 @@
+++++ Instance Info ++++
+Instance name: tsi1_15_budget_10_K4_D1_md075_US2_USpar10
+Network name: tsi1_15_budget_10
+Number of nodes: 17
+Number of profitable nodes: 15
+Max number of discovery: 12
+Max duration: 1000
+Alrijne Collecting Time: 360.000000
+++++ Uncertainty  ++++
+Number of K-policy: 4
+Uncertainty Set Type: 2
+Uncertainty Set Parameter: 0.100000
+Total Deterministic Profit in the Network: 170.000000
+++++ Solution of the Model ++++
+-----------------------------------------------
+Objective:
+Best Lower Bound: 0.000000
+Best upper bound: 0.000000
+Elapsed time: 0.007000
+Cplex Gap: 0.000000
+Exact W evaluation: 0.000000
+B&C nodes: 0
+Number Added VI on integer variables: 0
+Number Added VI on tilde variables: 0
+Number Added McCormick VI: 0
+
+Variables:
+
+Discoveries: w_i (i is a profitable node). 
+Beta Variables. 
+beta_l[0] = 0.000000
+beta_l[1] = 0.000000
+beta_l[2] = 0.000000
+beta_l[3] = 0.000000
+beta_l[4] = 0.000000
+beta_l[5] = 0.000000
+beta_l[6] = 0.000000
+beta_l[7] = 0.000000
+beta_l[8] = 0.000000
+beta_l[9] = 0.000000
+beta_l[10] = 0.000000
+beta_l[11] = 0.000000
+beta_l[12] = 0.000000
+beta_l[13] = 0.000000
+beta_l[14] = 0.000000
+beta_l[15] = 0.000000
+beta_l[16] = 0.000000
+beta_l[17] = 0.000000
+beta_l[18] = 0.000000
+beta_l[19] = 0.000000
+beta_l[20] = 0.000000
+beta_l[21] = 0.000000
+beta_l[22] = 0.000000
+beta_l[23] = 0.000000
+beta_l[24] = 0.000000
+beta_l[25] = 0.000000
+beta_l[26] = 0.000000
+beta_l[27] = 0.000000
+beta_l[28] = 0.000000
+beta_l[29] = 0.000000
+beta_l[30] = 0.000000
+beta_l[31] = 0.000000
+K-policies. 
+Visited nodes:
+Duals:
+alpha_k[0] = 1.000000
+gamma_k[0]_n[1] = 0.000000
+gamma_k[0]_n[2] = 0.000000
+gamma_k[0]_n[3] = 0.000000
+gamma_k[0]_n[4] = 0.000000
+gamma_k[0]_n[5] = 0.000000
+gamma_k[0]_n[6] = 0.000000
+gamma_k[0]_n[7] = 0.000000
+gamma_k[0]_n[8] = 0.000000
+gamma_k[0]_n[9] = 0.000000
+gamma_k[0]_n[10] = 0.000000
+gamma_k[0]_n[11] = 0.000000
+gamma_k[0]_n[12] = 0.000000
+gamma_k[0]_n[13] = 0.000000
+gamma_k[0]_n[14] = 0.000000
+gamma_k[0]_n[15] = 0.000000
+Policy-0 description
+<0-16> : Length = 0.000000
+_________________________________________________
+Visited nodes:
+Duals:
+alpha_k[1] = 0.000000
+gamma_k[1]_n[1] = 0.000000
+gamma_k[1]_n[2] = 0.000000
+gamma_k[1]_n[3] = 0.000000
+gamma_k[1]_n[4] = 0.000000
+gamma_k[1]_n[5] = 0.000000
+gamma_k[1]_n[6] = 0.000000
+gamma_k[1]_n[7] = 0.000000
+gamma_k[1]_n[8] = 0.000000
+gamma_k[1]_n[9] = 0.000000
+gamma_k[1]_n[10] = 0.000000
+gamma_k[1]_n[11] = 0.000000
+gamma_k[1]_n[12] = 0.000000
+gamma_k[1]_n[13] = 0.000000
+gamma_k[1]_n[14] = 0.000000
+gamma_k[1]_n[15] = 0.000000
+Policy-1 description
+<0-16> : Length = 0.000000
+_________________________________________________
+Visited nodes:
+Duals:
+alpha_k[2] = 0.000000
+gamma_k[2]_n[1] = 0.000000
+gamma_k[2]_n[2] = 0.000000
+gamma_k[2]_n[3] = 0.000000
+gamma_k[2]_n[4] = 0.000000
+gamma_k[2]_n[5] = 0.000000
+gamma_k[2]_n[6] = 0.000000
+gamma_k[2]_n[7] = 0.000000
+gamma_k[2]_n[8] = 0.000000
+gamma_k[2]_n[9] = 0.000000
+gamma_k[2]_n[10] = 0.000000
+gamma_k[2]_n[11] = 0.000000
+gamma_k[2]_n[12] = 0.000000
+gamma_k[2]_n[13] = 0.000000
+gamma_k[2]_n[14] = 0.000000
+gamma_k[2]_n[15] = 0.000000
+Policy-2 description
+<0-16> : Length = 0.000000
+_________________________________________________
+Visited nodes:
+Duals:
+alpha_k[3] = 0.000000
+gamma_k[3]_n[1] = 0.000000
+gamma_k[3]_n[2] = 0.000000
+gamma_k[3]_n[3] = 0.000000
+gamma_k[3]_n[4] = 0.000000
+gamma_k[3]_n[5] = 0.000000
+gamma_k[3]_n[6] = 0.000000
+gamma_k[3]_n[7] = 0.000000
+gamma_k[3]_n[8] = 0.000000
+gamma_k[3]_n[9] = 0.000000
+gamma_k[3]_n[10] = 0.000000
+gamma_k[3]_n[11] = 0.000000
+gamma_k[3]_n[12] = 0.000000
+gamma_k[3]_n[13] = 0.000000
+gamma_k[3]_n[14] = 0.000000
+gamma_k[3]_n[15] = 0.000000
+Policy-3 description
+<0-16> : Length = 0.000000
+_________________________________________________
+Legenda_Model:Instance_Name	Network_Name	Num_K	Num_Nodes	Num_Prof_Nodes	Max_Tour_Duration	Max_Num_Discoveries	Max_Discoveries_Fraction	Best_LB	Best_Ub	Cplex_Gap	Root_Node_LB	Elapsed_Time	Num_VI_int_var	Num_VI_tilde_var	Num_Dyn_McCormick	Num_BandC_Nodes	Number_Discoveries	Profit_cost	Discovery_cost	US_Type	US_Param	US_Tot_Det_Profit	Exact_W_Evaluation
+Table_Model:tsi1_15_budget_10_K4_D1_md075_US2_USpar10	tsi1_15_budget_10	4	17	15	1000	12	0.750000	0.000000	0.000000	0.000000	0.000000	0.007000	0	0	0	0	0	0.000000	0.000000	2	0.100000	170.000000	0.000000

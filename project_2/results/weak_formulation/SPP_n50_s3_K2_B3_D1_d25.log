@@ -1,0 +1,85 @@
+Instance_Name: SPP_n50_s3_K2_B3_D1_d25.log
+K: 2
+U_Budget: 3
+Num_Nodes: 50
+Num_Archs: 735
+Max_Num_Discoveries: 184
+DDDI_Version: 1
+BUB: 13.6011
+BLB: 2.89921
+Gap: 0.78684
+Elapsed_Time 7200.1
+
+
+Solution:
+
+w[] variables
+:w_0: arc (1, 3) = 1
+w_3: arc (1, 11) = 1
+w_5: arc (1, 16) = 1
+w_18: arc (1, 44) = 1
+w_25: arc (2, 38) = 1
+w_29: arc (2, 47) = 1
+w_39: arc (3, 18) = 1
+w_77: arc (5, 39) = 1
+w_93: arc (7, 4) = 1
+w_111: arc (8, 11) = 1
+w_117: arc (8, 38) = 1
+w_122: arc (8, 47) = 1
+w_168: arc (11, 50) = 1
+w_216: arc (15, 50) = 1
+w_239: arc (17, 19) = 1
+w_379: arc (26, 46) = 1
+w_397: arc (27, 41) = 1
+w_429: arc (30, 4) = 1
+w_430: arc (30, 5) = 1
+w_433: arc (30, 12) = 1
+w_435: arc (30, 34) = 1
+w_437: arc (30, 39) = 1
+w_438: arc (30, 45) = 1
+w_439: arc (30, 49) = 1
+w_449: arc (31, 38) = 1
+w_454: arc (31, 47) = 1
+w_470: arc (32, 31) = 1
+w_476: arc (32, 50) = 1
+w_494: arc (33, 47) = 1
+w_497: arc (34, 4) = 1
+w_505: arc (34, 39) = 1
+w_561: arc (39, 7) = 1
+w_567: arc (39, 18) = 1
+w_574: arc (39, 32) = 1
+w_610: arc (41, 46) = 1
+w_619: arc (42, 38) = 1
+w_621: arc (42, 47) = 1
+w_640: arc (44, 16) = 1
+w_656: arc (45, 13) = 1
+w_667: arc (46, 8) = 1
+w_673: arc (46, 38) = 1
+w_676: arc (46, 47) = 1
+w_683: arc (47, 38) = 1
+w_685: arc (47, 46) = 1
+w_718: arc (50, 2) = 1
+w_729: arc (50, 38) = 1
+w_733: arc (50, 47) = 1
+
+**********************
+y_k[] variables:
+y_k0_i437: arc (30, 39) = 1
+y_k0_i449: arc (31, 38) = 1
+y_k0_i470: arc (32, 31) = 1
+y_k0_i574: arc (39, 32) = 1
+y_k1_i6: arc (1, 18) = 1
+y_k1_i48: arc (4, 1) = 1
+y_k1_i234: arc (16, 50) = 1
+y_k1_i258: arc (18, 16) = 1
+y_k1_i435: arc (30, 34) = 1
+y_k1_i454: arc (31, 47) = 1
+y_k1_i497: arc (34, 4) = 1
+y_k1_i683: arc (47, 38) = 1
+y_k1_i727: arc (50, 31) = 1
+
+
+------------------------
+
+Legenda:Instance_Name   K   Num_Nodes   Num_Archs Seed  U_budget    Max_Num_Discoveries    DDDI_Version Delta    BUB BLB Gap Elapsed_Time
+Table:SPP_n50_s3_K2_B3_D1_d25.log   2  50 735 3 3    184  1 0.25 13.6011 2.89921   0.78684 7200.1 
