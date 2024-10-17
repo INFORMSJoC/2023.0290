@@ -33,14 +33,14 @@ Below is the BibTex for citing this snapshot of the repository.
 
 ## Description
 
-This software aims to solve Robust Optimization problems with Decision-Dependent Information Discovery. It implements the exact algorithms and approximate formulations described in [Exact and Approximate Scheme for Robust Optimization Problems with Decision Dependent Information Discovery](https://doi.org/10.1287/ijoc.2023.0290) to solve instances of the Robust Orientation Problem and the Robust Shortest Path Problem with and without Decision-Dependent Information Discovery. The repository contains two project: the project in "project_1" folder solves the Sensor Placement Orienteering Problem using the exact algorithm and the K-Adaptability approximation, and the Robust Shortest Path Problem using the exact algorithm, while the project in "project_2" folder solves the Robust Shortest Path Problem using the K-Adaptability approximation. 
+This software aims to solve Robust Optimization problems with Decision-Dependent Information Discovery. It implements the exact algorithms and approximate formulations described in [Exact and Approximate Scheme for Robust Optimization Problems with Decision Dependent Information Discovery](https://doi.org/10.1287/ijoc.2023.0290) to solve instances of the Sensor Placement Orienteering Problem and the Robust Shortest Path Problem with and without Decision-Dependent Information Discovery. The repository contains two project: the project in "project_1" folder solves the Sensor Placement Orienteering Problem using the exact algorithm and the K-Adaptability approximation, and the Robust Shortest Path Problem using the exact algorithm, while the project in "project_2" folder solves the Robust Shortest Path Problem using the K-Adaptability approximation. 
 
 
 ## Building
 
-All the code is written in C++ and requires a C++ compiler that supports the C++17 standard. The code has been tested with the Microsoft C++ (MSVC) compiler (v143 toolset) on Windows. To build the code and generate the executable file, open the project with Visual Studio and build the project. By deafault, the executable file will be named ROPEU.exe.
+All the code is written in C++ and requires a C++ compiler that supports the C++17 standard. The code has been tested with the Microsoft C++ (MSVC) compiler (v143 toolset) on Windows. To build the code and generate the executable file, open the project with Visual Studio and build the project. By deafault, the executable file of project_1 will be named ROPEU.exe and the executable file of project_2 will be named K_Adaptability_Solver.exe.
 
-The code requires IBM ILOG CPLEX Optimization Studio 12.10, in particular the CPLEX C API, to be installed on your system. The code has been tested with CPLEX 12.10. 
+The code requires IBM ILOG CPLEX Optimization Studio, in particular the CPLEX C API, to be installed on your system. The code has been tested with CPLEX 12.10. 
 
 ## Usage
 
@@ -52,25 +52,25 @@ After building the code, you can run the executable file from the command line. 
 The configuration file (a .cfg file) should be in the following format:
 
 ```
-RESULTS_FOLDER              = Results;\
-SOLVE_K_ADAPT_OP            = 1;\
-SOLVE_EXACT_OP              = 0;\
-SOLVE_EXACT                 = 0;\
-TIME_LIMIT                  = 7200;\
-DDID_VERSION                = 1;\
-MAX_NUM_DISCOVERY_FRACTION  = 0.50;\
-EXACT_GI_USE_SCENARIOS      = 0;\
-EXACT_OP_USE_SCENARIOS      = 0;\
-EXACT_USE_INFO_CUTS         = 1;\
-NUM_K                       = 2;\
-US_TYPE                     = 2;\
-US_PARAM                    = 0.10;\
-ALPHA_SIMMETRY_BREAKING     = 1;\
-ALPHA_BOUNDS_REDUCTION      = 1;\
-BEST_SCENARIO_CUTS          = 1;\
-X_TILDE_CUTS                = 1;\
-READ_D_MATRIX               = 0;\
-ALRIJNE_COLL_NODE_TIME      = 360;\
+RESULTS_FOLDER              = Results;
+SOLVE_K_ADAPT_OP            = 1;
+SOLVE_EXACT_OP              = 0;
+SOLVE_EXACT                 = 0;
+TIME_LIMIT                  = 7200;
+DDID_VERSION                = 1;
+MAX_NUM_DISCOVERY_FRACTION  = 0.50;
+EXACT_GI_USE_SCENARIOS      = 0;
+EXACT_OP_USE_SCENARIOS      = 0;
+EXACT_USE_INFO_CUTS         = 1;
+NUM_K                       = 2;
+US_TYPE                     = 2;
+US_PARAM                    = 0.10;
+ALPHA_SIMMETRY_BREAKING     = 1;
+ALPHA_BOUNDS_REDUCTION      = 1;
+BEST_SCENARIO_CUTS          = 1;
+X_TILDE_CUTS                = 1;
+READ_D_MATRIX               = 0;
+ALRIJNE_COLL_NODE_TIME      = 360;
 ```
 
 where
@@ -81,7 +81,7 @@ where
 
 The other parameters are problem-specific or algorithm-specific and will be explained in the following sections as needed.
  
-#### Sensor Placement Orienteering Problem (Section 5.1)
+#### Sensor Placement Orienteering Problem (Section 5)
 
 To run the code to solve the Sensor Placement Orienteering Problem and reproduce the results in Section 5.1 of the paper, use the following command:
 ```
@@ -111,7 +111,7 @@ If the K-Adaptability version of the problem is solved, the parameters `ALPHA_SY
 
 To reproduce the results in Section 6 of the paper, run the executable file as described for the Sensor Placement Orienteering Problem. The instance file should be the files in the "Alrijne_Case_Study_Instances" in the "data" folder, and you should set `READ_D_MATRIX = 1` in the configuration file. The other parameters work as for the Sensor Placement Orienteering Problem. However, to use the uncertainty set $\Xi_2$ in section 6.2.1 set US_TYPE = 4.
 
-#### Robust Shortest Path Problem (Appendix E)
+#### Exact Algorithm for the Robust Shortest Path Problem (Appendix E)
 
 To run the code to solve the Robust Shortest Path Problem with the exact algorithm and reproduce the results in Appendix E of the paper, use the following command:
 
