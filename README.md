@@ -38,7 +38,7 @@ This software aims to solve Robust Optimization problems with Decision-Dependent
 
 ## Building
 
-All the code is written in C++ and requires a C++ compiler that supports the C++17 standard. The code has been tested with the Microsoft C++ (MSVC) compiler (v143 toolset) on Windows. To build the code and generate the executable file, open the project with Visual Studio and build the project. By deafault, the executable file of project_1 will be named ROPEU.exe and the executable file of project_2 will be named K_Adaptability_Solver.exe.
+All the code is written in C++ and requires a C++ compiler that supports the C++17 standard. The code has been tested with the Microsoft C++ (MSVC) compiler (v143 tool set) on Windows. To build the code and generate the executable file, open the project with Visual Studio and build the project. By default, the executable file of project_1 will be named ROPEU.exe and the executable file of project_2 will be named K_Adaptability_Solver.exe.
 
 The code requires IBM ILOG CPLEX Optimization Studio, in particular the CPLEX C API, to be installed on your system. The code has been tested with CPLEX 12.10. 
 
@@ -134,18 +134,18 @@ K_Adaptability_Solver.exe <config_file>
 where <config_file> is the path to a configuration file that has the following format: 
 
 ```
-DDID_VERSION                  = 1;\
-USE_ALPHA_SYMMETRY_BREAKING   = 1;\
-USE_TIGHTER_MCCORMICK         = 1;\
-USE_OPTIMISTIC_CUTS           = 1;\
-USE_RLT_CUTS                  = 1;\
+DDID_VERSION                  = 1;
+USE_ALPHA_SYMMETRY_BREAKING   = 1;
+USE_TIGHTER_MCCORMICK         = 1;
+USE_OPTIMISTIC_CUTS           = 1;
+USE_RLT_CUTS                  = 1;
 ```
 
 Set `DDID_VERSION = 1` to solve the Robust Shortest Path Problem with Decision-Dependent Information Discovery, and to 0 otherwise. The other parameters are used to activate the symmetry breaking inequality (Section 4.1), the strengthened McCormick (Section 4.2), the Optimistic Inequalities (Section 4.3), and the RLT Inequalities (Section 4.4), respectively. Set these parameters to 1 to use the corresponding cuts, and 0 otherwise. The code will generate and solve the instances described in Appendix E of the paper. The results will be generated in the folder from which the program is executed.
 
 ## Results
 
-Tables 3 - 10 in the paper report the results of the experiments.  
+Tables 3–10 in the paper report the results of the experiments.  
 
 ## Replicating
 
