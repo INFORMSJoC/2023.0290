@@ -109,7 +109,7 @@ If the K-Adaptability version of the problem is solved, the parameters `ALPHA_SY
 
 #### Case Study: Alrijne Hospital (Section 6)
 
-To reproduce the results in Section 6 of the paper, run the executable file as described for the Sensor Placement Orienteering Problem. The instance file should be the files in the "Alrijne_Case_Study_Instances" in the "data" folder, and you should set `READ_D_MATRIX = 1` in the configuration file. The other parameters work as for the Sensor Placement Orienteering Problem. However, to use the uncertainty set $\Xi_2$ in section 6.2.1 set US_TYPE = 4.
+To reproduce the results in Section 6 of the paper, run the executable file as described for the Sensor Placement Orienteering Problem. The instance file should be the files in the "Alrijne_Case_Study_Instances" in the "data" folder, and you should set `READ_D_MATRIX = 1` in the configuration file. The other parameters work as for the Sensor Placement Orienteering Problem. However, to use the uncertainty set $\Xi_2$ with $\theta =$ 0.75 described in section 6.2.1 set US_TYPE = 4 and US_PARAM = 0.75.
 
 #### Exact Algorithm for the Robust Shortest Path Problem (Appendix E)
 
