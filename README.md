@@ -33,17 +33,23 @@ Below is the BibTex for citing this snapshot of the repository.
 
 ## Description
 
-This software aims to solve Robust Optimization problems with Decision-Dependent Information Discovery. It implements the exact algorithms and approximate formulations described in [Exact and Approximate Scheme for Robust Optimization Problems with Decision Dependent Information Discovery](https://doi.org/10.1287/ijoc.2023.0290) to solve instances of the Robust Orientation Problem and the Robust Shortest Path Problem with and without Decision-Dependent Information Discovery.
+This software aims to solve Robust Optimization problems with Decision-Dependent Information Discovery. It implements the exact algorithms and approximate formulations described in [Exact and Approximate Scheme for Robust Optimization Problems with Decision Dependent Information Discovery](https://doi.org/10.1287/ijoc.2023.0290) to solve instances of the Robust Orientation Problem and the Robust Shortest Path Problem with and without Decision-Dependent Information Discovery. The repository contains two project: the project in "project_1" folder solves the Sensor Placement Orienteering Problem using the exact algorithm and the K-Adaptability approximation, and the Robust Shortest Path Problem using the exact algorithm, while the project in "project_2" folder solves the Robust Shortest Path Problem using the K-Adaptability approximation. 
+
 
 ## Building
 
-The code is written in C++ and requires a C++ compiler that supports the C++17 standard. The code has been tested with the Microsoft C++ (MSVC) compiler (v143 toolset) on Windows. To build the code and generate the executable file, open the project with Visual Studio and build the project. By deafault, the executable file will be named ROPEU.exe.
+All the code is written in C++ and requires a C++ compiler that supports the C++17 standard. The code has been tested with the Microsoft C++ (MSVC) compiler (v143 toolset) on Windows. To build the code and generate the executable file, open the project with Visual Studio and build the project. By deafault, the executable file will be named ROPEU.exe.
 
 The code requires IBM ILOG CPLEX Optimization Studio 12.10, in particular the CPLEX C API, to be installed on your system. The code has been tested with CPLEX 12.10. 
 
 ## Usage
 
-After building the code, you can run the executable file from the command line. The executable file takes as input a configuration file that specifies several parameters for the algorithm and instance setting. The configuration file (a .cfg file) should be in the following format:
+After building the code, you can run the executable file from the command line. The executable file takes as input a configuration file that specifies several parameters for the algorithm and instance setting.
+
+
+### Project 1
+
+The configuration file (a .cfg file) should be in the following format:
 
 ```
 RESULTS_FOLDER              = Results;\
@@ -75,7 +81,7 @@ where
 
 The other parameters are problem-specific or algorithm-specific and will be explained in the following sections as needed.
  
-### Sensor Placement Orienteering Problem (Section 5.1)
+#### Sensor Placement Orienteering Problem (Section 5.1)
 
 To run the code to solve the Sensor Placement Orienteering Problem and reproduce the results in Section 5.1 of the paper, use the following command:
 ```
@@ -101,11 +107,11 @@ To use the information cuts described in Section 3.1.1 of the paper, set `EXACT_
 
 If the K-Adaptability version of the problem is solved, the parameters `ALPHA_SYMMETRY_BREAKING`, `ALPHA_BOUNDS_REDUCTION`, `BEST_SCENARIO_CUTS`, and `X_TILDE_CUTS` are used to activate the symmetry breaking inequality (Section 4.1), the strengthened McCormick (Section 4.2), the Optimistic Inequalities (Section 4.3), and the RLT Inequalities (Section 4.4), respectively.
 
-### Case Study: Alrijne Hospital (Section 6)
+#### Case Study: Alrijne Hospital (Section 6)
 
-To reproduce the results in Section 6 of the paper, run the executable file as described for the Sensor Placement Orienteering Problem. The instance file should be the files in the "Alrijne_Case_Study_Instances" in the "data" folder, and you should set `READ_D_MATRIX = 1` in the configuration file. The other parameters work as for the Sensor Placement Orienteering Problem. However, to use the uncertainty set $\Xi_2$ in section 6.2.1 set US_TYPE = ?.
+To reproduce the results in Section 6 of the paper, run the executable file as described for the Sensor Placement Orienteering Problem. The instance file should be the files in the "Alrijne_Case_Study_Instances" in the "data" folder, and you should set `READ_D_MATRIX = 1` in the configuration file. The other parameters work as for the Sensor Placement Orienteering Problem. However, to use the uncertainty set $\Xi_2$ in section 6.2.1 set US_TYPE = 4.
 
-### Robust Shortest Path Problem (Appendix E)
+#### Robust Shortest Path Problem (Appendix E)
 
 To run the code to solve the Robust Shortest Path Problem with the exact algorithm and reproduce the results in Appendix E of the paper, use the following command:
 
@@ -115,9 +121,11 @@ ROPEU.exe <config_file> -s <number_of_nodes> <seed_min> <seed_max> <budget_of_un
 
 and make sure `SOLVE_EXACT = 1` in the configuration file and all the other `SOLVE_*` parameters are set to 0. The parameters `<number_of_nodes>`, `<seed_min>`, `<seed_max>`, and `<budget_of_uncertainty_set>` are used to generate the instances: the code generates and solve seed_max - seed_min + 1 networks with number_of_nodes nodes, and the budget of the uncertainty set is set to budget_of_uncertainty_set. To use the information cuts described in Section 3.1.1 of the paper, set `EXACT_USE_INFO_CUTS = 1`, and 0 to use the standard Logic Benders Cuts. To use the hybrid decomposition described in Section 3.3. of the paper, set `EXACT_GI_USE_SCENARIOS = 1`.
 
-### K-Adaptability Robust Shortest Path Problem (Appendix E)
 
-To run the code to solve the K-Adaptability Robust Shortest Path Problem and reproduce the results in Appendix E of the paper, use the following command:
+### Project 2: K-Adaptability Robust Shortest Path Problem (Appendix E)
+
+
+To run the code to solve the K-Adaptability Robust Shortest Path Problem and reproduce the results in Appendix E of the paper, generate the executable of project 2 and use the following command:
 
 ```
 K_Adaptability_Solver.exe <config_file>
