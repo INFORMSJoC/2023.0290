@@ -145,7 +145,7 @@ Set `DDID_VERSION = 1` to solve the Robust Shortest Path Problem with Decision-D
 
 ## Results
 
-Tables 3–10 in the paper report the results of the experiments.  
+Tables 2–10 in the paper report the results of the experiments.  
 
 ## Replicating
 
