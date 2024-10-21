@@ -1,0 +1,25 @@
+Instance_Name: SPP_n20_s6_K2_B6_D1_d50.log
+K: 2
+U_Budget: 6
+Num_Nodes: 20
+Num_Archs: 114
+Max_Num_Discoveries: 57
+DDDI_Version: 1
+BUB: 0
+BLB: 0
+Gap: 0
+Elapsed_Time 0.001
+
+
+Solution:
+
+w[] variables
+:
+**********************
+y_k[] variables:
+
+
+------------------------
+
+Legenda:Instance_Name   K   Num_Nodes   Num_Archs Seed  U_budget    Max_Num_Discoveries    DDDI_Version Delta    BUB BLB Gap Elapsed_Time
+Table:SPP_n20_s6_K2_B6_D1_d50.log   2  20 114 6 6    57  1 0.5 0 0   0 0.001 

@@ -1,0 +1,90 @@
+Instance_Name: SPP_n20_s5_K2_B6_D1_d50.log
+K: 2
+U_Budget: 6
+Num_Nodes: 20
+Num_Archs: 114
+Max_Num_Discoveries: 57
+DDDI_Version: 1
+BUB: 14.6353
+BLB: 14.6353
+Gap: 0
+Elapsed_Time 0.526
+
+
+Solution:
+
+w[] variables
+:w_0: arc (1, 2) = 1
+w_1: arc (1, 11) = 1
+w_2: arc (1, 12) = 1
+w_5: arc (2, 1) = 1
+w_6: arc (2, 8) = 1
+w_7: arc (2, 9) = 1
+w_8: arc (2, 11) = 1
+w_9: arc (2, 12) = 1
+w_10: arc (2, 19) = 1
+w_11: arc (3, 7) = 1
+w_12: arc (3, 13) = 1
+w_13: arc (3, 14) = 1
+w_14: arc (3, 15) = 1
+w_15: arc (3, 17) = 1
+w_16: arc (4, 5) = 1
+w_18: arc (4, 8) = 1
+w_19: arc (4, 9) = 1
+w_20: arc (4, 10) = 1
+w_21: arc (4, 18) = 1
+w_22: arc (5, 4) = 1
+w_23: arc (5, 6) = 1
+w_26: arc (5, 10) = 1
+w_27: arc (5, 16) = 1
+w_30: arc (6, 5) = 1
+w_31: arc (6, 8) = 1
+w_33: arc (6, 18) = 1
+w_34: arc (7, 3) = 1
+w_35: arc (7, 5) = 1
+w_36: arc (7, 13) = 1
+w_37: arc (7, 14) = 1
+w_38: arc (7, 15) = 1
+w_39: arc (7, 16) = 1
+w_40: arc (7, 18) = 1
+w_41: arc (8, 2) = 1
+w_42: arc (8, 4) = 1
+w_43: arc (8, 5) = 1
+w_44: arc (8, 6) = 1
+w_46: arc (8, 10) = 1
+w_48: arc (8, 13) = 1
+w_50: arc (9, 4) = 1
+w_51: arc (9, 8) = 1
+w_52: arc (9, 10) = 1
+w_53: arc (9, 12) = 1
+w_60: arc (10, 18) = 1
+w_64: arc (11, 19) = 1
+w_67: arc (12, 2) = 1
+w_79: arc (13, 15) = 1
+w_82: arc (14, 7) = 1
+w_85: arc (14, 16) = 1
+w_88: arc (15, 3) = 1
+w_94: arc (16, 7) = 1
+w_96: arc (16, 18) = 1
+w_97: arc (17, 3) = 1
+w_98: arc (17, 14) = 1
+w_104: arc (18, 13) = 1
+w_106: arc (18, 16) = 1
+
+**********************
+y_k[] variables:
+y_k0_i15: arc (3, 17) = 1
+y_k0_i48: arc (8, 13) = 1
+y_k0_i51: arc (9, 8) = 1
+y_k0_i79: arc (13, 15) = 1
+y_k0_i88: arc (15, 3) = 1
+y_k1_i15: arc (3, 17) = 1
+y_k1_i53: arc (9, 12) = 1
+y_k1_i72: arc (12, 13) = 1
+y_k1_i74: arc (13, 3) = 1
+
+
+------------------------
+
+Legenda:Instance_Name   K   Num_Nodes   Num_Archs Seed  U_budget    Max_Num_Discoveries    DDDI_Version Delta    BUB BLB Gap Elapsed_Time
+Table:SPP_n20_s5_K2_B6_D1_d50.log   2  20 114 5 6    57  1 0.5 14.6353 14.6353   0 0.526 

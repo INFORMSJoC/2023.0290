@@ -1,0 +1,93 @@
+Instance_Name: SPP_n30_s4_K2_B3_D1_d25.log
+K: 2
+U_Budget: 3
+Num_Nodes: 30
+Num_Archs: 261
+Max_Num_Discoveries: 66
+DDDI_Version: 1
+BUB: 14.2069
+BLB: 14.2069
+Gap: 0
+Elapsed_Time 22.094
+
+
+Solution:
+
+w[] variables
+:w_22: arc (3, 14) = 1
+w_23: arc (3, 16) = 1
+w_24: arc (3, 24) = 1
+w_26: arc (4, 8) = 1
+w_27: arc (4, 17) = 1
+w_30: arc (4, 23) = 1
+w_34: arc (5, 21) = 1
+w_35: arc (5, 23) = 1
+w_38: arc (5, 27) = 1
+w_41: arc (6, 2) = 1
+w_43: arc (6, 11) = 1
+w_44: arc (6, 12) = 1
+w_47: arc (6, 16) = 1
+w_48: arc (6, 19) = 1
+w_53: arc (7, 1) = 1
+w_54: arc (7, 2) = 1
+w_55: arc (7, 6) = 1
+w_56: arc (7, 11) = 1
+w_57: arc (7, 20) = 1
+w_61: arc (8, 18) = 1
+w_65: arc (9, 15) = 1
+w_68: arc (10, 3) = 1
+w_75: arc (10, 29) = 1
+w_76: arc (11, 1) = 1
+w_77: arc (11, 2) = 1
+w_78: arc (11, 6) = 1
+w_81: arc (11, 22) = 1
+w_85: arc (12, 13) = 1
+w_86: arc (12, 14) = 1
+w_87: arc (12, 15) = 1
+w_90: arc (12, 21) = 1
+w_91: arc (12, 23) = 1
+w_95: arc (13, 12) = 1
+w_97: arc (13, 15) = 1
+w_99: arc (13, 19) = 1
+w_100: arc (13, 21) = 1
+w_102: arc (13, 24) = 1
+w_113: arc (14, 19) = 1
+w_114: arc (14, 20) = 1
+w_135: arc (16, 14) = 1
+w_137: arc (16, 19) = 1
+w_140: arc (16, 29) = 1
+w_148: arc (18, 17) = 1
+w_159: arc (19, 21) = 1
+w_160: arc (19, 23) = 1
+w_161: arc (19, 24) = 1
+w_168: arc (20, 14) = 1
+w_171: arc (20, 26) = 1
+w_172: arc (21, 4) = 1
+w_174: arc (21, 8) = 1
+w_191: arc (23, 4) = 1
+w_193: arc (23, 8) = 1
+w_195: arc (23, 13) = 1
+w_199: arc (23, 21) = 1
+w_214: arc (24, 27) = 1
+w_232: arc (27, 8) = 1
+
+**********************
+y_k[] variables:
+y_k0_i57: arc (7, 20) = 1
+y_k0_i113: arc (14, 19) = 1
+y_k0_i160: arc (19, 23) = 1
+y_k0_i168: arc (20, 14) = 1
+y_k0_i174: arc (21, 8) = 1
+y_k0_i199: arc (23, 21) = 1
+y_k1_i26: arc (4, 8) = 1
+y_k1_i48: arc (6, 19) = 1
+y_k1_i55: arc (7, 6) = 1
+y_k1_i101: arc (13, 23) = 1
+y_k1_i155: arc (19, 13) = 1
+y_k1_i191: arc (23, 4) = 1
+
+
+------------------------
+
+Legenda:Instance_Name   K   Num_Nodes   Num_Archs Seed  U_budget    Max_Num_Discoveries    DDDI_Version Delta    BUB BLB Gap Elapsed_Time
+Table:SPP_n30_s4_K2_B3_D1_d25.log   2  30 261 4 3    66  1 0.25 14.2069 14.2069   0 22.094 

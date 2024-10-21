@@ -1,0 +1,83 @@
+Instance_Name: SPP_n50_s0_K3_B6_D1_d25.log
+K: 3
+U_Budget: 6
+Num_Nodes: 50
+Num_Archs: 735
+Max_Num_Discoveries: 184
+DDDI_Version: 1
+BUB: 16.2213
+BLB: 16.0443
+Gap: 0.0109096
+Elapsed_Time 7200.02
+
+
+Solution:
+
+w[] variables
+:w_20: arc (2, 4) = 1
+w_21: arc (2, 7) = 1
+w_25: arc (2, 30) = 1
+w_27: arc (2, 38) = 1
+w_28: arc (2, 40) = 1
+w_38: arc (3, 30) = 1
+w_42: arc (3, 41) = 1
+w_50: arc (4, 13) = 1
+w_56: arc (4, 30) = 1
+w_119: arc (8, 17) = 1
+w_134: arc (9, 25) = 1
+w_136: arc (9, 28) = 1
+w_167: arc (11, 2) = 1
+w_168: arc (11, 3) = 1
+w_170: arc (11, 16) = 1
+w_172: arc (11, 48) = 1
+w_177: arc (12, 17) = 1
+w_193: arc (13, 23) = 1
+w_194: arc (13, 25) = 1
+w_216: arc (14, 30) = 1
+w_244: arc (16, 40) = 1
+w_314: arc (23, 8) = 1
+w_321: arc (23, 25) = 1
+w_346: arc (25, 12) = 1
+w_348: arc (25, 17) = 1
+w_358: arc (25, 39) = 1
+w_374: arc (27, 8) = 1
+w_402: arc (28, 25) = 1
+w_432: arc (30, 13) = 1
+w_439: arc (30, 35) = 1
+w_509: arc (35, 12) = 1
+w_547: arc (38, 4) = 1
+w_553: arc (38, 30) = 1
+w_576: arc (40, 6) = 1
+w_586: arc (40, 35) = 1
+w_596: arc (41, 9) = 1
+w_634: arc (43, 49) = 1
+w_689: arc (48, 4) = 1
+w_697: arc (48, 38) = 1
+
+**********************
+y_k[] variables:
+y_k0_i56: arc (4, 30) = 1
+y_k0_i172: arc (11, 48) = 1
+y_k0_i177: arc (12, 17) = 1
+y_k0_i194: arc (13, 25) = 1
+y_k0_i346: arc (25, 12) = 1
+y_k0_i432: arc (30, 13) = 1
+y_k0_i547: arc (38, 4) = 1
+y_k0_i697: arc (48, 38) = 1
+y_k1_i20: arc (2, 4) = 1
+y_k1_i50: arc (4, 13) = 1
+y_k1_i167: arc (11, 2) = 1
+y_k1_i177: arc (12, 17) = 1
+y_k1_i200: arc (13, 35) = 1
+y_k1_i509: arc (35, 12) = 1
+y_k2_i42: arc (3, 41) = 1
+y_k2_i134: arc (9, 25) = 1
+y_k2_i168: arc (11, 3) = 1
+y_k2_i348: arc (25, 17) = 1
+y_k2_i596: arc (41, 9) = 1
+
+
+------------------------
+
+Legenda:Instance_Name   K   Num_Nodes   Num_Archs Seed  U_budget    Max_Num_Discoveries    DDDI_Version Delta    BUB BLB Gap Elapsed_Time
+Table:SPP_n50_s0_K3_B6_D1_d25.log   3  50 735 0 6    184  1 0.25 16.2213 16.0443   0.0109096 7200.02 

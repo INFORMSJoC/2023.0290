@@ -1,0 +1,193 @@
+++++ Instance Info ++++
+Instance name: tsi_prob_2_mod_budget_23_K3_D1_md025_US2_USpar15
+Network name: tsi_prob_2_mod_budget_23
+Number of nodes: 21
+Number of profitable nodes: 19
+Max number of discovery: 5
+Max duration: 2300
+Alrijne Collecting Time: 360.000000
+++++ Uncertainty  ++++
+Number of K-policy: 3
+Uncertainty Set Type: 2
+Uncertainty Set Parameter: 0.150000
+Total Deterministic Profit in the Network: 450.000000
+++++ Solution of the Model ++++
+-----------------------------------------------
+Objective:
+Best Lower Bound: -0.350000
+Best upper bound: -0.350000
+Elapsed time: 3310.968000
+Cplex Gap: 0.000000
+Exact W evaluation: -0.350000
+B&C nodes: 117196
+Number Added VI on integer variables: 6730
+Number Added VI on tilde variables: 0
+Number Added McCormick VI: 0
+
+Variables:
+
+Discoveries: w_i (i is a profitable node). 
+ w_[node:14] = 1.000000
+ w_[node:15] = 1.000000
+ w_[node:16] = 1.000000
+ w_[node:17] = 1.000000
+ w_[node:19] = 1.000000
+Beta Variables. 
+beta_l[0] = 0.000000
+beta_l[1] = 0.000000
+beta_l[2] = 0.000000
+beta_l[3] = 0.000000
+beta_l[4] = 0.000000
+beta_l[5] = 0.000000
+beta_l[6] = 0.000000
+beta_l[7] = 0.000000
+beta_l[8] = 0.000000
+beta_l[9] = 0.000000
+beta_l[10] = 0.000000
+beta_l[11] = 0.000000
+beta_l[12] = 0.000000
+beta_l[13] = 0.000000
+beta_l[14] = 0.000000
+beta_l[15] = 0.000000
+beta_l[16] = 0.000000
+beta_l[17] = 0.000000
+beta_l[18] = 0.000000
+beta_l[19] = 0.000000
+beta_l[20] = 0.000000
+beta_l[21] = 0.000000
+beta_l[22] = 0.000000
+beta_l[23] = 0.000000
+beta_l[24] = 0.000000
+beta_l[25] = 0.000000
+beta_l[26] = 0.000000
+beta_l[27] = 0.000000
+beta_l[28] = 0.000000
+beta_l[29] = 0.000000
+beta_l[30] = 0.000000
+beta_l[31] = 0.000000
+beta_l[32] = 0.000000
+beta_l[33] = 0.000000
+beta_l[34] = 0.000000
+beta_l[35] = 0.000000
+beta_l[36] = 0.000000
+beta_l[37] = 0.000000
+beta_l[38] = 0.000000
+beta_l[39] = 0.000000
+K-policies. 
+Visited nodes:
+y_k[0]_i[4] = 1
+tilde_y_k[0]_i[4] = 0.00 
+y_k[0]_i[11] = 1
+tilde_y_k[0]_i[11] = 0.00 
+y_k[0]_i[17] = 1
+tilde_y_k[0]_i[17] = 0.00 
+Duals:
+alpha_k[0] = 0.000000
+gamma_k[0]_n[1] = 0.000000
+gamma_k[0]_n[2] = 0.000000
+gamma_k[0]_n[3] = 0.000000
+gamma_k[0]_n[4] = 0.000000
+gamma_k[0]_n[5] = 0.000000
+gamma_k[0]_n[6] = 0.000000
+gamma_k[0]_n[7] = 0.000000
+gamma_k[0]_n[8] = 0.000000
+gamma_k[0]_n[9] = 0.000000
+gamma_k[0]_n[10] = 0.000000
+gamma_k[0]_n[11] = 0.000000
+gamma_k[0]_n[12] = 0.000000
+gamma_k[0]_n[13] = 0.000000
+gamma_k[0]_n[14] = 0.000000
+gamma_k[0]_n[15] = 0.000000
+gamma_k[0]_n[16] = 0.000000
+gamma_k[0]_n[17] = 0.000000
+gamma_k[0]_n[18] = 0.000000
+gamma_k[0]_n[19] = 0.000000
+Policy-0 description
+<0-11-4-17-20> : Length = 2136.000000
+_________________________________________________
+Visited nodes:
+y_k[1]_i[14] = 1
+tilde_y_k[1]_i[14] = 0.50 
+y_k[1]_i[15] = 1
+tilde_y_k[1]_i[15] = 0.50 
+y_k[1]_i[16] = 1
+tilde_y_k[1]_i[16] = 0.50 
+y_k[1]_i[17] = 1
+tilde_y_k[1]_i[17] = 0.50 
+y_k[1]_i[19] = 1
+tilde_y_k[1]_i[19] = 0.50 
+Duals:
+alpha_k[1] = 0.500000
+gamma_k[1]_n[1] = 0.000000
+gamma_k[1]_n[2] = 0.000000
+gamma_k[1]_n[3] = 0.000000
+gamma_k[1]_n[4] = 0.000000
+gamma_k[1]_n[5] = 0.000000
+gamma_k[1]_n[6] = 0.000000
+gamma_k[1]_n[7] = 0.000000
+gamma_k[1]_n[8] = 0.000000
+gamma_k[1]_n[9] = 0.000000
+gamma_k[1]_n[10] = 0.000000
+gamma_k[1]_n[11] = 0.000000
+gamma_k[1]_n[12] = 0.000000
+gamma_k[1]_n[13] = 0.000000
+gamma_k[1]_n[14] = 0.500000
+gamma_k[1]_n[15] = 0.500000
+gamma_k[1]_n[16] = 0.500000
+gamma_k[1]_n[17] = 0.500000
+gamma_k[1]_n[18] = 0.000000
+gamma_k[1]_n[19] = 0.500000
+Policy-1 description
+<0-19-17-15-14-16-20> : Length = 2257.000000
+_________________________________________________
+Visited nodes:
+y_k[2]_i[1] = 1
+tilde_y_k[2]_i[1] = 0.50 
+y_k[2]_i[2] = 1
+tilde_y_k[2]_i[2] = 0.50 
+y_k[2]_i[4] = 1
+tilde_y_k[2]_i[4] = 0.50 
+y_k[2]_i[5] = 1
+tilde_y_k[2]_i[5] = 0.50 
+y_k[2]_i[6] = 1
+tilde_y_k[2]_i[6] = 0.50 
+y_k[2]_i[7] = 1
+tilde_y_k[2]_i[7] = 0.50 
+y_k[2]_i[8] = 1
+tilde_y_k[2]_i[8] = 0.50 
+y_k[2]_i[9] = 1
+tilde_y_k[2]_i[9] = 0.50 
+y_k[2]_i[10] = 1
+tilde_y_k[2]_i[10] = 0.50 
+y_k[2]_i[11] = 1
+tilde_y_k[2]_i[11] = 0.50 
+y_k[2]_i[12] = 1
+tilde_y_k[2]_i[12] = 0.50 
+y_k[2]_i[13] = 1
+tilde_y_k[2]_i[13] = 0.50 
+Duals:
+alpha_k[2] = 0.500000
+gamma_k[2]_n[1] = 0.000000
+gamma_k[2]_n[2] = 0.000000
+gamma_k[2]_n[3] = 0.000000
+gamma_k[2]_n[4] = 0.000000
+gamma_k[2]_n[5] = 0.000000
+gamma_k[2]_n[6] = 0.000000
+gamma_k[2]_n[7] = 0.000000
+gamma_k[2]_n[8] = 0.000000
+gamma_k[2]_n[9] = 0.000000
+gamma_k[2]_n[10] = 0.000000
+gamma_k[2]_n[11] = 0.000000
+gamma_k[2]_n[12] = 0.000000
+gamma_k[2]_n[13] = 0.000000
+gamma_k[2]_n[14] = -0.500000
+gamma_k[2]_n[15] = -0.500000
+gamma_k[2]_n[16] = -0.500000
+gamma_k[2]_n[17] = -0.500000
+gamma_k[2]_n[18] = 0.000000
+gamma_k[2]_n[19] = -0.500000
+Policy-2 description
+<0-1-2-4-5-6-11-12-13-10-9-8-7-20> : Length = 2142.000000
+_________________________________________________
+Legenda_Model:Instance_Name	Network_Name	Num_K	Num_Nodes	Num_Prof_Nodes	Max_Tour_Duration	Max_Num_Discoveries	Max_Discoveries_Fraction	Best_LB	Best_Ub	Cplex_Gap	Root_Node_LB	Elapsed_Time	Num_VI_int_var	Num_VI_tilde_var	Num_Dyn_McCormick	Num_BandC_Nodes	Number_Discoveries	Profit_cost	Discovery_cost	US_Type	US_Param	US_Tot_Det_Profit	Exact_W_Evaluation
+Table_Model:tsi_prob_2_mod_budget_23_K3_D1_md025_US2_USpar15	tsi_prob_2_mod_budget_23	3	21	19	2300	5	0.250000	-0.350000	-0.350000	0.000000	-1.000000	3310.968000	6730	0	0	117196	5	-0.350000	0.000000	2	0.150000	450.000000	-0.350000

@@ -1,0 +1,83 @@
+Instance_Name: SPP_n50_s3_K3_B3_D1_d25.log
+K: 3
+U_Budget: 3
+Num_Nodes: 50
+Num_Archs: 735
+Max_Num_Discoveries: 184
+DDDI_Version: 1
+BUB: 13.2635
+BLB: 1.67617
+Gap: 0.873625
+Elapsed_Time 7200.19
+
+
+Solution:
+
+w[] variables
+:w_0: arc (1, 3) = 1
+w_5: arc (1, 16) = 1
+w_25: arc (2, 38) = 1
+w_30: arc (2, 48) = 1
+w_35: arc (3, 7) = 1
+w_58: arc (4, 27) = 1
+w_112: arc (8, 16) = 1
+w_157: arc (11, 21) = 1
+w_160: arc (11, 31) = 1
+w_194: arc (14, 21) = 1
+w_205: arc (15, 16) = 1
+w_218: arc (16, 2) = 1
+w_245: arc (17, 33) = 1
+w_246: arc (17, 38) = 1
+w_248: arc (17, 42) = 1
+w_250: arc (17, 47) = 1
+w_262: arc (18, 25) = 1
+w_282: arc (19, 18) = 1
+w_305: arc (21, 13) = 1
+w_340: arc (24, 7) = 1
+w_343: arc (24, 11) = 1
+w_349: arc (24, 30) = 1
+w_371: arc (26, 29) = 1
+w_395: arc (27, 36) = 1
+w_428: arc (30, 3) = 1
+w_433: arc (30, 12) = 1
+w_434: arc (30, 24) = 1
+w_435: arc (30, 34) = 1
+w_437: arc (30, 39) = 1
+w_439: arc (30, 49) = 1
+w_449: arc (31, 38) = 1
+w_471: arc (32, 33) = 1
+w_502: arc (34, 24) = 1
+w_536: arc (36, 49) = 1
+w_551: arc (38, 26) = 1
+w_559: arc (39, 4) = 1
+w_577: arc (39, 41) = 1
+w_610: arc (41, 46) = 1
+w_619: arc (42, 38) = 1
+w_673: arc (46, 38) = 1
+w_683: arc (47, 38) = 1
+w_692: arc (48, 18) = 1
+w_724: arc (50, 18) = 1
+w_733: arc (50, 47) = 1
+
+**********************
+y_k[] variables:
+y_k0_i160: arc (11, 31) = 1
+y_k0_i343: arc (24, 11) = 1
+y_k0_i434: arc (30, 24) = 1
+y_k0_i449: arc (31, 38) = 1
+y_k1_i437: arc (30, 39) = 1
+y_k1_i577: arc (39, 41) = 1
+y_k1_i610: arc (41, 46) = 1
+y_k1_i673: arc (46, 38) = 1
+y_k2_i41: arc (3, 24) = 1
+y_k2_i109: arc (7, 41) = 1
+y_k2_i246: arc (17, 38) = 1
+y_k2_i340: arc (24, 7) = 1
+y_k2_i428: arc (30, 3) = 1
+y_k2_i596: arc (41, 17) = 1
+
+
+------------------------
+
+Legenda:Instance_Name   K   Num_Nodes   Num_Archs Seed  U_budget    Max_Num_Discoveries    DDDI_Version Delta    BUB BLB Gap Elapsed_Time
+Table:SPP_n50_s3_K3_B3_D1_d25.log   3  50 735 3 3    184  1 0.25 13.2635 1.67617   0.873625 7200.19 

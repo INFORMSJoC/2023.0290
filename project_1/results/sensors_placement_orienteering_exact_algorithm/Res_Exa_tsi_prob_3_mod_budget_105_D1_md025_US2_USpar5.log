@@ -1,0 +1,2374 @@
+++++ Instance Info ++++
+Instance name: tsi_prob_3_mod_budget_105_D1_md025_US2_USpar5
+Network name: tsi_prob_3_mod_budget_105
+Number of nodes: 33
+Number of profitable nodes: 31
+Max number of discovery: 8
+Max duration: 10500
+Alrijne Collecting Time: 360.000000
+++++ Uncertainty  ++++
+Uncertainty Set Type: 2
+Uncertainty Set Parameter: 0.050000
+Total Deterministic Profit in the Network: 800.000000
+++++ Solution of the Model ++++
+-----------------------------------------------
+Objective:
+Best Lower Bound: -1.000000
+Best upper bound: -1.000000
+Elapsed time Branch-and-Cut: 0.006000
+Elapsed time Starting Cuts: 11.189000
+Cplex Gap: 0.000000
+B&C nodes: 0
+Number Logic Benders Cuts: 0
+Number Starting Scenarios: 0
+Cardinality of Y: 112
+Number of Tight y in the sub-problem: 18
+
+Variables Master Problem:
+
+Phi =-1.000000 
+
+Discoveries: w_i (i is a profitable node). 
+
+Scenarios and Tight Ys Sub-Problem
+
+Overline Scenario: ovxi_i (i is a profitable node). 
+ ov_xi_[node:1] = 0.050000
+ ov_xi_[node:2] = 0.050000
+ ov_xi_[node:3] = 0.000000
+ ov_xi_[node:4] = 0.000000
+ ov_xi_[node:5] = 0.000000
+ ov_xi_[node:6] = 0.000000
+ ov_xi_[node:7] = 0.000000
+ ov_xi_[node:8] = 0.000000
+ ov_xi_[node:9] = 0.000000
+ ov_xi_[node:10] = 0.000000
+ ov_xi_[node:11] = 0.000000
+ ov_xi_[node:12] = 0.000000
+ ov_xi_[node:13] = 0.000000
+ ov_xi_[node:14] = 0.050000
+ ov_xi_[node:15] = 0.050000
+ ov_xi_[node:16] = 0.050000
+ ov_xi_[node:17] = 0.050000
+ ov_xi_[node:18] = 0.050000
+ ov_xi_[node:19] = 0.050000
+ ov_xi_[node:20] = 0.050000
+ ov_xi_[node:21] = 0.050000
+ ov_xi_[node:22] = 0.050000
+ ov_xi_[node:23] = 0.050000
+ ov_xi_[node:24] = 0.050000
+ ov_xi_[node:25] = 0.050000
+ ov_xi_[node:26] = 0.050000
+ ov_xi_[node:27] = 0.050000
+ ov_xi_[node:28] = 0.050000
+ ov_xi_[node:29] = 0.050000
+ ov_xi_[node:30] = 0.050000
+ ov_xi_[node:31] = 0.050000
+
+ Tigth Ys: 
+
+ y = 6 { 
+Node 1: {
+y_[node:1] = 1
+xi_y_i_[y:6][node:1] = 0.050000
+} 
+Node 2: {
+y_[node:2] = 1
+xi_y_i_[y:6][node:2] = 0.050000
+} 
+Node 3: {
+y_[node:3] = 1
+xi_y_i_[y:6][node:3] = 0.000000
+} 
+Node 4: {
+y_[node:4] = 1
+xi_y_i_[y:6][node:4] = 0.000000
+} 
+Node 5: {
+y_[node:5] = 1
+xi_y_i_[y:6][node:5] = 0.000000
+} 
+Node 6: {
+y_[node:6] = 1
+xi_y_i_[y:6][node:6] = 0.000000
+} 
+Node 7: {
+y_[node:7] = 1
+xi_y_i_[y:6][node:7] = 0.000000
+} 
+Node 8: {
+y_[node:8] = 0
+xi_y_i_[y:6][node:8] = 0.000000
+} 
+Node 9: {
+y_[node:9] = 0
+xi_y_i_[y:6][node:9] = 0.000000
+} 
+Node 10: {
+y_[node:10] = 0
+xi_y_i_[y:6][node:10] = 0.000000
+} 
+Node 11: {
+y_[node:11] = 1
+xi_y_i_[y:6][node:11] = 0.000000
+} 
+Node 12: {
+y_[node:12] = 0
+xi_y_i_[y:6][node:12] = 0.000000
+} 
+Node 13: {
+y_[node:13] = 1
+xi_y_i_[y:6][node:13] = 0.000000
+} 
+Node 14: {
+y_[node:14] = 1
+xi_y_i_[y:6][node:14] = 0.050000
+} 
+Node 15: {
+y_[node:15] = 1
+xi_y_i_[y:6][node:15] = 0.050000
+} 
+Node 16: {
+y_[node:16] = 1
+xi_y_i_[y:6][node:16] = 0.050000
+} 
+Node 17: {
+y_[node:17] = 1
+xi_y_i_[y:6][node:17] = 0.050000
+} 
+Node 18: {
+y_[node:18] = 1
+xi_y_i_[y:6][node:18] = 0.050000
+} 
+Node 19: {
+y_[node:19] = 1
+xi_y_i_[y:6][node:19] = 0.050000
+} 
+Node 20: {
+y_[node:20] = 1
+xi_y_i_[y:6][node:20] = 0.050000
+} 
+Node 21: {
+y_[node:21] = 1
+xi_y_i_[y:6][node:21] = 0.050000
+} 
+Node 22: {
+y_[node:22] = 1
+xi_y_i_[y:6][node:22] = 0.050000
+} 
+Node 23: {
+y_[node:23] = 1
+xi_y_i_[y:6][node:23] = 0.050000
+} 
+Node 24: {
+y_[node:24] = 1
+xi_y_i_[y:6][node:24] = 0.050000
+} 
+Node 25: {
+y_[node:25] = 1
+xi_y_i_[y:6][node:25] = 0.050000
+} 
+Node 26: {
+y_[node:26] = 1
+xi_y_i_[y:6][node:26] = 0.050000
+} 
+Node 27: {
+y_[node:27] = 1
+xi_y_i_[y:6][node:27] = 0.050000
+} 
+Node 28: {
+y_[node:28] = 1
+xi_y_i_[y:6][node:28] = 0.050000
+} 
+Node 29: {
+y_[node:29] = 1
+xi_y_i_[y:6][node:29] = 0.050000
+} 
+Node 30: {
+y_[node:30] = 1
+xi_y_i_[y:6][node:30] = 0.050000
+} 
+Node 31: {
+y_[node:31] = 1
+xi_y_i_[y:6][node:31] = 0.050000
+} 
+
+ } 
+
+ y = 16 { 
+Node 1: {
+y_[node:1] = 1
+xi_y_i_[y:16][node:1] = 0.050000
+} 
+Node 2: {
+y_[node:2] = 1
+xi_y_i_[y:16][node:2] = 0.050000
+} 
+Node 3: {
+y_[node:3] = 1
+xi_y_i_[y:16][node:3] = 0.000000
+} 
+Node 4: {
+y_[node:4] = 1
+xi_y_i_[y:16][node:4] = 0.000000
+} 
+Node 5: {
+y_[node:5] = 1
+xi_y_i_[y:16][node:5] = 0.000000
+} 
+Node 6: {
+y_[node:6] = 1
+xi_y_i_[y:16][node:6] = 0.000000
+} 
+Node 7: {
+y_[node:7] = 0
+xi_y_i_[y:16][node:7] = 0.000000
+} 
+Node 8: {
+y_[node:8] = 1
+xi_y_i_[y:16][node:8] = 0.000000
+} 
+Node 9: {
+y_[node:9] = 1
+xi_y_i_[y:16][node:9] = 0.000000
+} 
+Node 10: {
+y_[node:10] = 0
+xi_y_i_[y:16][node:10] = 0.000000
+} 
+Node 11: {
+y_[node:11] = 0
+xi_y_i_[y:16][node:11] = 0.000000
+} 
+Node 12: {
+y_[node:12] = 0
+xi_y_i_[y:16][node:12] = 0.000000
+} 
+Node 13: {
+y_[node:13] = 1
+xi_y_i_[y:16][node:13] = 0.000000
+} 
+Node 14: {
+y_[node:14] = 1
+xi_y_i_[y:16][node:14] = 0.050000
+} 
+Node 15: {
+y_[node:15] = 1
+xi_y_i_[y:16][node:15] = 0.050000
+} 
+Node 16: {
+y_[node:16] = 1
+xi_y_i_[y:16][node:16] = 0.050000
+} 
+Node 17: {
+y_[node:17] = 1
+xi_y_i_[y:16][node:17] = 0.050000
+} 
+Node 18: {
+y_[node:18] = 1
+xi_y_i_[y:16][node:18] = 0.050000
+} 
+Node 19: {
+y_[node:19] = 1
+xi_y_i_[y:16][node:19] = 0.050000
+} 
+Node 20: {
+y_[node:20] = 1
+xi_y_i_[y:16][node:20] = 0.050000
+} 
+Node 21: {
+y_[node:21] = 1
+xi_y_i_[y:16][node:21] = 0.050000
+} 
+Node 22: {
+y_[node:22] = 1
+xi_y_i_[y:16][node:22] = 0.050000
+} 
+Node 23: {
+y_[node:23] = 1
+xi_y_i_[y:16][node:23] = 0.050000
+} 
+Node 24: {
+y_[node:24] = 1
+xi_y_i_[y:16][node:24] = 0.050000
+} 
+Node 25: {
+y_[node:25] = 1
+xi_y_i_[y:16][node:25] = 0.050000
+} 
+Node 26: {
+y_[node:26] = 1
+xi_y_i_[y:16][node:26] = 0.050000
+} 
+Node 27: {
+y_[node:27] = 1
+xi_y_i_[y:16][node:27] = 0.050000
+} 
+Node 28: {
+y_[node:28] = 1
+xi_y_i_[y:16][node:28] = 0.050000
+} 
+Node 29: {
+y_[node:29] = 1
+xi_y_i_[y:16][node:29] = 0.050000
+} 
+Node 30: {
+y_[node:30] = 1
+xi_y_i_[y:16][node:30] = 0.050000
+} 
+Node 31: {
+y_[node:31] = 1
+xi_y_i_[y:16][node:31] = 0.050000
+} 
+
+ } 
+
+ y = 20 { 
+Node 1: {
+y_[node:1] = 1
+xi_y_i_[y:20][node:1] = 0.050000
+} 
+Node 2: {
+y_[node:2] = 1
+xi_y_i_[y:20][node:2] = 0.050000
+} 
+Node 3: {
+y_[node:3] = 0
+xi_y_i_[y:20][node:3] = 0.000000
+} 
+Node 4: {
+y_[node:4] = 0
+xi_y_i_[y:20][node:4] = 0.000000
+} 
+Node 5: {
+y_[node:5] = 1
+xi_y_i_[y:20][node:5] = 0.000000
+} 
+Node 6: {
+y_[node:6] = 0
+xi_y_i_[y:20][node:6] = 0.000000
+} 
+Node 7: {
+y_[node:7] = 1
+xi_y_i_[y:20][node:7] = 0.000000
+} 
+Node 8: {
+y_[node:8] = 1
+xi_y_i_[y:20][node:8] = 0.000000
+} 
+Node 9: {
+y_[node:9] = 0
+xi_y_i_[y:20][node:9] = 0.000000
+} 
+Node 10: {
+y_[node:10] = 1
+xi_y_i_[y:20][node:10] = 0.000000
+} 
+Node 11: {
+y_[node:11] = 0
+xi_y_i_[y:20][node:11] = 0.000000
+} 
+Node 12: {
+y_[node:12] = 1
+xi_y_i_[y:20][node:12] = 0.000000
+} 
+Node 13: {
+y_[node:13] = 0
+xi_y_i_[y:20][node:13] = 0.000000
+} 
+Node 14: {
+y_[node:14] = 1
+xi_y_i_[y:20][node:14] = 0.050000
+} 
+Node 15: {
+y_[node:15] = 1
+xi_y_i_[y:20][node:15] = 0.050000
+} 
+Node 16: {
+y_[node:16] = 1
+xi_y_i_[y:20][node:16] = 0.050000
+} 
+Node 17: {
+y_[node:17] = 1
+xi_y_i_[y:20][node:17] = 0.050000
+} 
+Node 18: {
+y_[node:18] = 1
+xi_y_i_[y:20][node:18] = 0.050000
+} 
+Node 19: {
+y_[node:19] = 1
+xi_y_i_[y:20][node:19] = 0.050000
+} 
+Node 20: {
+y_[node:20] = 1
+xi_y_i_[y:20][node:20] = 0.050000
+} 
+Node 21: {
+y_[node:21] = 1
+xi_y_i_[y:20][node:21] = 0.050000
+} 
+Node 22: {
+y_[node:22] = 1
+xi_y_i_[y:20][node:22] = 0.050000
+} 
+Node 23: {
+y_[node:23] = 1
+xi_y_i_[y:20][node:23] = 0.050000
+} 
+Node 24: {
+y_[node:24] = 1
+xi_y_i_[y:20][node:24] = 0.050000
+} 
+Node 25: {
+y_[node:25] = 1
+xi_y_i_[y:20][node:25] = 0.050000
+} 
+Node 26: {
+y_[node:26] = 1
+xi_y_i_[y:20][node:26] = 0.050000
+} 
+Node 27: {
+y_[node:27] = 1
+xi_y_i_[y:20][node:27] = 0.050000
+} 
+Node 28: {
+y_[node:28] = 1
+xi_y_i_[y:20][node:28] = 0.050000
+} 
+Node 29: {
+y_[node:29] = 1
+xi_y_i_[y:20][node:29] = 0.050000
+} 
+Node 30: {
+y_[node:30] = 1
+xi_y_i_[y:20][node:30] = 0.050000
+} 
+Node 31: {
+y_[node:31] = 1
+xi_y_i_[y:20][node:31] = 0.050000
+} 
+
+ } 
+
+ y = 25 { 
+Node 1: {
+y_[node:1] = 1
+xi_y_i_[y:25][node:1] = 0.050000
+} 
+Node 2: {
+y_[node:2] = 1
+xi_y_i_[y:25][node:2] = 0.050000
+} 
+Node 3: {
+y_[node:3] = 0
+xi_y_i_[y:25][node:3] = 0.000000
+} 
+Node 4: {
+y_[node:4] = 0
+xi_y_i_[y:25][node:4] = 0.000000
+} 
+Node 5: {
+y_[node:5] = 1
+xi_y_i_[y:25][node:5] = 0.000000
+} 
+Node 6: {
+y_[node:6] = 0
+xi_y_i_[y:25][node:6] = 0.000000
+} 
+Node 7: {
+y_[node:7] = 1
+xi_y_i_[y:25][node:7] = 0.000000
+} 
+Node 8: {
+y_[node:8] = 0
+xi_y_i_[y:25][node:8] = 0.000000
+} 
+Node 9: {
+y_[node:9] = 1
+xi_y_i_[y:25][node:9] = 0.000000
+} 
+Node 10: {
+y_[node:10] = 0
+xi_y_i_[y:25][node:10] = 0.000000
+} 
+Node 11: {
+y_[node:11] = 1
+xi_y_i_[y:25][node:11] = 0.000000
+} 
+Node 12: {
+y_[node:12] = 1
+xi_y_i_[y:25][node:12] = 0.000000
+} 
+Node 13: {
+y_[node:13] = 1
+xi_y_i_[y:25][node:13] = 0.000000
+} 
+Node 14: {
+y_[node:14] = 1
+xi_y_i_[y:25][node:14] = 0.050000
+} 
+Node 15: {
+y_[node:15] = 1
+xi_y_i_[y:25][node:15] = 0.050000
+} 
+Node 16: {
+y_[node:16] = 1
+xi_y_i_[y:25][node:16] = 0.050000
+} 
+Node 17: {
+y_[node:17] = 1
+xi_y_i_[y:25][node:17] = 0.050000
+} 
+Node 18: {
+y_[node:18] = 1
+xi_y_i_[y:25][node:18] = 0.050000
+} 
+Node 19: {
+y_[node:19] = 1
+xi_y_i_[y:25][node:19] = 0.050000
+} 
+Node 20: {
+y_[node:20] = 1
+xi_y_i_[y:25][node:20] = 0.050000
+} 
+Node 21: {
+y_[node:21] = 1
+xi_y_i_[y:25][node:21] = 0.050000
+} 
+Node 22: {
+y_[node:22] = 1
+xi_y_i_[y:25][node:22] = 0.050000
+} 
+Node 23: {
+y_[node:23] = 1
+xi_y_i_[y:25][node:23] = 0.050000
+} 
+Node 24: {
+y_[node:24] = 1
+xi_y_i_[y:25][node:24] = 0.050000
+} 
+Node 25: {
+y_[node:25] = 1
+xi_y_i_[y:25][node:25] = 0.050000
+} 
+Node 26: {
+y_[node:26] = 1
+xi_y_i_[y:25][node:26] = 0.050000
+} 
+Node 27: {
+y_[node:27] = 1
+xi_y_i_[y:25][node:27] = 0.050000
+} 
+Node 28: {
+y_[node:28] = 1
+xi_y_i_[y:25][node:28] = 0.050000
+} 
+Node 29: {
+y_[node:29] = 1
+xi_y_i_[y:25][node:29] = 0.050000
+} 
+Node 30: {
+y_[node:30] = 1
+xi_y_i_[y:25][node:30] = 0.050000
+} 
+Node 31: {
+y_[node:31] = 1
+xi_y_i_[y:25][node:31] = 0.050000
+} 
+
+ } 
+
+ y = 28 { 
+Node 1: {
+y_[node:1] = 1
+xi_y_i_[y:28][node:1] = 0.050000
+} 
+Node 2: {
+y_[node:2] = 1
+xi_y_i_[y:28][node:2] = 0.050000
+} 
+Node 3: {
+y_[node:3] = 1
+xi_y_i_[y:28][node:3] = 0.000000
+} 
+Node 4: {
+y_[node:4] = 1
+xi_y_i_[y:28][node:4] = 0.000000
+} 
+Node 5: {
+y_[node:5] = 0
+xi_y_i_[y:28][node:5] = 0.000000
+} 
+Node 6: {
+y_[node:6] = 1
+xi_y_i_[y:28][node:6] = 0.000000
+} 
+Node 7: {
+y_[node:7] = 1
+xi_y_i_[y:28][node:7] = 0.000000
+} 
+Node 8: {
+y_[node:8] = 1
+xi_y_i_[y:28][node:8] = 0.000000
+} 
+Node 9: {
+y_[node:9] = 0
+xi_y_i_[y:28][node:9] = 0.000000
+} 
+Node 10: {
+y_[node:10] = 1
+xi_y_i_[y:28][node:10] = 0.000000
+} 
+Node 11: {
+y_[node:11] = 1
+xi_y_i_[y:28][node:11] = 0.000000
+} 
+Node 12: {
+y_[node:12] = 1
+xi_y_i_[y:28][node:12] = 0.000000
+} 
+Node 13: {
+y_[node:13] = 1
+xi_y_i_[y:28][node:13] = 0.000000
+} 
+Node 14: {
+y_[node:14] = 1
+xi_y_i_[y:28][node:14] = 0.050000
+} 
+Node 15: {
+y_[node:15] = 1
+xi_y_i_[y:28][node:15] = 0.050000
+} 
+Node 16: {
+y_[node:16] = 1
+xi_y_i_[y:28][node:16] = 0.050000
+} 
+Node 17: {
+y_[node:17] = 1
+xi_y_i_[y:28][node:17] = 0.050000
+} 
+Node 18: {
+y_[node:18] = 1
+xi_y_i_[y:28][node:18] = 0.050000
+} 
+Node 19: {
+y_[node:19] = 1
+xi_y_i_[y:28][node:19] = 0.050000
+} 
+Node 20: {
+y_[node:20] = 1
+xi_y_i_[y:28][node:20] = 0.050000
+} 
+Node 21: {
+y_[node:21] = 1
+xi_y_i_[y:28][node:21] = 0.050000
+} 
+Node 22: {
+y_[node:22] = 1
+xi_y_i_[y:28][node:22] = 0.050000
+} 
+Node 23: {
+y_[node:23] = 1
+xi_y_i_[y:28][node:23] = 0.050000
+} 
+Node 24: {
+y_[node:24] = 1
+xi_y_i_[y:28][node:24] = 0.050000
+} 
+Node 25: {
+y_[node:25] = 1
+xi_y_i_[y:28][node:25] = 0.050000
+} 
+Node 26: {
+y_[node:26] = 1
+xi_y_i_[y:28][node:26] = 0.050000
+} 
+Node 27: {
+y_[node:27] = 1
+xi_y_i_[y:28][node:27] = 0.050000
+} 
+Node 28: {
+y_[node:28] = 1
+xi_y_i_[y:28][node:28] = 0.050000
+} 
+Node 29: {
+y_[node:29] = 1
+xi_y_i_[y:28][node:29] = 0.050000
+} 
+Node 30: {
+y_[node:30] = 1
+xi_y_i_[y:28][node:30] = 0.050000
+} 
+Node 31: {
+y_[node:31] = 1
+xi_y_i_[y:28][node:31] = 0.050000
+} 
+
+ } 
+
+ y = 31 { 
+Node 1: {
+y_[node:1] = 1
+xi_y_i_[y:31][node:1] = 0.050000
+} 
+Node 2: {
+y_[node:2] = 1
+xi_y_i_[y:31][node:2] = 0.050000
+} 
+Node 3: {
+y_[node:3] = 0
+xi_y_i_[y:31][node:3] = 0.000000
+} 
+Node 4: {
+y_[node:4] = 1
+xi_y_i_[y:31][node:4] = 0.000000
+} 
+Node 5: {
+y_[node:5] = 1
+xi_y_i_[y:31][node:5] = 0.000000
+} 
+Node 6: {
+y_[node:6] = 1
+xi_y_i_[y:31][node:6] = 0.000000
+} 
+Node 7: {
+y_[node:7] = 1
+xi_y_i_[y:31][node:7] = 0.000000
+} 
+Node 8: {
+y_[node:8] = 1
+xi_y_i_[y:31][node:8] = 0.000000
+} 
+Node 9: {
+y_[node:9] = 1
+xi_y_i_[y:31][node:9] = 0.000000
+} 
+Node 10: {
+y_[node:10] = 1
+xi_y_i_[y:31][node:10] = 0.000000
+} 
+Node 11: {
+y_[node:11] = 1
+xi_y_i_[y:31][node:11] = 0.000000
+} 
+Node 12: {
+y_[node:12] = 0
+xi_y_i_[y:31][node:12] = 0.000000
+} 
+Node 13: {
+y_[node:13] = 1
+xi_y_i_[y:31][node:13] = 0.000000
+} 
+Node 14: {
+y_[node:14] = 1
+xi_y_i_[y:31][node:14] = 0.050000
+} 
+Node 15: {
+y_[node:15] = 1
+xi_y_i_[y:31][node:15] = 0.050000
+} 
+Node 16: {
+y_[node:16] = 1
+xi_y_i_[y:31][node:16] = 0.050000
+} 
+Node 17: {
+y_[node:17] = 1
+xi_y_i_[y:31][node:17] = 0.050000
+} 
+Node 18: {
+y_[node:18] = 1
+xi_y_i_[y:31][node:18] = 0.050000
+} 
+Node 19: {
+y_[node:19] = 1
+xi_y_i_[y:31][node:19] = 0.050000
+} 
+Node 20: {
+y_[node:20] = 1
+xi_y_i_[y:31][node:20] = 0.050000
+} 
+Node 21: {
+y_[node:21] = 1
+xi_y_i_[y:31][node:21] = 0.050000
+} 
+Node 22: {
+y_[node:22] = 1
+xi_y_i_[y:31][node:22] = 0.050000
+} 
+Node 23: {
+y_[node:23] = 1
+xi_y_i_[y:31][node:23] = 0.050000
+} 
+Node 24: {
+y_[node:24] = 1
+xi_y_i_[y:31][node:24] = 0.050000
+} 
+Node 25: {
+y_[node:25] = 1
+xi_y_i_[y:31][node:25] = 0.050000
+} 
+Node 26: {
+y_[node:26] = 1
+xi_y_i_[y:31][node:26] = 0.050000
+} 
+Node 27: {
+y_[node:27] = 1
+xi_y_i_[y:31][node:27] = 0.050000
+} 
+Node 28: {
+y_[node:28] = 1
+xi_y_i_[y:31][node:28] = 0.050000
+} 
+Node 29: {
+y_[node:29] = 1
+xi_y_i_[y:31][node:29] = 0.050000
+} 
+Node 30: {
+y_[node:30] = 1
+xi_y_i_[y:31][node:30] = 0.050000
+} 
+Node 31: {
+y_[node:31] = 1
+xi_y_i_[y:31][node:31] = 0.050000
+} 
+
+ } 
+
+ y = 33 { 
+Node 1: {
+y_[node:1] = 1
+xi_y_i_[y:33][node:1] = 0.050000
+} 
+Node 2: {
+y_[node:2] = 1
+xi_y_i_[y:33][node:2] = 0.050000
+} 
+Node 3: {
+y_[node:3] = 1
+xi_y_i_[y:33][node:3] = 0.000000
+} 
+Node 4: {
+y_[node:4] = 1
+xi_y_i_[y:33][node:4] = 0.000000
+} 
+Node 5: {
+y_[node:5] = 1
+xi_y_i_[y:33][node:5] = 0.000000
+} 
+Node 6: {
+y_[node:6] = 0
+xi_y_i_[y:33][node:6] = 0.000000
+} 
+Node 7: {
+y_[node:7] = 0
+xi_y_i_[y:33][node:7] = 0.000000
+} 
+Node 8: {
+y_[node:8] = 1
+xi_y_i_[y:33][node:8] = 0.000000
+} 
+Node 9: {
+y_[node:9] = 1
+xi_y_i_[y:33][node:9] = 0.000000
+} 
+Node 10: {
+y_[node:10] = 1
+xi_y_i_[y:33][node:10] = 0.000000
+} 
+Node 11: {
+y_[node:11] = 0
+xi_y_i_[y:33][node:11] = 0.000000
+} 
+Node 12: {
+y_[node:12] = 1
+xi_y_i_[y:33][node:12] = 0.000000
+} 
+Node 13: {
+y_[node:13] = 1
+xi_y_i_[y:33][node:13] = 0.000000
+} 
+Node 14: {
+y_[node:14] = 1
+xi_y_i_[y:33][node:14] = 0.050000
+} 
+Node 15: {
+y_[node:15] = 1
+xi_y_i_[y:33][node:15] = 0.050000
+} 
+Node 16: {
+y_[node:16] = 1
+xi_y_i_[y:33][node:16] = 0.050000
+} 
+Node 17: {
+y_[node:17] = 1
+xi_y_i_[y:33][node:17] = 0.050000
+} 
+Node 18: {
+y_[node:18] = 1
+xi_y_i_[y:33][node:18] = 0.050000
+} 
+Node 19: {
+y_[node:19] = 1
+xi_y_i_[y:33][node:19] = 0.050000
+} 
+Node 20: {
+y_[node:20] = 1
+xi_y_i_[y:33][node:20] = 0.050000
+} 
+Node 21: {
+y_[node:21] = 1
+xi_y_i_[y:33][node:21] = 0.050000
+} 
+Node 22: {
+y_[node:22] = 1
+xi_y_i_[y:33][node:22] = 0.050000
+} 
+Node 23: {
+y_[node:23] = 1
+xi_y_i_[y:33][node:23] = 0.050000
+} 
+Node 24: {
+y_[node:24] = 1
+xi_y_i_[y:33][node:24] = 0.050000
+} 
+Node 25: {
+y_[node:25] = 1
+xi_y_i_[y:33][node:25] = 0.050000
+} 
+Node 26: {
+y_[node:26] = 1
+xi_y_i_[y:33][node:26] = 0.050000
+} 
+Node 27: {
+y_[node:27] = 1
+xi_y_i_[y:33][node:27] = 0.050000
+} 
+Node 28: {
+y_[node:28] = 1
+xi_y_i_[y:33][node:28] = 0.050000
+} 
+Node 29: {
+y_[node:29] = 1
+xi_y_i_[y:33][node:29] = 0.050000
+} 
+Node 30: {
+y_[node:30] = 1
+xi_y_i_[y:33][node:30] = 0.050000
+} 
+Node 31: {
+y_[node:31] = 1
+xi_y_i_[y:33][node:31] = 0.050000
+} 
+
+ } 
+
+ y = 34 { 
+Node 1: {
+y_[node:1] = 1
+xi_y_i_[y:34][node:1] = 0.050000
+} 
+Node 2: {
+y_[node:2] = 1
+xi_y_i_[y:34][node:2] = 0.050000
+} 
+Node 3: {
+y_[node:3] = 1
+xi_y_i_[y:34][node:3] = 0.000000
+} 
+Node 4: {
+y_[node:4] = 1
+xi_y_i_[y:34][node:4] = 0.000000
+} 
+Node 5: {
+y_[node:5] = 0
+xi_y_i_[y:34][node:5] = 0.000000
+} 
+Node 6: {
+y_[node:6] = 0
+xi_y_i_[y:34][node:6] = 0.000000
+} 
+Node 7: {
+y_[node:7] = 1
+xi_y_i_[y:34][node:7] = 0.000000
+} 
+Node 8: {
+y_[node:8] = 1
+xi_y_i_[y:34][node:8] = 0.000000
+} 
+Node 9: {
+y_[node:9] = 1
+xi_y_i_[y:34][node:9] = 0.000000
+} 
+Node 10: {
+y_[node:10] = 1
+xi_y_i_[y:34][node:10] = 0.000000
+} 
+Node 11: {
+y_[node:11] = 1
+xi_y_i_[y:34][node:11] = 0.000000
+} 
+Node 12: {
+y_[node:12] = 1
+xi_y_i_[y:34][node:12] = 0.000000
+} 
+Node 13: {
+y_[node:13] = 1
+xi_y_i_[y:34][node:13] = 0.000000
+} 
+Node 14: {
+y_[node:14] = 1
+xi_y_i_[y:34][node:14] = 0.050000
+} 
+Node 15: {
+y_[node:15] = 1
+xi_y_i_[y:34][node:15] = 0.050000
+} 
+Node 16: {
+y_[node:16] = 1
+xi_y_i_[y:34][node:16] = 0.050000
+} 
+Node 17: {
+y_[node:17] = 1
+xi_y_i_[y:34][node:17] = 0.050000
+} 
+Node 18: {
+y_[node:18] = 1
+xi_y_i_[y:34][node:18] = 0.050000
+} 
+Node 19: {
+y_[node:19] = 1
+xi_y_i_[y:34][node:19] = 0.050000
+} 
+Node 20: {
+y_[node:20] = 1
+xi_y_i_[y:34][node:20] = 0.050000
+} 
+Node 21: {
+y_[node:21] = 1
+xi_y_i_[y:34][node:21] = 0.050000
+} 
+Node 22: {
+y_[node:22] = 1
+xi_y_i_[y:34][node:22] = 0.050000
+} 
+Node 23: {
+y_[node:23] = 1
+xi_y_i_[y:34][node:23] = 0.050000
+} 
+Node 24: {
+y_[node:24] = 1
+xi_y_i_[y:34][node:24] = 0.050000
+} 
+Node 25: {
+y_[node:25] = 1
+xi_y_i_[y:34][node:25] = 0.050000
+} 
+Node 26: {
+y_[node:26] = 1
+xi_y_i_[y:34][node:26] = 0.050000
+} 
+Node 27: {
+y_[node:27] = 1
+xi_y_i_[y:34][node:27] = 0.050000
+} 
+Node 28: {
+y_[node:28] = 1
+xi_y_i_[y:34][node:28] = 0.050000
+} 
+Node 29: {
+y_[node:29] = 1
+xi_y_i_[y:34][node:29] = 0.050000
+} 
+Node 30: {
+y_[node:30] = 1
+xi_y_i_[y:34][node:30] = 0.050000
+} 
+Node 31: {
+y_[node:31] = 1
+xi_y_i_[y:34][node:31] = 0.050000
+} 
+
+ } 
+
+ y = 39 { 
+Node 1: {
+y_[node:1] = 1
+xi_y_i_[y:39][node:1] = 0.050000
+} 
+Node 2: {
+y_[node:2] = 1
+xi_y_i_[y:39][node:2] = 0.050000
+} 
+Node 3: {
+y_[node:3] = 1
+xi_y_i_[y:39][node:3] = 0.000000
+} 
+Node 4: {
+y_[node:4] = 0
+xi_y_i_[y:39][node:4] = 0.000000
+} 
+Node 5: {
+y_[node:5] = 1
+xi_y_i_[y:39][node:5] = 0.000000
+} 
+Node 6: {
+y_[node:6] = 0
+xi_y_i_[y:39][node:6] = 0.000000
+} 
+Node 7: {
+y_[node:7] = 1
+xi_y_i_[y:39][node:7] = 0.000000
+} 
+Node 8: {
+y_[node:8] = 1
+xi_y_i_[y:39][node:8] = 0.000000
+} 
+Node 9: {
+y_[node:9] = 1
+xi_y_i_[y:39][node:9] = 0.000000
+} 
+Node 10: {
+y_[node:10] = 1
+xi_y_i_[y:39][node:10] = 0.000000
+} 
+Node 11: {
+y_[node:11] = 1
+xi_y_i_[y:39][node:11] = 0.000000
+} 
+Node 12: {
+y_[node:12] = 1
+xi_y_i_[y:39][node:12] = 0.000000
+} 
+Node 13: {
+y_[node:13] = 1
+xi_y_i_[y:39][node:13] = 0.000000
+} 
+Node 14: {
+y_[node:14] = 1
+xi_y_i_[y:39][node:14] = 0.050000
+} 
+Node 15: {
+y_[node:15] = 1
+xi_y_i_[y:39][node:15] = 0.050000
+} 
+Node 16: {
+y_[node:16] = 1
+xi_y_i_[y:39][node:16] = 0.050000
+} 
+Node 17: {
+y_[node:17] = 1
+xi_y_i_[y:39][node:17] = 0.050000
+} 
+Node 18: {
+y_[node:18] = 1
+xi_y_i_[y:39][node:18] = 0.050000
+} 
+Node 19: {
+y_[node:19] = 1
+xi_y_i_[y:39][node:19] = 0.050000
+} 
+Node 20: {
+y_[node:20] = 1
+xi_y_i_[y:39][node:20] = 0.050000
+} 
+Node 21: {
+y_[node:21] = 1
+xi_y_i_[y:39][node:21] = 0.050000
+} 
+Node 22: {
+y_[node:22] = 1
+xi_y_i_[y:39][node:22] = 0.050000
+} 
+Node 23: {
+y_[node:23] = 1
+xi_y_i_[y:39][node:23] = 0.050000
+} 
+Node 24: {
+y_[node:24] = 1
+xi_y_i_[y:39][node:24] = 0.050000
+} 
+Node 25: {
+y_[node:25] = 1
+xi_y_i_[y:39][node:25] = 0.050000
+} 
+Node 26: {
+y_[node:26] = 1
+xi_y_i_[y:39][node:26] = 0.050000
+} 
+Node 27: {
+y_[node:27] = 1
+xi_y_i_[y:39][node:27] = 0.050000
+} 
+Node 28: {
+y_[node:28] = 1
+xi_y_i_[y:39][node:28] = 0.050000
+} 
+Node 29: {
+y_[node:29] = 1
+xi_y_i_[y:39][node:29] = 0.050000
+} 
+Node 30: {
+y_[node:30] = 1
+xi_y_i_[y:39][node:30] = 0.050000
+} 
+Node 31: {
+y_[node:31] = 1
+xi_y_i_[y:39][node:31] = 0.050000
+} 
+
+ } 
+
+ y = 44 { 
+Node 1: {
+y_[node:1] = 1
+xi_y_i_[y:44][node:1] = 0.050000
+} 
+Node 2: {
+y_[node:2] = 1
+xi_y_i_[y:44][node:2] = 0.050000
+} 
+Node 3: {
+y_[node:3] = 1
+xi_y_i_[y:44][node:3] = 0.000000
+} 
+Node 4: {
+y_[node:4] = 1
+xi_y_i_[y:44][node:4] = 0.000000
+} 
+Node 5: {
+y_[node:5] = 1
+xi_y_i_[y:44][node:5] = 0.000000
+} 
+Node 6: {
+y_[node:6] = 1
+xi_y_i_[y:44][node:6] = 0.000000
+} 
+Node 7: {
+y_[node:7] = 1
+xi_y_i_[y:44][node:7] = 0.000000
+} 
+Node 8: {
+y_[node:8] = 1
+xi_y_i_[y:44][node:8] = 0.000000
+} 
+Node 9: {
+y_[node:9] = 1
+xi_y_i_[y:44][node:9] = 0.000000
+} 
+Node 10: {
+y_[node:10] = 1
+xi_y_i_[y:44][node:10] = 0.000000
+} 
+Node 11: {
+y_[node:11] = 0
+xi_y_i_[y:44][node:11] = 0.000000
+} 
+Node 12: {
+y_[node:12] = 1
+xi_y_i_[y:44][node:12] = 0.000000
+} 
+Node 13: {
+y_[node:13] = 1
+xi_y_i_[y:44][node:13] = 0.000000
+} 
+Node 14: {
+y_[node:14] = 1
+xi_y_i_[y:44][node:14] = 0.050000
+} 
+Node 15: {
+y_[node:15] = 1
+xi_y_i_[y:44][node:15] = 0.050000
+} 
+Node 16: {
+y_[node:16] = 1
+xi_y_i_[y:44][node:16] = 0.050000
+} 
+Node 17: {
+y_[node:17] = 1
+xi_y_i_[y:44][node:17] = 0.050000
+} 
+Node 18: {
+y_[node:18] = 1
+xi_y_i_[y:44][node:18] = 0.050000
+} 
+Node 19: {
+y_[node:19] = 1
+xi_y_i_[y:44][node:19] = 0.050000
+} 
+Node 20: {
+y_[node:20] = 1
+xi_y_i_[y:44][node:20] = 0.050000
+} 
+Node 21: {
+y_[node:21] = 1
+xi_y_i_[y:44][node:21] = 0.050000
+} 
+Node 22: {
+y_[node:22] = 1
+xi_y_i_[y:44][node:22] = 0.050000
+} 
+Node 23: {
+y_[node:23] = 1
+xi_y_i_[y:44][node:23] = 0.050000
+} 
+Node 24: {
+y_[node:24] = 1
+xi_y_i_[y:44][node:24] = 0.050000
+} 
+Node 25: {
+y_[node:25] = 1
+xi_y_i_[y:44][node:25] = 0.050000
+} 
+Node 26: {
+y_[node:26] = 1
+xi_y_i_[y:44][node:26] = 0.050000
+} 
+Node 27: {
+y_[node:27] = 1
+xi_y_i_[y:44][node:27] = 0.050000
+} 
+Node 28: {
+y_[node:28] = 1
+xi_y_i_[y:44][node:28] = 0.050000
+} 
+Node 29: {
+y_[node:29] = 1
+xi_y_i_[y:44][node:29] = 0.050000
+} 
+Node 30: {
+y_[node:30] = 1
+xi_y_i_[y:44][node:30] = 0.050000
+} 
+Node 31: {
+y_[node:31] = 1
+xi_y_i_[y:44][node:31] = 0.050000
+} 
+
+ } 
+
+ y = 47 { 
+Node 1: {
+y_[node:1] = 1
+xi_y_i_[y:47][node:1] = 0.050000
+} 
+Node 2: {
+y_[node:2] = 1
+xi_y_i_[y:47][node:2] = 0.050000
+} 
+Node 3: {
+y_[node:3] = 0
+xi_y_i_[y:47][node:3] = 0.000000
+} 
+Node 4: {
+y_[node:4] = 1
+xi_y_i_[y:47][node:4] = 0.000000
+} 
+Node 5: {
+y_[node:5] = 1
+xi_y_i_[y:47][node:5] = 0.000000
+} 
+Node 6: {
+y_[node:6] = 1
+xi_y_i_[y:47][node:6] = 0.000000
+} 
+Node 7: {
+y_[node:7] = 1
+xi_y_i_[y:47][node:7] = 0.000000
+} 
+Node 8: {
+y_[node:8] = 0
+xi_y_i_[y:47][node:8] = 0.000000
+} 
+Node 9: {
+y_[node:9] = 1
+xi_y_i_[y:47][node:9] = 0.000000
+} 
+Node 10: {
+y_[node:10] = 0
+xi_y_i_[y:47][node:10] = 0.000000
+} 
+Node 11: {
+y_[node:11] = 1
+xi_y_i_[y:47][node:11] = 0.000000
+} 
+Node 12: {
+y_[node:12] = 1
+xi_y_i_[y:47][node:12] = 0.000000
+} 
+Node 13: {
+y_[node:13] = 1
+xi_y_i_[y:47][node:13] = 0.000000
+} 
+Node 14: {
+y_[node:14] = 1
+xi_y_i_[y:47][node:14] = 0.050000
+} 
+Node 15: {
+y_[node:15] = 1
+xi_y_i_[y:47][node:15] = 0.050000
+} 
+Node 16: {
+y_[node:16] = 1
+xi_y_i_[y:47][node:16] = 0.050000
+} 
+Node 17: {
+y_[node:17] = 1
+xi_y_i_[y:47][node:17] = 0.050000
+} 
+Node 18: {
+y_[node:18] = 1
+xi_y_i_[y:47][node:18] = 0.050000
+} 
+Node 19: {
+y_[node:19] = 1
+xi_y_i_[y:47][node:19] = 0.050000
+} 
+Node 20: {
+y_[node:20] = 1
+xi_y_i_[y:47][node:20] = 0.050000
+} 
+Node 21: {
+y_[node:21] = 1
+xi_y_i_[y:47][node:21] = 0.050000
+} 
+Node 22: {
+y_[node:22] = 1
+xi_y_i_[y:47][node:22] = 0.050000
+} 
+Node 23: {
+y_[node:23] = 1
+xi_y_i_[y:47][node:23] = 0.050000
+} 
+Node 24: {
+y_[node:24] = 1
+xi_y_i_[y:47][node:24] = 0.050000
+} 
+Node 25: {
+y_[node:25] = 1
+xi_y_i_[y:47][node:25] = 0.050000
+} 
+Node 26: {
+y_[node:26] = 1
+xi_y_i_[y:47][node:26] = 0.050000
+} 
+Node 27: {
+y_[node:27] = 1
+xi_y_i_[y:47][node:27] = 0.050000
+} 
+Node 28: {
+y_[node:28] = 1
+xi_y_i_[y:47][node:28] = 0.050000
+} 
+Node 29: {
+y_[node:29] = 1
+xi_y_i_[y:47][node:29] = 0.050000
+} 
+Node 30: {
+y_[node:30] = 1
+xi_y_i_[y:47][node:30] = 0.050000
+} 
+Node 31: {
+y_[node:31] = 1
+xi_y_i_[y:47][node:31] = 0.050000
+} 
+
+ } 
+
+ y = 48 { 
+Node 1: {
+y_[node:1] = 1
+xi_y_i_[y:48][node:1] = 0.050000
+} 
+Node 2: {
+y_[node:2] = 1
+xi_y_i_[y:48][node:2] = 0.050000
+} 
+Node 3: {
+y_[node:3] = 0
+xi_y_i_[y:48][node:3] = 0.000000
+} 
+Node 4: {
+y_[node:4] = 0
+xi_y_i_[y:48][node:4] = 0.000000
+} 
+Node 5: {
+y_[node:5] = 0
+xi_y_i_[y:48][node:5] = 0.000000
+} 
+Node 6: {
+y_[node:6] = 1
+xi_y_i_[y:48][node:6] = 0.000000
+} 
+Node 7: {
+y_[node:7] = 1
+xi_y_i_[y:48][node:7] = 0.000000
+} 
+Node 8: {
+y_[node:8] = 1
+xi_y_i_[y:48][node:8] = 0.000000
+} 
+Node 9: {
+y_[node:9] = 1
+xi_y_i_[y:48][node:9] = 0.000000
+} 
+Node 10: {
+y_[node:10] = 0
+xi_y_i_[y:48][node:10] = 0.000000
+} 
+Node 11: {
+y_[node:11] = 1
+xi_y_i_[y:48][node:11] = 0.000000
+} 
+Node 12: {
+y_[node:12] = 1
+xi_y_i_[y:48][node:12] = 0.000000
+} 
+Node 13: {
+y_[node:13] = 1
+xi_y_i_[y:48][node:13] = 0.000000
+} 
+Node 14: {
+y_[node:14] = 1
+xi_y_i_[y:48][node:14] = 0.050000
+} 
+Node 15: {
+y_[node:15] = 1
+xi_y_i_[y:48][node:15] = 0.050000
+} 
+Node 16: {
+y_[node:16] = 1
+xi_y_i_[y:48][node:16] = 0.050000
+} 
+Node 17: {
+y_[node:17] = 1
+xi_y_i_[y:48][node:17] = 0.050000
+} 
+Node 18: {
+y_[node:18] = 1
+xi_y_i_[y:48][node:18] = 0.050000
+} 
+Node 19: {
+y_[node:19] = 1
+xi_y_i_[y:48][node:19] = 0.050000
+} 
+Node 20: {
+y_[node:20] = 1
+xi_y_i_[y:48][node:20] = 0.050000
+} 
+Node 21: {
+y_[node:21] = 1
+xi_y_i_[y:48][node:21] = 0.050000
+} 
+Node 22: {
+y_[node:22] = 1
+xi_y_i_[y:48][node:22] = 0.050000
+} 
+Node 23: {
+y_[node:23] = 1
+xi_y_i_[y:48][node:23] = 0.050000
+} 
+Node 24: {
+y_[node:24] = 1
+xi_y_i_[y:48][node:24] = 0.050000
+} 
+Node 25: {
+y_[node:25] = 1
+xi_y_i_[y:48][node:25] = 0.050000
+} 
+Node 26: {
+y_[node:26] = 1
+xi_y_i_[y:48][node:26] = 0.050000
+} 
+Node 27: {
+y_[node:27] = 1
+xi_y_i_[y:48][node:27] = 0.050000
+} 
+Node 28: {
+y_[node:28] = 1
+xi_y_i_[y:48][node:28] = 0.050000
+} 
+Node 29: {
+y_[node:29] = 1
+xi_y_i_[y:48][node:29] = 0.050000
+} 
+Node 30: {
+y_[node:30] = 1
+xi_y_i_[y:48][node:30] = 0.050000
+} 
+Node 31: {
+y_[node:31] = 1
+xi_y_i_[y:48][node:31] = 0.050000
+} 
+
+ } 
+
+ y = 50 { 
+Node 1: {
+y_[node:1] = 1
+xi_y_i_[y:50][node:1] = 0.050000
+} 
+Node 2: {
+y_[node:2] = 1
+xi_y_i_[y:50][node:2] = 0.050000
+} 
+Node 3: {
+y_[node:3] = 1
+xi_y_i_[y:50][node:3] = 0.000000
+} 
+Node 4: {
+y_[node:4] = 0
+xi_y_i_[y:50][node:4] = 0.000000
+} 
+Node 5: {
+y_[node:5] = 1
+xi_y_i_[y:50][node:5] = 0.000000
+} 
+Node 6: {
+y_[node:6] = 1
+xi_y_i_[y:50][node:6] = 0.000000
+} 
+Node 7: {
+y_[node:7] = 0
+xi_y_i_[y:50][node:7] = 0.000000
+} 
+Node 8: {
+y_[node:8] = 0
+xi_y_i_[y:50][node:8] = 0.000000
+} 
+Node 9: {
+y_[node:9] = 1
+xi_y_i_[y:50][node:9] = 0.000000
+} 
+Node 10: {
+y_[node:10] = 0
+xi_y_i_[y:50][node:10] = 0.000000
+} 
+Node 11: {
+y_[node:11] = 1
+xi_y_i_[y:50][node:11] = 0.000000
+} 
+Node 12: {
+y_[node:12] = 1
+xi_y_i_[y:50][node:12] = 0.000000
+} 
+Node 13: {
+y_[node:13] = 1
+xi_y_i_[y:50][node:13] = 0.000000
+} 
+Node 14: {
+y_[node:14] = 1
+xi_y_i_[y:50][node:14] = 0.050000
+} 
+Node 15: {
+y_[node:15] = 1
+xi_y_i_[y:50][node:15] = 0.050000
+} 
+Node 16: {
+y_[node:16] = 1
+xi_y_i_[y:50][node:16] = 0.050000
+} 
+Node 17: {
+y_[node:17] = 1
+xi_y_i_[y:50][node:17] = 0.050000
+} 
+Node 18: {
+y_[node:18] = 1
+xi_y_i_[y:50][node:18] = 0.050000
+} 
+Node 19: {
+y_[node:19] = 1
+xi_y_i_[y:50][node:19] = 0.050000
+} 
+Node 20: {
+y_[node:20] = 1
+xi_y_i_[y:50][node:20] = 0.050000
+} 
+Node 21: {
+y_[node:21] = 1
+xi_y_i_[y:50][node:21] = 0.050000
+} 
+Node 22: {
+y_[node:22] = 1
+xi_y_i_[y:50][node:22] = 0.050000
+} 
+Node 23: {
+y_[node:23] = 1
+xi_y_i_[y:50][node:23] = 0.050000
+} 
+Node 24: {
+y_[node:24] = 1
+xi_y_i_[y:50][node:24] = 0.050000
+} 
+Node 25: {
+y_[node:25] = 1
+xi_y_i_[y:50][node:25] = 0.050000
+} 
+Node 26: {
+y_[node:26] = 1
+xi_y_i_[y:50][node:26] = 0.050000
+} 
+Node 27: {
+y_[node:27] = 1
+xi_y_i_[y:50][node:27] = 0.050000
+} 
+Node 28: {
+y_[node:28] = 1
+xi_y_i_[y:50][node:28] = 0.050000
+} 
+Node 29: {
+y_[node:29] = 1
+xi_y_i_[y:50][node:29] = 0.050000
+} 
+Node 30: {
+y_[node:30] = 1
+xi_y_i_[y:50][node:30] = 0.050000
+} 
+Node 31: {
+y_[node:31] = 1
+xi_y_i_[y:50][node:31] = 0.050000
+} 
+
+ } 
+
+ y = 65 { 
+Node 1: {
+y_[node:1] = 1
+xi_y_i_[y:65][node:1] = 0.050000
+} 
+Node 2: {
+y_[node:2] = 1
+xi_y_i_[y:65][node:2] = 0.050000
+} 
+Node 3: {
+y_[node:3] = 1
+xi_y_i_[y:65][node:3] = 0.000000
+} 
+Node 4: {
+y_[node:4] = 1
+xi_y_i_[y:65][node:4] = 0.000000
+} 
+Node 5: {
+y_[node:5] = 1
+xi_y_i_[y:65][node:5] = 0.000000
+} 
+Node 6: {
+y_[node:6] = 1
+xi_y_i_[y:65][node:6] = 0.000000
+} 
+Node 7: {
+y_[node:7] = 1
+xi_y_i_[y:65][node:7] = 0.000000
+} 
+Node 8: {
+y_[node:8] = 0
+xi_y_i_[y:65][node:8] = 0.000000
+} 
+Node 9: {
+y_[node:9] = 1
+xi_y_i_[y:65][node:9] = 0.000000
+} 
+Node 10: {
+y_[node:10] = 1
+xi_y_i_[y:65][node:10] = 0.000000
+} 
+Node 11: {
+y_[node:11] = 1
+xi_y_i_[y:65][node:11] = 0.000000
+} 
+Node 12: {
+y_[node:12] = 1
+xi_y_i_[y:65][node:12] = 0.000000
+} 
+Node 13: {
+y_[node:13] = 1
+xi_y_i_[y:65][node:13] = 0.000000
+} 
+Node 14: {
+y_[node:14] = 1
+xi_y_i_[y:65][node:14] = 0.050000
+} 
+Node 15: {
+y_[node:15] = 1
+xi_y_i_[y:65][node:15] = 0.050000
+} 
+Node 16: {
+y_[node:16] = 1
+xi_y_i_[y:65][node:16] = 0.050000
+} 
+Node 17: {
+y_[node:17] = 1
+xi_y_i_[y:65][node:17] = 0.050000
+} 
+Node 18: {
+y_[node:18] = 1
+xi_y_i_[y:65][node:18] = 0.050000
+} 
+Node 19: {
+y_[node:19] = 1
+xi_y_i_[y:65][node:19] = 0.050000
+} 
+Node 20: {
+y_[node:20] = 1
+xi_y_i_[y:65][node:20] = 0.050000
+} 
+Node 21: {
+y_[node:21] = 1
+xi_y_i_[y:65][node:21] = 0.050000
+} 
+Node 22: {
+y_[node:22] = 1
+xi_y_i_[y:65][node:22] = 0.050000
+} 
+Node 23: {
+y_[node:23] = 1
+xi_y_i_[y:65][node:23] = 0.050000
+} 
+Node 24: {
+y_[node:24] = 1
+xi_y_i_[y:65][node:24] = 0.050000
+} 
+Node 25: {
+y_[node:25] = 1
+xi_y_i_[y:65][node:25] = 0.050000
+} 
+Node 26: {
+y_[node:26] = 1
+xi_y_i_[y:65][node:26] = 0.050000
+} 
+Node 27: {
+y_[node:27] = 1
+xi_y_i_[y:65][node:27] = 0.050000
+} 
+Node 28: {
+y_[node:28] = 1
+xi_y_i_[y:65][node:28] = 0.050000
+} 
+Node 29: {
+y_[node:29] = 1
+xi_y_i_[y:65][node:29] = 0.050000
+} 
+Node 30: {
+y_[node:30] = 1
+xi_y_i_[y:65][node:30] = 0.050000
+} 
+Node 31: {
+y_[node:31] = 1
+xi_y_i_[y:65][node:31] = 0.050000
+} 
+
+ } 
+
+ y = 80 { 
+Node 1: {
+y_[node:1] = 1
+xi_y_i_[y:80][node:1] = 0.000000
+} 
+Node 2: {
+y_[node:2] = 1
+xi_y_i_[y:80][node:2] = 0.050000
+} 
+Node 3: {
+y_[node:3] = 1
+xi_y_i_[y:80][node:3] = 0.050000
+} 
+Node 4: {
+y_[node:4] = 1
+xi_y_i_[y:80][node:4] = 0.050000
+} 
+Node 5: {
+y_[node:5] = 1
+xi_y_i_[y:80][node:5] = 0.000000
+} 
+Node 6: {
+y_[node:6] = 1
+xi_y_i_[y:80][node:6] = 0.000000
+} 
+Node 7: {
+y_[node:7] = 1
+xi_y_i_[y:80][node:7] = 0.050000
+} 
+Node 8: {
+y_[node:8] = 1
+xi_y_i_[y:80][node:8] = 0.000000
+} 
+Node 9: {
+y_[node:9] = 1
+xi_y_i_[y:80][node:9] = 0.050000
+} 
+Node 10: {
+y_[node:10] = 1
+xi_y_i_[y:80][node:10] = 0.000000
+} 
+Node 11: {
+y_[node:11] = 1
+xi_y_i_[y:80][node:11] = 0.050000
+} 
+Node 12: {
+y_[node:12] = 1
+xi_y_i_[y:80][node:12] = 0.000000
+} 
+Node 13: {
+y_[node:13] = 1
+xi_y_i_[y:80][node:13] = 0.050000
+} 
+Node 14: {
+y_[node:14] = 0
+xi_y_i_[y:80][node:14] = 0.000000
+} 
+Node 15: {
+y_[node:15] = 1
+xi_y_i_[y:80][node:15] = 0.050000
+} 
+Node 16: {
+y_[node:16] = 1
+xi_y_i_[y:80][node:16] = 0.050000
+} 
+Node 17: {
+y_[node:17] = 1
+xi_y_i_[y:80][node:17] = 0.050000
+} 
+Node 18: {
+y_[node:18] = 1
+xi_y_i_[y:80][node:18] = 0.050000
+} 
+Node 19: {
+y_[node:19] = 1
+xi_y_i_[y:80][node:19] = 0.000000
+} 
+Node 20: {
+y_[node:20] = 1
+xi_y_i_[y:80][node:20] = 0.050000
+} 
+Node 21: {
+y_[node:21] = 1
+xi_y_i_[y:80][node:21] = 0.050000
+} 
+Node 22: {
+y_[node:22] = 1
+xi_y_i_[y:80][node:22] = 0.050000
+} 
+Node 23: {
+y_[node:23] = 1
+xi_y_i_[y:80][node:23] = 0.000000
+} 
+Node 24: {
+y_[node:24] = 1
+xi_y_i_[y:80][node:24] = 0.050000
+} 
+Node 25: {
+y_[node:25] = 0
+xi_y_i_[y:80][node:25] = 0.000000
+} 
+Node 26: {
+y_[node:26] = 1
+xi_y_i_[y:80][node:26] = 0.050000
+} 
+Node 27: {
+y_[node:27] = 1
+xi_y_i_[y:80][node:27] = 0.050000
+} 
+Node 28: {
+y_[node:28] = 1
+xi_y_i_[y:80][node:28] = 0.000000
+} 
+Node 29: {
+y_[node:29] = 1
+xi_y_i_[y:80][node:29] = 0.050000
+} 
+Node 30: {
+y_[node:30] = 1
+xi_y_i_[y:80][node:30] = 0.050000
+} 
+Node 31: {
+y_[node:31] = 1
+xi_y_i_[y:80][node:31] = 0.050000
+} 
+
+ } 
+
+ y = 90 { 
+Node 1: {
+y_[node:1] = 0
+xi_y_i_[y:90][node:1] = 0.000000
+} 
+Node 2: {
+y_[node:2] = 1
+xi_y_i_[y:90][node:2] = 0.050000
+} 
+Node 3: {
+y_[node:3] = 1
+xi_y_i_[y:90][node:3] = 0.050000
+} 
+Node 4: {
+y_[node:4] = 1
+xi_y_i_[y:90][node:4] = 0.000000
+} 
+Node 5: {
+y_[node:5] = 1
+xi_y_i_[y:90][node:5] = 0.000000
+} 
+Node 6: {
+y_[node:6] = 1
+xi_y_i_[y:90][node:6] = 0.050000
+} 
+Node 7: {
+y_[node:7] = 1
+xi_y_i_[y:90][node:7] = 0.000000
+} 
+Node 8: {
+y_[node:8] = 1
+xi_y_i_[y:90][node:8] = 0.050000
+} 
+Node 9: {
+y_[node:9] = 1
+xi_y_i_[y:90][node:9] = 0.050000
+} 
+Node 10: {
+y_[node:10] = 1
+xi_y_i_[y:90][node:10] = 0.050000
+} 
+Node 11: {
+y_[node:11] = 1
+xi_y_i_[y:90][node:11] = 0.000000
+} 
+Node 12: {
+y_[node:12] = 1
+xi_y_i_[y:90][node:12] = 0.050000
+} 
+Node 13: {
+y_[node:13] = 1
+xi_y_i_[y:90][node:13] = 0.000000
+} 
+Node 14: {
+y_[node:14] = 1
+xi_y_i_[y:90][node:14] = 0.050000
+} 
+Node 15: {
+y_[node:15] = 1
+xi_y_i_[y:90][node:15] = 0.050000
+} 
+Node 16: {
+y_[node:16] = 1
+xi_y_i_[y:90][node:16] = 0.050000
+} 
+Node 17: {
+y_[node:17] = 1
+xi_y_i_[y:90][node:17] = 0.050000
+} 
+Node 18: {
+y_[node:18] = 0
+xi_y_i_[y:90][node:18] = 0.000000
+} 
+Node 19: {
+y_[node:19] = 0
+xi_y_i_[y:90][node:19] = 0.000000
+} 
+Node 20: {
+y_[node:20] = 1
+xi_y_i_[y:90][node:20] = 0.000000
+} 
+Node 21: {
+y_[node:21] = 1
+xi_y_i_[y:90][node:21] = 0.050000
+} 
+Node 22: {
+y_[node:22] = 1
+xi_y_i_[y:90][node:22] = 0.050000
+} 
+Node 23: {
+y_[node:23] = 1
+xi_y_i_[y:90][node:23] = 0.050000
+} 
+Node 24: {
+y_[node:24] = 1
+xi_y_i_[y:90][node:24] = 0.050000
+} 
+Node 25: {
+y_[node:25] = 0
+xi_y_i_[y:90][node:25] = 0.000000
+} 
+Node 26: {
+y_[node:26] = 1
+xi_y_i_[y:90][node:26] = 0.050000
+} 
+Node 27: {
+y_[node:27] = 1
+xi_y_i_[y:90][node:27] = 0.050000
+} 
+Node 28: {
+y_[node:28] = 1
+xi_y_i_[y:90][node:28] = 0.000000
+} 
+Node 29: {
+y_[node:29] = 1
+xi_y_i_[y:90][node:29] = 0.050000
+} 
+Node 30: {
+y_[node:30] = 1
+xi_y_i_[y:90][node:30] = 0.050000
+} 
+Node 31: {
+y_[node:31] = 1
+xi_y_i_[y:90][node:31] = 0.050000
+} 
+
+ } 
+
+ y = 92 { 
+Node 1: {
+y_[node:1] = 0
+xi_y_i_[y:92][node:1] = 0.000000
+} 
+Node 2: {
+y_[node:2] = 1
+xi_y_i_[y:92][node:2] = 0.000000
+} 
+Node 3: {
+y_[node:3] = 1
+xi_y_i_[y:92][node:3] = 0.050000
+} 
+Node 4: {
+y_[node:4] = 1
+xi_y_i_[y:92][node:4] = 0.050000
+} 
+Node 5: {
+y_[node:5] = 1
+xi_y_i_[y:92][node:5] = 0.050000
+} 
+Node 6: {
+y_[node:6] = 1
+xi_y_i_[y:92][node:6] = 0.050000
+} 
+Node 7: {
+y_[node:7] = 1
+xi_y_i_[y:92][node:7] = 0.050000
+} 
+Node 8: {
+y_[node:8] = 1
+xi_y_i_[y:92][node:8] = 0.050000
+} 
+Node 9: {
+y_[node:9] = 1
+xi_y_i_[y:92][node:9] = 0.050000
+} 
+Node 10: {
+y_[node:10] = 1
+xi_y_i_[y:92][node:10] = 0.050000
+} 
+Node 11: {
+y_[node:11] = 1
+xi_y_i_[y:92][node:11] = 0.050000
+} 
+Node 12: {
+y_[node:12] = 1
+xi_y_i_[y:92][node:12] = 0.000000
+} 
+Node 13: {
+y_[node:13] = 1
+xi_y_i_[y:92][node:13] = 0.000000
+} 
+Node 14: {
+y_[node:14] = 1
+xi_y_i_[y:92][node:14] = 0.000000
+} 
+Node 15: {
+y_[node:15] = 1
+xi_y_i_[y:92][node:15] = 0.000000
+} 
+Node 16: {
+y_[node:16] = 1
+xi_y_i_[y:92][node:16] = 0.000000
+} 
+Node 17: {
+y_[node:17] = 1
+xi_y_i_[y:92][node:17] = 0.000000
+} 
+Node 18: {
+y_[node:18] = 1
+xi_y_i_[y:92][node:18] = 0.050000
+} 
+Node 19: {
+y_[node:19] = 0
+xi_y_i_[y:92][node:19] = 0.000000
+} 
+Node 20: {
+y_[node:20] = 1
+xi_y_i_[y:92][node:20] = 0.050000
+} 
+Node 21: {
+y_[node:21] = 1
+xi_y_i_[y:92][node:21] = 0.050000
+} 
+Node 22: {
+y_[node:22] = 1
+xi_y_i_[y:92][node:22] = 0.000000
+} 
+Node 23: {
+y_[node:23] = 1
+xi_y_i_[y:92][node:23] = 0.050000
+} 
+Node 24: {
+y_[node:24] = 1
+xi_y_i_[y:92][node:24] = 0.050000
+} 
+Node 25: {
+y_[node:25] = 1
+xi_y_i_[y:92][node:25] = 0.050000
+} 
+Node 26: {
+y_[node:26] = 1
+xi_y_i_[y:92][node:26] = 0.050000
+} 
+Node 27: {
+y_[node:27] = 1
+xi_y_i_[y:92][node:27] = 0.050000
+} 
+Node 28: {
+y_[node:28] = 1
+xi_y_i_[y:92][node:28] = 0.050000
+} 
+Node 29: {
+y_[node:29] = 1
+xi_y_i_[y:92][node:29] = 0.050000
+} 
+Node 30: {
+y_[node:30] = 0
+xi_y_i_[y:92][node:30] = 0.000000
+} 
+Node 31: {
+y_[node:31] = 1
+xi_y_i_[y:92][node:31] = 0.050000
+} 
+
+ } 
+
+ y = 111 { 
+Node 1: {
+y_[node:1] = 1
+xi_y_i_[y:111][node:1] = 0.000000
+} 
+Node 2: {
+y_[node:2] = 1
+xi_y_i_[y:111][node:2] = 0.050000
+} 
+Node 3: {
+y_[node:3] = 1
+xi_y_i_[y:111][node:3] = 0.000000
+} 
+Node 4: {
+y_[node:4] = 1
+xi_y_i_[y:111][node:4] = 0.050000
+} 
+Node 5: {
+y_[node:5] = 1
+xi_y_i_[y:111][node:5] = 0.050000
+} 
+Node 6: {
+y_[node:6] = 1
+xi_y_i_[y:111][node:6] = 0.000000
+} 
+Node 7: {
+y_[node:7] = 1
+xi_y_i_[y:111][node:7] = 0.000000
+} 
+Node 8: {
+y_[node:8] = 1
+xi_y_i_[y:111][node:8] = 0.000000
+} 
+Node 9: {
+y_[node:9] = 1
+xi_y_i_[y:111][node:9] = 0.050000
+} 
+Node 10: {
+y_[node:10] = 1
+xi_y_i_[y:111][node:10] = 0.000000
+} 
+Node 11: {
+y_[node:11] = 1
+xi_y_i_[y:111][node:11] = 0.050000
+} 
+Node 12: {
+y_[node:12] = 1
+xi_y_i_[y:111][node:12] = 0.050000
+} 
+Node 13: {
+y_[node:13] = 1
+xi_y_i_[y:111][node:13] = 0.000000
+} 
+Node 14: {
+y_[node:14] = 1
+xi_y_i_[y:111][node:14] = 0.050000
+} 
+Node 15: {
+y_[node:15] = 1
+xi_y_i_[y:111][node:15] = 0.050000
+} 
+Node 16: {
+y_[node:16] = 1
+xi_y_i_[y:111][node:16] = 0.050000
+} 
+Node 17: {
+y_[node:17] = 1
+xi_y_i_[y:111][node:17] = 0.000000
+} 
+Node 18: {
+y_[node:18] = 1
+xi_y_i_[y:111][node:18] = 0.050000
+} 
+Node 19: {
+y_[node:19] = 1
+xi_y_i_[y:111][node:19] = 0.050000
+} 
+Node 20: {
+y_[node:20] = 1
+xi_y_i_[y:111][node:20] = 0.050000
+} 
+Node 21: {
+y_[node:21] = 1
+xi_y_i_[y:111][node:21] = 0.000000
+} 
+Node 22: {
+y_[node:22] = 1
+xi_y_i_[y:111][node:22] = 0.050000
+} 
+Node 23: {
+y_[node:23] = 1
+xi_y_i_[y:111][node:23] = 0.050000
+} 
+Node 24: {
+y_[node:24] = 1
+xi_y_i_[y:111][node:24] = 0.050000
+} 
+Node 25: {
+y_[node:25] = 1
+xi_y_i_[y:111][node:25] = 0.050000
+} 
+Node 26: {
+y_[node:26] = 1
+xi_y_i_[y:111][node:26] = 0.050000
+} 
+Node 27: {
+y_[node:27] = 1
+xi_y_i_[y:111][node:27] = 0.050000
+} 
+Node 28: {
+y_[node:28] = 1
+xi_y_i_[y:111][node:28] = 0.000000
+} 
+Node 29: {
+y_[node:29] = 1
+xi_y_i_[y:111][node:29] = 0.000000
+} 
+Node 30: {
+y_[node:30] = 1
+xi_y_i_[y:111][node:30] = 0.050000
+} 
+Node 31: {
+y_[node:31] = 1
+xi_y_i_[y:111][node:31] = 0.050000
+} 
+
+ } 
+Legenda_Model:Instance_Name	Network_Name	Num_Nodes	Num_Prof_Nodes	Max_Tour_Duration	Max_Num_Discoveries	Max_Discoveries_Fraction	Best_LB	Best_Ub	Cplex_Gap	Root_Node_LB	Branch_and_Cut_Elapsed_Time	Starting_Cuts_Elapsed_Time	Tot_Time	Num_Logic_Benders_Cuts	Number_Starting_Scenarios	Num_BandC_Nodes	Number_Discoveries	Profit_cost	Discovery_cost	Card_Y	Num_Tight_Y	US_Type	US_Param	US_Tot_Det_Profit
+Table_Model:tsi_prob_3_mod_budget_105_D1_md025_US2_USpar5	tsi_prob_3_mod_budget_105	33	31	10500	8	0.250000	-1.000000	-1.000000	0.000000	0.000000	0.006000	11.189000	11.195000	0	0	0	0	-1.000000	0.000000	112	18	2	0.050000	800.000000

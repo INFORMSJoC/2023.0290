@@ -1,0 +1,11004 @@
+++++ Instance Info ++++
+Instance name: tsi_prob_1_mod_1_budget_25_D1_md075_US2_USpar5
+Network name: tsi_prob_1_mod_1_budget_25
+Number of nodes: 32
+Number of profitable nodes: 30
+Max number of discovery: 23
+Max duration: 2500
+Alrijne Collecting Time: 360.000000
+++++ Uncertainty  ++++
+Uncertainty Set Type: 2
+Uncertainty Set Parameter: 0.050000
+Total Deterministic Profit in the Network: 285.000000
+++++ Solution of the Model ++++
+-----------------------------------------------
+Objective:
+Best Lower Bound: -0.236000
+Best upper bound: -0.235417
+Elapsed time Branch-and-Cut: 7202.134000
+Elapsed time Starting Cuts: 462.288000
+Cplex Gap: 0.002478
+B&C nodes: 848
+Number Logic Benders Cuts: 2010
+Number Starting Scenarios: 0
+Cardinality of Y: 478
+Number of Tight y in the sub-problem: 88
+
+Variables Master Problem:
+
+Phi =-0.235417 
+
+Discoveries: w_i (i is a profitable node). 
+ w_[node:1] = 1.000000
+ w_[node:2] = 1.000000
+ w_[node:3] = 1.000000
+ w_[node:4] = 1.000000
+ w_[node:5] = 1.000000
+ w_[node:6] = 1.000000
+ w_[node:7] = 1.000000
+ w_[node:8] = 1.000000
+ w_[node:9] = 1.000000
+ w_[node:10] = 1.000000
+ w_[node:11] = 1.000000
+ w_[node:12] = 1.000000
+ w_[node:13] = 1.000000
+ w_[node:14] = 1.000000
+ w_[node:16] = 1.000000
+ w_[node:17] = 1.000000
+ w_[node:18] = 1.000000
+ w_[node:19] = 1.000000
+ w_[node:20] = 1.000000
+ w_[node:23] = 1.000000
+ w_[node:25] = 1.000000
+ w_[node:27] = 1.000000
+ w_[node:28] = 1.000000
+
+Scenarios and Tight Ys Sub-Problem
+
+Overline Scenario: ovxi_i (i is a profitable node). 
+ ov_xi_[node:1] = 0.041667
+ ov_xi_[node:2] = 0.033333
+ ov_xi_[node:3] = 0.050000
+ ov_xi_[node:4] = 0.033333
+ ov_xi_[node:5] = 0.016667
+ ov_xi_[node:6] = 0.016667
+ ov_xi_[node:7] = 0.020833
+ ov_xi_[node:8] = 0.020833
+ ov_xi_[node:9] = 0.018750
+ ov_xi_[node:10] = 0.050000
+ ov_xi_[node:11] = 0.010417
+ ov_xi_[node:12] = 0.016667
+ ov_xi_[node:13] = 0.050000
+ ov_xi_[node:14] = 0.050000
+ ov_xi_[node:15] = 0.050000
+ ov_xi_[node:16] = 0.050000
+ ov_xi_[node:17] = 0.035417
+ ov_xi_[node:18] = 0.000000
+ ov_xi_[node:19] = 0.027083
+ ov_xi_[node:20] = 0.010417
+ ov_xi_[node:21] = 0.050000
+ ov_xi_[node:22] = 0.000000
+ ov_xi_[node:23] = 0.050000
+ ov_xi_[node:24] = 0.008333
+ ov_xi_[node:25] = 0.039583
+ ov_xi_[node:26] = 0.050000
+ ov_xi_[node:27] = 0.050000
+ ov_xi_[node:28] = 0.050000
+ ov_xi_[node:29] = 0.050000
+ ov_xi_[node:30] = 0.050000
+
+ Tigth Ys: 
+
+ y = 2 { 
+Node 1: {
+y_[node:1] = 0
+xi_y_i_[y:2][node:1] = 0.050000
+} 
+Node 2: {
+y_[node:2] = 1
+xi_y_i_[y:2][node:2] = 0.027586
+} 
+Node 3: {
+y_[node:3] = 1
+xi_y_i_[y:2][node:3] = 0.050000
+} 
+Node 4: {
+y_[node:4] = 1
+xi_y_i_[y:2][node:4] = 0.037931
+} 
+Node 5: {
+y_[node:5] = 1
+xi_y_i_[y:2][node:5] = 0.050000
+} 
+Node 6: {
+y_[node:6] = 1
+xi_y_i_[y:2][node:6] = 0.022414
+} 
+Node 7: {
+y_[node:7] = 0
+xi_y_i_[y:2][node:7] = 0.022414
+} 
+Node 8: {
+y_[node:8] = 0
+xi_y_i_[y:2][node:8] = 0.005172
+} 
+Node 9: {
+y_[node:9] = 0
+xi_y_i_[y:2][node:9] = 0.017241
+} 
+Node 10: {
+y_[node:10] = 0
+xi_y_i_[y:2][node:10] = 0.027586
+} 
+Node 11: {
+y_[node:11] = 0
+xi_y_i_[y:2][node:11] = 0.015517
+} 
+Node 12: {
+y_[node:12] = 0
+xi_y_i_[y:2][node:12] = 0.015517
+} 
+Node 13: {
+y_[node:13] = 0
+xi_y_i_[y:2][node:13] = 0.050000
+} 
+Node 14: {
+y_[node:14] = 0
+xi_y_i_[y:2][node:14] = 0.050000
+} 
+Node 15: {
+y_[node:15] = 0
+xi_y_i_[y:2][node:15] = 0.050000
+} 
+Node 16: {
+y_[node:16] = 0
+xi_y_i_[y:2][node:16] = 0.050000
+} 
+Node 17: {
+y_[node:17] = 1
+xi_y_i_[y:2][node:17] = 0.005172
+} 
+Node 18: {
+y_[node:18] = 0
+xi_y_i_[y:2][node:18] = 0.010345
+} 
+Node 19: {
+y_[node:19] = 0
+xi_y_i_[y:2][node:19] = 0.022414
+} 
+Node 20: {
+y_[node:20] = 0
+xi_y_i_[y:2][node:20] = 0.022414
+} 
+Node 21: {
+y_[node:21] = 0
+xi_y_i_[y:2][node:21] = 0.037931
+} 
+Node 22: {
+y_[node:22] = 0
+xi_y_i_[y:2][node:22] = 0.050000
+} 
+Node 23: {
+y_[node:23] = 0
+xi_y_i_[y:2][node:23] = 0.050000
+} 
+Node 24: {
+y_[node:24] = 0
+xi_y_i_[y:2][node:24] = 0.050000
+} 
+Node 25: {
+y_[node:25] = 0
+xi_y_i_[y:2][node:25] = 0.032759
+} 
+Node 26: {
+y_[node:26] = 0
+xi_y_i_[y:2][node:26] = 0.022414
+} 
+Node 27: {
+y_[node:27] = 1
+xi_y_i_[y:2][node:27] = 0.037931
+} 
+Node 28: {
+y_[node:28] = 0
+xi_y_i_[y:2][node:28] = 0.050000
+} 
+Node 29: {
+y_[node:29] = 0
+xi_y_i_[y:2][node:29] = 0.050000
+} 
+Node 30: {
+y_[node:30] = 0
+xi_y_i_[y:2][node:30] = 0.017241
+} 
+
+ } 
+
+ y = 4 { 
+Node 1: {
+y_[node:1] = 0
+xi_y_i_[y:4][node:1] = 0.050000
+} 
+Node 2: {
+y_[node:2] = 0
+xi_y_i_[y:4][node:2] = 0.027586
+} 
+Node 3: {
+y_[node:3] = 0
+xi_y_i_[y:4][node:3] = 0.050000
+} 
+Node 4: {
+y_[node:4] = 0
+xi_y_i_[y:4][node:4] = 0.037931
+} 
+Node 5: {
+y_[node:5] = 0
+xi_y_i_[y:4][node:5] = 0.050000
+} 
+Node 6: {
+y_[node:6] = 0
+xi_y_i_[y:4][node:6] = 0.022414
+} 
+Node 7: {
+y_[node:7] = 0
+xi_y_i_[y:4][node:7] = 0.022414
+} 
+Node 8: {
+y_[node:8] = 0
+xi_y_i_[y:4][node:8] = 0.005172
+} 
+Node 9: {
+y_[node:9] = 0
+xi_y_i_[y:4][node:9] = 0.017241
+} 
+Node 10: {
+y_[node:10] = 0
+xi_y_i_[y:4][node:10] = 0.027586
+} 
+Node 11: {
+y_[node:11] = 0
+xi_y_i_[y:4][node:11] = 0.015517
+} 
+Node 12: {
+y_[node:12] = 0
+xi_y_i_[y:4][node:12] = 0.015517
+} 
+Node 13: {
+y_[node:13] = 0
+xi_y_i_[y:4][node:13] = 0.050000
+} 
+Node 14: {
+y_[node:14] = 0
+xi_y_i_[y:4][node:14] = 0.050000
+} 
+Node 15: {
+y_[node:15] = 0
+xi_y_i_[y:4][node:15] = 0.050000
+} 
+Node 16: {
+y_[node:16] = 0
+xi_y_i_[y:4][node:16] = 0.005172
+} 
+Node 17: {
+y_[node:17] = 0
+xi_y_i_[y:4][node:17] = 0.050000
+} 
+Node 18: {
+y_[node:18] = 1
+xi_y_i_[y:4][node:18] = 0.010345
+} 
+Node 19: {
+y_[node:19] = 0
+xi_y_i_[y:4][node:19] = 0.022414
+} 
+Node 20: {
+y_[node:20] = 1
+xi_y_i_[y:4][node:20] = 0.022414
+} 
+Node 21: {
+y_[node:21] = 0
+xi_y_i_[y:4][node:21] = 0.037931
+} 
+Node 22: {
+y_[node:22] = 1
+xi_y_i_[y:4][node:22] = 0.050000
+} 
+Node 23: {
+y_[node:23] = 0
+xi_y_i_[y:4][node:23] = 0.050000
+} 
+Node 24: {
+y_[node:24] = 1
+xi_y_i_[y:4][node:24] = 0.050000
+} 
+Node 25: {
+y_[node:25] = 0
+xi_y_i_[y:4][node:25] = 0.032759
+} 
+Node 26: {
+y_[node:26] = 1
+xi_y_i_[y:4][node:26] = 0.022414
+} 
+Node 27: {
+y_[node:27] = 0
+xi_y_i_[y:4][node:27] = 0.037931
+} 
+Node 28: {
+y_[node:28] = 0
+xi_y_i_[y:4][node:28] = 0.050000
+} 
+Node 29: {
+y_[node:29] = 1
+xi_y_i_[y:4][node:29] = 0.050000
+} 
+Node 30: {
+y_[node:30] = 1
+xi_y_i_[y:4][node:30] = 0.017241
+} 
+
+ } 
+
+ y = 5 { 
+Node 1: {
+y_[node:1] = 0
+xi_y_i_[y:5][node:1] = 0.050000
+} 
+Node 2: {
+y_[node:2] = 0
+xi_y_i_[y:5][node:2] = 0.027586
+} 
+Node 3: {
+y_[node:3] = 0
+xi_y_i_[y:5][node:3] = 0.050000
+} 
+Node 4: {
+y_[node:4] = 0
+xi_y_i_[y:5][node:4] = 0.037931
+} 
+Node 5: {
+y_[node:5] = 0
+xi_y_i_[y:5][node:5] = 0.050000
+} 
+Node 6: {
+y_[node:6] = 0
+xi_y_i_[y:5][node:6] = 0.022414
+} 
+Node 7: {
+y_[node:7] = 0
+xi_y_i_[y:5][node:7] = 0.022414
+} 
+Node 8: {
+y_[node:8] = 1
+xi_y_i_[y:5][node:8] = 0.005172
+} 
+Node 9: {
+y_[node:9] = 1
+xi_y_i_[y:5][node:9] = 0.017241
+} 
+Node 10: {
+y_[node:10] = 1
+xi_y_i_[y:5][node:10] = 0.027586
+} 
+Node 11: {
+y_[node:11] = 1
+xi_y_i_[y:5][node:11] = 0.015517
+} 
+Node 12: {
+y_[node:12] = 0
+xi_y_i_[y:5][node:12] = 0.015517
+} 
+Node 13: {
+y_[node:13] = 0
+xi_y_i_[y:5][node:13] = 0.050000
+} 
+Node 14: {
+y_[node:14] = 0
+xi_y_i_[y:5][node:14] = 0.050000
+} 
+Node 15: {
+y_[node:15] = 0
+xi_y_i_[y:5][node:15] = 0.050000
+} 
+Node 16: {
+y_[node:16] = 0
+xi_y_i_[y:5][node:16] = 0.005172
+} 
+Node 17: {
+y_[node:17] = 0
+xi_y_i_[y:5][node:17] = 0.050000
+} 
+Node 18: {
+y_[node:18] = 0
+xi_y_i_[y:5][node:18] = 0.010345
+} 
+Node 19: {
+y_[node:19] = 0
+xi_y_i_[y:5][node:19] = 0.022414
+} 
+Node 20: {
+y_[node:20] = 1
+xi_y_i_[y:5][node:20] = 0.022414
+} 
+Node 21: {
+y_[node:21] = 1
+xi_y_i_[y:5][node:21] = 0.037931
+} 
+Node 22: {
+y_[node:22] = 0
+xi_y_i_[y:5][node:22] = 0.050000
+} 
+Node 23: {
+y_[node:23] = 0
+xi_y_i_[y:5][node:23] = 0.050000
+} 
+Node 24: {
+y_[node:24] = 0
+xi_y_i_[y:5][node:24] = 0.050000
+} 
+Node 25: {
+y_[node:25] = 1
+xi_y_i_[y:5][node:25] = 0.032759
+} 
+Node 26: {
+y_[node:26] = 0
+xi_y_i_[y:5][node:26] = 0.022414
+} 
+Node 27: {
+y_[node:27] = 0
+xi_y_i_[y:5][node:27] = 0.037931
+} 
+Node 28: {
+y_[node:28] = 0
+xi_y_i_[y:5][node:28] = 0.050000
+} 
+Node 29: {
+y_[node:29] = 0
+xi_y_i_[y:5][node:29] = 0.050000
+} 
+Node 30: {
+y_[node:30] = 1
+xi_y_i_[y:5][node:30] = 0.017241
+} 
+
+ } 
+
+ y = 7 { 
+Node 1: {
+y_[node:1] = 1
+xi_y_i_[y:7][node:1] = 0.050000
+} 
+Node 2: {
+y_[node:2] = 0
+xi_y_i_[y:7][node:2] = 0.027586
+} 
+Node 3: {
+y_[node:3] = 0
+xi_y_i_[y:7][node:3] = 0.050000
+} 
+Node 4: {
+y_[node:4] = 0
+xi_y_i_[y:7][node:4] = 0.037931
+} 
+Node 5: {
+y_[node:5] = 0
+xi_y_i_[y:7][node:5] = 0.050000
+} 
+Node 6: {
+y_[node:6] = 0
+xi_y_i_[y:7][node:6] = 0.022414
+} 
+Node 7: {
+y_[node:7] = 1
+xi_y_i_[y:7][node:7] = 0.022414
+} 
+Node 8: {
+y_[node:8] = 0
+xi_y_i_[y:7][node:8] = 0.005172
+} 
+Node 9: {
+y_[node:9] = 1
+xi_y_i_[y:7][node:9] = 0.017241
+} 
+Node 10: {
+y_[node:10] = 1
+xi_y_i_[y:7][node:10] = 0.027586
+} 
+Node 11: {
+y_[node:11] = 1
+xi_y_i_[y:7][node:11] = 0.015517
+} 
+Node 12: {
+y_[node:12] = 1
+xi_y_i_[y:7][node:12] = 0.015517
+} 
+Node 13: {
+y_[node:13] = 0
+xi_y_i_[y:7][node:13] = 0.050000
+} 
+Node 14: {
+y_[node:14] = 0
+xi_y_i_[y:7][node:14] = 0.050000
+} 
+Node 15: {
+y_[node:15] = 0
+xi_y_i_[y:7][node:15] = 0.050000
+} 
+Node 16: {
+y_[node:16] = 0
+xi_y_i_[y:7][node:16] = 0.005172
+} 
+Node 17: {
+y_[node:17] = 0
+xi_y_i_[y:7][node:17] = 0.050000
+} 
+Node 18: {
+y_[node:18] = 0
+xi_y_i_[y:7][node:18] = 0.010345
+} 
+Node 19: {
+y_[node:19] = 1
+xi_y_i_[y:7][node:19] = 0.022414
+} 
+Node 20: {
+y_[node:20] = 1
+xi_y_i_[y:7][node:20] = 0.022414
+} 
+Node 21: {
+y_[node:21] = 0
+xi_y_i_[y:7][node:21] = 0.037931
+} 
+Node 22: {
+y_[node:22] = 0
+xi_y_i_[y:7][node:22] = 0.050000
+} 
+Node 23: {
+y_[node:23] = 0
+xi_y_i_[y:7][node:23] = 0.050000
+} 
+Node 24: {
+y_[node:24] = 0
+xi_y_i_[y:7][node:24] = 0.050000
+} 
+Node 25: {
+y_[node:25] = 0
+xi_y_i_[y:7][node:25] = 0.032759
+} 
+Node 26: {
+y_[node:26] = 1
+xi_y_i_[y:7][node:26] = 0.022414
+} 
+Node 27: {
+y_[node:27] = 0
+xi_y_i_[y:7][node:27] = 0.037931
+} 
+Node 28: {
+y_[node:28] = 0
+xi_y_i_[y:7][node:28] = 0.050000
+} 
+Node 29: {
+y_[node:29] = 0
+xi_y_i_[y:7][node:29] = 0.050000
+} 
+Node 30: {
+y_[node:30] = 0
+xi_y_i_[y:7][node:30] = 0.017241
+} 
+
+ } 
+
+ y = 9 { 
+Node 1: {
+y_[node:1] = 1
+xi_y_i_[y:9][node:1] = 0.050000
+} 
+Node 2: {
+y_[node:2] = 1
+xi_y_i_[y:9][node:2] = 0.027586
+} 
+Node 3: {
+y_[node:3] = 0
+xi_y_i_[y:9][node:3] = 0.050000
+} 
+Node 4: {
+y_[node:4] = 1
+xi_y_i_[y:9][node:4] = 0.037931
+} 
+Node 5: {
+y_[node:5] = 0
+xi_y_i_[y:9][node:5] = 0.050000
+} 
+Node 6: {
+y_[node:6] = 0
+xi_y_i_[y:9][node:6] = 0.022414
+} 
+Node 7: {
+y_[node:7] = 1
+xi_y_i_[y:9][node:7] = 0.022414
+} 
+Node 8: {
+y_[node:8] = 1
+xi_y_i_[y:9][node:8] = 0.005172
+} 
+Node 9: {
+y_[node:9] = 0
+xi_y_i_[y:9][node:9] = 0.017241
+} 
+Node 10: {
+y_[node:10] = 0
+xi_y_i_[y:9][node:10] = 0.027586
+} 
+Node 11: {
+y_[node:11] = 0
+xi_y_i_[y:9][node:11] = 0.015517
+} 
+Node 12: {
+y_[node:12] = 0
+xi_y_i_[y:9][node:12] = 0.015517
+} 
+Node 13: {
+y_[node:13] = 0
+xi_y_i_[y:9][node:13] = 0.050000
+} 
+Node 14: {
+y_[node:14] = 0
+xi_y_i_[y:9][node:14] = 0.050000
+} 
+Node 15: {
+y_[node:15] = 0
+xi_y_i_[y:9][node:15] = 0.050000
+} 
+Node 16: {
+y_[node:16] = 0
+xi_y_i_[y:9][node:16] = 0.005172
+} 
+Node 17: {
+y_[node:17] = 1
+xi_y_i_[y:9][node:17] = 0.050000
+} 
+Node 18: {
+y_[node:18] = 0
+xi_y_i_[y:9][node:18] = 0.010345
+} 
+Node 19: {
+y_[node:19] = 0
+xi_y_i_[y:9][node:19] = 0.022414
+} 
+Node 20: {
+y_[node:20] = 0
+xi_y_i_[y:9][node:20] = 0.022414
+} 
+Node 21: {
+y_[node:21] = 0
+xi_y_i_[y:9][node:21] = 0.037931
+} 
+Node 22: {
+y_[node:22] = 0
+xi_y_i_[y:9][node:22] = 0.050000
+} 
+Node 23: {
+y_[node:23] = 0
+xi_y_i_[y:9][node:23] = 0.050000
+} 
+Node 24: {
+y_[node:24] = 0
+xi_y_i_[y:9][node:24] = 0.050000
+} 
+Node 25: {
+y_[node:25] = 0
+xi_y_i_[y:9][node:25] = 0.032759
+} 
+Node 26: {
+y_[node:26] = 0
+xi_y_i_[y:9][node:26] = 0.022414
+} 
+Node 27: {
+y_[node:27] = 1
+xi_y_i_[y:9][node:27] = 0.037931
+} 
+Node 28: {
+y_[node:28] = 0
+xi_y_i_[y:9][node:28] = 0.050000
+} 
+Node 29: {
+y_[node:29] = 0
+xi_y_i_[y:9][node:29] = 0.050000
+} 
+Node 30: {
+y_[node:30] = 0
+xi_y_i_[y:9][node:30] = 0.017241
+} 
+
+ } 
+
+ y = 10 { 
+Node 1: {
+y_[node:1] = 0
+xi_y_i_[y:10][node:1] = 0.050000
+} 
+Node 2: {
+y_[node:2] = 0
+xi_y_i_[y:10][node:2] = 0.027586
+} 
+Node 3: {
+y_[node:3] = 0
+xi_y_i_[y:10][node:3] = 0.050000
+} 
+Node 4: {
+y_[node:4] = 0
+xi_y_i_[y:10][node:4] = 0.037931
+} 
+Node 5: {
+y_[node:5] = 1
+xi_y_i_[y:10][node:5] = 0.050000
+} 
+Node 6: {
+y_[node:6] = 0
+xi_y_i_[y:10][node:6] = 0.022414
+} 
+Node 7: {
+y_[node:7] = 0
+xi_y_i_[y:10][node:7] = 0.022414
+} 
+Node 8: {
+y_[node:8] = 0
+xi_y_i_[y:10][node:8] = 0.005172
+} 
+Node 9: {
+y_[node:9] = 0
+xi_y_i_[y:10][node:9] = 0.017241
+} 
+Node 10: {
+y_[node:10] = 0
+xi_y_i_[y:10][node:10] = 0.027586
+} 
+Node 11: {
+y_[node:11] = 0
+xi_y_i_[y:10][node:11] = 0.015517
+} 
+Node 12: {
+y_[node:12] = 1
+xi_y_i_[y:10][node:12] = 0.015517
+} 
+Node 13: {
+y_[node:13] = 0
+xi_y_i_[y:10][node:13] = 0.050000
+} 
+Node 14: {
+y_[node:14] = 0
+xi_y_i_[y:10][node:14] = 0.050000
+} 
+Node 15: {
+y_[node:15] = 0
+xi_y_i_[y:10][node:15] = 0.050000
+} 
+Node 16: {
+y_[node:16] = 0
+xi_y_i_[y:10][node:16] = 0.032759
+} 
+Node 17: {
+y_[node:17] = 1
+xi_y_i_[y:10][node:17] = 0.022414
+} 
+Node 18: {
+y_[node:18] = 1
+xi_y_i_[y:10][node:18] = 0.010345
+} 
+Node 19: {
+y_[node:19] = 1
+xi_y_i_[y:10][node:19] = 0.022414
+} 
+Node 20: {
+y_[node:20] = 0
+xi_y_i_[y:10][node:20] = 0.022414
+} 
+Node 21: {
+y_[node:21] = 0
+xi_y_i_[y:10][node:21] = 0.037931
+} 
+Node 22: {
+y_[node:22] = 0
+xi_y_i_[y:10][node:22] = 0.050000
+} 
+Node 23: {
+y_[node:23] = 0
+xi_y_i_[y:10][node:23] = 0.050000
+} 
+Node 24: {
+y_[node:24] = 0
+xi_y_i_[y:10][node:24] = 0.050000
+} 
+Node 25: {
+y_[node:25] = 1
+xi_y_i_[y:10][node:25] = 0.032759
+} 
+Node 26: {
+y_[node:26] = 1
+xi_y_i_[y:10][node:26] = 0.022414
+} 
+Node 27: {
+y_[node:27] = 1
+xi_y_i_[y:10][node:27] = 0.037931
+} 
+Node 28: {
+y_[node:28] = 0
+xi_y_i_[y:10][node:28] = 0.050000
+} 
+Node 29: {
+y_[node:29] = 0
+xi_y_i_[y:10][node:29] = 0.050000
+} 
+Node 30: {
+y_[node:30] = 1
+xi_y_i_[y:10][node:30] = 0.017241
+} 
+
+ } 
+
+ y = 12 { 
+Node 1: {
+y_[node:1] = 1
+xi_y_i_[y:12][node:1] = 0.050000
+} 
+Node 2: {
+y_[node:2] = 0
+xi_y_i_[y:12][node:2] = 0.027586
+} 
+Node 3: {
+y_[node:3] = 0
+xi_y_i_[y:12][node:3] = 0.050000
+} 
+Node 4: {
+y_[node:4] = 1
+xi_y_i_[y:12][node:4] = 0.037931
+} 
+Node 5: {
+y_[node:5] = 1
+xi_y_i_[y:12][node:5] = 0.032759
+} 
+Node 6: {
+y_[node:6] = 1
+xi_y_i_[y:12][node:6] = 0.022414
+} 
+Node 7: {
+y_[node:7] = 1
+xi_y_i_[y:12][node:7] = 0.022414
+} 
+Node 8: {
+y_[node:8] = 1
+xi_y_i_[y:12][node:8] = 0.005172
+} 
+Node 9: {
+y_[node:9] = 1
+xi_y_i_[y:12][node:9] = 0.017241
+} 
+Node 10: {
+y_[node:10] = 1
+xi_y_i_[y:12][node:10] = 0.027586
+} 
+Node 11: {
+y_[node:11] = 0
+xi_y_i_[y:12][node:11] = 0.015517
+} 
+Node 12: {
+y_[node:12] = 1
+xi_y_i_[y:12][node:12] = 0.015517
+} 
+Node 13: {
+y_[node:13] = 0
+xi_y_i_[y:12][node:13] = 0.050000
+} 
+Node 14: {
+y_[node:14] = 0
+xi_y_i_[y:12][node:14] = 0.050000
+} 
+Node 15: {
+y_[node:15] = 0
+xi_y_i_[y:12][node:15] = 0.050000
+} 
+Node 16: {
+y_[node:16] = 0
+xi_y_i_[y:12][node:16] = 0.022414
+} 
+Node 17: {
+y_[node:17] = 0
+xi_y_i_[y:12][node:17] = 0.050000
+} 
+Node 18: {
+y_[node:18] = 0
+xi_y_i_[y:12][node:18] = 0.010345
+} 
+Node 19: {
+y_[node:19] = 0
+xi_y_i_[y:12][node:19] = 0.022414
+} 
+Node 20: {
+y_[node:20] = 0
+xi_y_i_[y:12][node:20] = 0.022414
+} 
+Node 21: {
+y_[node:21] = 0
+xi_y_i_[y:12][node:21] = 0.037931
+} 
+Node 22: {
+y_[node:22] = 0
+xi_y_i_[y:12][node:22] = 0.050000
+} 
+Node 23: {
+y_[node:23] = 0
+xi_y_i_[y:12][node:23] = 0.050000
+} 
+Node 24: {
+y_[node:24] = 0
+xi_y_i_[y:12][node:24] = 0.050000
+} 
+Node 25: {
+y_[node:25] = 0
+xi_y_i_[y:12][node:25] = 0.032759
+} 
+Node 26: {
+y_[node:26] = 0
+xi_y_i_[y:12][node:26] = 0.022414
+} 
+Node 27: {
+y_[node:27] = 0
+xi_y_i_[y:12][node:27] = 0.037931
+} 
+Node 28: {
+y_[node:28] = 0
+xi_y_i_[y:12][node:28] = 0.050000
+} 
+Node 29: {
+y_[node:29] = 0
+xi_y_i_[y:12][node:29] = 0.050000
+} 
+Node 30: {
+y_[node:30] = 0
+xi_y_i_[y:12][node:30] = 0.017241
+} 
+
+ } 
+
+ y = 13 { 
+Node 1: {
+y_[node:1] = 0
+xi_y_i_[y:13][node:1] = 0.050000
+} 
+Node 2: {
+y_[node:2] = 0
+xi_y_i_[y:13][node:2] = 0.027586
+} 
+Node 3: {
+y_[node:3] = 0
+xi_y_i_[y:13][node:3] = 0.050000
+} 
+Node 4: {
+y_[node:4] = 0
+xi_y_i_[y:13][node:4] = 0.037931
+} 
+Node 5: {
+y_[node:5] = 0
+xi_y_i_[y:13][node:5] = 0.050000
+} 
+Node 6: {
+y_[node:6] = 0
+xi_y_i_[y:13][node:6] = 0.022414
+} 
+Node 7: {
+y_[node:7] = 0
+xi_y_i_[y:13][node:7] = 0.022414
+} 
+Node 8: {
+y_[node:8] = 1
+xi_y_i_[y:13][node:8] = 0.005172
+} 
+Node 9: {
+y_[node:9] = 1
+xi_y_i_[y:13][node:9] = 0.017241
+} 
+Node 10: {
+y_[node:10] = 1
+xi_y_i_[y:13][node:10] = 0.027586
+} 
+Node 11: {
+y_[node:11] = 1
+xi_y_i_[y:13][node:11] = 0.015517
+} 
+Node 12: {
+y_[node:12] = 0
+xi_y_i_[y:13][node:12] = 0.015517
+} 
+Node 13: {
+y_[node:13] = 0
+xi_y_i_[y:13][node:13] = 0.050000
+} 
+Node 14: {
+y_[node:14] = 0
+xi_y_i_[y:13][node:14] = 0.050000
+} 
+Node 15: {
+y_[node:15] = 0
+xi_y_i_[y:13][node:15] = 0.050000
+} 
+Node 16: {
+y_[node:16] = 0
+xi_y_i_[y:13][node:16] = 0.005172
+} 
+Node 17: {
+y_[node:17] = 0
+xi_y_i_[y:13][node:17] = 0.050000
+} 
+Node 18: {
+y_[node:18] = 0
+xi_y_i_[y:13][node:18] = 0.010345
+} 
+Node 19: {
+y_[node:19] = 0
+xi_y_i_[y:13][node:19] = 0.022414
+} 
+Node 20: {
+y_[node:20] = 0
+xi_y_i_[y:13][node:20] = 0.022414
+} 
+Node 21: {
+y_[node:21] = 1
+xi_y_i_[y:13][node:21] = 0.037931
+} 
+Node 22: {
+y_[node:22] = 1
+xi_y_i_[y:13][node:22] = 0.050000
+} 
+Node 23: {
+y_[node:23] = 0
+xi_y_i_[y:13][node:23] = 0.050000
+} 
+Node 24: {
+y_[node:24] = 0
+xi_y_i_[y:13][node:24] = 0.050000
+} 
+Node 25: {
+y_[node:25] = 1
+xi_y_i_[y:13][node:25] = 0.032759
+} 
+Node 26: {
+y_[node:26] = 1
+xi_y_i_[y:13][node:26] = 0.022414
+} 
+Node 27: {
+y_[node:27] = 0
+xi_y_i_[y:13][node:27] = 0.037931
+} 
+Node 28: {
+y_[node:28] = 0
+xi_y_i_[y:13][node:28] = 0.050000
+} 
+Node 29: {
+y_[node:29] = 0
+xi_y_i_[y:13][node:29] = 0.050000
+} 
+Node 30: {
+y_[node:30] = 0
+xi_y_i_[y:13][node:30] = 0.017241
+} 
+
+ } 
+
+ y = 14 { 
+Node 1: {
+y_[node:1] = 0
+xi_y_i_[y:14][node:1] = 0.050000
+} 
+Node 2: {
+y_[node:2] = 0
+xi_y_i_[y:14][node:2] = 0.027586
+} 
+Node 3: {
+y_[node:3] = 0
+xi_y_i_[y:14][node:3] = 0.050000
+} 
+Node 4: {
+y_[node:4] = 0
+xi_y_i_[y:14][node:4] = 0.037931
+} 
+Node 5: {
+y_[node:5] = 0
+xi_y_i_[y:14][node:5] = 0.050000
+} 
+Node 6: {
+y_[node:6] = 0
+xi_y_i_[y:14][node:6] = 0.022414
+} 
+Node 7: {
+y_[node:7] = 0
+xi_y_i_[y:14][node:7] = 0.022414
+} 
+Node 8: {
+y_[node:8] = 0
+xi_y_i_[y:14][node:8] = 0.005172
+} 
+Node 9: {
+y_[node:9] = 0
+xi_y_i_[y:14][node:9] = 0.017241
+} 
+Node 10: {
+y_[node:10] = 0
+xi_y_i_[y:14][node:10] = 0.027586
+} 
+Node 11: {
+y_[node:11] = 0
+xi_y_i_[y:14][node:11] = 0.015517
+} 
+Node 12: {
+y_[node:12] = 0
+xi_y_i_[y:14][node:12] = 0.015517
+} 
+Node 13: {
+y_[node:13] = 0
+xi_y_i_[y:14][node:13] = 0.050000
+} 
+Node 14: {
+y_[node:14] = 0
+xi_y_i_[y:14][node:14] = 0.050000
+} 
+Node 15: {
+y_[node:15] = 0
+xi_y_i_[y:14][node:15] = 0.050000
+} 
+Node 16: {
+y_[node:16] = 0
+xi_y_i_[y:14][node:16] = 0.024138
+} 
+Node 17: {
+y_[node:17] = 0
+xi_y_i_[y:14][node:17] = 0.050000
+} 
+Node 18: {
+y_[node:18] = 0
+xi_y_i_[y:14][node:18] = 0.010345
+} 
+Node 19: {
+y_[node:19] = 1
+xi_y_i_[y:14][node:19] = 0.022414
+} 
+Node 20: {
+y_[node:20] = 0
+xi_y_i_[y:14][node:20] = 0.022414
+} 
+Node 21: {
+y_[node:21] = 1
+xi_y_i_[y:14][node:21] = 0.037931
+} 
+Node 22: {
+y_[node:22] = 1
+xi_y_i_[y:14][node:22] = 0.031034
+} 
+Node 23: {
+y_[node:23] = 0
+xi_y_i_[y:14][node:23] = 0.050000
+} 
+Node 24: {
+y_[node:24] = 1
+xi_y_i_[y:14][node:24] = 0.050000
+} 
+Node 25: {
+y_[node:25] = 0
+xi_y_i_[y:14][node:25] = 0.032759
+} 
+Node 26: {
+y_[node:26] = 1
+xi_y_i_[y:14][node:26] = 0.022414
+} 
+Node 27: {
+y_[node:27] = 0
+xi_y_i_[y:14][node:27] = 0.037931
+} 
+Node 28: {
+y_[node:28] = 0
+xi_y_i_[y:14][node:28] = 0.050000
+} 
+Node 29: {
+y_[node:29] = 1
+xi_y_i_[y:14][node:29] = 0.050000
+} 
+Node 30: {
+y_[node:30] = 1
+xi_y_i_[y:14][node:30] = 0.017241
+} 
+
+ } 
+
+ y = 15 { 
+Node 1: {
+y_[node:1] = 0
+xi_y_i_[y:15][node:1] = 0.050000
+} 
+Node 2: {
+y_[node:2] = 0
+xi_y_i_[y:15][node:2] = 0.027586
+} 
+Node 3: {
+y_[node:3] = 0
+xi_y_i_[y:15][node:3] = 0.050000
+} 
+Node 4: {
+y_[node:4] = 0
+xi_y_i_[y:15][node:4] = 0.037931
+} 
+Node 5: {
+y_[node:5] = 0
+xi_y_i_[y:15][node:5] = 0.050000
+} 
+Node 6: {
+y_[node:6] = 0
+xi_y_i_[y:15][node:6] = 0.022414
+} 
+Node 7: {
+y_[node:7] = 1
+xi_y_i_[y:15][node:7] = 0.022414
+} 
+Node 8: {
+y_[node:8] = 0
+xi_y_i_[y:15][node:8] = 0.005172
+} 
+Node 9: {
+y_[node:9] = 1
+xi_y_i_[y:15][node:9] = 0.017241
+} 
+Node 10: {
+y_[node:10] = 1
+xi_y_i_[y:15][node:10] = 0.027586
+} 
+Node 11: {
+y_[node:11] = 1
+xi_y_i_[y:15][node:11] = 0.015517
+} 
+Node 12: {
+y_[node:12] = 1
+xi_y_i_[y:15][node:12] = 0.015517
+} 
+Node 13: {
+y_[node:13] = 0
+xi_y_i_[y:15][node:13] = 0.050000
+} 
+Node 14: {
+y_[node:14] = 0
+xi_y_i_[y:15][node:14] = 0.050000
+} 
+Node 15: {
+y_[node:15] = 0
+xi_y_i_[y:15][node:15] = 0.050000
+} 
+Node 16: {
+y_[node:16] = 0
+xi_y_i_[y:15][node:16] = 0.005172
+} 
+Node 17: {
+y_[node:17] = 0
+xi_y_i_[y:15][node:17] = 0.050000
+} 
+Node 18: {
+y_[node:18] = 0
+xi_y_i_[y:15][node:18] = 0.010345
+} 
+Node 19: {
+y_[node:19] = 0
+xi_y_i_[y:15][node:19] = 0.022414
+} 
+Node 20: {
+y_[node:20] = 1
+xi_y_i_[y:15][node:20] = 0.022414
+} 
+Node 21: {
+y_[node:21] = 1
+xi_y_i_[y:15][node:21] = 0.037931
+} 
+Node 22: {
+y_[node:22] = 0
+xi_y_i_[y:15][node:22] = 0.050000
+} 
+Node 23: {
+y_[node:23] = 0
+xi_y_i_[y:15][node:23] = 0.050000
+} 
+Node 24: {
+y_[node:24] = 0
+xi_y_i_[y:15][node:24] = 0.050000
+} 
+Node 25: {
+y_[node:25] = 1
+xi_y_i_[y:15][node:25] = 0.032759
+} 
+Node 26: {
+y_[node:26] = 1
+xi_y_i_[y:15][node:26] = 0.022414
+} 
+Node 27: {
+y_[node:27] = 0
+xi_y_i_[y:15][node:27] = 0.037931
+} 
+Node 28: {
+y_[node:28] = 0
+xi_y_i_[y:15][node:28] = 0.050000
+} 
+Node 29: {
+y_[node:29] = 0
+xi_y_i_[y:15][node:29] = 0.050000
+} 
+Node 30: {
+y_[node:30] = 1
+xi_y_i_[y:15][node:30] = 0.017241
+} 
+
+ } 
+
+ y = 16 { 
+Node 1: {
+y_[node:1] = 1
+xi_y_i_[y:16][node:1] = 0.050000
+} 
+Node 2: {
+y_[node:2] = 1
+xi_y_i_[y:16][node:2] = 0.027586
+} 
+Node 3: {
+y_[node:3] = 0
+xi_y_i_[y:16][node:3] = 0.050000
+} 
+Node 4: {
+y_[node:4] = 0
+xi_y_i_[y:16][node:4] = 0.037931
+} 
+Node 5: {
+y_[node:5] = 0
+xi_y_i_[y:16][node:5] = 0.050000
+} 
+Node 6: {
+y_[node:6] = 1
+xi_y_i_[y:16][node:6] = 0.022414
+} 
+Node 7: {
+y_[node:7] = 1
+xi_y_i_[y:16][node:7] = 0.022414
+} 
+Node 8: {
+y_[node:8] = 0
+xi_y_i_[y:16][node:8] = 0.005172
+} 
+Node 9: {
+y_[node:9] = 1
+xi_y_i_[y:16][node:9] = 0.017241
+} 
+Node 10: {
+y_[node:10] = 1
+xi_y_i_[y:16][node:10] = 0.027586
+} 
+Node 11: {
+y_[node:11] = 1
+xi_y_i_[y:16][node:11] = 0.015517
+} 
+Node 12: {
+y_[node:12] = 1
+xi_y_i_[y:16][node:12] = 0.015517
+} 
+Node 13: {
+y_[node:13] = 0
+xi_y_i_[y:16][node:13] = 0.050000
+} 
+Node 14: {
+y_[node:14] = 0
+xi_y_i_[y:16][node:14] = 0.050000
+} 
+Node 15: {
+y_[node:15] = 0
+xi_y_i_[y:16][node:15] = 0.050000
+} 
+Node 16: {
+y_[node:16] = 0
+xi_y_i_[y:16][node:16] = 0.005172
+} 
+Node 17: {
+y_[node:17] = 0
+xi_y_i_[y:16][node:17] = 0.050000
+} 
+Node 18: {
+y_[node:18] = 1
+xi_y_i_[y:16][node:18] = 0.010345
+} 
+Node 19: {
+y_[node:19] = 1
+xi_y_i_[y:16][node:19] = 0.022414
+} 
+Node 20: {
+y_[node:20] = 0
+xi_y_i_[y:16][node:20] = 0.022414
+} 
+Node 21: {
+y_[node:21] = 0
+xi_y_i_[y:16][node:21] = 0.037931
+} 
+Node 22: {
+y_[node:22] = 0
+xi_y_i_[y:16][node:22] = 0.050000
+} 
+Node 23: {
+y_[node:23] = 0
+xi_y_i_[y:16][node:23] = 0.050000
+} 
+Node 24: {
+y_[node:24] = 0
+xi_y_i_[y:16][node:24] = 0.050000
+} 
+Node 25: {
+y_[node:25] = 0
+xi_y_i_[y:16][node:25] = 0.032759
+} 
+Node 26: {
+y_[node:26] = 0
+xi_y_i_[y:16][node:26] = 0.022414
+} 
+Node 27: {
+y_[node:27] = 0
+xi_y_i_[y:16][node:27] = 0.037931
+} 
+Node 28: {
+y_[node:28] = 0
+xi_y_i_[y:16][node:28] = 0.050000
+} 
+Node 29: {
+y_[node:29] = 0
+xi_y_i_[y:16][node:29] = 0.050000
+} 
+Node 30: {
+y_[node:30] = 0
+xi_y_i_[y:16][node:30] = 0.017241
+} 
+
+ } 
+
+ y = 17 { 
+Node 1: {
+y_[node:1] = 0
+xi_y_i_[y:17][node:1] = 0.050000
+} 
+Node 2: {
+y_[node:2] = 0
+xi_y_i_[y:17][node:2] = 0.027586
+} 
+Node 3: {
+y_[node:3] = 0
+xi_y_i_[y:17][node:3] = 0.050000
+} 
+Node 4: {
+y_[node:4] = 0
+xi_y_i_[y:17][node:4] = 0.037931
+} 
+Node 5: {
+y_[node:5] = 0
+xi_y_i_[y:17][node:5] = 0.050000
+} 
+Node 6: {
+y_[node:6] = 0
+xi_y_i_[y:17][node:6] = 0.022414
+} 
+Node 7: {
+y_[node:7] = 0
+xi_y_i_[y:17][node:7] = 0.022414
+} 
+Node 8: {
+y_[node:8] = 1
+xi_y_i_[y:17][node:8] = 0.005172
+} 
+Node 9: {
+y_[node:9] = 1
+xi_y_i_[y:17][node:9] = 0.017241
+} 
+Node 10: {
+y_[node:10] = 1
+xi_y_i_[y:17][node:10] = 0.027586
+} 
+Node 11: {
+y_[node:11] = 1
+xi_y_i_[y:17][node:11] = 0.015517
+} 
+Node 12: {
+y_[node:12] = 1
+xi_y_i_[y:17][node:12] = 0.015517
+} 
+Node 13: {
+y_[node:13] = 0
+xi_y_i_[y:17][node:13] = 0.050000
+} 
+Node 14: {
+y_[node:14] = 0
+xi_y_i_[y:17][node:14] = 0.050000
+} 
+Node 15: {
+y_[node:15] = 0
+xi_y_i_[y:17][node:15] = 0.050000
+} 
+Node 16: {
+y_[node:16] = 0
+xi_y_i_[y:17][node:16] = 0.005172
+} 
+Node 17: {
+y_[node:17] = 0
+xi_y_i_[y:17][node:17] = 0.050000
+} 
+Node 18: {
+y_[node:18] = 1
+xi_y_i_[y:17][node:18] = 0.010345
+} 
+Node 19: {
+y_[node:19] = 1
+xi_y_i_[y:17][node:19] = 0.022414
+} 
+Node 20: {
+y_[node:20] = 1
+xi_y_i_[y:17][node:20] = 0.022414
+} 
+Node 21: {
+y_[node:21] = 0
+xi_y_i_[y:17][node:21] = 0.037931
+} 
+Node 22: {
+y_[node:22] = 0
+xi_y_i_[y:17][node:22] = 0.050000
+} 
+Node 23: {
+y_[node:23] = 0
+xi_y_i_[y:17][node:23] = 0.050000
+} 
+Node 24: {
+y_[node:24] = 0
+xi_y_i_[y:17][node:24] = 0.050000
+} 
+Node 25: {
+y_[node:25] = 1
+xi_y_i_[y:17][node:25] = 0.032759
+} 
+Node 26: {
+y_[node:26] = 1
+xi_y_i_[y:17][node:26] = 0.022414
+} 
+Node 27: {
+y_[node:27] = 0
+xi_y_i_[y:17][node:27] = 0.037931
+} 
+Node 28: {
+y_[node:28] = 0
+xi_y_i_[y:17][node:28] = 0.050000
+} 
+Node 29: {
+y_[node:29] = 0
+xi_y_i_[y:17][node:29] = 0.050000
+} 
+Node 30: {
+y_[node:30] = 1
+xi_y_i_[y:17][node:30] = 0.017241
+} 
+
+ } 
+
+ y = 22 { 
+Node 1: {
+y_[node:1] = 1
+xi_y_i_[y:22][node:1] = 0.050000
+} 
+Node 2: {
+y_[node:2] = 1
+xi_y_i_[y:22][node:2] = 0.027586
+} 
+Node 3: {
+y_[node:3] = 0
+xi_y_i_[y:22][node:3] = 0.050000
+} 
+Node 4: {
+y_[node:4] = 0
+xi_y_i_[y:22][node:4] = 0.037931
+} 
+Node 5: {
+y_[node:5] = 1
+xi_y_i_[y:22][node:5] = 0.032759
+} 
+Node 6: {
+y_[node:6] = 1
+xi_y_i_[y:22][node:6] = 0.022414
+} 
+Node 7: {
+y_[node:7] = 1
+xi_y_i_[y:22][node:7] = 0.022414
+} 
+Node 8: {
+y_[node:8] = 1
+xi_y_i_[y:22][node:8] = 0.005172
+} 
+Node 9: {
+y_[node:9] = 1
+xi_y_i_[y:22][node:9] = 0.017241
+} 
+Node 10: {
+y_[node:10] = 1
+xi_y_i_[y:22][node:10] = 0.027586
+} 
+Node 11: {
+y_[node:11] = 0
+xi_y_i_[y:22][node:11] = 0.015517
+} 
+Node 12: {
+y_[node:12] = 1
+xi_y_i_[y:22][node:12] = 0.015517
+} 
+Node 13: {
+y_[node:13] = 0
+xi_y_i_[y:22][node:13] = 0.050000
+} 
+Node 14: {
+y_[node:14] = 0
+xi_y_i_[y:22][node:14] = 0.050000
+} 
+Node 15: {
+y_[node:15] = 0
+xi_y_i_[y:22][node:15] = 0.050000
+} 
+Node 16: {
+y_[node:16] = 0
+xi_y_i_[y:22][node:16] = 0.022414
+} 
+Node 17: {
+y_[node:17] = 0
+xi_y_i_[y:22][node:17] = 0.050000
+} 
+Node 18: {
+y_[node:18] = 1
+xi_y_i_[y:22][node:18] = 0.010345
+} 
+Node 19: {
+y_[node:19] = 0
+xi_y_i_[y:22][node:19] = 0.022414
+} 
+Node 20: {
+y_[node:20] = 0
+xi_y_i_[y:22][node:20] = 0.022414
+} 
+Node 21: {
+y_[node:21] = 0
+xi_y_i_[y:22][node:21] = 0.037931
+} 
+Node 22: {
+y_[node:22] = 0
+xi_y_i_[y:22][node:22] = 0.050000
+} 
+Node 23: {
+y_[node:23] = 0
+xi_y_i_[y:22][node:23] = 0.050000
+} 
+Node 24: {
+y_[node:24] = 0
+xi_y_i_[y:22][node:24] = 0.050000
+} 
+Node 25: {
+y_[node:25] = 0
+xi_y_i_[y:22][node:25] = 0.032759
+} 
+Node 26: {
+y_[node:26] = 0
+xi_y_i_[y:22][node:26] = 0.022414
+} 
+Node 27: {
+y_[node:27] = 0
+xi_y_i_[y:22][node:27] = 0.037931
+} 
+Node 28: {
+y_[node:28] = 0
+xi_y_i_[y:22][node:28] = 0.050000
+} 
+Node 29: {
+y_[node:29] = 0
+xi_y_i_[y:22][node:29] = 0.050000
+} 
+Node 30: {
+y_[node:30] = 0
+xi_y_i_[y:22][node:30] = 0.017241
+} 
+
+ } 
+
+ y = 24 { 
+Node 1: {
+y_[node:1] = 0
+xi_y_i_[y:24][node:1] = 0.050000
+} 
+Node 2: {
+y_[node:2] = 0
+xi_y_i_[y:24][node:2] = 0.027586
+} 
+Node 3: {
+y_[node:3] = 0
+xi_y_i_[y:24][node:3] = 0.050000
+} 
+Node 4: {
+y_[node:4] = 0
+xi_y_i_[y:24][node:4] = 0.037931
+} 
+Node 5: {
+y_[node:5] = 1
+xi_y_i_[y:24][node:5] = 0.050000
+} 
+Node 6: {
+y_[node:6] = 1
+xi_y_i_[y:24][node:6] = 0.022414
+} 
+Node 7: {
+y_[node:7] = 0
+xi_y_i_[y:24][node:7] = 0.022414
+} 
+Node 8: {
+y_[node:8] = 0
+xi_y_i_[y:24][node:8] = 0.005172
+} 
+Node 9: {
+y_[node:9] = 0
+xi_y_i_[y:24][node:9] = 0.017241
+} 
+Node 10: {
+y_[node:10] = 0
+xi_y_i_[y:24][node:10] = 0.027586
+} 
+Node 11: {
+y_[node:11] = 0
+xi_y_i_[y:24][node:11] = 0.015517
+} 
+Node 12: {
+y_[node:12] = 1
+xi_y_i_[y:24][node:12] = 0.015517
+} 
+Node 13: {
+y_[node:13] = 0
+xi_y_i_[y:24][node:13] = 0.050000
+} 
+Node 14: {
+y_[node:14] = 0
+xi_y_i_[y:24][node:14] = 0.050000
+} 
+Node 15: {
+y_[node:15] = 0
+xi_y_i_[y:24][node:15] = 0.050000
+} 
+Node 16: {
+y_[node:16] = 1
+xi_y_i_[y:24][node:16] = 0.005172
+} 
+Node 17: {
+y_[node:17] = 1
+xi_y_i_[y:24][node:17] = 0.050000
+} 
+Node 18: {
+y_[node:18] = 0
+xi_y_i_[y:24][node:18] = 0.010345
+} 
+Node 19: {
+y_[node:19] = 0
+xi_y_i_[y:24][node:19] = 0.022414
+} 
+Node 20: {
+y_[node:20] = 0
+xi_y_i_[y:24][node:20] = 0.022414
+} 
+Node 21: {
+y_[node:21] = 0
+xi_y_i_[y:24][node:21] = 0.037931
+} 
+Node 22: {
+y_[node:22] = 0
+xi_y_i_[y:24][node:22] = 0.050000
+} 
+Node 23: {
+y_[node:23] = 0
+xi_y_i_[y:24][node:23] = 0.050000
+} 
+Node 24: {
+y_[node:24] = 0
+xi_y_i_[y:24][node:24] = 0.050000
+} 
+Node 25: {
+y_[node:25] = 0
+xi_y_i_[y:24][node:25] = 0.032759
+} 
+Node 26: {
+y_[node:26] = 0
+xi_y_i_[y:24][node:26] = 0.022414
+} 
+Node 27: {
+y_[node:27] = 1
+xi_y_i_[y:24][node:27] = 0.037931
+} 
+Node 28: {
+y_[node:28] = 1
+xi_y_i_[y:24][node:28] = 0.050000
+} 
+Node 29: {
+y_[node:29] = 0
+xi_y_i_[y:24][node:29] = 0.050000
+} 
+Node 30: {
+y_[node:30] = 0
+xi_y_i_[y:24][node:30] = 0.017241
+} 
+
+ } 
+
+ y = 26 { 
+Node 1: {
+y_[node:1] = 0
+xi_y_i_[y:26][node:1] = 0.050000
+} 
+Node 2: {
+y_[node:2] = 0
+xi_y_i_[y:26][node:2] = 0.027586
+} 
+Node 3: {
+y_[node:3] = 0
+xi_y_i_[y:26][node:3] = 0.050000
+} 
+Node 4: {
+y_[node:4] = 0
+xi_y_i_[y:26][node:4] = 0.037931
+} 
+Node 5: {
+y_[node:5] = 0
+xi_y_i_[y:26][node:5] = 0.050000
+} 
+Node 6: {
+y_[node:6] = 0
+xi_y_i_[y:26][node:6] = 0.022414
+} 
+Node 7: {
+y_[node:7] = 0
+xi_y_i_[y:26][node:7] = 0.022414
+} 
+Node 8: {
+y_[node:8] = 0
+xi_y_i_[y:26][node:8] = 0.005172
+} 
+Node 9: {
+y_[node:9] = 0
+xi_y_i_[y:26][node:9] = 0.017241
+} 
+Node 10: {
+y_[node:10] = 0
+xi_y_i_[y:26][node:10] = 0.027586
+} 
+Node 11: {
+y_[node:11] = 1
+xi_y_i_[y:26][node:11] = 0.015517
+} 
+Node 12: {
+y_[node:12] = 0
+xi_y_i_[y:26][node:12] = 0.015517
+} 
+Node 13: {
+y_[node:13] = 0
+xi_y_i_[y:26][node:13] = 0.050000
+} 
+Node 14: {
+y_[node:14] = 0
+xi_y_i_[y:26][node:14] = 0.050000
+} 
+Node 15: {
+y_[node:15] = 0
+xi_y_i_[y:26][node:15] = 0.050000
+} 
+Node 16: {
+y_[node:16] = 0
+xi_y_i_[y:26][node:16] = 0.032759
+} 
+Node 17: {
+y_[node:17] = 0
+xi_y_i_[y:26][node:17] = 0.050000
+} 
+Node 18: {
+y_[node:18] = 1
+xi_y_i_[y:26][node:18] = 0.010345
+} 
+Node 19: {
+y_[node:19] = 1
+xi_y_i_[y:26][node:19] = 0.022414
+} 
+Node 20: {
+y_[node:20] = 1
+xi_y_i_[y:26][node:20] = 0.022414
+} 
+Node 21: {
+y_[node:21] = 1
+xi_y_i_[y:26][node:21] = 0.037931
+} 
+Node 22: {
+y_[node:22] = 1
+xi_y_i_[y:26][node:22] = 0.022414
+} 
+Node 23: {
+y_[node:23] = 0
+xi_y_i_[y:26][node:23] = 0.050000
+} 
+Node 24: {
+y_[node:24] = 1
+xi_y_i_[y:26][node:24] = 0.050000
+} 
+Node 25: {
+y_[node:25] = 1
+xi_y_i_[y:26][node:25] = 0.032759
+} 
+Node 26: {
+y_[node:26] = 0
+xi_y_i_[y:26][node:26] = 0.022414
+} 
+Node 27: {
+y_[node:27] = 0
+xi_y_i_[y:26][node:27] = 0.037931
+} 
+Node 28: {
+y_[node:28] = 0
+xi_y_i_[y:26][node:28] = 0.050000
+} 
+Node 29: {
+y_[node:29] = 0
+xi_y_i_[y:26][node:29] = 0.050000
+} 
+Node 30: {
+y_[node:30] = 1
+xi_y_i_[y:26][node:30] = 0.017241
+} 
+
+ } 
+
+ y = 28 { 
+Node 1: {
+y_[node:1] = 0
+xi_y_i_[y:28][node:1] = 0.050000
+} 
+Node 2: {
+y_[node:2] = 0
+xi_y_i_[y:28][node:2] = 0.027586
+} 
+Node 3: {
+y_[node:3] = 0
+xi_y_i_[y:28][node:3] = 0.050000
+} 
+Node 4: {
+y_[node:4] = 1
+xi_y_i_[y:28][node:4] = 0.037931
+} 
+Node 5: {
+y_[node:5] = 1
+xi_y_i_[y:28][node:5] = 0.050000
+} 
+Node 6: {
+y_[node:6] = 0
+xi_y_i_[y:28][node:6] = 0.022414
+} 
+Node 7: {
+y_[node:7] = 0
+xi_y_i_[y:28][node:7] = 0.022414
+} 
+Node 8: {
+y_[node:8] = 0
+xi_y_i_[y:28][node:8] = 0.005172
+} 
+Node 9: {
+y_[node:9] = 0
+xi_y_i_[y:28][node:9] = 0.017241
+} 
+Node 10: {
+y_[node:10] = 0
+xi_y_i_[y:28][node:10] = 0.027586
+} 
+Node 11: {
+y_[node:11] = 0
+xi_y_i_[y:28][node:11] = 0.015517
+} 
+Node 12: {
+y_[node:12] = 0
+xi_y_i_[y:28][node:12] = 0.015517
+} 
+Node 13: {
+y_[node:13] = 0
+xi_y_i_[y:28][node:13] = 0.050000
+} 
+Node 14: {
+y_[node:14] = 0
+xi_y_i_[y:28][node:14] = 0.050000
+} 
+Node 15: {
+y_[node:15] = 0
+xi_y_i_[y:28][node:15] = 0.050000
+} 
+Node 16: {
+y_[node:16] = 1
+xi_y_i_[y:28][node:16] = 0.005172
+} 
+Node 17: {
+y_[node:17] = 1
+xi_y_i_[y:28][node:17] = 0.050000
+} 
+Node 18: {
+y_[node:18] = 0
+xi_y_i_[y:28][node:18] = 0.010345
+} 
+Node 19: {
+y_[node:19] = 0
+xi_y_i_[y:28][node:19] = 0.022414
+} 
+Node 20: {
+y_[node:20] = 0
+xi_y_i_[y:28][node:20] = 0.022414
+} 
+Node 21: {
+y_[node:21] = 0
+xi_y_i_[y:28][node:21] = 0.037931
+} 
+Node 22: {
+y_[node:22] = 0
+xi_y_i_[y:28][node:22] = 0.050000
+} 
+Node 23: {
+y_[node:23] = 0
+xi_y_i_[y:28][node:23] = 0.050000
+} 
+Node 24: {
+y_[node:24] = 0
+xi_y_i_[y:28][node:24] = 0.050000
+} 
+Node 25: {
+y_[node:25] = 0
+xi_y_i_[y:28][node:25] = 0.032759
+} 
+Node 26: {
+y_[node:26] = 0
+xi_y_i_[y:28][node:26] = 0.022414
+} 
+Node 27: {
+y_[node:27] = 1
+xi_y_i_[y:28][node:27] = 0.037931
+} 
+Node 28: {
+y_[node:28] = 1
+xi_y_i_[y:28][node:28] = 0.050000
+} 
+Node 29: {
+y_[node:29] = 0
+xi_y_i_[y:28][node:29] = 0.050000
+} 
+Node 30: {
+y_[node:30] = 0
+xi_y_i_[y:28][node:30] = 0.017241
+} 
+
+ } 
+
+ y = 31 { 
+Node 1: {
+y_[node:1] = 1
+xi_y_i_[y:31][node:1] = 0.050000
+} 
+Node 2: {
+y_[node:2] = 1
+xi_y_i_[y:31][node:2] = 0.027586
+} 
+Node 3: {
+y_[node:3] = 0
+xi_y_i_[y:31][node:3] = 0.050000
+} 
+Node 4: {
+y_[node:4] = 0
+xi_y_i_[y:31][node:4] = 0.037931
+} 
+Node 5: {
+y_[node:5] = 1
+xi_y_i_[y:31][node:5] = 0.010345
+} 
+Node 6: {
+y_[node:6] = 1
+xi_y_i_[y:31][node:6] = 0.022414
+} 
+Node 7: {
+y_[node:7] = 1
+xi_y_i_[y:31][node:7] = 0.022414
+} 
+Node 8: {
+y_[node:8] = 0
+xi_y_i_[y:31][node:8] = 0.005172
+} 
+Node 9: {
+y_[node:9] = 1
+xi_y_i_[y:31][node:9] = 0.017241
+} 
+Node 10: {
+y_[node:10] = 1
+xi_y_i_[y:31][node:10] = 0.027586
+} 
+Node 11: {
+y_[node:11] = 1
+xi_y_i_[y:31][node:11] = 0.015517
+} 
+Node 12: {
+y_[node:12] = 1
+xi_y_i_[y:31][node:12] = 0.015517
+} 
+Node 13: {
+y_[node:13] = 0
+xi_y_i_[y:31][node:13] = 0.050000
+} 
+Node 14: {
+y_[node:14] = 0
+xi_y_i_[y:31][node:14] = 0.050000
+} 
+Node 15: {
+y_[node:15] = 0
+xi_y_i_[y:31][node:15] = 0.050000
+} 
+Node 16: {
+y_[node:16] = 0
+xi_y_i_[y:31][node:16] = 0.044828
+} 
+Node 17: {
+y_[node:17] = 0
+xi_y_i_[y:31][node:17] = 0.050000
+} 
+Node 18: {
+y_[node:18] = 0
+xi_y_i_[y:31][node:18] = 0.010345
+} 
+Node 19: {
+y_[node:19] = 0
+xi_y_i_[y:31][node:19] = 0.022414
+} 
+Node 20: {
+y_[node:20] = 1
+xi_y_i_[y:31][node:20] = 0.022414
+} 
+Node 21: {
+y_[node:21] = 0
+xi_y_i_[y:31][node:21] = 0.037931
+} 
+Node 22: {
+y_[node:22] = 0
+xi_y_i_[y:31][node:22] = 0.050000
+} 
+Node 23: {
+y_[node:23] = 0
+xi_y_i_[y:31][node:23] = 0.050000
+} 
+Node 24: {
+y_[node:24] = 0
+xi_y_i_[y:31][node:24] = 0.050000
+} 
+Node 25: {
+y_[node:25] = 0
+xi_y_i_[y:31][node:25] = 0.032759
+} 
+Node 26: {
+y_[node:26] = 0
+xi_y_i_[y:31][node:26] = 0.022414
+} 
+Node 27: {
+y_[node:27] = 0
+xi_y_i_[y:31][node:27] = 0.037931
+} 
+Node 28: {
+y_[node:28] = 0
+xi_y_i_[y:31][node:28] = 0.050000
+} 
+Node 29: {
+y_[node:29] = 0
+xi_y_i_[y:31][node:29] = 0.050000
+} 
+Node 30: {
+y_[node:30] = 0
+xi_y_i_[y:31][node:30] = 0.017241
+} 
+
+ } 
+
+ y = 32 { 
+Node 1: {
+y_[node:1] = 0
+xi_y_i_[y:32][node:1] = 0.050000
+} 
+Node 2: {
+y_[node:2] = 0
+xi_y_i_[y:32][node:2] = 0.027586
+} 
+Node 3: {
+y_[node:3] = 0
+xi_y_i_[y:32][node:3] = 0.050000
+} 
+Node 4: {
+y_[node:4] = 0
+xi_y_i_[y:32][node:4] = 0.037931
+} 
+Node 5: {
+y_[node:5] = 0
+xi_y_i_[y:32][node:5] = 0.050000
+} 
+Node 6: {
+y_[node:6] = 0
+xi_y_i_[y:32][node:6] = 0.022414
+} 
+Node 7: {
+y_[node:7] = 0
+xi_y_i_[y:32][node:7] = 0.022414
+} 
+Node 8: {
+y_[node:8] = 0
+xi_y_i_[y:32][node:8] = 0.005172
+} 
+Node 9: {
+y_[node:9] = 0
+xi_y_i_[y:32][node:9] = 0.017241
+} 
+Node 10: {
+y_[node:10] = 0
+xi_y_i_[y:32][node:10] = 0.027586
+} 
+Node 11: {
+y_[node:11] = 0
+xi_y_i_[y:32][node:11] = 0.015517
+} 
+Node 12: {
+y_[node:12] = 0
+xi_y_i_[y:32][node:12] = 0.015517
+} 
+Node 13: {
+y_[node:13] = 0
+xi_y_i_[y:32][node:13] = 0.050000
+} 
+Node 14: {
+y_[node:14] = 0
+xi_y_i_[y:32][node:14] = 0.050000
+} 
+Node 15: {
+y_[node:15] = 0
+xi_y_i_[y:32][node:15] = 0.050000
+} 
+Node 16: {
+y_[node:16] = 0
+xi_y_i_[y:32][node:16] = 0.017241
+} 
+Node 17: {
+y_[node:17] = 1
+xi_y_i_[y:32][node:17] = 0.037931
+} 
+Node 18: {
+y_[node:18] = 1
+xi_y_i_[y:32][node:18] = 0.010345
+} 
+Node 19: {
+y_[node:19] = 1
+xi_y_i_[y:32][node:19] = 0.022414
+} 
+Node 20: {
+y_[node:20] = 0
+xi_y_i_[y:32][node:20] = 0.022414
+} 
+Node 21: {
+y_[node:21] = 0
+xi_y_i_[y:32][node:21] = 0.037931
+} 
+Node 22: {
+y_[node:22] = 0
+xi_y_i_[y:32][node:22] = 0.050000
+} 
+Node 23: {
+y_[node:23] = 0
+xi_y_i_[y:32][node:23] = 0.050000
+} 
+Node 24: {
+y_[node:24] = 0
+xi_y_i_[y:32][node:24] = 0.050000
+} 
+Node 25: {
+y_[node:25] = 1
+xi_y_i_[y:32][node:25] = 0.032759
+} 
+Node 26: {
+y_[node:26] = 1
+xi_y_i_[y:32][node:26] = 0.022414
+} 
+Node 27: {
+y_[node:27] = 1
+xi_y_i_[y:32][node:27] = 0.037931
+} 
+Node 28: {
+y_[node:28] = 0
+xi_y_i_[y:32][node:28] = 0.050000
+} 
+Node 29: {
+y_[node:29] = 1
+xi_y_i_[y:32][node:29] = 0.050000
+} 
+Node 30: {
+y_[node:30] = 1
+xi_y_i_[y:32][node:30] = 0.017241
+} 
+
+ } 
+
+ y = 33 { 
+Node 1: {
+y_[node:1] = 0
+xi_y_i_[y:33][node:1] = 0.050000
+} 
+Node 2: {
+y_[node:2] = 0
+xi_y_i_[y:33][node:2] = 0.027586
+} 
+Node 3: {
+y_[node:3] = 0
+xi_y_i_[y:33][node:3] = 0.050000
+} 
+Node 4: {
+y_[node:4] = 0
+xi_y_i_[y:33][node:4] = 0.037931
+} 
+Node 5: {
+y_[node:5] = 0
+xi_y_i_[y:33][node:5] = 0.050000
+} 
+Node 6: {
+y_[node:6] = 0
+xi_y_i_[y:33][node:6] = 0.022414
+} 
+Node 7: {
+y_[node:7] = 0
+xi_y_i_[y:33][node:7] = 0.022414
+} 
+Node 8: {
+y_[node:8] = 1
+xi_y_i_[y:33][node:8] = 0.005172
+} 
+Node 9: {
+y_[node:9] = 1
+xi_y_i_[y:33][node:9] = 0.017241
+} 
+Node 10: {
+y_[node:10] = 1
+xi_y_i_[y:33][node:10] = 0.027586
+} 
+Node 11: {
+y_[node:11] = 1
+xi_y_i_[y:33][node:11] = 0.015517
+} 
+Node 12: {
+y_[node:12] = 0
+xi_y_i_[y:33][node:12] = 0.015517
+} 
+Node 13: {
+y_[node:13] = 0
+xi_y_i_[y:33][node:13] = 0.050000
+} 
+Node 14: {
+y_[node:14] = 0
+xi_y_i_[y:33][node:14] = 0.050000
+} 
+Node 15: {
+y_[node:15] = 0
+xi_y_i_[y:33][node:15] = 0.050000
+} 
+Node 16: {
+y_[node:16] = 0
+xi_y_i_[y:33][node:16] = 0.005172
+} 
+Node 17: {
+y_[node:17] = 0
+xi_y_i_[y:33][node:17] = 0.050000
+} 
+Node 18: {
+y_[node:18] = 1
+xi_y_i_[y:33][node:18] = 0.010345
+} 
+Node 19: {
+y_[node:19] = 1
+xi_y_i_[y:33][node:19] = 0.022414
+} 
+Node 20: {
+y_[node:20] = 1
+xi_y_i_[y:33][node:20] = 0.022414
+} 
+Node 21: {
+y_[node:21] = 1
+xi_y_i_[y:33][node:21] = 0.037931
+} 
+Node 22: {
+y_[node:22] = 0
+xi_y_i_[y:33][node:22] = 0.050000
+} 
+Node 23: {
+y_[node:23] = 0
+xi_y_i_[y:33][node:23] = 0.050000
+} 
+Node 24: {
+y_[node:24] = 0
+xi_y_i_[y:33][node:24] = 0.050000
+} 
+Node 25: {
+y_[node:25] = 1
+xi_y_i_[y:33][node:25] = 0.032759
+} 
+Node 26: {
+y_[node:26] = 1
+xi_y_i_[y:33][node:26] = 0.022414
+} 
+Node 27: {
+y_[node:27] = 0
+xi_y_i_[y:33][node:27] = 0.037931
+} 
+Node 28: {
+y_[node:28] = 0
+xi_y_i_[y:33][node:28] = 0.050000
+} 
+Node 29: {
+y_[node:29] = 0
+xi_y_i_[y:33][node:29] = 0.050000
+} 
+Node 30: {
+y_[node:30] = 1
+xi_y_i_[y:33][node:30] = 0.017241
+} 
+
+ } 
+
+ y = 34 { 
+Node 1: {
+y_[node:1] = 0
+xi_y_i_[y:34][node:1] = 0.050000
+} 
+Node 2: {
+y_[node:2] = 1
+xi_y_i_[y:34][node:2] = 0.027586
+} 
+Node 3: {
+y_[node:3] = 1
+xi_y_i_[y:34][node:3] = 0.050000
+} 
+Node 4: {
+y_[node:4] = 1
+xi_y_i_[y:34][node:4] = 0.037931
+} 
+Node 5: {
+y_[node:5] = 0
+xi_y_i_[y:34][node:5] = 0.050000
+} 
+Node 6: {
+y_[node:6] = 1
+xi_y_i_[y:34][node:6] = 0.022414
+} 
+Node 7: {
+y_[node:7] = 0
+xi_y_i_[y:34][node:7] = 0.022414
+} 
+Node 8: {
+y_[node:8] = 0
+xi_y_i_[y:34][node:8] = 0.005172
+} 
+Node 9: {
+y_[node:9] = 0
+xi_y_i_[y:34][node:9] = 0.017241
+} 
+Node 10: {
+y_[node:10] = 0
+xi_y_i_[y:34][node:10] = 0.027586
+} 
+Node 11: {
+y_[node:11] = 0
+xi_y_i_[y:34][node:11] = 0.015517
+} 
+Node 12: {
+y_[node:12] = 1
+xi_y_i_[y:34][node:12] = 0.015517
+} 
+Node 13: {
+y_[node:13] = 0
+xi_y_i_[y:34][node:13] = 0.050000
+} 
+Node 14: {
+y_[node:14] = 0
+xi_y_i_[y:34][node:14] = 0.050000
+} 
+Node 15: {
+y_[node:15] = 0
+xi_y_i_[y:34][node:15] = 0.050000
+} 
+Node 16: {
+y_[node:16] = 0
+xi_y_i_[y:34][node:16] = 0.015517
+} 
+Node 17: {
+y_[node:17] = 1
+xi_y_i_[y:34][node:17] = 0.039655
+} 
+Node 18: {
+y_[node:18] = 0
+xi_y_i_[y:34][node:18] = 0.010345
+} 
+Node 19: {
+y_[node:19] = 0
+xi_y_i_[y:34][node:19] = 0.022414
+} 
+Node 20: {
+y_[node:20] = 0
+xi_y_i_[y:34][node:20] = 0.022414
+} 
+Node 21: {
+y_[node:21] = 0
+xi_y_i_[y:34][node:21] = 0.037931
+} 
+Node 22: {
+y_[node:22] = 0
+xi_y_i_[y:34][node:22] = 0.050000
+} 
+Node 23: {
+y_[node:23] = 0
+xi_y_i_[y:34][node:23] = 0.050000
+} 
+Node 24: {
+y_[node:24] = 0
+xi_y_i_[y:34][node:24] = 0.050000
+} 
+Node 25: {
+y_[node:25] = 0
+xi_y_i_[y:34][node:25] = 0.032759
+} 
+Node 26: {
+y_[node:26] = 0
+xi_y_i_[y:34][node:26] = 0.022414
+} 
+Node 27: {
+y_[node:27] = 1
+xi_y_i_[y:34][node:27] = 0.037931
+} 
+Node 28: {
+y_[node:28] = 0
+xi_y_i_[y:34][node:28] = 0.050000
+} 
+Node 29: {
+y_[node:29] = 0
+xi_y_i_[y:34][node:29] = 0.050000
+} 
+Node 30: {
+y_[node:30] = 0
+xi_y_i_[y:34][node:30] = 0.017241
+} 
+
+ } 
+
+ y = 35 { 
+Node 1: {
+y_[node:1] = 0
+xi_y_i_[y:35][node:1] = 0.050000
+} 
+Node 2: {
+y_[node:2] = 0
+xi_y_i_[y:35][node:2] = 0.027586
+} 
+Node 3: {
+y_[node:3] = 0
+xi_y_i_[y:35][node:3] = 0.050000
+} 
+Node 4: {
+y_[node:4] = 0
+xi_y_i_[y:35][node:4] = 0.037931
+} 
+Node 5: {
+y_[node:5] = 0
+xi_y_i_[y:35][node:5] = 0.050000
+} 
+Node 6: {
+y_[node:6] = 0
+xi_y_i_[y:35][node:6] = 0.022414
+} 
+Node 7: {
+y_[node:7] = 1
+xi_y_i_[y:35][node:7] = 0.022414
+} 
+Node 8: {
+y_[node:8] = 1
+xi_y_i_[y:35][node:8] = 0.005172
+} 
+Node 9: {
+y_[node:9] = 1
+xi_y_i_[y:35][node:9] = 0.017241
+} 
+Node 10: {
+y_[node:10] = 1
+xi_y_i_[y:35][node:10] = 0.027586
+} 
+Node 11: {
+y_[node:11] = 1
+xi_y_i_[y:35][node:11] = 0.015517
+} 
+Node 12: {
+y_[node:12] = 1
+xi_y_i_[y:35][node:12] = 0.015517
+} 
+Node 13: {
+y_[node:13] = 0
+xi_y_i_[y:35][node:13] = 0.050000
+} 
+Node 14: {
+y_[node:14] = 0
+xi_y_i_[y:35][node:14] = 0.050000
+} 
+Node 15: {
+y_[node:15] = 0
+xi_y_i_[y:35][node:15] = 0.050000
+} 
+Node 16: {
+y_[node:16] = 0
+xi_y_i_[y:35][node:16] = 0.005172
+} 
+Node 17: {
+y_[node:17] = 0
+xi_y_i_[y:35][node:17] = 0.050000
+} 
+Node 18: {
+y_[node:18] = 0
+xi_y_i_[y:35][node:18] = 0.010345
+} 
+Node 19: {
+y_[node:19] = 1
+xi_y_i_[y:35][node:19] = 0.022414
+} 
+Node 20: {
+y_[node:20] = 1
+xi_y_i_[y:35][node:20] = 0.022414
+} 
+Node 21: {
+y_[node:21] = 0
+xi_y_i_[y:35][node:21] = 0.037931
+} 
+Node 22: {
+y_[node:22] = 0
+xi_y_i_[y:35][node:22] = 0.050000
+} 
+Node 23: {
+y_[node:23] = 0
+xi_y_i_[y:35][node:23] = 0.050000
+} 
+Node 24: {
+y_[node:24] = 0
+xi_y_i_[y:35][node:24] = 0.050000
+} 
+Node 25: {
+y_[node:25] = 1
+xi_y_i_[y:35][node:25] = 0.032759
+} 
+Node 26: {
+y_[node:26] = 1
+xi_y_i_[y:35][node:26] = 0.022414
+} 
+Node 27: {
+y_[node:27] = 0
+xi_y_i_[y:35][node:27] = 0.037931
+} 
+Node 28: {
+y_[node:28] = 0
+xi_y_i_[y:35][node:28] = 0.050000
+} 
+Node 29: {
+y_[node:29] = 0
+xi_y_i_[y:35][node:29] = 0.050000
+} 
+Node 30: {
+y_[node:30] = 1
+xi_y_i_[y:35][node:30] = 0.017241
+} 
+
+ } 
+
+ y = 37 { 
+Node 1: {
+y_[node:1] = 0
+xi_y_i_[y:37][node:1] = 0.050000
+} 
+Node 2: {
+y_[node:2] = 0
+xi_y_i_[y:37][node:2] = 0.027586
+} 
+Node 3: {
+y_[node:3] = 0
+xi_y_i_[y:37][node:3] = 0.050000
+} 
+Node 4: {
+y_[node:4] = 0
+xi_y_i_[y:37][node:4] = 0.037931
+} 
+Node 5: {
+y_[node:5] = 0
+xi_y_i_[y:37][node:5] = 0.050000
+} 
+Node 6: {
+y_[node:6] = 0
+xi_y_i_[y:37][node:6] = 0.022414
+} 
+Node 7: {
+y_[node:7] = 0
+xi_y_i_[y:37][node:7] = 0.022414
+} 
+Node 8: {
+y_[node:8] = 0
+xi_y_i_[y:37][node:8] = 0.005172
+} 
+Node 9: {
+y_[node:9] = 0
+xi_y_i_[y:37][node:9] = 0.017241
+} 
+Node 10: {
+y_[node:10] = 0
+xi_y_i_[y:37][node:10] = 0.027586
+} 
+Node 11: {
+y_[node:11] = 1
+xi_y_i_[y:37][node:11] = 0.015517
+} 
+Node 12: {
+y_[node:12] = 0
+xi_y_i_[y:37][node:12] = 0.015517
+} 
+Node 13: {
+y_[node:13] = 0
+xi_y_i_[y:37][node:13] = 0.050000
+} 
+Node 14: {
+y_[node:14] = 0
+xi_y_i_[y:37][node:14] = 0.050000
+} 
+Node 15: {
+y_[node:15] = 0
+xi_y_i_[y:37][node:15] = 0.050000
+} 
+Node 16: {
+y_[node:16] = 0
+xi_y_i_[y:37][node:16] = 0.032759
+} 
+Node 17: {
+y_[node:17] = 0
+xi_y_i_[y:37][node:17] = 0.050000
+} 
+Node 18: {
+y_[node:18] = 1
+xi_y_i_[y:37][node:18] = 0.010345
+} 
+Node 19: {
+y_[node:19] = 1
+xi_y_i_[y:37][node:19] = 0.022414
+} 
+Node 20: {
+y_[node:20] = 0
+xi_y_i_[y:37][node:20] = 0.022414
+} 
+Node 21: {
+y_[node:21] = 1
+xi_y_i_[y:37][node:21] = 0.037931
+} 
+Node 22: {
+y_[node:22] = 1
+xi_y_i_[y:37][node:22] = 0.022414
+} 
+Node 23: {
+y_[node:23] = 0
+xi_y_i_[y:37][node:23] = 0.050000
+} 
+Node 24: {
+y_[node:24] = 1
+xi_y_i_[y:37][node:24] = 0.050000
+} 
+Node 25: {
+y_[node:25] = 1
+xi_y_i_[y:37][node:25] = 0.032759
+} 
+Node 26: {
+y_[node:26] = 1
+xi_y_i_[y:37][node:26] = 0.022414
+} 
+Node 27: {
+y_[node:27] = 0
+xi_y_i_[y:37][node:27] = 0.037931
+} 
+Node 28: {
+y_[node:28] = 0
+xi_y_i_[y:37][node:28] = 0.050000
+} 
+Node 29: {
+y_[node:29] = 0
+xi_y_i_[y:37][node:29] = 0.050000
+} 
+Node 30: {
+y_[node:30] = 1
+xi_y_i_[y:37][node:30] = 0.017241
+} 
+
+ } 
+
+ y = 38 { 
+Node 1: {
+y_[node:1] = 0
+xi_y_i_[y:38][node:1] = 0.050000
+} 
+Node 2: {
+y_[node:2] = 0
+xi_y_i_[y:38][node:2] = 0.027586
+} 
+Node 3: {
+y_[node:3] = 0
+xi_y_i_[y:38][node:3] = 0.050000
+} 
+Node 4: {
+y_[node:4] = 0
+xi_y_i_[y:38][node:4] = 0.037931
+} 
+Node 5: {
+y_[node:5] = 0
+xi_y_i_[y:38][node:5] = 0.050000
+} 
+Node 6: {
+y_[node:6] = 0
+xi_y_i_[y:38][node:6] = 0.022414
+} 
+Node 7: {
+y_[node:7] = 1
+xi_y_i_[y:38][node:7] = 0.022414
+} 
+Node 8: {
+y_[node:8] = 1
+xi_y_i_[y:38][node:8] = 0.005172
+} 
+Node 9: {
+y_[node:9] = 1
+xi_y_i_[y:38][node:9] = 0.017241
+} 
+Node 10: {
+y_[node:10] = 1
+xi_y_i_[y:38][node:10] = 0.027586
+} 
+Node 11: {
+y_[node:11] = 1
+xi_y_i_[y:38][node:11] = 0.015517
+} 
+Node 12: {
+y_[node:12] = 0
+xi_y_i_[y:38][node:12] = 0.015517
+} 
+Node 13: {
+y_[node:13] = 0
+xi_y_i_[y:38][node:13] = 0.050000
+} 
+Node 14: {
+y_[node:14] = 0
+xi_y_i_[y:38][node:14] = 0.050000
+} 
+Node 15: {
+y_[node:15] = 0
+xi_y_i_[y:38][node:15] = 0.050000
+} 
+Node 16: {
+y_[node:16] = 0
+xi_y_i_[y:38][node:16] = 0.005172
+} 
+Node 17: {
+y_[node:17] = 0
+xi_y_i_[y:38][node:17] = 0.050000
+} 
+Node 18: {
+y_[node:18] = 0
+xi_y_i_[y:38][node:18] = 0.010345
+} 
+Node 19: {
+y_[node:19] = 0
+xi_y_i_[y:38][node:19] = 0.022414
+} 
+Node 20: {
+y_[node:20] = 1
+xi_y_i_[y:38][node:20] = 0.022414
+} 
+Node 21: {
+y_[node:21] = 1
+xi_y_i_[y:38][node:21] = 0.037931
+} 
+Node 22: {
+y_[node:22] = 0
+xi_y_i_[y:38][node:22] = 0.050000
+} 
+Node 23: {
+y_[node:23] = 0
+xi_y_i_[y:38][node:23] = 0.050000
+} 
+Node 24: {
+y_[node:24] = 0
+xi_y_i_[y:38][node:24] = 0.050000
+} 
+Node 25: {
+y_[node:25] = 1
+xi_y_i_[y:38][node:25] = 0.032759
+} 
+Node 26: {
+y_[node:26] = 1
+xi_y_i_[y:38][node:26] = 0.022414
+} 
+Node 27: {
+y_[node:27] = 0
+xi_y_i_[y:38][node:27] = 0.037931
+} 
+Node 28: {
+y_[node:28] = 0
+xi_y_i_[y:38][node:28] = 0.050000
+} 
+Node 29: {
+y_[node:29] = 0
+xi_y_i_[y:38][node:29] = 0.050000
+} 
+Node 30: {
+y_[node:30] = 1
+xi_y_i_[y:38][node:30] = 0.017241
+} 
+
+ } 
+
+ y = 40 { 
+Node 1: {
+y_[node:1] = 0
+xi_y_i_[y:40][node:1] = 0.050000
+} 
+Node 2: {
+y_[node:2] = 0
+xi_y_i_[y:40][node:2] = 0.027586
+} 
+Node 3: {
+y_[node:3] = 0
+xi_y_i_[y:40][node:3] = 0.050000
+} 
+Node 4: {
+y_[node:4] = 0
+xi_y_i_[y:40][node:4] = 0.037931
+} 
+Node 5: {
+y_[node:5] = 0
+xi_y_i_[y:40][node:5] = 0.050000
+} 
+Node 6: {
+y_[node:6] = 0
+xi_y_i_[y:40][node:6] = 0.022414
+} 
+Node 7: {
+y_[node:7] = 0
+xi_y_i_[y:40][node:7] = 0.022414
+} 
+Node 8: {
+y_[node:8] = 0
+xi_y_i_[y:40][node:8] = 0.005172
+} 
+Node 9: {
+y_[node:9] = 0
+xi_y_i_[y:40][node:9] = 0.017241
+} 
+Node 10: {
+y_[node:10] = 0
+xi_y_i_[y:40][node:10] = 0.027586
+} 
+Node 11: {
+y_[node:11] = 0
+xi_y_i_[y:40][node:11] = 0.015517
+} 
+Node 12: {
+y_[node:12] = 0
+xi_y_i_[y:40][node:12] = 0.015517
+} 
+Node 13: {
+y_[node:13] = 0
+xi_y_i_[y:40][node:13] = 0.050000
+} 
+Node 14: {
+y_[node:14] = 1
+xi_y_i_[y:40][node:14] = 0.050000
+} 
+Node 15: {
+y_[node:15] = 1
+xi_y_i_[y:40][node:15] = 0.050000
+} 
+Node 16: {
+y_[node:16] = 1
+xi_y_i_[y:40][node:16] = 0.043103
+} 
+Node 17: {
+y_[node:17] = 1
+xi_y_i_[y:40][node:17] = 0.050000
+} 
+Node 18: {
+y_[node:18] = 0
+xi_y_i_[y:40][node:18] = 0.010345
+} 
+Node 19: {
+y_[node:19] = 0
+xi_y_i_[y:40][node:19] = 0.022414
+} 
+Node 20: {
+y_[node:20] = 0
+xi_y_i_[y:40][node:20] = 0.022414
+} 
+Node 21: {
+y_[node:21] = 0
+xi_y_i_[y:40][node:21] = 0.037931
+} 
+Node 22: {
+y_[node:22] = 0
+xi_y_i_[y:40][node:22] = 0.050000
+} 
+Node 23: {
+y_[node:23] = 0
+xi_y_i_[y:40][node:23] = 0.050000
+} 
+Node 24: {
+y_[node:24] = 0
+xi_y_i_[y:40][node:24] = 0.012069
+} 
+Node 25: {
+y_[node:25] = 0
+xi_y_i_[y:40][node:25] = 0.032759
+} 
+Node 26: {
+y_[node:26] = 0
+xi_y_i_[y:40][node:26] = 0.022414
+} 
+Node 27: {
+y_[node:27] = 1
+xi_y_i_[y:40][node:27] = 0.037931
+} 
+Node 28: {
+y_[node:28] = 0
+xi_y_i_[y:40][node:28] = 0.050000
+} 
+Node 29: {
+y_[node:29] = 0
+xi_y_i_[y:40][node:29] = 0.050000
+} 
+Node 30: {
+y_[node:30] = 0
+xi_y_i_[y:40][node:30] = 0.017241
+} 
+
+ } 
+
+ y = 41 { 
+Node 1: {
+y_[node:1] = 0
+xi_y_i_[y:41][node:1] = 0.050000
+} 
+Node 2: {
+y_[node:2] = 0
+xi_y_i_[y:41][node:2] = 0.027586
+} 
+Node 3: {
+y_[node:3] = 0
+xi_y_i_[y:41][node:3] = 0.050000
+} 
+Node 4: {
+y_[node:4] = 0
+xi_y_i_[y:41][node:4] = 0.037931
+} 
+Node 5: {
+y_[node:5] = 0
+xi_y_i_[y:41][node:5] = 0.050000
+} 
+Node 6: {
+y_[node:6] = 0
+xi_y_i_[y:41][node:6] = 0.022414
+} 
+Node 7: {
+y_[node:7] = 0
+xi_y_i_[y:41][node:7] = 0.022414
+} 
+Node 8: {
+y_[node:8] = 1
+xi_y_i_[y:41][node:8] = 0.005172
+} 
+Node 9: {
+y_[node:9] = 1
+xi_y_i_[y:41][node:9] = 0.017241
+} 
+Node 10: {
+y_[node:10] = 1
+xi_y_i_[y:41][node:10] = 0.027586
+} 
+Node 11: {
+y_[node:11] = 1
+xi_y_i_[y:41][node:11] = 0.015517
+} 
+Node 12: {
+y_[node:12] = 1
+xi_y_i_[y:41][node:12] = 0.015517
+} 
+Node 13: {
+y_[node:13] = 0
+xi_y_i_[y:41][node:13] = 0.050000
+} 
+Node 14: {
+y_[node:14] = 0
+xi_y_i_[y:41][node:14] = 0.050000
+} 
+Node 15: {
+y_[node:15] = 0
+xi_y_i_[y:41][node:15] = 0.050000
+} 
+Node 16: {
+y_[node:16] = 0
+xi_y_i_[y:41][node:16] = 0.005172
+} 
+Node 17: {
+y_[node:17] = 0
+xi_y_i_[y:41][node:17] = 0.050000
+} 
+Node 18: {
+y_[node:18] = 0
+xi_y_i_[y:41][node:18] = 0.010345
+} 
+Node 19: {
+y_[node:19] = 0
+xi_y_i_[y:41][node:19] = 0.022414
+} 
+Node 20: {
+y_[node:20] = 1
+xi_y_i_[y:41][node:20] = 0.022414
+} 
+Node 21: {
+y_[node:21] = 1
+xi_y_i_[y:41][node:21] = 0.037931
+} 
+Node 22: {
+y_[node:22] = 0
+xi_y_i_[y:41][node:22] = 0.050000
+} 
+Node 23: {
+y_[node:23] = 0
+xi_y_i_[y:41][node:23] = 0.050000
+} 
+Node 24: {
+y_[node:24] = 0
+xi_y_i_[y:41][node:24] = 0.050000
+} 
+Node 25: {
+y_[node:25] = 1
+xi_y_i_[y:41][node:25] = 0.032759
+} 
+Node 26: {
+y_[node:26] = 1
+xi_y_i_[y:41][node:26] = 0.022414
+} 
+Node 27: {
+y_[node:27] = 0
+xi_y_i_[y:41][node:27] = 0.037931
+} 
+Node 28: {
+y_[node:28] = 0
+xi_y_i_[y:41][node:28] = 0.050000
+} 
+Node 29: {
+y_[node:29] = 0
+xi_y_i_[y:41][node:29] = 0.050000
+} 
+Node 30: {
+y_[node:30] = 1
+xi_y_i_[y:41][node:30] = 0.017241
+} 
+
+ } 
+
+ y = 42 { 
+Node 1: {
+y_[node:1] = 0
+xi_y_i_[y:42][node:1] = 0.050000
+} 
+Node 2: {
+y_[node:2] = 0
+xi_y_i_[y:42][node:2] = 0.027586
+} 
+Node 3: {
+y_[node:3] = 0
+xi_y_i_[y:42][node:3] = 0.050000
+} 
+Node 4: {
+y_[node:4] = 0
+xi_y_i_[y:42][node:4] = 0.037931
+} 
+Node 5: {
+y_[node:5] = 0
+xi_y_i_[y:42][node:5] = 0.050000
+} 
+Node 6: {
+y_[node:6] = 0
+xi_y_i_[y:42][node:6] = 0.022414
+} 
+Node 7: {
+y_[node:7] = 0
+xi_y_i_[y:42][node:7] = 0.022414
+} 
+Node 8: {
+y_[node:8] = 0
+xi_y_i_[y:42][node:8] = 0.005172
+} 
+Node 9: {
+y_[node:9] = 0
+xi_y_i_[y:42][node:9] = 0.017241
+} 
+Node 10: {
+y_[node:10] = 0
+xi_y_i_[y:42][node:10] = 0.027586
+} 
+Node 11: {
+y_[node:11] = 0
+xi_y_i_[y:42][node:11] = 0.015517
+} 
+Node 12: {
+y_[node:12] = 0
+xi_y_i_[y:42][node:12] = 0.015517
+} 
+Node 13: {
+y_[node:13] = 0
+xi_y_i_[y:42][node:13] = 0.050000
+} 
+Node 14: {
+y_[node:14] = 0
+xi_y_i_[y:42][node:14] = 0.050000
+} 
+Node 15: {
+y_[node:15] = 0
+xi_y_i_[y:42][node:15] = 0.050000
+} 
+Node 16: {
+y_[node:16] = 0
+xi_y_i_[y:42][node:16] = 0.034483
+} 
+Node 17: {
+y_[node:17] = 0
+xi_y_i_[y:42][node:17] = 0.050000
+} 
+Node 18: {
+y_[node:18] = 1
+xi_y_i_[y:42][node:18] = 0.010345
+} 
+Node 19: {
+y_[node:19] = 1
+xi_y_i_[y:42][node:19] = 0.022414
+} 
+Node 20: {
+y_[node:20] = 0
+xi_y_i_[y:42][node:20] = 0.022414
+} 
+Node 21: {
+y_[node:21] = 1
+xi_y_i_[y:42][node:21] = 0.037931
+} 
+Node 22: {
+y_[node:22] = 1
+xi_y_i_[y:42][node:22] = 0.020690
+} 
+Node 23: {
+y_[node:23] = 0
+xi_y_i_[y:42][node:23] = 0.050000
+} 
+Node 24: {
+y_[node:24] = 1
+xi_y_i_[y:42][node:24] = 0.050000
+} 
+Node 25: {
+y_[node:25] = 0
+xi_y_i_[y:42][node:25] = 0.032759
+} 
+Node 26: {
+y_[node:26] = 1
+xi_y_i_[y:42][node:26] = 0.022414
+} 
+Node 27: {
+y_[node:27] = 0
+xi_y_i_[y:42][node:27] = 0.037931
+} 
+Node 28: {
+y_[node:28] = 0
+xi_y_i_[y:42][node:28] = 0.050000
+} 
+Node 29: {
+y_[node:29] = 1
+xi_y_i_[y:42][node:29] = 0.050000
+} 
+Node 30: {
+y_[node:30] = 1
+xi_y_i_[y:42][node:30] = 0.017241
+} 
+
+ } 
+
+ y = 43 { 
+Node 1: {
+y_[node:1] = 1
+xi_y_i_[y:43][node:1] = 0.050000
+} 
+Node 2: {
+y_[node:2] = 1
+xi_y_i_[y:43][node:2] = 0.027586
+} 
+Node 3: {
+y_[node:3] = 1
+xi_y_i_[y:43][node:3] = 0.050000
+} 
+Node 4: {
+y_[node:4] = 1
+xi_y_i_[y:43][node:4] = 0.037931
+} 
+Node 5: {
+y_[node:5] = 0
+xi_y_i_[y:43][node:5] = 0.050000
+} 
+Node 6: {
+y_[node:6] = 0
+xi_y_i_[y:43][node:6] = 0.022414
+} 
+Node 7: {
+y_[node:7] = 1
+xi_y_i_[y:43][node:7] = 0.022414
+} 
+Node 8: {
+y_[node:8] = 1
+xi_y_i_[y:43][node:8] = 0.005172
+} 
+Node 9: {
+y_[node:9] = 0
+xi_y_i_[y:43][node:9] = 0.017241
+} 
+Node 10: {
+y_[node:10] = 0
+xi_y_i_[y:43][node:10] = 0.027586
+} 
+Node 11: {
+y_[node:11] = 0
+xi_y_i_[y:43][node:11] = 0.015517
+} 
+Node 12: {
+y_[node:12] = 0
+xi_y_i_[y:43][node:12] = 0.015517
+} 
+Node 13: {
+y_[node:13] = 0
+xi_y_i_[y:43][node:13] = 0.050000
+} 
+Node 14: {
+y_[node:14] = 0
+xi_y_i_[y:43][node:14] = 0.050000
+} 
+Node 15: {
+y_[node:15] = 0
+xi_y_i_[y:43][node:15] = 0.050000
+} 
+Node 16: {
+y_[node:16] = 0
+xi_y_i_[y:43][node:16] = 0.017241
+} 
+Node 17: {
+y_[node:17] = 1
+xi_y_i_[y:43][node:17] = 0.037931
+} 
+Node 18: {
+y_[node:18] = 0
+xi_y_i_[y:43][node:18] = 0.010345
+} 
+Node 19: {
+y_[node:19] = 0
+xi_y_i_[y:43][node:19] = 0.022414
+} 
+Node 20: {
+y_[node:20] = 0
+xi_y_i_[y:43][node:20] = 0.022414
+} 
+Node 21: {
+y_[node:21] = 0
+xi_y_i_[y:43][node:21] = 0.037931
+} 
+Node 22: {
+y_[node:22] = 0
+xi_y_i_[y:43][node:22] = 0.050000
+} 
+Node 23: {
+y_[node:23] = 0
+xi_y_i_[y:43][node:23] = 0.050000
+} 
+Node 24: {
+y_[node:24] = 0
+xi_y_i_[y:43][node:24] = 0.050000
+} 
+Node 25: {
+y_[node:25] = 0
+xi_y_i_[y:43][node:25] = 0.032759
+} 
+Node 26: {
+y_[node:26] = 0
+xi_y_i_[y:43][node:26] = 0.022414
+} 
+Node 27: {
+y_[node:27] = 0
+xi_y_i_[y:43][node:27] = 0.037931
+} 
+Node 28: {
+y_[node:28] = 0
+xi_y_i_[y:43][node:28] = 0.050000
+} 
+Node 29: {
+y_[node:29] = 0
+xi_y_i_[y:43][node:29] = 0.050000
+} 
+Node 30: {
+y_[node:30] = 0
+xi_y_i_[y:43][node:30] = 0.017241
+} 
+
+ } 
+
+ y = 44 { 
+Node 1: {
+y_[node:1] = 0
+xi_y_i_[y:44][node:1] = 0.050000
+} 
+Node 2: {
+y_[node:2] = 0
+xi_y_i_[y:44][node:2] = 0.027586
+} 
+Node 3: {
+y_[node:3] = 0
+xi_y_i_[y:44][node:3] = 0.050000
+} 
+Node 4: {
+y_[node:4] = 0
+xi_y_i_[y:44][node:4] = 0.037931
+} 
+Node 5: {
+y_[node:5] = 0
+xi_y_i_[y:44][node:5] = 0.050000
+} 
+Node 6: {
+y_[node:6] = 0
+xi_y_i_[y:44][node:6] = 0.022414
+} 
+Node 7: {
+y_[node:7] = 0
+xi_y_i_[y:44][node:7] = 0.022414
+} 
+Node 8: {
+y_[node:8] = 0
+xi_y_i_[y:44][node:8] = 0.005172
+} 
+Node 9: {
+y_[node:9] = 0
+xi_y_i_[y:44][node:9] = 0.017241
+} 
+Node 10: {
+y_[node:10] = 0
+xi_y_i_[y:44][node:10] = 0.027586
+} 
+Node 11: {
+y_[node:11] = 0
+xi_y_i_[y:44][node:11] = 0.015517
+} 
+Node 12: {
+y_[node:12] = 0
+xi_y_i_[y:44][node:12] = 0.015517
+} 
+Node 13: {
+y_[node:13] = 0
+xi_y_i_[y:44][node:13] = 0.050000
+} 
+Node 14: {
+y_[node:14] = 0
+xi_y_i_[y:44][node:14] = 0.050000
+} 
+Node 15: {
+y_[node:15] = 0
+xi_y_i_[y:44][node:15] = 0.050000
+} 
+Node 16: {
+y_[node:16] = 0
+xi_y_i_[y:44][node:16] = 0.005172
+} 
+Node 17: {
+y_[node:17] = 0
+xi_y_i_[y:44][node:17] = 0.050000
+} 
+Node 18: {
+y_[node:18] = 1
+xi_y_i_[y:44][node:18] = 0.010345
+} 
+Node 19: {
+y_[node:19] = 1
+xi_y_i_[y:44][node:19] = 0.022414
+} 
+Node 20: {
+y_[node:20] = 0
+xi_y_i_[y:44][node:20] = 0.022414
+} 
+Node 21: {
+y_[node:21] = 0
+xi_y_i_[y:44][node:21] = 0.037931
+} 
+Node 22: {
+y_[node:22] = 0
+xi_y_i_[y:44][node:22] = 0.050000
+} 
+Node 23: {
+y_[node:23] = 0
+xi_y_i_[y:44][node:23] = 0.050000
+} 
+Node 24: {
+y_[node:24] = 0
+xi_y_i_[y:44][node:24] = 0.050000
+} 
+Node 25: {
+y_[node:25] = 1
+xi_y_i_[y:44][node:25] = 0.032759
+} 
+Node 26: {
+y_[node:26] = 0
+xi_y_i_[y:44][node:26] = 0.022414
+} 
+Node 27: {
+y_[node:27] = 1
+xi_y_i_[y:44][node:27] = 0.037931
+} 
+Node 28: {
+y_[node:28] = 1
+xi_y_i_[y:44][node:28] = 0.050000
+} 
+Node 29: {
+y_[node:29] = 1
+xi_y_i_[y:44][node:29] = 0.050000
+} 
+Node 30: {
+y_[node:30] = 1
+xi_y_i_[y:44][node:30] = 0.017241
+} 
+
+ } 
+
+ y = 46 { 
+Node 1: {
+y_[node:1] = 0
+xi_y_i_[y:46][node:1] = 0.050000
+} 
+Node 2: {
+y_[node:2] = 0
+xi_y_i_[y:46][node:2] = 0.027586
+} 
+Node 3: {
+y_[node:3] = 0
+xi_y_i_[y:46][node:3] = 0.050000
+} 
+Node 4: {
+y_[node:4] = 0
+xi_y_i_[y:46][node:4] = 0.037931
+} 
+Node 5: {
+y_[node:5] = 0
+xi_y_i_[y:46][node:5] = 0.050000
+} 
+Node 6: {
+y_[node:6] = 0
+xi_y_i_[y:46][node:6] = 0.022414
+} 
+Node 7: {
+y_[node:7] = 1
+xi_y_i_[y:46][node:7] = 0.022414
+} 
+Node 8: {
+y_[node:8] = 1
+xi_y_i_[y:46][node:8] = 0.005172
+} 
+Node 9: {
+y_[node:9] = 1
+xi_y_i_[y:46][node:9] = 0.017241
+} 
+Node 10: {
+y_[node:10] = 1
+xi_y_i_[y:46][node:10] = 0.027586
+} 
+Node 11: {
+y_[node:11] = 1
+xi_y_i_[y:46][node:11] = 0.015517
+} 
+Node 12: {
+y_[node:12] = 1
+xi_y_i_[y:46][node:12] = 0.015517
+} 
+Node 13: {
+y_[node:13] = 0
+xi_y_i_[y:46][node:13] = 0.050000
+} 
+Node 14: {
+y_[node:14] = 0
+xi_y_i_[y:46][node:14] = 0.050000
+} 
+Node 15: {
+y_[node:15] = 0
+xi_y_i_[y:46][node:15] = 0.050000
+} 
+Node 16: {
+y_[node:16] = 0
+xi_y_i_[y:46][node:16] = 0.005172
+} 
+Node 17: {
+y_[node:17] = 0
+xi_y_i_[y:46][node:17] = 0.050000
+} 
+Node 18: {
+y_[node:18] = 1
+xi_y_i_[y:46][node:18] = 0.010345
+} 
+Node 19: {
+y_[node:19] = 0
+xi_y_i_[y:46][node:19] = 0.022414
+} 
+Node 20: {
+y_[node:20] = 1
+xi_y_i_[y:46][node:20] = 0.022414
+} 
+Node 21: {
+y_[node:21] = 0
+xi_y_i_[y:46][node:21] = 0.037931
+} 
+Node 22: {
+y_[node:22] = 0
+xi_y_i_[y:46][node:22] = 0.050000
+} 
+Node 23: {
+y_[node:23] = 0
+xi_y_i_[y:46][node:23] = 0.050000
+} 
+Node 24: {
+y_[node:24] = 0
+xi_y_i_[y:46][node:24] = 0.050000
+} 
+Node 25: {
+y_[node:25] = 1
+xi_y_i_[y:46][node:25] = 0.032759
+} 
+Node 26: {
+y_[node:26] = 1
+xi_y_i_[y:46][node:26] = 0.022414
+} 
+Node 27: {
+y_[node:27] = 0
+xi_y_i_[y:46][node:27] = 0.037931
+} 
+Node 28: {
+y_[node:28] = 0
+xi_y_i_[y:46][node:28] = 0.050000
+} 
+Node 29: {
+y_[node:29] = 0
+xi_y_i_[y:46][node:29] = 0.050000
+} 
+Node 30: {
+y_[node:30] = 1
+xi_y_i_[y:46][node:30] = 0.017241
+} 
+
+ } 
+
+ y = 60 { 
+Node 1: {
+y_[node:1] = 0
+xi_y_i_[y:60][node:1] = 0.050000
+} 
+Node 2: {
+y_[node:2] = 0
+xi_y_i_[y:60][node:2] = 0.027586
+} 
+Node 3: {
+y_[node:3] = 0
+xi_y_i_[y:60][node:3] = 0.050000
+} 
+Node 4: {
+y_[node:4] = 0
+xi_y_i_[y:60][node:4] = 0.037931
+} 
+Node 5: {
+y_[node:5] = 0
+xi_y_i_[y:60][node:5] = 0.050000
+} 
+Node 6: {
+y_[node:6] = 0
+xi_y_i_[y:60][node:6] = 0.022414
+} 
+Node 7: {
+y_[node:7] = 1
+xi_y_i_[y:60][node:7] = 0.022414
+} 
+Node 8: {
+y_[node:8] = 0
+xi_y_i_[y:60][node:8] = 0.005172
+} 
+Node 9: {
+y_[node:9] = 1
+xi_y_i_[y:60][node:9] = 0.017241
+} 
+Node 10: {
+y_[node:10] = 1
+xi_y_i_[y:60][node:10] = 0.027586
+} 
+Node 11: {
+y_[node:11] = 1
+xi_y_i_[y:60][node:11] = 0.015517
+} 
+Node 12: {
+y_[node:12] = 1
+xi_y_i_[y:60][node:12] = 0.015517
+} 
+Node 13: {
+y_[node:13] = 0
+xi_y_i_[y:60][node:13] = 0.050000
+} 
+Node 14: {
+y_[node:14] = 0
+xi_y_i_[y:60][node:14] = 0.050000
+} 
+Node 15: {
+y_[node:15] = 0
+xi_y_i_[y:60][node:15] = 0.050000
+} 
+Node 16: {
+y_[node:16] = 0
+xi_y_i_[y:60][node:16] = 0.005172
+} 
+Node 17: {
+y_[node:17] = 0
+xi_y_i_[y:60][node:17] = 0.050000
+} 
+Node 18: {
+y_[node:18] = 1
+xi_y_i_[y:60][node:18] = 0.010345
+} 
+Node 19: {
+y_[node:19] = 1
+xi_y_i_[y:60][node:19] = 0.022414
+} 
+Node 20: {
+y_[node:20] = 1
+xi_y_i_[y:60][node:20] = 0.022414
+} 
+Node 21: {
+y_[node:21] = 0
+xi_y_i_[y:60][node:21] = 0.037931
+} 
+Node 22: {
+y_[node:22] = 0
+xi_y_i_[y:60][node:22] = 0.050000
+} 
+Node 23: {
+y_[node:23] = 0
+xi_y_i_[y:60][node:23] = 0.050000
+} 
+Node 24: {
+y_[node:24] = 0
+xi_y_i_[y:60][node:24] = 0.050000
+} 
+Node 25: {
+y_[node:25] = 1
+xi_y_i_[y:60][node:25] = 0.032759
+} 
+Node 26: {
+y_[node:26] = 1
+xi_y_i_[y:60][node:26] = 0.022414
+} 
+Node 27: {
+y_[node:27] = 0
+xi_y_i_[y:60][node:27] = 0.037931
+} 
+Node 28: {
+y_[node:28] = 0
+xi_y_i_[y:60][node:28] = 0.050000
+} 
+Node 29: {
+y_[node:29] = 0
+xi_y_i_[y:60][node:29] = 0.050000
+} 
+Node 30: {
+y_[node:30] = 1
+xi_y_i_[y:60][node:30] = 0.017241
+} 
+
+ } 
+
+ y = 69 { 
+Node 1: {
+y_[node:1] = 0
+xi_y_i_[y:69][node:1] = 0.050000
+} 
+Node 2: {
+y_[node:2] = 0
+xi_y_i_[y:69][node:2] = 0.027586
+} 
+Node 3: {
+y_[node:3] = 0
+xi_y_i_[y:69][node:3] = 0.050000
+} 
+Node 4: {
+y_[node:4] = 0
+xi_y_i_[y:69][node:4] = 0.037931
+} 
+Node 5: {
+y_[node:5] = 0
+xi_y_i_[y:69][node:5] = 0.050000
+} 
+Node 6: {
+y_[node:6] = 0
+xi_y_i_[y:69][node:6] = 0.022414
+} 
+Node 7: {
+y_[node:7] = 1
+xi_y_i_[y:69][node:7] = 0.022414
+} 
+Node 8: {
+y_[node:8] = 1
+xi_y_i_[y:69][node:8] = 0.005172
+} 
+Node 9: {
+y_[node:9] = 0
+xi_y_i_[y:69][node:9] = 0.017241
+} 
+Node 10: {
+y_[node:10] = 0
+xi_y_i_[y:69][node:10] = 0.027586
+} 
+Node 11: {
+y_[node:11] = 1
+xi_y_i_[y:69][node:11] = 0.015517
+} 
+Node 12: {
+y_[node:12] = 1
+xi_y_i_[y:69][node:12] = 0.015517
+} 
+Node 13: {
+y_[node:13] = 0
+xi_y_i_[y:69][node:13] = 0.050000
+} 
+Node 14: {
+y_[node:14] = 0
+xi_y_i_[y:69][node:14] = 0.050000
+} 
+Node 15: {
+y_[node:15] = 0
+xi_y_i_[y:69][node:15] = 0.050000
+} 
+Node 16: {
+y_[node:16] = 0
+xi_y_i_[y:69][node:16] = 0.005172
+} 
+Node 17: {
+y_[node:17] = 0
+xi_y_i_[y:69][node:17] = 0.050000
+} 
+Node 18: {
+y_[node:18] = 1
+xi_y_i_[y:69][node:18] = 0.010345
+} 
+Node 19: {
+y_[node:19] = 1
+xi_y_i_[y:69][node:19] = 0.022414
+} 
+Node 20: {
+y_[node:20] = 1
+xi_y_i_[y:69][node:20] = 0.022414
+} 
+Node 21: {
+y_[node:21] = 0
+xi_y_i_[y:69][node:21] = 0.037931
+} 
+Node 22: {
+y_[node:22] = 0
+xi_y_i_[y:69][node:22] = 0.050000
+} 
+Node 23: {
+y_[node:23] = 0
+xi_y_i_[y:69][node:23] = 0.050000
+} 
+Node 24: {
+y_[node:24] = 0
+xi_y_i_[y:69][node:24] = 0.050000
+} 
+Node 25: {
+y_[node:25] = 1
+xi_y_i_[y:69][node:25] = 0.032759
+} 
+Node 26: {
+y_[node:26] = 1
+xi_y_i_[y:69][node:26] = 0.022414
+} 
+Node 27: {
+y_[node:27] = 0
+xi_y_i_[y:69][node:27] = 0.037931
+} 
+Node 28: {
+y_[node:28] = 0
+xi_y_i_[y:69][node:28] = 0.050000
+} 
+Node 29: {
+y_[node:29] = 0
+xi_y_i_[y:69][node:29] = 0.050000
+} 
+Node 30: {
+y_[node:30] = 1
+xi_y_i_[y:69][node:30] = 0.017241
+} 
+
+ } 
+
+ y = 76 { 
+Node 1: {
+y_[node:1] = 0
+xi_y_i_[y:76][node:1] = 0.050000
+} 
+Node 2: {
+y_[node:2] = 0
+xi_y_i_[y:76][node:2] = 0.027586
+} 
+Node 3: {
+y_[node:3] = 0
+xi_y_i_[y:76][node:3] = 0.050000
+} 
+Node 4: {
+y_[node:4] = 0
+xi_y_i_[y:76][node:4] = 0.037931
+} 
+Node 5: {
+y_[node:5] = 0
+xi_y_i_[y:76][node:5] = 0.050000
+} 
+Node 6: {
+y_[node:6] = 0
+xi_y_i_[y:76][node:6] = 0.022414
+} 
+Node 7: {
+y_[node:7] = 0
+xi_y_i_[y:76][node:7] = 0.022414
+} 
+Node 8: {
+y_[node:8] = 0
+xi_y_i_[y:76][node:8] = 0.005172
+} 
+Node 9: {
+y_[node:9] = 0
+xi_y_i_[y:76][node:9] = 0.017241
+} 
+Node 10: {
+y_[node:10] = 0
+xi_y_i_[y:76][node:10] = 0.027586
+} 
+Node 11: {
+y_[node:11] = 0
+xi_y_i_[y:76][node:11] = 0.015517
+} 
+Node 12: {
+y_[node:12] = 0
+xi_y_i_[y:76][node:12] = 0.015517
+} 
+Node 13: {
+y_[node:13] = 0
+xi_y_i_[y:76][node:13] = 0.050000
+} 
+Node 14: {
+y_[node:14] = 0
+xi_y_i_[y:76][node:14] = 0.050000
+} 
+Node 15: {
+y_[node:15] = 0
+xi_y_i_[y:76][node:15] = 0.050000
+} 
+Node 16: {
+y_[node:16] = 0
+xi_y_i_[y:76][node:16] = 0.039655
+} 
+Node 17: {
+y_[node:17] = 0
+xi_y_i_[y:76][node:17] = 0.050000
+} 
+Node 18: {
+y_[node:18] = 1
+xi_y_i_[y:76][node:18] = 0.010345
+} 
+Node 19: {
+y_[node:19] = 1
+xi_y_i_[y:76][node:19] = 0.022414
+} 
+Node 20: {
+y_[node:20] = 1
+xi_y_i_[y:76][node:20] = 0.022414
+} 
+Node 21: {
+y_[node:21] = 1
+xi_y_i_[y:76][node:21] = 0.037931
+} 
+Node 22: {
+y_[node:22] = 1
+xi_y_i_[y:76][node:22] = 0.015517
+} 
+Node 23: {
+y_[node:23] = 0
+xi_y_i_[y:76][node:23] = 0.050000
+} 
+Node 24: {
+y_[node:24] = 1
+xi_y_i_[y:76][node:24] = 0.050000
+} 
+Node 25: {
+y_[node:25] = 1
+xi_y_i_[y:76][node:25] = 0.032759
+} 
+Node 26: {
+y_[node:26] = 1
+xi_y_i_[y:76][node:26] = 0.022414
+} 
+Node 27: {
+y_[node:27] = 0
+xi_y_i_[y:76][node:27] = 0.037931
+} 
+Node 28: {
+y_[node:28] = 0
+xi_y_i_[y:76][node:28] = 0.050000
+} 
+Node 29: {
+y_[node:29] = 0
+xi_y_i_[y:76][node:29] = 0.050000
+} 
+Node 30: {
+y_[node:30] = 1
+xi_y_i_[y:76][node:30] = 0.017241
+} 
+
+ } 
+
+ y = 110 { 
+Node 1: {
+y_[node:1] = 0
+xi_y_i_[y:110][node:1] = 0.050000
+} 
+Node 2: {
+y_[node:2] = 0
+xi_y_i_[y:110][node:2] = 0.027586
+} 
+Node 3: {
+y_[node:3] = 0
+xi_y_i_[y:110][node:3] = 0.050000
+} 
+Node 4: {
+y_[node:4] = 0
+xi_y_i_[y:110][node:4] = 0.037931
+} 
+Node 5: {
+y_[node:5] = 0
+xi_y_i_[y:110][node:5] = 0.050000
+} 
+Node 6: {
+y_[node:6] = 0
+xi_y_i_[y:110][node:6] = 0.022414
+} 
+Node 7: {
+y_[node:7] = 0
+xi_y_i_[y:110][node:7] = 0.022414
+} 
+Node 8: {
+y_[node:8] = 1
+xi_y_i_[y:110][node:8] = 0.005172
+} 
+Node 9: {
+y_[node:9] = 0
+xi_y_i_[y:110][node:9] = 0.017241
+} 
+Node 10: {
+y_[node:10] = 0
+xi_y_i_[y:110][node:10] = 0.027586
+} 
+Node 11: {
+y_[node:11] = 1
+xi_y_i_[y:110][node:11] = 0.015517
+} 
+Node 12: {
+y_[node:12] = 0
+xi_y_i_[y:110][node:12] = 0.015517
+} 
+Node 13: {
+y_[node:13] = 0
+xi_y_i_[y:110][node:13] = 0.050000
+} 
+Node 14: {
+y_[node:14] = 0
+xi_y_i_[y:110][node:14] = 0.050000
+} 
+Node 15: {
+y_[node:15] = 0
+xi_y_i_[y:110][node:15] = 0.050000
+} 
+Node 16: {
+y_[node:16] = 0
+xi_y_i_[y:110][node:16] = 0.005172
+} 
+Node 17: {
+y_[node:17] = 0
+xi_y_i_[y:110][node:17] = 0.050000
+} 
+Node 18: {
+y_[node:18] = 0
+xi_y_i_[y:110][node:18] = 0.010345
+} 
+Node 19: {
+y_[node:19] = 1
+xi_y_i_[y:110][node:19] = 0.022414
+} 
+Node 20: {
+y_[node:20] = 1
+xi_y_i_[y:110][node:20] = 0.022414
+} 
+Node 21: {
+y_[node:21] = 1
+xi_y_i_[y:110][node:21] = 0.037931
+} 
+Node 22: {
+y_[node:22] = 1
+xi_y_i_[y:110][node:22] = 0.050000
+} 
+Node 23: {
+y_[node:23] = 0
+xi_y_i_[y:110][node:23] = 0.050000
+} 
+Node 24: {
+y_[node:24] = 0
+xi_y_i_[y:110][node:24] = 0.050000
+} 
+Node 25: {
+y_[node:25] = 1
+xi_y_i_[y:110][node:25] = 0.032759
+} 
+Node 26: {
+y_[node:26] = 1
+xi_y_i_[y:110][node:26] = 0.022414
+} 
+Node 27: {
+y_[node:27] = 0
+xi_y_i_[y:110][node:27] = 0.037931
+} 
+Node 28: {
+y_[node:28] = 0
+xi_y_i_[y:110][node:28] = 0.050000
+} 
+Node 29: {
+y_[node:29] = 0
+xi_y_i_[y:110][node:29] = 0.050000
+} 
+Node 30: {
+y_[node:30] = 1
+xi_y_i_[y:110][node:30] = 0.017241
+} 
+
+ } 
+
+ y = 111 { 
+Node 1: {
+y_[node:1] = 1
+xi_y_i_[y:111][node:1] = 0.050000
+} 
+Node 2: {
+y_[node:2] = 1
+xi_y_i_[y:111][node:2] = 0.027586
+} 
+Node 3: {
+y_[node:3] = 0
+xi_y_i_[y:111][node:3] = 0.050000
+} 
+Node 4: {
+y_[node:4] = 1
+xi_y_i_[y:111][node:4] = 0.037931
+} 
+Node 5: {
+y_[node:5] = 1
+xi_y_i_[y:111][node:5] = 0.043103
+} 
+Node 6: {
+y_[node:6] = 0
+xi_y_i_[y:111][node:6] = 0.022414
+} 
+Node 7: {
+y_[node:7] = 1
+xi_y_i_[y:111][node:7] = 0.022414
+} 
+Node 8: {
+y_[node:8] = 1
+xi_y_i_[y:111][node:8] = 0.005172
+} 
+Node 9: {
+y_[node:9] = 1
+xi_y_i_[y:111][node:9] = 0.017241
+} 
+Node 10: {
+y_[node:10] = 1
+xi_y_i_[y:111][node:10] = 0.027586
+} 
+Node 11: {
+y_[node:11] = 0
+xi_y_i_[y:111][node:11] = 0.015517
+} 
+Node 12: {
+y_[node:12] = 0
+xi_y_i_[y:111][node:12] = 0.015517
+} 
+Node 13: {
+y_[node:13] = 0
+xi_y_i_[y:111][node:13] = 0.050000
+} 
+Node 14: {
+y_[node:14] = 0
+xi_y_i_[y:111][node:14] = 0.050000
+} 
+Node 15: {
+y_[node:15] = 0
+xi_y_i_[y:111][node:15] = 0.050000
+} 
+Node 16: {
+y_[node:16] = 0
+xi_y_i_[y:111][node:16] = 0.012069
+} 
+Node 17: {
+y_[node:17] = 0
+xi_y_i_[y:111][node:17] = 0.050000
+} 
+Node 18: {
+y_[node:18] = 0
+xi_y_i_[y:111][node:18] = 0.010345
+} 
+Node 19: {
+y_[node:19] = 0
+xi_y_i_[y:111][node:19] = 0.022414
+} 
+Node 20: {
+y_[node:20] = 0
+xi_y_i_[y:111][node:20] = 0.022414
+} 
+Node 21: {
+y_[node:21] = 0
+xi_y_i_[y:111][node:21] = 0.037931
+} 
+Node 22: {
+y_[node:22] = 0
+xi_y_i_[y:111][node:22] = 0.050000
+} 
+Node 23: {
+y_[node:23] = 0
+xi_y_i_[y:111][node:23] = 0.050000
+} 
+Node 24: {
+y_[node:24] = 0
+xi_y_i_[y:111][node:24] = 0.050000
+} 
+Node 25: {
+y_[node:25] = 0
+xi_y_i_[y:111][node:25] = 0.032759
+} 
+Node 26: {
+y_[node:26] = 0
+xi_y_i_[y:111][node:26] = 0.022414
+} 
+Node 27: {
+y_[node:27] = 0
+xi_y_i_[y:111][node:27] = 0.037931
+} 
+Node 28: {
+y_[node:28] = 0
+xi_y_i_[y:111][node:28] = 0.050000
+} 
+Node 29: {
+y_[node:29] = 0
+xi_y_i_[y:111][node:29] = 0.050000
+} 
+Node 30: {
+y_[node:30] = 0
+xi_y_i_[y:111][node:30] = 0.017241
+} 
+
+ } 
+
+ y = 120 { 
+Node 1: {
+y_[node:1] = 0
+xi_y_i_[y:120][node:1] = 0.050000
+} 
+Node 2: {
+y_[node:2] = 0
+xi_y_i_[y:120][node:2] = 0.027586
+} 
+Node 3: {
+y_[node:3] = 0
+xi_y_i_[y:120][node:3] = 0.050000
+} 
+Node 4: {
+y_[node:4] = 0
+xi_y_i_[y:120][node:4] = 0.037931
+} 
+Node 5: {
+y_[node:5] = 0
+xi_y_i_[y:120][node:5] = 0.050000
+} 
+Node 6: {
+y_[node:6] = 0
+xi_y_i_[y:120][node:6] = 0.022414
+} 
+Node 7: {
+y_[node:7] = 1
+xi_y_i_[y:120][node:7] = 0.022414
+} 
+Node 8: {
+y_[node:8] = 1
+xi_y_i_[y:120][node:8] = 0.005172
+} 
+Node 9: {
+y_[node:9] = 1
+xi_y_i_[y:120][node:9] = 0.017241
+} 
+Node 10: {
+y_[node:10] = 1
+xi_y_i_[y:120][node:10] = 0.027586
+} 
+Node 11: {
+y_[node:11] = 1
+xi_y_i_[y:120][node:11] = 0.015517
+} 
+Node 12: {
+y_[node:12] = 0
+xi_y_i_[y:120][node:12] = 0.015517
+} 
+Node 13: {
+y_[node:13] = 0
+xi_y_i_[y:120][node:13] = 0.050000
+} 
+Node 14: {
+y_[node:14] = 0
+xi_y_i_[y:120][node:14] = 0.050000
+} 
+Node 15: {
+y_[node:15] = 0
+xi_y_i_[y:120][node:15] = 0.050000
+} 
+Node 16: {
+y_[node:16] = 0
+xi_y_i_[y:120][node:16] = 0.005172
+} 
+Node 17: {
+y_[node:17] = 0
+xi_y_i_[y:120][node:17] = 0.050000
+} 
+Node 18: {
+y_[node:18] = 0
+xi_y_i_[y:120][node:18] = 0.010345
+} 
+Node 19: {
+y_[node:19] = 1
+xi_y_i_[y:120][node:19] = 0.022414
+} 
+Node 20: {
+y_[node:20] = 1
+xi_y_i_[y:120][node:20] = 0.022414
+} 
+Node 21: {
+y_[node:21] = 1
+xi_y_i_[y:120][node:21] = 0.037931
+} 
+Node 22: {
+y_[node:22] = 1
+xi_y_i_[y:120][node:22] = 0.050000
+} 
+Node 23: {
+y_[node:23] = 0
+xi_y_i_[y:120][node:23] = 0.050000
+} 
+Node 24: {
+y_[node:24] = 0
+xi_y_i_[y:120][node:24] = 0.050000
+} 
+Node 25: {
+y_[node:25] = 0
+xi_y_i_[y:120][node:25] = 0.032759
+} 
+Node 26: {
+y_[node:26] = 0
+xi_y_i_[y:120][node:26] = 0.022414
+} 
+Node 27: {
+y_[node:27] = 0
+xi_y_i_[y:120][node:27] = 0.037931
+} 
+Node 28: {
+y_[node:28] = 0
+xi_y_i_[y:120][node:28] = 0.050000
+} 
+Node 29: {
+y_[node:29] = 0
+xi_y_i_[y:120][node:29] = 0.050000
+} 
+Node 30: {
+y_[node:30] = 0
+xi_y_i_[y:120][node:30] = 0.017241
+} 
+
+ } 
+
+ y = 123 { 
+Node 1: {
+y_[node:1] = 0
+xi_y_i_[y:123][node:1] = 0.050000
+} 
+Node 2: {
+y_[node:2] = 0
+xi_y_i_[y:123][node:2] = 0.027586
+} 
+Node 3: {
+y_[node:3] = 0
+xi_y_i_[y:123][node:3] = 0.050000
+} 
+Node 4: {
+y_[node:4] = 0
+xi_y_i_[y:123][node:4] = 0.037931
+} 
+Node 5: {
+y_[node:5] = 0
+xi_y_i_[y:123][node:5] = 0.050000
+} 
+Node 6: {
+y_[node:6] = 0
+xi_y_i_[y:123][node:6] = 0.022414
+} 
+Node 7: {
+y_[node:7] = 1
+xi_y_i_[y:123][node:7] = 0.022414
+} 
+Node 8: {
+y_[node:8] = 1
+xi_y_i_[y:123][node:8] = 0.005172
+} 
+Node 9: {
+y_[node:9] = 1
+xi_y_i_[y:123][node:9] = 0.017241
+} 
+Node 10: {
+y_[node:10] = 1
+xi_y_i_[y:123][node:10] = 0.027586
+} 
+Node 11: {
+y_[node:11] = 1
+xi_y_i_[y:123][node:11] = 0.015517
+} 
+Node 12: {
+y_[node:12] = 1
+xi_y_i_[y:123][node:12] = 0.015517
+} 
+Node 13: {
+y_[node:13] = 0
+xi_y_i_[y:123][node:13] = 0.050000
+} 
+Node 14: {
+y_[node:14] = 0
+xi_y_i_[y:123][node:14] = 0.050000
+} 
+Node 15: {
+y_[node:15] = 0
+xi_y_i_[y:123][node:15] = 0.050000
+} 
+Node 16: {
+y_[node:16] = 0
+xi_y_i_[y:123][node:16] = 0.005172
+} 
+Node 17: {
+y_[node:17] = 0
+xi_y_i_[y:123][node:17] = 0.050000
+} 
+Node 18: {
+y_[node:18] = 0
+xi_y_i_[y:123][node:18] = 0.010345
+} 
+Node 19: {
+y_[node:19] = 1
+xi_y_i_[y:123][node:19] = 0.022414
+} 
+Node 20: {
+y_[node:20] = 1
+xi_y_i_[y:123][node:20] = 0.022414
+} 
+Node 21: {
+y_[node:21] = 1
+xi_y_i_[y:123][node:21] = 0.037931
+} 
+Node 22: {
+y_[node:22] = 0
+xi_y_i_[y:123][node:22] = 0.050000
+} 
+Node 23: {
+y_[node:23] = 0
+xi_y_i_[y:123][node:23] = 0.050000
+} 
+Node 24: {
+y_[node:24] = 0
+xi_y_i_[y:123][node:24] = 0.050000
+} 
+Node 25: {
+y_[node:25] = 0
+xi_y_i_[y:123][node:25] = 0.032759
+} 
+Node 26: {
+y_[node:26] = 1
+xi_y_i_[y:123][node:26] = 0.022414
+} 
+Node 27: {
+y_[node:27] = 0
+xi_y_i_[y:123][node:27] = 0.037931
+} 
+Node 28: {
+y_[node:28] = 0
+xi_y_i_[y:123][node:28] = 0.050000
+} 
+Node 29: {
+y_[node:29] = 0
+xi_y_i_[y:123][node:29] = 0.050000
+} 
+Node 30: {
+y_[node:30] = 0
+xi_y_i_[y:123][node:30] = 0.017241
+} 
+
+ } 
+
+ y = 125 { 
+Node 1: {
+y_[node:1] = 0
+xi_y_i_[y:125][node:1] = 0.050000
+} 
+Node 2: {
+y_[node:2] = 0
+xi_y_i_[y:125][node:2] = 0.027586
+} 
+Node 3: {
+y_[node:3] = 0
+xi_y_i_[y:125][node:3] = 0.050000
+} 
+Node 4: {
+y_[node:4] = 0
+xi_y_i_[y:125][node:4] = 0.037931
+} 
+Node 5: {
+y_[node:5] = 0
+xi_y_i_[y:125][node:5] = 0.050000
+} 
+Node 6: {
+y_[node:6] = 0
+xi_y_i_[y:125][node:6] = 0.022414
+} 
+Node 7: {
+y_[node:7] = 1
+xi_y_i_[y:125][node:7] = 0.022414
+} 
+Node 8: {
+y_[node:8] = 1
+xi_y_i_[y:125][node:8] = 0.005172
+} 
+Node 9: {
+y_[node:9] = 1
+xi_y_i_[y:125][node:9] = 0.017241
+} 
+Node 10: {
+y_[node:10] = 1
+xi_y_i_[y:125][node:10] = 0.027586
+} 
+Node 11: {
+y_[node:11] = 1
+xi_y_i_[y:125][node:11] = 0.015517
+} 
+Node 12: {
+y_[node:12] = 1
+xi_y_i_[y:125][node:12] = 0.015517
+} 
+Node 13: {
+y_[node:13] = 0
+xi_y_i_[y:125][node:13] = 0.050000
+} 
+Node 14: {
+y_[node:14] = 0
+xi_y_i_[y:125][node:14] = 0.050000
+} 
+Node 15: {
+y_[node:15] = 0
+xi_y_i_[y:125][node:15] = 0.050000
+} 
+Node 16: {
+y_[node:16] = 0
+xi_y_i_[y:125][node:16] = 0.005172
+} 
+Node 17: {
+y_[node:17] = 0
+xi_y_i_[y:125][node:17] = 0.050000
+} 
+Node 18: {
+y_[node:18] = 0
+xi_y_i_[y:125][node:18] = 0.010345
+} 
+Node 19: {
+y_[node:19] = 1
+xi_y_i_[y:125][node:19] = 0.022414
+} 
+Node 20: {
+y_[node:20] = 1
+xi_y_i_[y:125][node:20] = 0.022414
+} 
+Node 21: {
+y_[node:21] = 1
+xi_y_i_[y:125][node:21] = 0.037931
+} 
+Node 22: {
+y_[node:22] = 0
+xi_y_i_[y:125][node:22] = 0.050000
+} 
+Node 23: {
+y_[node:23] = 0
+xi_y_i_[y:125][node:23] = 0.050000
+} 
+Node 24: {
+y_[node:24] = 0
+xi_y_i_[y:125][node:24] = 0.050000
+} 
+Node 25: {
+y_[node:25] = 1
+xi_y_i_[y:125][node:25] = 0.032759
+} 
+Node 26: {
+y_[node:26] = 0
+xi_y_i_[y:125][node:26] = 0.022414
+} 
+Node 27: {
+y_[node:27] = 0
+xi_y_i_[y:125][node:27] = 0.037931
+} 
+Node 28: {
+y_[node:28] = 0
+xi_y_i_[y:125][node:28] = 0.050000
+} 
+Node 29: {
+y_[node:29] = 0
+xi_y_i_[y:125][node:29] = 0.050000
+} 
+Node 30: {
+y_[node:30] = 0
+xi_y_i_[y:125][node:30] = 0.017241
+} 
+
+ } 
+
+ y = 126 { 
+Node 1: {
+y_[node:1] = 0
+xi_y_i_[y:126][node:1] = 0.050000
+} 
+Node 2: {
+y_[node:2] = 0
+xi_y_i_[y:126][node:2] = 0.027586
+} 
+Node 3: {
+y_[node:3] = 0
+xi_y_i_[y:126][node:3] = 0.050000
+} 
+Node 4: {
+y_[node:4] = 0
+xi_y_i_[y:126][node:4] = 0.037931
+} 
+Node 5: {
+y_[node:5] = 0
+xi_y_i_[y:126][node:5] = 0.050000
+} 
+Node 6: {
+y_[node:6] = 0
+xi_y_i_[y:126][node:6] = 0.022414
+} 
+Node 7: {
+y_[node:7] = 1
+xi_y_i_[y:126][node:7] = 0.022414
+} 
+Node 8: {
+y_[node:8] = 1
+xi_y_i_[y:126][node:8] = 0.005172
+} 
+Node 9: {
+y_[node:9] = 1
+xi_y_i_[y:126][node:9] = 0.017241
+} 
+Node 10: {
+y_[node:10] = 1
+xi_y_i_[y:126][node:10] = 0.027586
+} 
+Node 11: {
+y_[node:11] = 1
+xi_y_i_[y:126][node:11] = 0.015517
+} 
+Node 12: {
+y_[node:12] = 1
+xi_y_i_[y:126][node:12] = 0.015517
+} 
+Node 13: {
+y_[node:13] = 0
+xi_y_i_[y:126][node:13] = 0.050000
+} 
+Node 14: {
+y_[node:14] = 0
+xi_y_i_[y:126][node:14] = 0.050000
+} 
+Node 15: {
+y_[node:15] = 0
+xi_y_i_[y:126][node:15] = 0.050000
+} 
+Node 16: {
+y_[node:16] = 0
+xi_y_i_[y:126][node:16] = 0.005172
+} 
+Node 17: {
+y_[node:17] = 0
+xi_y_i_[y:126][node:17] = 0.050000
+} 
+Node 18: {
+y_[node:18] = 0
+xi_y_i_[y:126][node:18] = 0.010345
+} 
+Node 19: {
+y_[node:19] = 0
+xi_y_i_[y:126][node:19] = 0.022414
+} 
+Node 20: {
+y_[node:20] = 1
+xi_y_i_[y:126][node:20] = 0.022414
+} 
+Node 21: {
+y_[node:21] = 1
+xi_y_i_[y:126][node:21] = 0.037931
+} 
+Node 22: {
+y_[node:22] = 0
+xi_y_i_[y:126][node:22] = 0.050000
+} 
+Node 23: {
+y_[node:23] = 0
+xi_y_i_[y:126][node:23] = 0.050000
+} 
+Node 24: {
+y_[node:24] = 0
+xi_y_i_[y:126][node:24] = 0.050000
+} 
+Node 25: {
+y_[node:25] = 1
+xi_y_i_[y:126][node:25] = 0.032759
+} 
+Node 26: {
+y_[node:26] = 1
+xi_y_i_[y:126][node:26] = 0.022414
+} 
+Node 27: {
+y_[node:27] = 0
+xi_y_i_[y:126][node:27] = 0.037931
+} 
+Node 28: {
+y_[node:28] = 0
+xi_y_i_[y:126][node:28] = 0.050000
+} 
+Node 29: {
+y_[node:29] = 0
+xi_y_i_[y:126][node:29] = 0.050000
+} 
+Node 30: {
+y_[node:30] = 0
+xi_y_i_[y:126][node:30] = 0.017241
+} 
+
+ } 
+
+ y = 127 { 
+Node 1: {
+y_[node:1] = 0
+xi_y_i_[y:127][node:1] = 0.050000
+} 
+Node 2: {
+y_[node:2] = 0
+xi_y_i_[y:127][node:2] = 0.027586
+} 
+Node 3: {
+y_[node:3] = 0
+xi_y_i_[y:127][node:3] = 0.050000
+} 
+Node 4: {
+y_[node:4] = 0
+xi_y_i_[y:127][node:4] = 0.037931
+} 
+Node 5: {
+y_[node:5] = 0
+xi_y_i_[y:127][node:5] = 0.050000
+} 
+Node 6: {
+y_[node:6] = 0
+xi_y_i_[y:127][node:6] = 0.022414
+} 
+Node 7: {
+y_[node:7] = 1
+xi_y_i_[y:127][node:7] = 0.022414
+} 
+Node 8: {
+y_[node:8] = 1
+xi_y_i_[y:127][node:8] = 0.005172
+} 
+Node 9: {
+y_[node:9] = 1
+xi_y_i_[y:127][node:9] = 0.017241
+} 
+Node 10: {
+y_[node:10] = 1
+xi_y_i_[y:127][node:10] = 0.027586
+} 
+Node 11: {
+y_[node:11] = 1
+xi_y_i_[y:127][node:11] = 0.015517
+} 
+Node 12: {
+y_[node:12] = 1
+xi_y_i_[y:127][node:12] = 0.015517
+} 
+Node 13: {
+y_[node:13] = 0
+xi_y_i_[y:127][node:13] = 0.050000
+} 
+Node 14: {
+y_[node:14] = 0
+xi_y_i_[y:127][node:14] = 0.050000
+} 
+Node 15: {
+y_[node:15] = 0
+xi_y_i_[y:127][node:15] = 0.050000
+} 
+Node 16: {
+y_[node:16] = 0
+xi_y_i_[y:127][node:16] = 0.005172
+} 
+Node 17: {
+y_[node:17] = 0
+xi_y_i_[y:127][node:17] = 0.050000
+} 
+Node 18: {
+y_[node:18] = 1
+xi_y_i_[y:127][node:18] = 0.010345
+} 
+Node 19: {
+y_[node:19] = 1
+xi_y_i_[y:127][node:19] = 0.022414
+} 
+Node 20: {
+y_[node:20] = 1
+xi_y_i_[y:127][node:20] = 0.022414
+} 
+Node 21: {
+y_[node:21] = 1
+xi_y_i_[y:127][node:21] = 0.037931
+} 
+Node 22: {
+y_[node:22] = 0
+xi_y_i_[y:127][node:22] = 0.050000
+} 
+Node 23: {
+y_[node:23] = 0
+xi_y_i_[y:127][node:23] = 0.050000
+} 
+Node 24: {
+y_[node:24] = 0
+xi_y_i_[y:127][node:24] = 0.050000
+} 
+Node 25: {
+y_[node:25] = 1
+xi_y_i_[y:127][node:25] = 0.032759
+} 
+Node 26: {
+y_[node:26] = 0
+xi_y_i_[y:127][node:26] = 0.022414
+} 
+Node 27: {
+y_[node:27] = 0
+xi_y_i_[y:127][node:27] = 0.037931
+} 
+Node 28: {
+y_[node:28] = 0
+xi_y_i_[y:127][node:28] = 0.050000
+} 
+Node 29: {
+y_[node:29] = 0
+xi_y_i_[y:127][node:29] = 0.050000
+} 
+Node 30: {
+y_[node:30] = 0
+xi_y_i_[y:127][node:30] = 0.017241
+} 
+
+ } 
+
+ y = 130 { 
+Node 1: {
+y_[node:1] = 1
+xi_y_i_[y:130][node:1] = 0.050000
+} 
+Node 2: {
+y_[node:2] = 0
+xi_y_i_[y:130][node:2] = 0.027586
+} 
+Node 3: {
+y_[node:3] = 0
+xi_y_i_[y:130][node:3] = 0.050000
+} 
+Node 4: {
+y_[node:4] = 0
+xi_y_i_[y:130][node:4] = 0.037931
+} 
+Node 5: {
+y_[node:5] = 0
+xi_y_i_[y:130][node:5] = 0.050000
+} 
+Node 6: {
+y_[node:6] = 0
+xi_y_i_[y:130][node:6] = 0.022414
+} 
+Node 7: {
+y_[node:7] = 1
+xi_y_i_[y:130][node:7] = 0.022414
+} 
+Node 8: {
+y_[node:8] = 1
+xi_y_i_[y:130][node:8] = 0.005172
+} 
+Node 9: {
+y_[node:9] = 1
+xi_y_i_[y:130][node:9] = 0.017241
+} 
+Node 10: {
+y_[node:10] = 1
+xi_y_i_[y:130][node:10] = 0.027586
+} 
+Node 11: {
+y_[node:11] = 1
+xi_y_i_[y:130][node:11] = 0.015517
+} 
+Node 12: {
+y_[node:12] = 1
+xi_y_i_[y:130][node:12] = 0.015517
+} 
+Node 13: {
+y_[node:13] = 0
+xi_y_i_[y:130][node:13] = 0.050000
+} 
+Node 14: {
+y_[node:14] = 0
+xi_y_i_[y:130][node:14] = 0.050000
+} 
+Node 15: {
+y_[node:15] = 0
+xi_y_i_[y:130][node:15] = 0.050000
+} 
+Node 16: {
+y_[node:16] = 0
+xi_y_i_[y:130][node:16] = 0.005172
+} 
+Node 17: {
+y_[node:17] = 0
+xi_y_i_[y:130][node:17] = 0.050000
+} 
+Node 18: {
+y_[node:18] = 0
+xi_y_i_[y:130][node:18] = 0.010345
+} 
+Node 19: {
+y_[node:19] = 1
+xi_y_i_[y:130][node:19] = 0.022414
+} 
+Node 20: {
+y_[node:20] = 1
+xi_y_i_[y:130][node:20] = 0.022414
+} 
+Node 21: {
+y_[node:21] = 0
+xi_y_i_[y:130][node:21] = 0.037931
+} 
+Node 22: {
+y_[node:22] = 0
+xi_y_i_[y:130][node:22] = 0.050000
+} 
+Node 23: {
+y_[node:23] = 0
+xi_y_i_[y:130][node:23] = 0.050000
+} 
+Node 24: {
+y_[node:24] = 0
+xi_y_i_[y:130][node:24] = 0.050000
+} 
+Node 25: {
+y_[node:25] = 0
+xi_y_i_[y:130][node:25] = 0.032759
+} 
+Node 26: {
+y_[node:26] = 1
+xi_y_i_[y:130][node:26] = 0.022414
+} 
+Node 27: {
+y_[node:27] = 0
+xi_y_i_[y:130][node:27] = 0.037931
+} 
+Node 28: {
+y_[node:28] = 0
+xi_y_i_[y:130][node:28] = 0.050000
+} 
+Node 29: {
+y_[node:29] = 0
+xi_y_i_[y:130][node:29] = 0.050000
+} 
+Node 30: {
+y_[node:30] = 0
+xi_y_i_[y:130][node:30] = 0.017241
+} 
+
+ } 
+
+ y = 134 { 
+Node 1: {
+y_[node:1] = 1
+xi_y_i_[y:134][node:1] = 0.050000
+} 
+Node 2: {
+y_[node:2] = 0
+xi_y_i_[y:134][node:2] = 0.027586
+} 
+Node 3: {
+y_[node:3] = 0
+xi_y_i_[y:134][node:3] = 0.050000
+} 
+Node 4: {
+y_[node:4] = 0
+xi_y_i_[y:134][node:4] = 0.037931
+} 
+Node 5: {
+y_[node:5] = 0
+xi_y_i_[y:134][node:5] = 0.050000
+} 
+Node 6: {
+y_[node:6] = 0
+xi_y_i_[y:134][node:6] = 0.022414
+} 
+Node 7: {
+y_[node:7] = 1
+xi_y_i_[y:134][node:7] = 0.022414
+} 
+Node 8: {
+y_[node:8] = 0
+xi_y_i_[y:134][node:8] = 0.005172
+} 
+Node 9: {
+y_[node:9] = 1
+xi_y_i_[y:134][node:9] = 0.017241
+} 
+Node 10: {
+y_[node:10] = 1
+xi_y_i_[y:134][node:10] = 0.027586
+} 
+Node 11: {
+y_[node:11] = 1
+xi_y_i_[y:134][node:11] = 0.015517
+} 
+Node 12: {
+y_[node:12] = 1
+xi_y_i_[y:134][node:12] = 0.015517
+} 
+Node 13: {
+y_[node:13] = 0
+xi_y_i_[y:134][node:13] = 0.050000
+} 
+Node 14: {
+y_[node:14] = 0
+xi_y_i_[y:134][node:14] = 0.050000
+} 
+Node 15: {
+y_[node:15] = 0
+xi_y_i_[y:134][node:15] = 0.050000
+} 
+Node 16: {
+y_[node:16] = 0
+xi_y_i_[y:134][node:16] = 0.005172
+} 
+Node 17: {
+y_[node:17] = 0
+xi_y_i_[y:134][node:17] = 0.050000
+} 
+Node 18: {
+y_[node:18] = 0
+xi_y_i_[y:134][node:18] = 0.010345
+} 
+Node 19: {
+y_[node:19] = 1
+xi_y_i_[y:134][node:19] = 0.022414
+} 
+Node 20: {
+y_[node:20] = 1
+xi_y_i_[y:134][node:20] = 0.022414
+} 
+Node 21: {
+y_[node:21] = 1
+xi_y_i_[y:134][node:21] = 0.037931
+} 
+Node 22: {
+y_[node:22] = 0
+xi_y_i_[y:134][node:22] = 0.050000
+} 
+Node 23: {
+y_[node:23] = 0
+xi_y_i_[y:134][node:23] = 0.050000
+} 
+Node 24: {
+y_[node:24] = 0
+xi_y_i_[y:134][node:24] = 0.050000
+} 
+Node 25: {
+y_[node:25] = 0
+xi_y_i_[y:134][node:25] = 0.032759
+} 
+Node 26: {
+y_[node:26] = 0
+xi_y_i_[y:134][node:26] = 0.022414
+} 
+Node 27: {
+y_[node:27] = 0
+xi_y_i_[y:134][node:27] = 0.037931
+} 
+Node 28: {
+y_[node:28] = 0
+xi_y_i_[y:134][node:28] = 0.050000
+} 
+Node 29: {
+y_[node:29] = 0
+xi_y_i_[y:134][node:29] = 0.050000
+} 
+Node 30: {
+y_[node:30] = 0
+xi_y_i_[y:134][node:30] = 0.017241
+} 
+
+ } 
+
+ y = 135 { 
+Node 1: {
+y_[node:1] = 0
+xi_y_i_[y:135][node:1] = 0.050000
+} 
+Node 2: {
+y_[node:2] = 0
+xi_y_i_[y:135][node:2] = 0.027586
+} 
+Node 3: {
+y_[node:3] = 0
+xi_y_i_[y:135][node:3] = 0.050000
+} 
+Node 4: {
+y_[node:4] = 0
+xi_y_i_[y:135][node:4] = 0.037931
+} 
+Node 5: {
+y_[node:5] = 0
+xi_y_i_[y:135][node:5] = 0.050000
+} 
+Node 6: {
+y_[node:6] = 0
+xi_y_i_[y:135][node:6] = 0.022414
+} 
+Node 7: {
+y_[node:7] = 0
+xi_y_i_[y:135][node:7] = 0.022414
+} 
+Node 8: {
+y_[node:8] = 0
+xi_y_i_[y:135][node:8] = 0.005172
+} 
+Node 9: {
+y_[node:9] = 0
+xi_y_i_[y:135][node:9] = 0.017241
+} 
+Node 10: {
+y_[node:10] = 0
+xi_y_i_[y:135][node:10] = 0.027586
+} 
+Node 11: {
+y_[node:11] = 0
+xi_y_i_[y:135][node:11] = 0.015517
+} 
+Node 12: {
+y_[node:12] = 0
+xi_y_i_[y:135][node:12] = 0.015517
+} 
+Node 13: {
+y_[node:13] = 0
+xi_y_i_[y:135][node:13] = 0.050000
+} 
+Node 14: {
+y_[node:14] = 0
+xi_y_i_[y:135][node:14] = 0.050000
+} 
+Node 15: {
+y_[node:15] = 0
+xi_y_i_[y:135][node:15] = 0.050000
+} 
+Node 16: {
+y_[node:16] = 0
+xi_y_i_[y:135][node:16] = 0.017241
+} 
+Node 17: {
+y_[node:17] = 0
+xi_y_i_[y:135][node:17] = 0.050000
+} 
+Node 18: {
+y_[node:18] = 1
+xi_y_i_[y:135][node:18] = 0.010345
+} 
+Node 19: {
+y_[node:19] = 1
+xi_y_i_[y:135][node:19] = 0.022414
+} 
+Node 20: {
+y_[node:20] = 0
+xi_y_i_[y:135][node:20] = 0.022414
+} 
+Node 21: {
+y_[node:21] = 1
+xi_y_i_[y:135][node:21] = 0.037931
+} 
+Node 22: {
+y_[node:22] = 1
+xi_y_i_[y:135][node:22] = 0.037931
+} 
+Node 23: {
+y_[node:23] = 1
+xi_y_i_[y:135][node:23] = 0.050000
+} 
+Node 24: {
+y_[node:24] = 0
+xi_y_i_[y:135][node:24] = 0.050000
+} 
+Node 25: {
+y_[node:25] = 1
+xi_y_i_[y:135][node:25] = 0.032759
+} 
+Node 26: {
+y_[node:26] = 1
+xi_y_i_[y:135][node:26] = 0.022414
+} 
+Node 27: {
+y_[node:27] = 0
+xi_y_i_[y:135][node:27] = 0.037931
+} 
+Node 28: {
+y_[node:28] = 0
+xi_y_i_[y:135][node:28] = 0.050000
+} 
+Node 29: {
+y_[node:29] = 0
+xi_y_i_[y:135][node:29] = 0.050000
+} 
+Node 30: {
+y_[node:30] = 1
+xi_y_i_[y:135][node:30] = 0.017241
+} 
+
+ } 
+
+ y = 138 { 
+Node 1: {
+y_[node:1] = 1
+xi_y_i_[y:138][node:1] = 0.050000
+} 
+Node 2: {
+y_[node:2] = 1
+xi_y_i_[y:138][node:2] = 0.027586
+} 
+Node 3: {
+y_[node:3] = 0
+xi_y_i_[y:138][node:3] = 0.050000
+} 
+Node 4: {
+y_[node:4] = 0
+xi_y_i_[y:138][node:4] = 0.037931
+} 
+Node 5: {
+y_[node:5] = 1
+xi_y_i_[y:138][node:5] = 0.050000
+} 
+Node 6: {
+y_[node:6] = 1
+xi_y_i_[y:138][node:6] = 0.022414
+} 
+Node 7: {
+y_[node:7] = 1
+xi_y_i_[y:138][node:7] = 0.022414
+} 
+Node 8: {
+y_[node:8] = 1
+xi_y_i_[y:138][node:8] = 0.005172
+} 
+Node 9: {
+y_[node:9] = 0
+xi_y_i_[y:138][node:9] = 0.017241
+} 
+Node 10: {
+y_[node:10] = 0
+xi_y_i_[y:138][node:10] = 0.027586
+} 
+Node 11: {
+y_[node:11] = 0
+xi_y_i_[y:138][node:11] = 0.015517
+} 
+Node 12: {
+y_[node:12] = 0
+xi_y_i_[y:138][node:12] = 0.015517
+} 
+Node 13: {
+y_[node:13] = 0
+xi_y_i_[y:138][node:13] = 0.050000
+} 
+Node 14: {
+y_[node:14] = 0
+xi_y_i_[y:138][node:14] = 0.050000
+} 
+Node 15: {
+y_[node:15] = 0
+xi_y_i_[y:138][node:15] = 0.050000
+} 
+Node 16: {
+y_[node:16] = 0
+xi_y_i_[y:138][node:16] = 0.039655
+} 
+Node 17: {
+y_[node:17] = 1
+xi_y_i_[y:138][node:17] = 0.015517
+} 
+Node 18: {
+y_[node:18] = 0
+xi_y_i_[y:138][node:18] = 0.010345
+} 
+Node 19: {
+y_[node:19] = 0
+xi_y_i_[y:138][node:19] = 0.022414
+} 
+Node 20: {
+y_[node:20] = 0
+xi_y_i_[y:138][node:20] = 0.022414
+} 
+Node 21: {
+y_[node:21] = 0
+xi_y_i_[y:138][node:21] = 0.037931
+} 
+Node 22: {
+y_[node:22] = 0
+xi_y_i_[y:138][node:22] = 0.050000
+} 
+Node 23: {
+y_[node:23] = 0
+xi_y_i_[y:138][node:23] = 0.050000
+} 
+Node 24: {
+y_[node:24] = 0
+xi_y_i_[y:138][node:24] = 0.050000
+} 
+Node 25: {
+y_[node:25] = 0
+xi_y_i_[y:138][node:25] = 0.032759
+} 
+Node 26: {
+y_[node:26] = 0
+xi_y_i_[y:138][node:26] = 0.022414
+} 
+Node 27: {
+y_[node:27] = 1
+xi_y_i_[y:138][node:27] = 0.037931
+} 
+Node 28: {
+y_[node:28] = 0
+xi_y_i_[y:138][node:28] = 0.050000
+} 
+Node 29: {
+y_[node:29] = 0
+xi_y_i_[y:138][node:29] = 0.050000
+} 
+Node 30: {
+y_[node:30] = 0
+xi_y_i_[y:138][node:30] = 0.017241
+} 
+
+ } 
+
+ y = 140 { 
+Node 1: {
+y_[node:1] = 0
+xi_y_i_[y:140][node:1] = 0.050000
+} 
+Node 2: {
+y_[node:2] = 0
+xi_y_i_[y:140][node:2] = 0.027586
+} 
+Node 3: {
+y_[node:3] = 0
+xi_y_i_[y:140][node:3] = 0.050000
+} 
+Node 4: {
+y_[node:4] = 0
+xi_y_i_[y:140][node:4] = 0.037931
+} 
+Node 5: {
+y_[node:5] = 0
+xi_y_i_[y:140][node:5] = 0.050000
+} 
+Node 6: {
+y_[node:6] = 0
+xi_y_i_[y:140][node:6] = 0.022414
+} 
+Node 7: {
+y_[node:7] = 0
+xi_y_i_[y:140][node:7] = 0.022414
+} 
+Node 8: {
+y_[node:8] = 0
+xi_y_i_[y:140][node:8] = 0.005172
+} 
+Node 9: {
+y_[node:9] = 0
+xi_y_i_[y:140][node:9] = 0.017241
+} 
+Node 10: {
+y_[node:10] = 0
+xi_y_i_[y:140][node:10] = 0.027586
+} 
+Node 11: {
+y_[node:11] = 0
+xi_y_i_[y:140][node:11] = 0.015517
+} 
+Node 12: {
+y_[node:12] = 0
+xi_y_i_[y:140][node:12] = 0.015517
+} 
+Node 13: {
+y_[node:13] = 0
+xi_y_i_[y:140][node:13] = 0.050000
+} 
+Node 14: {
+y_[node:14] = 0
+xi_y_i_[y:140][node:14] = 0.050000
+} 
+Node 15: {
+y_[node:15] = 0
+xi_y_i_[y:140][node:15] = 0.050000
+} 
+Node 16: {
+y_[node:16] = 0
+xi_y_i_[y:140][node:16] = 0.027586
+} 
+Node 17: {
+y_[node:17] = 0
+xi_y_i_[y:140][node:17] = 0.050000
+} 
+Node 18: {
+y_[node:18] = 1
+xi_y_i_[y:140][node:18] = 0.010345
+} 
+Node 19: {
+y_[node:19] = 1
+xi_y_i_[y:140][node:19] = 0.022414
+} 
+Node 20: {
+y_[node:20] = 1
+xi_y_i_[y:140][node:20] = 0.022414
+} 
+Node 21: {
+y_[node:21] = 1
+xi_y_i_[y:140][node:21] = 0.037931
+} 
+Node 22: {
+y_[node:22] = 1
+xi_y_i_[y:140][node:22] = 0.027586
+} 
+Node 23: {
+y_[node:23] = 0
+xi_y_i_[y:140][node:23] = 0.050000
+} 
+Node 24: {
+y_[node:24] = 0
+xi_y_i_[y:140][node:24] = 0.050000
+} 
+Node 25: {
+y_[node:25] = 1
+xi_y_i_[y:140][node:25] = 0.032759
+} 
+Node 26: {
+y_[node:26] = 1
+xi_y_i_[y:140][node:26] = 0.022414
+} 
+Node 27: {
+y_[node:27] = 1
+xi_y_i_[y:140][node:27] = 0.037931
+} 
+Node 28: {
+y_[node:28] = 0
+xi_y_i_[y:140][node:28] = 0.050000
+} 
+Node 29: {
+y_[node:29] = 0
+xi_y_i_[y:140][node:29] = 0.050000
+} 
+Node 30: {
+y_[node:30] = 1
+xi_y_i_[y:140][node:30] = 0.017241
+} 
+
+ } 
+
+ y = 142 { 
+Node 1: {
+y_[node:1] = 0
+xi_y_i_[y:142][node:1] = 0.050000
+} 
+Node 2: {
+y_[node:2] = 0
+xi_y_i_[y:142][node:2] = 0.027586
+} 
+Node 3: {
+y_[node:3] = 0
+xi_y_i_[y:142][node:3] = 0.050000
+} 
+Node 4: {
+y_[node:4] = 0
+xi_y_i_[y:142][node:4] = 0.037931
+} 
+Node 5: {
+y_[node:5] = 0
+xi_y_i_[y:142][node:5] = 0.050000
+} 
+Node 6: {
+y_[node:6] = 0
+xi_y_i_[y:142][node:6] = 0.022414
+} 
+Node 7: {
+y_[node:7] = 0
+xi_y_i_[y:142][node:7] = 0.022414
+} 
+Node 8: {
+y_[node:8] = 0
+xi_y_i_[y:142][node:8] = 0.005172
+} 
+Node 9: {
+y_[node:9] = 0
+xi_y_i_[y:142][node:9] = 0.017241
+} 
+Node 10: {
+y_[node:10] = 0
+xi_y_i_[y:142][node:10] = 0.027586
+} 
+Node 11: {
+y_[node:11] = 0
+xi_y_i_[y:142][node:11] = 0.015517
+} 
+Node 12: {
+y_[node:12] = 0
+xi_y_i_[y:142][node:12] = 0.015517
+} 
+Node 13: {
+y_[node:13] = 0
+xi_y_i_[y:142][node:13] = 0.050000
+} 
+Node 14: {
+y_[node:14] = 0
+xi_y_i_[y:142][node:14] = 0.050000
+} 
+Node 15: {
+y_[node:15] = 0
+xi_y_i_[y:142][node:15] = 0.050000
+} 
+Node 16: {
+y_[node:16] = 0
+xi_y_i_[y:142][node:16] = 0.005172
+} 
+Node 17: {
+y_[node:17] = 0
+xi_y_i_[y:142][node:17] = 0.050000
+} 
+Node 18: {
+y_[node:18] = 1
+xi_y_i_[y:142][node:18] = 0.010345
+} 
+Node 19: {
+y_[node:19] = 1
+xi_y_i_[y:142][node:19] = 0.022414
+} 
+Node 20: {
+y_[node:20] = 0
+xi_y_i_[y:142][node:20] = 0.022414
+} 
+Node 21: {
+y_[node:21] = 1
+xi_y_i_[y:142][node:21] = 0.037931
+} 
+Node 22: {
+y_[node:22] = 0
+xi_y_i_[y:142][node:22] = 0.050000
+} 
+Node 23: {
+y_[node:23] = 0
+xi_y_i_[y:142][node:23] = 0.050000
+} 
+Node 24: {
+y_[node:24] = 1
+xi_y_i_[y:142][node:24] = 0.050000
+} 
+Node 25: {
+y_[node:25] = 1
+xi_y_i_[y:142][node:25] = 0.032759
+} 
+Node 26: {
+y_[node:26] = 0
+xi_y_i_[y:142][node:26] = 0.022414
+} 
+Node 27: {
+y_[node:27] = 0
+xi_y_i_[y:142][node:27] = 0.037931
+} 
+Node 28: {
+y_[node:28] = 0
+xi_y_i_[y:142][node:28] = 0.050000
+} 
+Node 29: {
+y_[node:29] = 1
+xi_y_i_[y:142][node:29] = 0.050000
+} 
+Node 30: {
+y_[node:30] = 1
+xi_y_i_[y:142][node:30] = 0.017241
+} 
+
+ } 
+
+ y = 143 { 
+Node 1: {
+y_[node:1] = 0
+xi_y_i_[y:143][node:1] = 0.050000
+} 
+Node 2: {
+y_[node:2] = 0
+xi_y_i_[y:143][node:2] = 0.027586
+} 
+Node 3: {
+y_[node:3] = 0
+xi_y_i_[y:143][node:3] = 0.050000
+} 
+Node 4: {
+y_[node:4] = 0
+xi_y_i_[y:143][node:4] = 0.037931
+} 
+Node 5: {
+y_[node:5] = 0
+xi_y_i_[y:143][node:5] = 0.050000
+} 
+Node 6: {
+y_[node:6] = 0
+xi_y_i_[y:143][node:6] = 0.022414
+} 
+Node 7: {
+y_[node:7] = 1
+xi_y_i_[y:143][node:7] = 0.022414
+} 
+Node 8: {
+y_[node:8] = 1
+xi_y_i_[y:143][node:8] = 0.005172
+} 
+Node 9: {
+y_[node:9] = 1
+xi_y_i_[y:143][node:9] = 0.017241
+} 
+Node 10: {
+y_[node:10] = 1
+xi_y_i_[y:143][node:10] = 0.027586
+} 
+Node 11: {
+y_[node:11] = 1
+xi_y_i_[y:143][node:11] = 0.015517
+} 
+Node 12: {
+y_[node:12] = 1
+xi_y_i_[y:143][node:12] = 0.015517
+} 
+Node 13: {
+y_[node:13] = 0
+xi_y_i_[y:143][node:13] = 0.050000
+} 
+Node 14: {
+y_[node:14] = 0
+xi_y_i_[y:143][node:14] = 0.050000
+} 
+Node 15: {
+y_[node:15] = 0
+xi_y_i_[y:143][node:15] = 0.050000
+} 
+Node 16: {
+y_[node:16] = 0
+xi_y_i_[y:143][node:16] = 0.005172
+} 
+Node 17: {
+y_[node:17] = 0
+xi_y_i_[y:143][node:17] = 0.050000
+} 
+Node 18: {
+y_[node:18] = 1
+xi_y_i_[y:143][node:18] = 0.010345
+} 
+Node 19: {
+y_[node:19] = 1
+xi_y_i_[y:143][node:19] = 0.022414
+} 
+Node 20: {
+y_[node:20] = 1
+xi_y_i_[y:143][node:20] = 0.022414
+} 
+Node 21: {
+y_[node:21] = 0
+xi_y_i_[y:143][node:21] = 0.037931
+} 
+Node 22: {
+y_[node:22] = 0
+xi_y_i_[y:143][node:22] = 0.050000
+} 
+Node 23: {
+y_[node:23] = 0
+xi_y_i_[y:143][node:23] = 0.050000
+} 
+Node 24: {
+y_[node:24] = 0
+xi_y_i_[y:143][node:24] = 0.050000
+} 
+Node 25: {
+y_[node:25] = 1
+xi_y_i_[y:143][node:25] = 0.032759
+} 
+Node 26: {
+y_[node:26] = 0
+xi_y_i_[y:143][node:26] = 0.022414
+} 
+Node 27: {
+y_[node:27] = 0
+xi_y_i_[y:143][node:27] = 0.037931
+} 
+Node 28: {
+y_[node:28] = 0
+xi_y_i_[y:143][node:28] = 0.050000
+} 
+Node 29: {
+y_[node:29] = 0
+xi_y_i_[y:143][node:29] = 0.050000
+} 
+Node 30: {
+y_[node:30] = 1
+xi_y_i_[y:143][node:30] = 0.017241
+} 
+
+ } 
+
+ y = 150 { 
+Node 1: {
+y_[node:1] = 0
+xi_y_i_[y:150][node:1] = 0.050000
+} 
+Node 2: {
+y_[node:2] = 0
+xi_y_i_[y:150][node:2] = 0.027586
+} 
+Node 3: {
+y_[node:3] = 0
+xi_y_i_[y:150][node:3] = 0.050000
+} 
+Node 4: {
+y_[node:4] = 0
+xi_y_i_[y:150][node:4] = 0.037931
+} 
+Node 5: {
+y_[node:5] = 0
+xi_y_i_[y:150][node:5] = 0.050000
+} 
+Node 6: {
+y_[node:6] = 0
+xi_y_i_[y:150][node:6] = 0.022414
+} 
+Node 7: {
+y_[node:7] = 1
+xi_y_i_[y:150][node:7] = 0.022414
+} 
+Node 8: {
+y_[node:8] = 1
+xi_y_i_[y:150][node:8] = 0.005172
+} 
+Node 9: {
+y_[node:9] = 1
+xi_y_i_[y:150][node:9] = 0.017241
+} 
+Node 10: {
+y_[node:10] = 1
+xi_y_i_[y:150][node:10] = 0.027586
+} 
+Node 11: {
+y_[node:11] = 1
+xi_y_i_[y:150][node:11] = 0.015517
+} 
+Node 12: {
+y_[node:12] = 1
+xi_y_i_[y:150][node:12] = 0.015517
+} 
+Node 13: {
+y_[node:13] = 0
+xi_y_i_[y:150][node:13] = 0.050000
+} 
+Node 14: {
+y_[node:14] = 0
+xi_y_i_[y:150][node:14] = 0.050000
+} 
+Node 15: {
+y_[node:15] = 0
+xi_y_i_[y:150][node:15] = 0.050000
+} 
+Node 16: {
+y_[node:16] = 0
+xi_y_i_[y:150][node:16] = 0.005172
+} 
+Node 17: {
+y_[node:17] = 0
+xi_y_i_[y:150][node:17] = 0.050000
+} 
+Node 18: {
+y_[node:18] = 1
+xi_y_i_[y:150][node:18] = 0.010345
+} 
+Node 19: {
+y_[node:19] = 1
+xi_y_i_[y:150][node:19] = 0.022414
+} 
+Node 20: {
+y_[node:20] = 1
+xi_y_i_[y:150][node:20] = 0.022414
+} 
+Node 21: {
+y_[node:21] = 0
+xi_y_i_[y:150][node:21] = 0.037931
+} 
+Node 22: {
+y_[node:22] = 0
+xi_y_i_[y:150][node:22] = 0.050000
+} 
+Node 23: {
+y_[node:23] = 0
+xi_y_i_[y:150][node:23] = 0.050000
+} 
+Node 24: {
+y_[node:24] = 0
+xi_y_i_[y:150][node:24] = 0.050000
+} 
+Node 25: {
+y_[node:25] = 1
+xi_y_i_[y:150][node:25] = 0.032759
+} 
+Node 26: {
+y_[node:26] = 1
+xi_y_i_[y:150][node:26] = 0.022414
+} 
+Node 27: {
+y_[node:27] = 0
+xi_y_i_[y:150][node:27] = 0.037931
+} 
+Node 28: {
+y_[node:28] = 0
+xi_y_i_[y:150][node:28] = 0.050000
+} 
+Node 29: {
+y_[node:29] = 0
+xi_y_i_[y:150][node:29] = 0.050000
+} 
+Node 30: {
+y_[node:30] = 0
+xi_y_i_[y:150][node:30] = 0.017241
+} 
+
+ } 
+
+ y = 151 { 
+Node 1: {
+y_[node:1] = 0
+xi_y_i_[y:151][node:1] = 0.050000
+} 
+Node 2: {
+y_[node:2] = 0
+xi_y_i_[y:151][node:2] = 0.027586
+} 
+Node 3: {
+y_[node:3] = 0
+xi_y_i_[y:151][node:3] = 0.050000
+} 
+Node 4: {
+y_[node:4] = 0
+xi_y_i_[y:151][node:4] = 0.037931
+} 
+Node 5: {
+y_[node:5] = 0
+xi_y_i_[y:151][node:5] = 0.050000
+} 
+Node 6: {
+y_[node:6] = 0
+xi_y_i_[y:151][node:6] = 0.022414
+} 
+Node 7: {
+y_[node:7] = 0
+xi_y_i_[y:151][node:7] = 0.022414
+} 
+Node 8: {
+y_[node:8] = 0
+xi_y_i_[y:151][node:8] = 0.005172
+} 
+Node 9: {
+y_[node:9] = 0
+xi_y_i_[y:151][node:9] = 0.017241
+} 
+Node 10: {
+y_[node:10] = 0
+xi_y_i_[y:151][node:10] = 0.027586
+} 
+Node 11: {
+y_[node:11] = 0
+xi_y_i_[y:151][node:11] = 0.015517
+} 
+Node 12: {
+y_[node:12] = 0
+xi_y_i_[y:151][node:12] = 0.015517
+} 
+Node 13: {
+y_[node:13] = 0
+xi_y_i_[y:151][node:13] = 0.050000
+} 
+Node 14: {
+y_[node:14] = 0
+xi_y_i_[y:151][node:14] = 0.050000
+} 
+Node 15: {
+y_[node:15] = 0
+xi_y_i_[y:151][node:15] = 0.050000
+} 
+Node 16: {
+y_[node:16] = 1
+xi_y_i_[y:151][node:16] = 0.005172
+} 
+Node 17: {
+y_[node:17] = 1
+xi_y_i_[y:151][node:17] = 0.050000
+} 
+Node 18: {
+y_[node:18] = 1
+xi_y_i_[y:151][node:18] = 0.010345
+} 
+Node 19: {
+y_[node:19] = 1
+xi_y_i_[y:151][node:19] = 0.022414
+} 
+Node 20: {
+y_[node:20] = 0
+xi_y_i_[y:151][node:20] = 0.022414
+} 
+Node 21: {
+y_[node:21] = 0
+xi_y_i_[y:151][node:21] = 0.037931
+} 
+Node 22: {
+y_[node:22] = 0
+xi_y_i_[y:151][node:22] = 0.050000
+} 
+Node 23: {
+y_[node:23] = 0
+xi_y_i_[y:151][node:23] = 0.050000
+} 
+Node 24: {
+y_[node:24] = 0
+xi_y_i_[y:151][node:24] = 0.050000
+} 
+Node 25: {
+y_[node:25] = 1
+xi_y_i_[y:151][node:25] = 0.032759
+} 
+Node 26: {
+y_[node:26] = 1
+xi_y_i_[y:151][node:26] = 0.022414
+} 
+Node 27: {
+y_[node:27] = 1
+xi_y_i_[y:151][node:27] = 0.037931
+} 
+Node 28: {
+y_[node:28] = 0
+xi_y_i_[y:151][node:28] = 0.050000
+} 
+Node 29: {
+y_[node:29] = 0
+xi_y_i_[y:151][node:29] = 0.050000
+} 
+Node 30: {
+y_[node:30] = 1
+xi_y_i_[y:151][node:30] = 0.017241
+} 
+
+ } 
+
+ y = 159 { 
+Node 1: {
+y_[node:1] = 0
+xi_y_i_[y:159][node:1] = 0.050000
+} 
+Node 2: {
+y_[node:2] = 0
+xi_y_i_[y:159][node:2] = 0.027586
+} 
+Node 3: {
+y_[node:3] = 0
+xi_y_i_[y:159][node:3] = 0.050000
+} 
+Node 4: {
+y_[node:4] = 0
+xi_y_i_[y:159][node:4] = 0.037931
+} 
+Node 5: {
+y_[node:5] = 0
+xi_y_i_[y:159][node:5] = 0.050000
+} 
+Node 6: {
+y_[node:6] = 0
+xi_y_i_[y:159][node:6] = 0.022414
+} 
+Node 7: {
+y_[node:7] = 1
+xi_y_i_[y:159][node:7] = 0.022414
+} 
+Node 8: {
+y_[node:8] = 1
+xi_y_i_[y:159][node:8] = 0.005172
+} 
+Node 9: {
+y_[node:9] = 1
+xi_y_i_[y:159][node:9] = 0.017241
+} 
+Node 10: {
+y_[node:10] = 1
+xi_y_i_[y:159][node:10] = 0.027586
+} 
+Node 11: {
+y_[node:11] = 1
+xi_y_i_[y:159][node:11] = 0.015517
+} 
+Node 12: {
+y_[node:12] = 0
+xi_y_i_[y:159][node:12] = 0.015517
+} 
+Node 13: {
+y_[node:13] = 0
+xi_y_i_[y:159][node:13] = 0.050000
+} 
+Node 14: {
+y_[node:14] = 0
+xi_y_i_[y:159][node:14] = 0.050000
+} 
+Node 15: {
+y_[node:15] = 0
+xi_y_i_[y:159][node:15] = 0.050000
+} 
+Node 16: {
+y_[node:16] = 0
+xi_y_i_[y:159][node:16] = 0.005172
+} 
+Node 17: {
+y_[node:17] = 0
+xi_y_i_[y:159][node:17] = 0.050000
+} 
+Node 18: {
+y_[node:18] = 1
+xi_y_i_[y:159][node:18] = 0.010345
+} 
+Node 19: {
+y_[node:19] = 1
+xi_y_i_[y:159][node:19] = 0.022414
+} 
+Node 20: {
+y_[node:20] = 1
+xi_y_i_[y:159][node:20] = 0.022414
+} 
+Node 21: {
+y_[node:21] = 0
+xi_y_i_[y:159][node:21] = 0.037931
+} 
+Node 22: {
+y_[node:22] = 0
+xi_y_i_[y:159][node:22] = 0.050000
+} 
+Node 23: {
+y_[node:23] = 0
+xi_y_i_[y:159][node:23] = 0.050000
+} 
+Node 24: {
+y_[node:24] = 0
+xi_y_i_[y:159][node:24] = 0.050000
+} 
+Node 25: {
+y_[node:25] = 1
+xi_y_i_[y:159][node:25] = 0.032759
+} 
+Node 26: {
+y_[node:26] = 1
+xi_y_i_[y:159][node:26] = 0.022414
+} 
+Node 27: {
+y_[node:27] = 0
+xi_y_i_[y:159][node:27] = 0.037931
+} 
+Node 28: {
+y_[node:28] = 0
+xi_y_i_[y:159][node:28] = 0.050000
+} 
+Node 29: {
+y_[node:29] = 0
+xi_y_i_[y:159][node:29] = 0.050000
+} 
+Node 30: {
+y_[node:30] = 1
+xi_y_i_[y:159][node:30] = 0.017241
+} 
+
+ } 
+
+ y = 163 { 
+Node 1: {
+y_[node:1] = 0
+xi_y_i_[y:163][node:1] = 0.050000
+} 
+Node 2: {
+y_[node:2] = 0
+xi_y_i_[y:163][node:2] = 0.027586
+} 
+Node 3: {
+y_[node:3] = 0
+xi_y_i_[y:163][node:3] = 0.050000
+} 
+Node 4: {
+y_[node:4] = 0
+xi_y_i_[y:163][node:4] = 0.037931
+} 
+Node 5: {
+y_[node:5] = 0
+xi_y_i_[y:163][node:5] = 0.050000
+} 
+Node 6: {
+y_[node:6] = 0
+xi_y_i_[y:163][node:6] = 0.022414
+} 
+Node 7: {
+y_[node:7] = 0
+xi_y_i_[y:163][node:7] = 0.022414
+} 
+Node 8: {
+y_[node:8] = 1
+xi_y_i_[y:163][node:8] = 0.005172
+} 
+Node 9: {
+y_[node:9] = 0
+xi_y_i_[y:163][node:9] = 0.017241
+} 
+Node 10: {
+y_[node:10] = 0
+xi_y_i_[y:163][node:10] = 0.027586
+} 
+Node 11: {
+y_[node:11] = 1
+xi_y_i_[y:163][node:11] = 0.015517
+} 
+Node 12: {
+y_[node:12] = 1
+xi_y_i_[y:163][node:12] = 0.015517
+} 
+Node 13: {
+y_[node:13] = 0
+xi_y_i_[y:163][node:13] = 0.050000
+} 
+Node 14: {
+y_[node:14] = 0
+xi_y_i_[y:163][node:14] = 0.050000
+} 
+Node 15: {
+y_[node:15] = 0
+xi_y_i_[y:163][node:15] = 0.050000
+} 
+Node 16: {
+y_[node:16] = 0
+xi_y_i_[y:163][node:16] = 0.005172
+} 
+Node 17: {
+y_[node:17] = 0
+xi_y_i_[y:163][node:17] = 0.050000
+} 
+Node 18: {
+y_[node:18] = 0
+xi_y_i_[y:163][node:18] = 0.010345
+} 
+Node 19: {
+y_[node:19] = 0
+xi_y_i_[y:163][node:19] = 0.022414
+} 
+Node 20: {
+y_[node:20] = 1
+xi_y_i_[y:163][node:20] = 0.022414
+} 
+Node 21: {
+y_[node:21] = 1
+xi_y_i_[y:163][node:21] = 0.037931
+} 
+Node 22: {
+y_[node:22] = 1
+xi_y_i_[y:163][node:22] = 0.050000
+} 
+Node 23: {
+y_[node:23] = 0
+xi_y_i_[y:163][node:23] = 0.050000
+} 
+Node 24: {
+y_[node:24] = 0
+xi_y_i_[y:163][node:24] = 0.050000
+} 
+Node 25: {
+y_[node:25] = 1
+xi_y_i_[y:163][node:25] = 0.032759
+} 
+Node 26: {
+y_[node:26] = 1
+xi_y_i_[y:163][node:26] = 0.022414
+} 
+Node 27: {
+y_[node:27] = 0
+xi_y_i_[y:163][node:27] = 0.037931
+} 
+Node 28: {
+y_[node:28] = 0
+xi_y_i_[y:163][node:28] = 0.050000
+} 
+Node 29: {
+y_[node:29] = 0
+xi_y_i_[y:163][node:29] = 0.050000
+} 
+Node 30: {
+y_[node:30] = 1
+xi_y_i_[y:163][node:30] = 0.017241
+} 
+
+ } 
+
+ y = 172 { 
+Node 1: {
+y_[node:1] = 0
+xi_y_i_[y:172][node:1] = 0.050000
+} 
+Node 2: {
+y_[node:2] = 0
+xi_y_i_[y:172][node:2] = 0.027586
+} 
+Node 3: {
+y_[node:3] = 0
+xi_y_i_[y:172][node:3] = 0.050000
+} 
+Node 4: {
+y_[node:4] = 0
+xi_y_i_[y:172][node:4] = 0.037931
+} 
+Node 5: {
+y_[node:5] = 0
+xi_y_i_[y:172][node:5] = 0.050000
+} 
+Node 6: {
+y_[node:6] = 0
+xi_y_i_[y:172][node:6] = 0.022414
+} 
+Node 7: {
+y_[node:7] = 0
+xi_y_i_[y:172][node:7] = 0.022414
+} 
+Node 8: {
+y_[node:8] = 0
+xi_y_i_[y:172][node:8] = 0.005172
+} 
+Node 9: {
+y_[node:9] = 0
+xi_y_i_[y:172][node:9] = 0.017241
+} 
+Node 10: {
+y_[node:10] = 0
+xi_y_i_[y:172][node:10] = 0.027586
+} 
+Node 11: {
+y_[node:11] = 1
+xi_y_i_[y:172][node:11] = 0.015517
+} 
+Node 12: {
+y_[node:12] = 0
+xi_y_i_[y:172][node:12] = 0.015517
+} 
+Node 13: {
+y_[node:13] = 0
+xi_y_i_[y:172][node:13] = 0.050000
+} 
+Node 14: {
+y_[node:14] = 0
+xi_y_i_[y:172][node:14] = 0.050000
+} 
+Node 15: {
+y_[node:15] = 0
+xi_y_i_[y:172][node:15] = 0.050000
+} 
+Node 16: {
+y_[node:16] = 0
+xi_y_i_[y:172][node:16] = 0.006897
+} 
+Node 17: {
+y_[node:17] = 0
+xi_y_i_[y:172][node:17] = 0.050000
+} 
+Node 18: {
+y_[node:18] = 0
+xi_y_i_[y:172][node:18] = 0.010345
+} 
+Node 19: {
+y_[node:19] = 1
+xi_y_i_[y:172][node:19] = 0.022414
+} 
+Node 20: {
+y_[node:20] = 1
+xi_y_i_[y:172][node:20] = 0.022414
+} 
+Node 21: {
+y_[node:21] = 0
+xi_y_i_[y:172][node:21] = 0.037931
+} 
+Node 22: {
+y_[node:22] = 1
+xi_y_i_[y:172][node:22] = 0.048276
+} 
+Node 23: {
+y_[node:23] = 0
+xi_y_i_[y:172][node:23] = 0.050000
+} 
+Node 24: {
+y_[node:24] = 1
+xi_y_i_[y:172][node:24] = 0.050000
+} 
+Node 25: {
+y_[node:25] = 1
+xi_y_i_[y:172][node:25] = 0.032759
+} 
+Node 26: {
+y_[node:26] = 1
+xi_y_i_[y:172][node:26] = 0.022414
+} 
+Node 27: {
+y_[node:27] = 0
+xi_y_i_[y:172][node:27] = 0.037931
+} 
+Node 28: {
+y_[node:28] = 0
+xi_y_i_[y:172][node:28] = 0.050000
+} 
+Node 29: {
+y_[node:29] = 0
+xi_y_i_[y:172][node:29] = 0.050000
+} 
+Node 30: {
+y_[node:30] = 1
+xi_y_i_[y:172][node:30] = 0.017241
+} 
+
+ } 
+
+ y = 181 { 
+Node 1: {
+y_[node:1] = 0
+xi_y_i_[y:181][node:1] = 0.050000
+} 
+Node 2: {
+y_[node:2] = 0
+xi_y_i_[y:181][node:2] = 0.027586
+} 
+Node 3: {
+y_[node:3] = 0
+xi_y_i_[y:181][node:3] = 0.050000
+} 
+Node 4: {
+y_[node:4] = 0
+xi_y_i_[y:181][node:4] = 0.037931
+} 
+Node 5: {
+y_[node:5] = 0
+xi_y_i_[y:181][node:5] = 0.050000
+} 
+Node 6: {
+y_[node:6] = 0
+xi_y_i_[y:181][node:6] = 0.022414
+} 
+Node 7: {
+y_[node:7] = 1
+xi_y_i_[y:181][node:7] = 0.022414
+} 
+Node 8: {
+y_[node:8] = 1
+xi_y_i_[y:181][node:8] = 0.005172
+} 
+Node 9: {
+y_[node:9] = 1
+xi_y_i_[y:181][node:9] = 0.017241
+} 
+Node 10: {
+y_[node:10] = 1
+xi_y_i_[y:181][node:10] = 0.027586
+} 
+Node 11: {
+y_[node:11] = 0
+xi_y_i_[y:181][node:11] = 0.015517
+} 
+Node 12: {
+y_[node:12] = 0
+xi_y_i_[y:181][node:12] = 0.015517
+} 
+Node 13: {
+y_[node:13] = 0
+xi_y_i_[y:181][node:13] = 0.050000
+} 
+Node 14: {
+y_[node:14] = 0
+xi_y_i_[y:181][node:14] = 0.050000
+} 
+Node 15: {
+y_[node:15] = 0
+xi_y_i_[y:181][node:15] = 0.050000
+} 
+Node 16: {
+y_[node:16] = 0
+xi_y_i_[y:181][node:16] = 0.005172
+} 
+Node 17: {
+y_[node:17] = 0
+xi_y_i_[y:181][node:17] = 0.050000
+} 
+Node 18: {
+y_[node:18] = 0
+xi_y_i_[y:181][node:18] = 0.010345
+} 
+Node 19: {
+y_[node:19] = 1
+xi_y_i_[y:181][node:19] = 0.022414
+} 
+Node 20: {
+y_[node:20] = 1
+xi_y_i_[y:181][node:20] = 0.022414
+} 
+Node 21: {
+y_[node:21] = 1
+xi_y_i_[y:181][node:21] = 0.037931
+} 
+Node 22: {
+y_[node:22] = 0
+xi_y_i_[y:181][node:22] = 0.050000
+} 
+Node 23: {
+y_[node:23] = 0
+xi_y_i_[y:181][node:23] = 0.050000
+} 
+Node 24: {
+y_[node:24] = 0
+xi_y_i_[y:181][node:24] = 0.050000
+} 
+Node 25: {
+y_[node:25] = 1
+xi_y_i_[y:181][node:25] = 0.032759
+} 
+Node 26: {
+y_[node:26] = 1
+xi_y_i_[y:181][node:26] = 0.022414
+} 
+Node 27: {
+y_[node:27] = 0
+xi_y_i_[y:181][node:27] = 0.037931
+} 
+Node 28: {
+y_[node:28] = 0
+xi_y_i_[y:181][node:28] = 0.050000
+} 
+Node 29: {
+y_[node:29] = 0
+xi_y_i_[y:181][node:29] = 0.050000
+} 
+Node 30: {
+y_[node:30] = 0
+xi_y_i_[y:181][node:30] = 0.017241
+} 
+
+ } 
+
+ y = 183 { 
+Node 1: {
+y_[node:1] = 0
+xi_y_i_[y:183][node:1] = 0.050000
+} 
+Node 2: {
+y_[node:2] = 0
+xi_y_i_[y:183][node:2] = 0.027586
+} 
+Node 3: {
+y_[node:3] = 0
+xi_y_i_[y:183][node:3] = 0.050000
+} 
+Node 4: {
+y_[node:4] = 0
+xi_y_i_[y:183][node:4] = 0.037931
+} 
+Node 5: {
+y_[node:5] = 0
+xi_y_i_[y:183][node:5] = 0.050000
+} 
+Node 6: {
+y_[node:6] = 0
+xi_y_i_[y:183][node:6] = 0.022414
+} 
+Node 7: {
+y_[node:7] = 0
+xi_y_i_[y:183][node:7] = 0.022414
+} 
+Node 8: {
+y_[node:8] = 1
+xi_y_i_[y:183][node:8] = 0.005172
+} 
+Node 9: {
+y_[node:9] = 1
+xi_y_i_[y:183][node:9] = 0.017241
+} 
+Node 10: {
+y_[node:10] = 1
+xi_y_i_[y:183][node:10] = 0.027586
+} 
+Node 11: {
+y_[node:11] = 1
+xi_y_i_[y:183][node:11] = 0.015517
+} 
+Node 12: {
+y_[node:12] = 1
+xi_y_i_[y:183][node:12] = 0.015517
+} 
+Node 13: {
+y_[node:13] = 0
+xi_y_i_[y:183][node:13] = 0.050000
+} 
+Node 14: {
+y_[node:14] = 0
+xi_y_i_[y:183][node:14] = 0.050000
+} 
+Node 15: {
+y_[node:15] = 0
+xi_y_i_[y:183][node:15] = 0.050000
+} 
+Node 16: {
+y_[node:16] = 0
+xi_y_i_[y:183][node:16] = 0.005172
+} 
+Node 17: {
+y_[node:17] = 0
+xi_y_i_[y:183][node:17] = 0.050000
+} 
+Node 18: {
+y_[node:18] = 0
+xi_y_i_[y:183][node:18] = 0.010345
+} 
+Node 19: {
+y_[node:19] = 1
+xi_y_i_[y:183][node:19] = 0.022414
+} 
+Node 20: {
+y_[node:20] = 1
+xi_y_i_[y:183][node:20] = 0.022414
+} 
+Node 21: {
+y_[node:21] = 0
+xi_y_i_[y:183][node:21] = 0.037931
+} 
+Node 22: {
+y_[node:22] = 0
+xi_y_i_[y:183][node:22] = 0.050000
+} 
+Node 23: {
+y_[node:23] = 0
+xi_y_i_[y:183][node:23] = 0.050000
+} 
+Node 24: {
+y_[node:24] = 0
+xi_y_i_[y:183][node:24] = 0.050000
+} 
+Node 25: {
+y_[node:25] = 0
+xi_y_i_[y:183][node:25] = 0.032759
+} 
+Node 26: {
+y_[node:26] = 1
+xi_y_i_[y:183][node:26] = 0.022414
+} 
+Node 27: {
+y_[node:27] = 1
+xi_y_i_[y:183][node:27] = 0.037931
+} 
+Node 28: {
+y_[node:28] = 0
+xi_y_i_[y:183][node:28] = 0.050000
+} 
+Node 29: {
+y_[node:29] = 0
+xi_y_i_[y:183][node:29] = 0.050000
+} 
+Node 30: {
+y_[node:30] = 0
+xi_y_i_[y:183][node:30] = 0.017241
+} 
+
+ } 
+
+ y = 184 { 
+Node 1: {
+y_[node:1] = 0
+xi_y_i_[y:184][node:1] = 0.050000
+} 
+Node 2: {
+y_[node:2] = 0
+xi_y_i_[y:184][node:2] = 0.027586
+} 
+Node 3: {
+y_[node:3] = 0
+xi_y_i_[y:184][node:3] = 0.050000
+} 
+Node 4: {
+y_[node:4] = 0
+xi_y_i_[y:184][node:4] = 0.037931
+} 
+Node 5: {
+y_[node:5] = 0
+xi_y_i_[y:184][node:5] = 0.050000
+} 
+Node 6: {
+y_[node:6] = 0
+xi_y_i_[y:184][node:6] = 0.022414
+} 
+Node 7: {
+y_[node:7] = 0
+xi_y_i_[y:184][node:7] = 0.022414
+} 
+Node 8: {
+y_[node:8] = 1
+xi_y_i_[y:184][node:8] = 0.005172
+} 
+Node 9: {
+y_[node:9] = 1
+xi_y_i_[y:184][node:9] = 0.017241
+} 
+Node 10: {
+y_[node:10] = 1
+xi_y_i_[y:184][node:10] = 0.027586
+} 
+Node 11: {
+y_[node:11] = 1
+xi_y_i_[y:184][node:11] = 0.015517
+} 
+Node 12: {
+y_[node:12] = 0
+xi_y_i_[y:184][node:12] = 0.015517
+} 
+Node 13: {
+y_[node:13] = 0
+xi_y_i_[y:184][node:13] = 0.050000
+} 
+Node 14: {
+y_[node:14] = 0
+xi_y_i_[y:184][node:14] = 0.050000
+} 
+Node 15: {
+y_[node:15] = 0
+xi_y_i_[y:184][node:15] = 0.050000
+} 
+Node 16: {
+y_[node:16] = 0
+xi_y_i_[y:184][node:16] = 0.005172
+} 
+Node 17: {
+y_[node:17] = 0
+xi_y_i_[y:184][node:17] = 0.050000
+} 
+Node 18: {
+y_[node:18] = 0
+xi_y_i_[y:184][node:18] = 0.010345
+} 
+Node 19: {
+y_[node:19] = 0
+xi_y_i_[y:184][node:19] = 0.022414
+} 
+Node 20: {
+y_[node:20] = 1
+xi_y_i_[y:184][node:20] = 0.022414
+} 
+Node 21: {
+y_[node:21] = 0
+xi_y_i_[y:184][node:21] = 0.037931
+} 
+Node 22: {
+y_[node:22] = 0
+xi_y_i_[y:184][node:22] = 0.050000
+} 
+Node 23: {
+y_[node:23] = 0
+xi_y_i_[y:184][node:23] = 0.050000
+} 
+Node 24: {
+y_[node:24] = 0
+xi_y_i_[y:184][node:24] = 0.050000
+} 
+Node 25: {
+y_[node:25] = 1
+xi_y_i_[y:184][node:25] = 0.032759
+} 
+Node 26: {
+y_[node:26] = 1
+xi_y_i_[y:184][node:26] = 0.022414
+} 
+Node 27: {
+y_[node:27] = 1
+xi_y_i_[y:184][node:27] = 0.037931
+} 
+Node 28: {
+y_[node:28] = 0
+xi_y_i_[y:184][node:28] = 0.050000
+} 
+Node 29: {
+y_[node:29] = 0
+xi_y_i_[y:184][node:29] = 0.050000
+} 
+Node 30: {
+y_[node:30] = 0
+xi_y_i_[y:184][node:30] = 0.017241
+} 
+
+ } 
+
+ y = 186 { 
+Node 1: {
+y_[node:1] = 0
+xi_y_i_[y:186][node:1] = 0.050000
+} 
+Node 2: {
+y_[node:2] = 0
+xi_y_i_[y:186][node:2] = 0.027586
+} 
+Node 3: {
+y_[node:3] = 0
+xi_y_i_[y:186][node:3] = 0.050000
+} 
+Node 4: {
+y_[node:4] = 0
+xi_y_i_[y:186][node:4] = 0.037931
+} 
+Node 5: {
+y_[node:5] = 0
+xi_y_i_[y:186][node:5] = 0.050000
+} 
+Node 6: {
+y_[node:6] = 0
+xi_y_i_[y:186][node:6] = 0.022414
+} 
+Node 7: {
+y_[node:7] = 1
+xi_y_i_[y:186][node:7] = 0.022414
+} 
+Node 8: {
+y_[node:8] = 1
+xi_y_i_[y:186][node:8] = 0.005172
+} 
+Node 9: {
+y_[node:9] = 1
+xi_y_i_[y:186][node:9] = 0.017241
+} 
+Node 10: {
+y_[node:10] = 1
+xi_y_i_[y:186][node:10] = 0.027586
+} 
+Node 11: {
+y_[node:11] = 1
+xi_y_i_[y:186][node:11] = 0.015517
+} 
+Node 12: {
+y_[node:12] = 1
+xi_y_i_[y:186][node:12] = 0.015517
+} 
+Node 13: {
+y_[node:13] = 0
+xi_y_i_[y:186][node:13] = 0.050000
+} 
+Node 14: {
+y_[node:14] = 0
+xi_y_i_[y:186][node:14] = 0.050000
+} 
+Node 15: {
+y_[node:15] = 0
+xi_y_i_[y:186][node:15] = 0.050000
+} 
+Node 16: {
+y_[node:16] = 0
+xi_y_i_[y:186][node:16] = 0.005172
+} 
+Node 17: {
+y_[node:17] = 0
+xi_y_i_[y:186][node:17] = 0.050000
+} 
+Node 18: {
+y_[node:18] = 0
+xi_y_i_[y:186][node:18] = 0.010345
+} 
+Node 19: {
+y_[node:19] = 1
+xi_y_i_[y:186][node:19] = 0.022414
+} 
+Node 20: {
+y_[node:20] = 0
+xi_y_i_[y:186][node:20] = 0.022414
+} 
+Node 21: {
+y_[node:21] = 0
+xi_y_i_[y:186][node:21] = 0.037931
+} 
+Node 22: {
+y_[node:22] = 0
+xi_y_i_[y:186][node:22] = 0.050000
+} 
+Node 23: {
+y_[node:23] = 0
+xi_y_i_[y:186][node:23] = 0.050000
+} 
+Node 24: {
+y_[node:24] = 0
+xi_y_i_[y:186][node:24] = 0.050000
+} 
+Node 25: {
+y_[node:25] = 0
+xi_y_i_[y:186][node:25] = 0.032759
+} 
+Node 26: {
+y_[node:26] = 1
+xi_y_i_[y:186][node:26] = 0.022414
+} 
+Node 27: {
+y_[node:27] = 1
+xi_y_i_[y:186][node:27] = 0.037931
+} 
+Node 28: {
+y_[node:28] = 0
+xi_y_i_[y:186][node:28] = 0.050000
+} 
+Node 29: {
+y_[node:29] = 0
+xi_y_i_[y:186][node:29] = 0.050000
+} 
+Node 30: {
+y_[node:30] = 0
+xi_y_i_[y:186][node:30] = 0.017241
+} 
+
+ } 
+
+ y = 190 { 
+Node 1: {
+y_[node:1] = 0
+xi_y_i_[y:190][node:1] = 0.050000
+} 
+Node 2: {
+y_[node:2] = 0
+xi_y_i_[y:190][node:2] = 0.027586
+} 
+Node 3: {
+y_[node:3] = 0
+xi_y_i_[y:190][node:3] = 0.050000
+} 
+Node 4: {
+y_[node:4] = 0
+xi_y_i_[y:190][node:4] = 0.037931
+} 
+Node 5: {
+y_[node:5] = 0
+xi_y_i_[y:190][node:5] = 0.050000
+} 
+Node 6: {
+y_[node:6] = 0
+xi_y_i_[y:190][node:6] = 0.022414
+} 
+Node 7: {
+y_[node:7] = 0
+xi_y_i_[y:190][node:7] = 0.022414
+} 
+Node 8: {
+y_[node:8] = 0
+xi_y_i_[y:190][node:8] = 0.005172
+} 
+Node 9: {
+y_[node:9] = 0
+xi_y_i_[y:190][node:9] = 0.017241
+} 
+Node 10: {
+y_[node:10] = 0
+xi_y_i_[y:190][node:10] = 0.027586
+} 
+Node 11: {
+y_[node:11] = 0
+xi_y_i_[y:190][node:11] = 0.015517
+} 
+Node 12: {
+y_[node:12] = 0
+xi_y_i_[y:190][node:12] = 0.015517
+} 
+Node 13: {
+y_[node:13] = 0
+xi_y_i_[y:190][node:13] = 0.050000
+} 
+Node 14: {
+y_[node:14] = 0
+xi_y_i_[y:190][node:14] = 0.050000
+} 
+Node 15: {
+y_[node:15] = 0
+xi_y_i_[y:190][node:15] = 0.050000
+} 
+Node 16: {
+y_[node:16] = 0
+xi_y_i_[y:190][node:16] = 0.005172
+} 
+Node 17: {
+y_[node:17] = 0
+xi_y_i_[y:190][node:17] = 0.050000
+} 
+Node 18: {
+y_[node:18] = 0
+xi_y_i_[y:190][node:18] = 0.010345
+} 
+Node 19: {
+y_[node:19] = 0
+xi_y_i_[y:190][node:19] = 0.022414
+} 
+Node 20: {
+y_[node:20] = 0
+xi_y_i_[y:190][node:20] = 0.022414
+} 
+Node 21: {
+y_[node:21] = 0
+xi_y_i_[y:190][node:21] = 0.037931
+} 
+Node 22: {
+y_[node:22] = 0
+xi_y_i_[y:190][node:22] = 0.050000
+} 
+Node 23: {
+y_[node:23] = 0
+xi_y_i_[y:190][node:23] = 0.050000
+} 
+Node 24: {
+y_[node:24] = 0
+xi_y_i_[y:190][node:24] = 0.050000
+} 
+Node 25: {
+y_[node:25] = 1
+xi_y_i_[y:190][node:25] = 0.032759
+} 
+Node 26: {
+y_[node:26] = 1
+xi_y_i_[y:190][node:26] = 0.022414
+} 
+Node 27: {
+y_[node:27] = 1
+xi_y_i_[y:190][node:27] = 0.037931
+} 
+Node 28: {
+y_[node:28] = 1
+xi_y_i_[y:190][node:28] = 0.050000
+} 
+Node 29: {
+y_[node:29] = 1
+xi_y_i_[y:190][node:29] = 0.050000
+} 
+Node 30: {
+y_[node:30] = 1
+xi_y_i_[y:190][node:30] = 0.017241
+} 
+
+ } 
+
+ y = 194 { 
+Node 1: {
+y_[node:1] = 0
+xi_y_i_[y:194][node:1] = 0.050000
+} 
+Node 2: {
+y_[node:2] = 0
+xi_y_i_[y:194][node:2] = 0.027586
+} 
+Node 3: {
+y_[node:3] = 0
+xi_y_i_[y:194][node:3] = 0.050000
+} 
+Node 4: {
+y_[node:4] = 1
+xi_y_i_[y:194][node:4] = 0.037931
+} 
+Node 5: {
+y_[node:5] = 1
+xi_y_i_[y:194][node:5] = 0.050000
+} 
+Node 6: {
+y_[node:6] = 0
+xi_y_i_[y:194][node:6] = 0.022414
+} 
+Node 7: {
+y_[node:7] = 0
+xi_y_i_[y:194][node:7] = 0.022414
+} 
+Node 8: {
+y_[node:8] = 0
+xi_y_i_[y:194][node:8] = 0.005172
+} 
+Node 9: {
+y_[node:9] = 0
+xi_y_i_[y:194][node:9] = 0.017241
+} 
+Node 10: {
+y_[node:10] = 0
+xi_y_i_[y:194][node:10] = 0.027586
+} 
+Node 11: {
+y_[node:11] = 0
+xi_y_i_[y:194][node:11] = 0.015517
+} 
+Node 12: {
+y_[node:12] = 1
+xi_y_i_[y:194][node:12] = 0.015517
+} 
+Node 13: {
+y_[node:13] = 0
+xi_y_i_[y:194][node:13] = 0.050000
+} 
+Node 14: {
+y_[node:14] = 0
+xi_y_i_[y:194][node:14] = 0.050000
+} 
+Node 15: {
+y_[node:15] = 0
+xi_y_i_[y:194][node:15] = 0.050000
+} 
+Node 16: {
+y_[node:16] = 0
+xi_y_i_[y:194][node:16] = 0.005172
+} 
+Node 17: {
+y_[node:17] = 1
+xi_y_i_[y:194][node:17] = 0.050000
+} 
+Node 18: {
+y_[node:18] = 0
+xi_y_i_[y:194][node:18] = 0.010345
+} 
+Node 19: {
+y_[node:19] = 0
+xi_y_i_[y:194][node:19] = 0.022414
+} 
+Node 20: {
+y_[node:20] = 0
+xi_y_i_[y:194][node:20] = 0.022414
+} 
+Node 21: {
+y_[node:21] = 0
+xi_y_i_[y:194][node:21] = 0.037931
+} 
+Node 22: {
+y_[node:22] = 0
+xi_y_i_[y:194][node:22] = 0.050000
+} 
+Node 23: {
+y_[node:23] = 0
+xi_y_i_[y:194][node:23] = 0.050000
+} 
+Node 24: {
+y_[node:24] = 0
+xi_y_i_[y:194][node:24] = 0.050000
+} 
+Node 25: {
+y_[node:25] = 0
+xi_y_i_[y:194][node:25] = 0.032759
+} 
+Node 26: {
+y_[node:26] = 1
+xi_y_i_[y:194][node:26] = 0.022414
+} 
+Node 27: {
+y_[node:27] = 1
+xi_y_i_[y:194][node:27] = 0.037931
+} 
+Node 28: {
+y_[node:28] = 0
+xi_y_i_[y:194][node:28] = 0.050000
+} 
+Node 29: {
+y_[node:29] = 0
+xi_y_i_[y:194][node:29] = 0.050000
+} 
+Node 30: {
+y_[node:30] = 1
+xi_y_i_[y:194][node:30] = 0.017241
+} 
+
+ } 
+
+ y = 197 { 
+Node 1: {
+y_[node:1] = 0
+xi_y_i_[y:197][node:1] = 0.050000
+} 
+Node 2: {
+y_[node:2] = 0
+xi_y_i_[y:197][node:2] = 0.027586
+} 
+Node 3: {
+y_[node:3] = 0
+xi_y_i_[y:197][node:3] = 0.050000
+} 
+Node 4: {
+y_[node:4] = 0
+xi_y_i_[y:197][node:4] = 0.037931
+} 
+Node 5: {
+y_[node:5] = 0
+xi_y_i_[y:197][node:5] = 0.050000
+} 
+Node 6: {
+y_[node:6] = 0
+xi_y_i_[y:197][node:6] = 0.022414
+} 
+Node 7: {
+y_[node:7] = 0
+xi_y_i_[y:197][node:7] = 0.022414
+} 
+Node 8: {
+y_[node:8] = 1
+xi_y_i_[y:197][node:8] = 0.005172
+} 
+Node 9: {
+y_[node:9] = 1
+xi_y_i_[y:197][node:9] = 0.017241
+} 
+Node 10: {
+y_[node:10] = 1
+xi_y_i_[y:197][node:10] = 0.027586
+} 
+Node 11: {
+y_[node:11] = 0
+xi_y_i_[y:197][node:11] = 0.015517
+} 
+Node 12: {
+y_[node:12] = 1
+xi_y_i_[y:197][node:12] = 0.015517
+} 
+Node 13: {
+y_[node:13] = 0
+xi_y_i_[y:197][node:13] = 0.050000
+} 
+Node 14: {
+y_[node:14] = 0
+xi_y_i_[y:197][node:14] = 0.050000
+} 
+Node 15: {
+y_[node:15] = 0
+xi_y_i_[y:197][node:15] = 0.050000
+} 
+Node 16: {
+y_[node:16] = 0
+xi_y_i_[y:197][node:16] = 0.005172
+} 
+Node 17: {
+y_[node:17] = 0
+xi_y_i_[y:197][node:17] = 0.050000
+} 
+Node 18: {
+y_[node:18] = 1
+xi_y_i_[y:197][node:18] = 0.010345
+} 
+Node 19: {
+y_[node:19] = 1
+xi_y_i_[y:197][node:19] = 0.022414
+} 
+Node 20: {
+y_[node:20] = 0
+xi_y_i_[y:197][node:20] = 0.022414
+} 
+Node 21: {
+y_[node:21] = 1
+xi_y_i_[y:197][node:21] = 0.037931
+} 
+Node 22: {
+y_[node:22] = 0
+xi_y_i_[y:197][node:22] = 0.050000
+} 
+Node 23: {
+y_[node:23] = 0
+xi_y_i_[y:197][node:23] = 0.050000
+} 
+Node 24: {
+y_[node:24] = 0
+xi_y_i_[y:197][node:24] = 0.050000
+} 
+Node 25: {
+y_[node:25] = 1
+xi_y_i_[y:197][node:25] = 0.032759
+} 
+Node 26: {
+y_[node:26] = 1
+xi_y_i_[y:197][node:26] = 0.022414
+} 
+Node 27: {
+y_[node:27] = 0
+xi_y_i_[y:197][node:27] = 0.037931
+} 
+Node 28: {
+y_[node:28] = 0
+xi_y_i_[y:197][node:28] = 0.050000
+} 
+Node 29: {
+y_[node:29] = 0
+xi_y_i_[y:197][node:29] = 0.050000
+} 
+Node 30: {
+y_[node:30] = 0
+xi_y_i_[y:197][node:30] = 0.017241
+} 
+
+ } 
+
+ y = 200 { 
+Node 1: {
+y_[node:1] = 0
+xi_y_i_[y:200][node:1] = 0.050000
+} 
+Node 2: {
+y_[node:2] = 0
+xi_y_i_[y:200][node:2] = 0.027586
+} 
+Node 3: {
+y_[node:3] = 0
+xi_y_i_[y:200][node:3] = 0.050000
+} 
+Node 4: {
+y_[node:4] = 0
+xi_y_i_[y:200][node:4] = 0.037931
+} 
+Node 5: {
+y_[node:5] = 0
+xi_y_i_[y:200][node:5] = 0.050000
+} 
+Node 6: {
+y_[node:6] = 0
+xi_y_i_[y:200][node:6] = 0.022414
+} 
+Node 7: {
+y_[node:7] = 0
+xi_y_i_[y:200][node:7] = 0.022414
+} 
+Node 8: {
+y_[node:8] = 1
+xi_y_i_[y:200][node:8] = 0.005172
+} 
+Node 9: {
+y_[node:9] = 0
+xi_y_i_[y:200][node:9] = 0.017241
+} 
+Node 10: {
+y_[node:10] = 1
+xi_y_i_[y:200][node:10] = 0.027586
+} 
+Node 11: {
+y_[node:11] = 1
+xi_y_i_[y:200][node:11] = 0.015517
+} 
+Node 12: {
+y_[node:12] = 1
+xi_y_i_[y:200][node:12] = 0.015517
+} 
+Node 13: {
+y_[node:13] = 0
+xi_y_i_[y:200][node:13] = 0.050000
+} 
+Node 14: {
+y_[node:14] = 0
+xi_y_i_[y:200][node:14] = 0.050000
+} 
+Node 15: {
+y_[node:15] = 0
+xi_y_i_[y:200][node:15] = 0.050000
+} 
+Node 16: {
+y_[node:16] = 0
+xi_y_i_[y:200][node:16] = 0.005172
+} 
+Node 17: {
+y_[node:17] = 0
+xi_y_i_[y:200][node:17] = 0.050000
+} 
+Node 18: {
+y_[node:18] = 0
+xi_y_i_[y:200][node:18] = 0.010345
+} 
+Node 19: {
+y_[node:19] = 1
+xi_y_i_[y:200][node:19] = 0.022414
+} 
+Node 20: {
+y_[node:20] = 1
+xi_y_i_[y:200][node:20] = 0.022414
+} 
+Node 21: {
+y_[node:21] = 1
+xi_y_i_[y:200][node:21] = 0.037931
+} 
+Node 22: {
+y_[node:22] = 1
+xi_y_i_[y:200][node:22] = 0.050000
+} 
+Node 23: {
+y_[node:23] = 0
+xi_y_i_[y:200][node:23] = 0.050000
+} 
+Node 24: {
+y_[node:24] = 0
+xi_y_i_[y:200][node:24] = 0.050000
+} 
+Node 25: {
+y_[node:25] = 0
+xi_y_i_[y:200][node:25] = 0.032759
+} 
+Node 26: {
+y_[node:26] = 0
+xi_y_i_[y:200][node:26] = 0.022414
+} 
+Node 27: {
+y_[node:27] = 0
+xi_y_i_[y:200][node:27] = 0.037931
+} 
+Node 28: {
+y_[node:28] = 0
+xi_y_i_[y:200][node:28] = 0.050000
+} 
+Node 29: {
+y_[node:29] = 0
+xi_y_i_[y:200][node:29] = 0.050000
+} 
+Node 30: {
+y_[node:30] = 0
+xi_y_i_[y:200][node:30] = 0.017241
+} 
+
+ } 
+
+ y = 201 { 
+Node 1: {
+y_[node:1] = 0
+xi_y_i_[y:201][node:1] = 0.050000
+} 
+Node 2: {
+y_[node:2] = 0
+xi_y_i_[y:201][node:2] = 0.027586
+} 
+Node 3: {
+y_[node:3] = 0
+xi_y_i_[y:201][node:3] = 0.050000
+} 
+Node 4: {
+y_[node:4] = 0
+xi_y_i_[y:201][node:4] = 0.037931
+} 
+Node 5: {
+y_[node:5] = 0
+xi_y_i_[y:201][node:5] = 0.050000
+} 
+Node 6: {
+y_[node:6] = 0
+xi_y_i_[y:201][node:6] = 0.022414
+} 
+Node 7: {
+y_[node:7] = 1
+xi_y_i_[y:201][node:7] = 0.022414
+} 
+Node 8: {
+y_[node:8] = 0
+xi_y_i_[y:201][node:8] = 0.005172
+} 
+Node 9: {
+y_[node:9] = 1
+xi_y_i_[y:201][node:9] = 0.017241
+} 
+Node 10: {
+y_[node:10] = 1
+xi_y_i_[y:201][node:10] = 0.027586
+} 
+Node 11: {
+y_[node:11] = 0
+xi_y_i_[y:201][node:11] = 0.015517
+} 
+Node 12: {
+y_[node:12] = 1
+xi_y_i_[y:201][node:12] = 0.015517
+} 
+Node 13: {
+y_[node:13] = 0
+xi_y_i_[y:201][node:13] = 0.050000
+} 
+Node 14: {
+y_[node:14] = 0
+xi_y_i_[y:201][node:14] = 0.050000
+} 
+Node 15: {
+y_[node:15] = 0
+xi_y_i_[y:201][node:15] = 0.050000
+} 
+Node 16: {
+y_[node:16] = 0
+xi_y_i_[y:201][node:16] = 0.005172
+} 
+Node 17: {
+y_[node:17] = 0
+xi_y_i_[y:201][node:17] = 0.050000
+} 
+Node 18: {
+y_[node:18] = 1
+xi_y_i_[y:201][node:18] = 0.010345
+} 
+Node 19: {
+y_[node:19] = 1
+xi_y_i_[y:201][node:19] = 0.022414
+} 
+Node 20: {
+y_[node:20] = 0
+xi_y_i_[y:201][node:20] = 0.022414
+} 
+Node 21: {
+y_[node:21] = 1
+xi_y_i_[y:201][node:21] = 0.037931
+} 
+Node 22: {
+y_[node:22] = 0
+xi_y_i_[y:201][node:22] = 0.050000
+} 
+Node 23: {
+y_[node:23] = 0
+xi_y_i_[y:201][node:23] = 0.050000
+} 
+Node 24: {
+y_[node:24] = 0
+xi_y_i_[y:201][node:24] = 0.050000
+} 
+Node 25: {
+y_[node:25] = 1
+xi_y_i_[y:201][node:25] = 0.032759
+} 
+Node 26: {
+y_[node:26] = 1
+xi_y_i_[y:201][node:26] = 0.022414
+} 
+Node 27: {
+y_[node:27] = 0
+xi_y_i_[y:201][node:27] = 0.037931
+} 
+Node 28: {
+y_[node:28] = 0
+xi_y_i_[y:201][node:28] = 0.050000
+} 
+Node 29: {
+y_[node:29] = 0
+xi_y_i_[y:201][node:29] = 0.050000
+} 
+Node 30: {
+y_[node:30] = 0
+xi_y_i_[y:201][node:30] = 0.017241
+} 
+
+ } 
+
+ y = 207 { 
+Node 1: {
+y_[node:1] = 0
+xi_y_i_[y:207][node:1] = 0.050000
+} 
+Node 2: {
+y_[node:2] = 0
+xi_y_i_[y:207][node:2] = 0.027586
+} 
+Node 3: {
+y_[node:3] = 0
+xi_y_i_[y:207][node:3] = 0.050000
+} 
+Node 4: {
+y_[node:4] = 0
+xi_y_i_[y:207][node:4] = 0.037931
+} 
+Node 5: {
+y_[node:5] = 0
+xi_y_i_[y:207][node:5] = 0.050000
+} 
+Node 6: {
+y_[node:6] = 0
+xi_y_i_[y:207][node:6] = 0.022414
+} 
+Node 7: {
+y_[node:7] = 0
+xi_y_i_[y:207][node:7] = 0.022414
+} 
+Node 8: {
+y_[node:8] = 0
+xi_y_i_[y:207][node:8] = 0.005172
+} 
+Node 9: {
+y_[node:9] = 0
+xi_y_i_[y:207][node:9] = 0.017241
+} 
+Node 10: {
+y_[node:10] = 0
+xi_y_i_[y:207][node:10] = 0.027586
+} 
+Node 11: {
+y_[node:11] = 1
+xi_y_i_[y:207][node:11] = 0.015517
+} 
+Node 12: {
+y_[node:12] = 0
+xi_y_i_[y:207][node:12] = 0.015517
+} 
+Node 13: {
+y_[node:13] = 0
+xi_y_i_[y:207][node:13] = 0.050000
+} 
+Node 14: {
+y_[node:14] = 0
+xi_y_i_[y:207][node:14] = 0.050000
+} 
+Node 15: {
+y_[node:15] = 0
+xi_y_i_[y:207][node:15] = 0.050000
+} 
+Node 16: {
+y_[node:16] = 0
+xi_y_i_[y:207][node:16] = 0.005172
+} 
+Node 17: {
+y_[node:17] = 0
+xi_y_i_[y:207][node:17] = 0.050000
+} 
+Node 18: {
+y_[node:18] = 0
+xi_y_i_[y:207][node:18] = 0.010345
+} 
+Node 19: {
+y_[node:19] = 1
+xi_y_i_[y:207][node:19] = 0.022414
+} 
+Node 20: {
+y_[node:20] = 1
+xi_y_i_[y:207][node:20] = 0.022414
+} 
+Node 21: {
+y_[node:21] = 1
+xi_y_i_[y:207][node:21] = 0.037931
+} 
+Node 22: {
+y_[node:22] = 0
+xi_y_i_[y:207][node:22] = 0.050000
+} 
+Node 23: {
+y_[node:23] = 0
+xi_y_i_[y:207][node:23] = 0.050000
+} 
+Node 24: {
+y_[node:24] = 1
+xi_y_i_[y:207][node:24] = 0.050000
+} 
+Node 25: {
+y_[node:25] = 1
+xi_y_i_[y:207][node:25] = 0.032759
+} 
+Node 26: {
+y_[node:26] = 1
+xi_y_i_[y:207][node:26] = 0.022414
+} 
+Node 27: {
+y_[node:27] = 0
+xi_y_i_[y:207][node:27] = 0.037931
+} 
+Node 28: {
+y_[node:28] = 0
+xi_y_i_[y:207][node:28] = 0.050000
+} 
+Node 29: {
+y_[node:29] = 0
+xi_y_i_[y:207][node:29] = 0.050000
+} 
+Node 30: {
+y_[node:30] = 1
+xi_y_i_[y:207][node:30] = 0.017241
+} 
+
+ } 
+
+ y = 213 { 
+Node 1: {
+y_[node:1] = 0
+xi_y_i_[y:213][node:1] = 0.050000
+} 
+Node 2: {
+y_[node:2] = 0
+xi_y_i_[y:213][node:2] = 0.027586
+} 
+Node 3: {
+y_[node:3] = 0
+xi_y_i_[y:213][node:3] = 0.050000
+} 
+Node 4: {
+y_[node:4] = 0
+xi_y_i_[y:213][node:4] = 0.037931
+} 
+Node 5: {
+y_[node:5] = 1
+xi_y_i_[y:213][node:5] = 0.050000
+} 
+Node 6: {
+y_[node:6] = 0
+xi_y_i_[y:213][node:6] = 0.022414
+} 
+Node 7: {
+y_[node:7] = 1
+xi_y_i_[y:213][node:7] = 0.022414
+} 
+Node 8: {
+y_[node:8] = 1
+xi_y_i_[y:213][node:8] = 0.005172
+} 
+Node 9: {
+y_[node:9] = 1
+xi_y_i_[y:213][node:9] = 0.017241
+} 
+Node 10: {
+y_[node:10] = 1
+xi_y_i_[y:213][node:10] = 0.027586
+} 
+Node 11: {
+y_[node:11] = 1
+xi_y_i_[y:213][node:11] = 0.015517
+} 
+Node 12: {
+y_[node:12] = 1
+xi_y_i_[y:213][node:12] = 0.015517
+} 
+Node 13: {
+y_[node:13] = 0
+xi_y_i_[y:213][node:13] = 0.050000
+} 
+Node 14: {
+y_[node:14] = 0
+xi_y_i_[y:213][node:14] = 0.050000
+} 
+Node 15: {
+y_[node:15] = 0
+xi_y_i_[y:213][node:15] = 0.050000
+} 
+Node 16: {
+y_[node:16] = 0
+xi_y_i_[y:213][node:16] = 0.005172
+} 
+Node 17: {
+y_[node:17] = 0
+xi_y_i_[y:213][node:17] = 0.050000
+} 
+Node 18: {
+y_[node:18] = 0
+xi_y_i_[y:213][node:18] = 0.010345
+} 
+Node 19: {
+y_[node:19] = 1
+xi_y_i_[y:213][node:19] = 0.022414
+} 
+Node 20: {
+y_[node:20] = 1
+xi_y_i_[y:213][node:20] = 0.022414
+} 
+Node 21: {
+y_[node:21] = 0
+xi_y_i_[y:213][node:21] = 0.037931
+} 
+Node 22: {
+y_[node:22] = 0
+xi_y_i_[y:213][node:22] = 0.050000
+} 
+Node 23: {
+y_[node:23] = 0
+xi_y_i_[y:213][node:23] = 0.050000
+} 
+Node 24: {
+y_[node:24] = 0
+xi_y_i_[y:213][node:24] = 0.050000
+} 
+Node 25: {
+y_[node:25] = 0
+xi_y_i_[y:213][node:25] = 0.032759
+} 
+Node 26: {
+y_[node:26] = 1
+xi_y_i_[y:213][node:26] = 0.022414
+} 
+Node 27: {
+y_[node:27] = 0
+xi_y_i_[y:213][node:27] = 0.037931
+} 
+Node 28: {
+y_[node:28] = 0
+xi_y_i_[y:213][node:28] = 0.050000
+} 
+Node 29: {
+y_[node:29] = 0
+xi_y_i_[y:213][node:29] = 0.050000
+} 
+Node 30: {
+y_[node:30] = 0
+xi_y_i_[y:213][node:30] = 0.017241
+} 
+
+ } 
+
+ y = 214 { 
+Node 1: {
+y_[node:1] = 0
+xi_y_i_[y:214][node:1] = 0.050000
+} 
+Node 2: {
+y_[node:2] = 0
+xi_y_i_[y:214][node:2] = 0.027586
+} 
+Node 3: {
+y_[node:3] = 0
+xi_y_i_[y:214][node:3] = 0.050000
+} 
+Node 4: {
+y_[node:4] = 0
+xi_y_i_[y:214][node:4] = 0.037931
+} 
+Node 5: {
+y_[node:5] = 0
+xi_y_i_[y:214][node:5] = 0.050000
+} 
+Node 6: {
+y_[node:6] = 0
+xi_y_i_[y:214][node:6] = 0.022414
+} 
+Node 7: {
+y_[node:7] = 0
+xi_y_i_[y:214][node:7] = 0.022414
+} 
+Node 8: {
+y_[node:8] = 0
+xi_y_i_[y:214][node:8] = 0.005172
+} 
+Node 9: {
+y_[node:9] = 0
+xi_y_i_[y:214][node:9] = 0.017241
+} 
+Node 10: {
+y_[node:10] = 0
+xi_y_i_[y:214][node:10] = 0.027586
+} 
+Node 11: {
+y_[node:11] = 0
+xi_y_i_[y:214][node:11] = 0.015517
+} 
+Node 12: {
+y_[node:12] = 0
+xi_y_i_[y:214][node:12] = 0.015517
+} 
+Node 13: {
+y_[node:13] = 0
+xi_y_i_[y:214][node:13] = 0.050000
+} 
+Node 14: {
+y_[node:14] = 0
+xi_y_i_[y:214][node:14] = 0.050000
+} 
+Node 15: {
+y_[node:15] = 0
+xi_y_i_[y:214][node:15] = 0.050000
+} 
+Node 16: {
+y_[node:16] = 1
+xi_y_i_[y:214][node:16] = 0.005172
+} 
+Node 17: {
+y_[node:17] = 1
+xi_y_i_[y:214][node:17] = 0.050000
+} 
+Node 18: {
+y_[node:18] = 0
+xi_y_i_[y:214][node:18] = 0.010345
+} 
+Node 19: {
+y_[node:19] = 0
+xi_y_i_[y:214][node:19] = 0.022414
+} 
+Node 20: {
+y_[node:20] = 0
+xi_y_i_[y:214][node:20] = 0.022414
+} 
+Node 21: {
+y_[node:21] = 0
+xi_y_i_[y:214][node:21] = 0.037931
+} 
+Node 22: {
+y_[node:22] = 0
+xi_y_i_[y:214][node:22] = 0.050000
+} 
+Node 23: {
+y_[node:23] = 0
+xi_y_i_[y:214][node:23] = 0.050000
+} 
+Node 24: {
+y_[node:24] = 0
+xi_y_i_[y:214][node:24] = 0.050000
+} 
+Node 25: {
+y_[node:25] = 0
+xi_y_i_[y:214][node:25] = 0.032759
+} 
+Node 26: {
+y_[node:26] = 1
+xi_y_i_[y:214][node:26] = 0.022414
+} 
+Node 27: {
+y_[node:27] = 0
+xi_y_i_[y:214][node:27] = 0.037931
+} 
+Node 28: {
+y_[node:28] = 1
+xi_y_i_[y:214][node:28] = 0.050000
+} 
+Node 29: {
+y_[node:29] = 0
+xi_y_i_[y:214][node:29] = 0.050000
+} 
+Node 30: {
+y_[node:30] = 1
+xi_y_i_[y:214][node:30] = 0.017241
+} 
+
+ } 
+
+ y = 230 { 
+Node 1: {
+y_[node:1] = 0
+xi_y_i_[y:230][node:1] = 0.050000
+} 
+Node 2: {
+y_[node:2] = 0
+xi_y_i_[y:230][node:2] = 0.027586
+} 
+Node 3: {
+y_[node:3] = 0
+xi_y_i_[y:230][node:3] = 0.050000
+} 
+Node 4: {
+y_[node:4] = 0
+xi_y_i_[y:230][node:4] = 0.037931
+} 
+Node 5: {
+y_[node:5] = 0
+xi_y_i_[y:230][node:5] = 0.050000
+} 
+Node 6: {
+y_[node:6] = 0
+xi_y_i_[y:230][node:6] = 0.022414
+} 
+Node 7: {
+y_[node:7] = 1
+xi_y_i_[y:230][node:7] = 0.022414
+} 
+Node 8: {
+y_[node:8] = 1
+xi_y_i_[y:230][node:8] = 0.005172
+} 
+Node 9: {
+y_[node:9] = 0
+xi_y_i_[y:230][node:9] = 0.017241
+} 
+Node 10: {
+y_[node:10] = 1
+xi_y_i_[y:230][node:10] = 0.027586
+} 
+Node 11: {
+y_[node:11] = 1
+xi_y_i_[y:230][node:11] = 0.015517
+} 
+Node 12: {
+y_[node:12] = 0
+xi_y_i_[y:230][node:12] = 0.015517
+} 
+Node 13: {
+y_[node:13] = 0
+xi_y_i_[y:230][node:13] = 0.050000
+} 
+Node 14: {
+y_[node:14] = 0
+xi_y_i_[y:230][node:14] = 0.050000
+} 
+Node 15: {
+y_[node:15] = 0
+xi_y_i_[y:230][node:15] = 0.050000
+} 
+Node 16: {
+y_[node:16] = 0
+xi_y_i_[y:230][node:16] = 0.005172
+} 
+Node 17: {
+y_[node:17] = 0
+xi_y_i_[y:230][node:17] = 0.050000
+} 
+Node 18: {
+y_[node:18] = 0
+xi_y_i_[y:230][node:18] = 0.010345
+} 
+Node 19: {
+y_[node:19] = 1
+xi_y_i_[y:230][node:19] = 0.022414
+} 
+Node 20: {
+y_[node:20] = 0
+xi_y_i_[y:230][node:20] = 0.022414
+} 
+Node 21: {
+y_[node:21] = 1
+xi_y_i_[y:230][node:21] = 0.037931
+} 
+Node 22: {
+y_[node:22] = 0
+xi_y_i_[y:230][node:22] = 0.050000
+} 
+Node 23: {
+y_[node:23] = 0
+xi_y_i_[y:230][node:23] = 0.050000
+} 
+Node 24: {
+y_[node:24] = 0
+xi_y_i_[y:230][node:24] = 0.050000
+} 
+Node 25: {
+y_[node:25] = 1
+xi_y_i_[y:230][node:25] = 0.032759
+} 
+Node 26: {
+y_[node:26] = 0
+xi_y_i_[y:230][node:26] = 0.022414
+} 
+Node 27: {
+y_[node:27] = 0
+xi_y_i_[y:230][node:27] = 0.037931
+} 
+Node 28: {
+y_[node:28] = 0
+xi_y_i_[y:230][node:28] = 0.050000
+} 
+Node 29: {
+y_[node:29] = 0
+xi_y_i_[y:230][node:29] = 0.050000
+} 
+Node 30: {
+y_[node:30] = 1
+xi_y_i_[y:230][node:30] = 0.017241
+} 
+
+ } 
+
+ y = 234 { 
+Node 1: {
+y_[node:1] = 0
+xi_y_i_[y:234][node:1] = 0.050000
+} 
+Node 2: {
+y_[node:2] = 0
+xi_y_i_[y:234][node:2] = 0.027586
+} 
+Node 3: {
+y_[node:3] = 0
+xi_y_i_[y:234][node:3] = 0.050000
+} 
+Node 4: {
+y_[node:4] = 0
+xi_y_i_[y:234][node:4] = 0.037931
+} 
+Node 5: {
+y_[node:5] = 0
+xi_y_i_[y:234][node:5] = 0.050000
+} 
+Node 6: {
+y_[node:6] = 0
+xi_y_i_[y:234][node:6] = 0.022414
+} 
+Node 7: {
+y_[node:7] = 1
+xi_y_i_[y:234][node:7] = 0.022414
+} 
+Node 8: {
+y_[node:8] = 1
+xi_y_i_[y:234][node:8] = 0.005172
+} 
+Node 9: {
+y_[node:9] = 1
+xi_y_i_[y:234][node:9] = 0.017241
+} 
+Node 10: {
+y_[node:10] = 1
+xi_y_i_[y:234][node:10] = 0.027586
+} 
+Node 11: {
+y_[node:11] = 0
+xi_y_i_[y:234][node:11] = 0.015517
+} 
+Node 12: {
+y_[node:12] = 0
+xi_y_i_[y:234][node:12] = 0.015517
+} 
+Node 13: {
+y_[node:13] = 0
+xi_y_i_[y:234][node:13] = 0.050000
+} 
+Node 14: {
+y_[node:14] = 0
+xi_y_i_[y:234][node:14] = 0.050000
+} 
+Node 15: {
+y_[node:15] = 0
+xi_y_i_[y:234][node:15] = 0.050000
+} 
+Node 16: {
+y_[node:16] = 0
+xi_y_i_[y:234][node:16] = 0.005172
+} 
+Node 17: {
+y_[node:17] = 0
+xi_y_i_[y:234][node:17] = 0.050000
+} 
+Node 18: {
+y_[node:18] = 1
+xi_y_i_[y:234][node:18] = 0.010345
+} 
+Node 19: {
+y_[node:19] = 1
+xi_y_i_[y:234][node:19] = 0.022414
+} 
+Node 20: {
+y_[node:20] = 0
+xi_y_i_[y:234][node:20] = 0.022414
+} 
+Node 21: {
+y_[node:21] = 1
+xi_y_i_[y:234][node:21] = 0.037931
+} 
+Node 22: {
+y_[node:22] = 0
+xi_y_i_[y:234][node:22] = 0.050000
+} 
+Node 23: {
+y_[node:23] = 0
+xi_y_i_[y:234][node:23] = 0.050000
+} 
+Node 24: {
+y_[node:24] = 0
+xi_y_i_[y:234][node:24] = 0.050000
+} 
+Node 25: {
+y_[node:25] = 1
+xi_y_i_[y:234][node:25] = 0.032759
+} 
+Node 26: {
+y_[node:26] = 0
+xi_y_i_[y:234][node:26] = 0.022414
+} 
+Node 27: {
+y_[node:27] = 0
+xi_y_i_[y:234][node:27] = 0.037931
+} 
+Node 28: {
+y_[node:28] = 0
+xi_y_i_[y:234][node:28] = 0.050000
+} 
+Node 29: {
+y_[node:29] = 0
+xi_y_i_[y:234][node:29] = 0.050000
+} 
+Node 30: {
+y_[node:30] = 1
+xi_y_i_[y:234][node:30] = 0.017241
+} 
+
+ } 
+
+ y = 235 { 
+Node 1: {
+y_[node:1] = 0
+xi_y_i_[y:235][node:1] = 0.050000
+} 
+Node 2: {
+y_[node:2] = 0
+xi_y_i_[y:235][node:2] = 0.027586
+} 
+Node 3: {
+y_[node:3] = 0
+xi_y_i_[y:235][node:3] = 0.050000
+} 
+Node 4: {
+y_[node:4] = 0
+xi_y_i_[y:235][node:4] = 0.037931
+} 
+Node 5: {
+y_[node:5] = 0
+xi_y_i_[y:235][node:5] = 0.050000
+} 
+Node 6: {
+y_[node:6] = 0
+xi_y_i_[y:235][node:6] = 0.022414
+} 
+Node 7: {
+y_[node:7] = 1
+xi_y_i_[y:235][node:7] = 0.022414
+} 
+Node 8: {
+y_[node:8] = 1
+xi_y_i_[y:235][node:8] = 0.005172
+} 
+Node 9: {
+y_[node:9] = 1
+xi_y_i_[y:235][node:9] = 0.017241
+} 
+Node 10: {
+y_[node:10] = 1
+xi_y_i_[y:235][node:10] = 0.027586
+} 
+Node 11: {
+y_[node:11] = 1
+xi_y_i_[y:235][node:11] = 0.015517
+} 
+Node 12: {
+y_[node:12] = 0
+xi_y_i_[y:235][node:12] = 0.015517
+} 
+Node 13: {
+y_[node:13] = 0
+xi_y_i_[y:235][node:13] = 0.050000
+} 
+Node 14: {
+y_[node:14] = 0
+xi_y_i_[y:235][node:14] = 0.050000
+} 
+Node 15: {
+y_[node:15] = 0
+xi_y_i_[y:235][node:15] = 0.050000
+} 
+Node 16: {
+y_[node:16] = 0
+xi_y_i_[y:235][node:16] = 0.005172
+} 
+Node 17: {
+y_[node:17] = 0
+xi_y_i_[y:235][node:17] = 0.050000
+} 
+Node 18: {
+y_[node:18] = 0
+xi_y_i_[y:235][node:18] = 0.010345
+} 
+Node 19: {
+y_[node:19] = 1
+xi_y_i_[y:235][node:19] = 0.022414
+} 
+Node 20: {
+y_[node:20] = 0
+xi_y_i_[y:235][node:20] = 0.022414
+} 
+Node 21: {
+y_[node:21] = 1
+xi_y_i_[y:235][node:21] = 0.037931
+} 
+Node 22: {
+y_[node:22] = 0
+xi_y_i_[y:235][node:22] = 0.050000
+} 
+Node 23: {
+y_[node:23] = 0
+xi_y_i_[y:235][node:23] = 0.050000
+} 
+Node 24: {
+y_[node:24] = 0
+xi_y_i_[y:235][node:24] = 0.050000
+} 
+Node 25: {
+y_[node:25] = 1
+xi_y_i_[y:235][node:25] = 0.032759
+} 
+Node 26: {
+y_[node:26] = 1
+xi_y_i_[y:235][node:26] = 0.022414
+} 
+Node 27: {
+y_[node:27] = 0
+xi_y_i_[y:235][node:27] = 0.037931
+} 
+Node 28: {
+y_[node:28] = 0
+xi_y_i_[y:235][node:28] = 0.050000
+} 
+Node 29: {
+y_[node:29] = 0
+xi_y_i_[y:235][node:29] = 0.050000
+} 
+Node 30: {
+y_[node:30] = 0
+xi_y_i_[y:235][node:30] = 0.017241
+} 
+
+ } 
+
+ y = 237 { 
+Node 1: {
+y_[node:1] = 0
+xi_y_i_[y:237][node:1] = 0.050000
+} 
+Node 2: {
+y_[node:2] = 0
+xi_y_i_[y:237][node:2] = 0.027586
+} 
+Node 3: {
+y_[node:3] = 0
+xi_y_i_[y:237][node:3] = 0.050000
+} 
+Node 4: {
+y_[node:4] = 0
+xi_y_i_[y:237][node:4] = 0.037931
+} 
+Node 5: {
+y_[node:5] = 0
+xi_y_i_[y:237][node:5] = 0.050000
+} 
+Node 6: {
+y_[node:6] = 0
+xi_y_i_[y:237][node:6] = 0.022414
+} 
+Node 7: {
+y_[node:7] = 1
+xi_y_i_[y:237][node:7] = 0.022414
+} 
+Node 8: {
+y_[node:8] = 1
+xi_y_i_[y:237][node:8] = 0.005172
+} 
+Node 9: {
+y_[node:9] = 1
+xi_y_i_[y:237][node:9] = 0.017241
+} 
+Node 10: {
+y_[node:10] = 0
+xi_y_i_[y:237][node:10] = 0.027586
+} 
+Node 11: {
+y_[node:11] = 1
+xi_y_i_[y:237][node:11] = 0.015517
+} 
+Node 12: {
+y_[node:12] = 0
+xi_y_i_[y:237][node:12] = 0.015517
+} 
+Node 13: {
+y_[node:13] = 0
+xi_y_i_[y:237][node:13] = 0.050000
+} 
+Node 14: {
+y_[node:14] = 0
+xi_y_i_[y:237][node:14] = 0.050000
+} 
+Node 15: {
+y_[node:15] = 0
+xi_y_i_[y:237][node:15] = 0.050000
+} 
+Node 16: {
+y_[node:16] = 0
+xi_y_i_[y:237][node:16] = 0.005172
+} 
+Node 17: {
+y_[node:17] = 0
+xi_y_i_[y:237][node:17] = 0.050000
+} 
+Node 18: {
+y_[node:18] = 1
+xi_y_i_[y:237][node:18] = 0.010345
+} 
+Node 19: {
+y_[node:19] = 1
+xi_y_i_[y:237][node:19] = 0.022414
+} 
+Node 20: {
+y_[node:20] = 1
+xi_y_i_[y:237][node:20] = 0.022414
+} 
+Node 21: {
+y_[node:21] = 1
+xi_y_i_[y:237][node:21] = 0.037931
+} 
+Node 22: {
+y_[node:22] = 0
+xi_y_i_[y:237][node:22] = 0.050000
+} 
+Node 23: {
+y_[node:23] = 0
+xi_y_i_[y:237][node:23] = 0.050000
+} 
+Node 24: {
+y_[node:24] = 0
+xi_y_i_[y:237][node:24] = 0.050000
+} 
+Node 25: {
+y_[node:25] = 1
+xi_y_i_[y:237][node:25] = 0.032759
+} 
+Node 26: {
+y_[node:26] = 0
+xi_y_i_[y:237][node:26] = 0.022414
+} 
+Node 27: {
+y_[node:27] = 0
+xi_y_i_[y:237][node:27] = 0.037931
+} 
+Node 28: {
+y_[node:28] = 0
+xi_y_i_[y:237][node:28] = 0.050000
+} 
+Node 29: {
+y_[node:29] = 0
+xi_y_i_[y:237][node:29] = 0.050000
+} 
+Node 30: {
+y_[node:30] = 1
+xi_y_i_[y:237][node:30] = 0.017241
+} 
+
+ } 
+
+ y = 240 { 
+Node 1: {
+y_[node:1] = 0
+xi_y_i_[y:240][node:1] = 0.050000
+} 
+Node 2: {
+y_[node:2] = 0
+xi_y_i_[y:240][node:2] = 0.027586
+} 
+Node 3: {
+y_[node:3] = 0
+xi_y_i_[y:240][node:3] = 0.050000
+} 
+Node 4: {
+y_[node:4] = 0
+xi_y_i_[y:240][node:4] = 0.037931
+} 
+Node 5: {
+y_[node:5] = 0
+xi_y_i_[y:240][node:5] = 0.050000
+} 
+Node 6: {
+y_[node:6] = 0
+xi_y_i_[y:240][node:6] = 0.022414
+} 
+Node 7: {
+y_[node:7] = 1
+xi_y_i_[y:240][node:7] = 0.022414
+} 
+Node 8: {
+y_[node:8] = 0
+xi_y_i_[y:240][node:8] = 0.005172
+} 
+Node 9: {
+y_[node:9] = 1
+xi_y_i_[y:240][node:9] = 0.017241
+} 
+Node 10: {
+y_[node:10] = 1
+xi_y_i_[y:240][node:10] = 0.027586
+} 
+Node 11: {
+y_[node:11] = 0
+xi_y_i_[y:240][node:11] = 0.015517
+} 
+Node 12: {
+y_[node:12] = 1
+xi_y_i_[y:240][node:12] = 0.015517
+} 
+Node 13: {
+y_[node:13] = 0
+xi_y_i_[y:240][node:13] = 0.050000
+} 
+Node 14: {
+y_[node:14] = 0
+xi_y_i_[y:240][node:14] = 0.050000
+} 
+Node 15: {
+y_[node:15] = 0
+xi_y_i_[y:240][node:15] = 0.050000
+} 
+Node 16: {
+y_[node:16] = 0
+xi_y_i_[y:240][node:16] = 0.005172
+} 
+Node 17: {
+y_[node:17] = 0
+xi_y_i_[y:240][node:17] = 0.050000
+} 
+Node 18: {
+y_[node:18] = 1
+xi_y_i_[y:240][node:18] = 0.010345
+} 
+Node 19: {
+y_[node:19] = 1
+xi_y_i_[y:240][node:19] = 0.022414
+} 
+Node 20: {
+y_[node:20] = 1
+xi_y_i_[y:240][node:20] = 0.022414
+} 
+Node 21: {
+y_[node:21] = 1
+xi_y_i_[y:240][node:21] = 0.037931
+} 
+Node 22: {
+y_[node:22] = 0
+xi_y_i_[y:240][node:22] = 0.050000
+} 
+Node 23: {
+y_[node:23] = 0
+xi_y_i_[y:240][node:23] = 0.050000
+} 
+Node 24: {
+y_[node:24] = 0
+xi_y_i_[y:240][node:24] = 0.050000
+} 
+Node 25: {
+y_[node:25] = 0
+xi_y_i_[y:240][node:25] = 0.032759
+} 
+Node 26: {
+y_[node:26] = 1
+xi_y_i_[y:240][node:26] = 0.022414
+} 
+Node 27: {
+y_[node:27] = 0
+xi_y_i_[y:240][node:27] = 0.037931
+} 
+Node 28: {
+y_[node:28] = 0
+xi_y_i_[y:240][node:28] = 0.050000
+} 
+Node 29: {
+y_[node:29] = 0
+xi_y_i_[y:240][node:29] = 0.050000
+} 
+Node 30: {
+y_[node:30] = 0
+xi_y_i_[y:240][node:30] = 0.017241
+} 
+
+ } 
+
+ y = 241 { 
+Node 1: {
+y_[node:1] = 0
+xi_y_i_[y:241][node:1] = 0.050000
+} 
+Node 2: {
+y_[node:2] = 0
+xi_y_i_[y:241][node:2] = 0.027586
+} 
+Node 3: {
+y_[node:3] = 0
+xi_y_i_[y:241][node:3] = 0.050000
+} 
+Node 4: {
+y_[node:4] = 0
+xi_y_i_[y:241][node:4] = 0.037931
+} 
+Node 5: {
+y_[node:5] = 0
+xi_y_i_[y:241][node:5] = 0.050000
+} 
+Node 6: {
+y_[node:6] = 0
+xi_y_i_[y:241][node:6] = 0.022414
+} 
+Node 7: {
+y_[node:7] = 1
+xi_y_i_[y:241][node:7] = 0.022414
+} 
+Node 8: {
+y_[node:8] = 0
+xi_y_i_[y:241][node:8] = 0.005172
+} 
+Node 9: {
+y_[node:9] = 0
+xi_y_i_[y:241][node:9] = 0.017241
+} 
+Node 10: {
+y_[node:10] = 1
+xi_y_i_[y:241][node:10] = 0.027586
+} 
+Node 11: {
+y_[node:11] = 1
+xi_y_i_[y:241][node:11] = 0.015517
+} 
+Node 12: {
+y_[node:12] = 1
+xi_y_i_[y:241][node:12] = 0.015517
+} 
+Node 13: {
+y_[node:13] = 0
+xi_y_i_[y:241][node:13] = 0.050000
+} 
+Node 14: {
+y_[node:14] = 0
+xi_y_i_[y:241][node:14] = 0.050000
+} 
+Node 15: {
+y_[node:15] = 0
+xi_y_i_[y:241][node:15] = 0.050000
+} 
+Node 16: {
+y_[node:16] = 0
+xi_y_i_[y:241][node:16] = 0.005172
+} 
+Node 17: {
+y_[node:17] = 0
+xi_y_i_[y:241][node:17] = 0.050000
+} 
+Node 18: {
+y_[node:18] = 1
+xi_y_i_[y:241][node:18] = 0.010345
+} 
+Node 19: {
+y_[node:19] = 1
+xi_y_i_[y:241][node:19] = 0.022414
+} 
+Node 20: {
+y_[node:20] = 1
+xi_y_i_[y:241][node:20] = 0.022414
+} 
+Node 21: {
+y_[node:21] = 1
+xi_y_i_[y:241][node:21] = 0.037931
+} 
+Node 22: {
+y_[node:22] = 0
+xi_y_i_[y:241][node:22] = 0.050000
+} 
+Node 23: {
+y_[node:23] = 0
+xi_y_i_[y:241][node:23] = 0.050000
+} 
+Node 24: {
+y_[node:24] = 0
+xi_y_i_[y:241][node:24] = 0.050000
+} 
+Node 25: {
+y_[node:25] = 0
+xi_y_i_[y:241][node:25] = 0.032759
+} 
+Node 26: {
+y_[node:26] = 1
+xi_y_i_[y:241][node:26] = 0.022414
+} 
+Node 27: {
+y_[node:27] = 0
+xi_y_i_[y:241][node:27] = 0.037931
+} 
+Node 28: {
+y_[node:28] = 0
+xi_y_i_[y:241][node:28] = 0.050000
+} 
+Node 29: {
+y_[node:29] = 0
+xi_y_i_[y:241][node:29] = 0.050000
+} 
+Node 30: {
+y_[node:30] = 0
+xi_y_i_[y:241][node:30] = 0.017241
+} 
+
+ } 
+
+ y = 242 { 
+Node 1: {
+y_[node:1] = 0
+xi_y_i_[y:242][node:1] = 0.050000
+} 
+Node 2: {
+y_[node:2] = 0
+xi_y_i_[y:242][node:2] = 0.027586
+} 
+Node 3: {
+y_[node:3] = 0
+xi_y_i_[y:242][node:3] = 0.050000
+} 
+Node 4: {
+y_[node:4] = 0
+xi_y_i_[y:242][node:4] = 0.037931
+} 
+Node 5: {
+y_[node:5] = 0
+xi_y_i_[y:242][node:5] = 0.050000
+} 
+Node 6: {
+y_[node:6] = 0
+xi_y_i_[y:242][node:6] = 0.022414
+} 
+Node 7: {
+y_[node:7] = 1
+xi_y_i_[y:242][node:7] = 0.022414
+} 
+Node 8: {
+y_[node:8] = 0
+xi_y_i_[y:242][node:8] = 0.005172
+} 
+Node 9: {
+y_[node:9] = 1
+xi_y_i_[y:242][node:9] = 0.017241
+} 
+Node 10: {
+y_[node:10] = 1
+xi_y_i_[y:242][node:10] = 0.027586
+} 
+Node 11: {
+y_[node:11] = 1
+xi_y_i_[y:242][node:11] = 0.015517
+} 
+Node 12: {
+y_[node:12] = 1
+xi_y_i_[y:242][node:12] = 0.015517
+} 
+Node 13: {
+y_[node:13] = 0
+xi_y_i_[y:242][node:13] = 0.050000
+} 
+Node 14: {
+y_[node:14] = 0
+xi_y_i_[y:242][node:14] = 0.050000
+} 
+Node 15: {
+y_[node:15] = 0
+xi_y_i_[y:242][node:15] = 0.050000
+} 
+Node 16: {
+y_[node:16] = 0
+xi_y_i_[y:242][node:16] = 0.005172
+} 
+Node 17: {
+y_[node:17] = 0
+xi_y_i_[y:242][node:17] = 0.050000
+} 
+Node 18: {
+y_[node:18] = 1
+xi_y_i_[y:242][node:18] = 0.010345
+} 
+Node 19: {
+y_[node:19] = 1
+xi_y_i_[y:242][node:19] = 0.022414
+} 
+Node 20: {
+y_[node:20] = 1
+xi_y_i_[y:242][node:20] = 0.022414
+} 
+Node 21: {
+y_[node:21] = 1
+xi_y_i_[y:242][node:21] = 0.037931
+} 
+Node 22: {
+y_[node:22] = 0
+xi_y_i_[y:242][node:22] = 0.050000
+} 
+Node 23: {
+y_[node:23] = 0
+xi_y_i_[y:242][node:23] = 0.050000
+} 
+Node 24: {
+y_[node:24] = 0
+xi_y_i_[y:242][node:24] = 0.050000
+} 
+Node 25: {
+y_[node:25] = 0
+xi_y_i_[y:242][node:25] = 0.032759
+} 
+Node 26: {
+y_[node:26] = 1
+xi_y_i_[y:242][node:26] = 0.022414
+} 
+Node 27: {
+y_[node:27] = 0
+xi_y_i_[y:242][node:27] = 0.037931
+} 
+Node 28: {
+y_[node:28] = 0
+xi_y_i_[y:242][node:28] = 0.050000
+} 
+Node 29: {
+y_[node:29] = 0
+xi_y_i_[y:242][node:29] = 0.050000
+} 
+Node 30: {
+y_[node:30] = 0
+xi_y_i_[y:242][node:30] = 0.017241
+} 
+
+ } 
+
+ y = 244 { 
+Node 1: {
+y_[node:1] = 0
+xi_y_i_[y:244][node:1] = 0.050000
+} 
+Node 2: {
+y_[node:2] = 0
+xi_y_i_[y:244][node:2] = 0.027586
+} 
+Node 3: {
+y_[node:3] = 0
+xi_y_i_[y:244][node:3] = 0.050000
+} 
+Node 4: {
+y_[node:4] = 0
+xi_y_i_[y:244][node:4] = 0.037931
+} 
+Node 5: {
+y_[node:5] = 0
+xi_y_i_[y:244][node:5] = 0.050000
+} 
+Node 6: {
+y_[node:6] = 0
+xi_y_i_[y:244][node:6] = 0.022414
+} 
+Node 7: {
+y_[node:7] = 1
+xi_y_i_[y:244][node:7] = 0.022414
+} 
+Node 8: {
+y_[node:8] = 0
+xi_y_i_[y:244][node:8] = 0.005172
+} 
+Node 9: {
+y_[node:9] = 1
+xi_y_i_[y:244][node:9] = 0.017241
+} 
+Node 10: {
+y_[node:10] = 1
+xi_y_i_[y:244][node:10] = 0.027586
+} 
+Node 11: {
+y_[node:11] = 1
+xi_y_i_[y:244][node:11] = 0.015517
+} 
+Node 12: {
+y_[node:12] = 0
+xi_y_i_[y:244][node:12] = 0.015517
+} 
+Node 13: {
+y_[node:13] = 0
+xi_y_i_[y:244][node:13] = 0.050000
+} 
+Node 14: {
+y_[node:14] = 0
+xi_y_i_[y:244][node:14] = 0.050000
+} 
+Node 15: {
+y_[node:15] = 0
+xi_y_i_[y:244][node:15] = 0.050000
+} 
+Node 16: {
+y_[node:16] = 0
+xi_y_i_[y:244][node:16] = 0.005172
+} 
+Node 17: {
+y_[node:17] = 0
+xi_y_i_[y:244][node:17] = 0.050000
+} 
+Node 18: {
+y_[node:18] = 1
+xi_y_i_[y:244][node:18] = 0.010345
+} 
+Node 19: {
+y_[node:19] = 1
+xi_y_i_[y:244][node:19] = 0.022414
+} 
+Node 20: {
+y_[node:20] = 0
+xi_y_i_[y:244][node:20] = 0.022414
+} 
+Node 21: {
+y_[node:21] = 1
+xi_y_i_[y:244][node:21] = 0.037931
+} 
+Node 22: {
+y_[node:22] = 0
+xi_y_i_[y:244][node:22] = 0.050000
+} 
+Node 23: {
+y_[node:23] = 0
+xi_y_i_[y:244][node:23] = 0.050000
+} 
+Node 24: {
+y_[node:24] = 0
+xi_y_i_[y:244][node:24] = 0.050000
+} 
+Node 25: {
+y_[node:25] = 1
+xi_y_i_[y:244][node:25] = 0.032759
+} 
+Node 26: {
+y_[node:26] = 0
+xi_y_i_[y:244][node:26] = 0.022414
+} 
+Node 27: {
+y_[node:27] = 0
+xi_y_i_[y:244][node:27] = 0.037931
+} 
+Node 28: {
+y_[node:28] = 0
+xi_y_i_[y:244][node:28] = 0.050000
+} 
+Node 29: {
+y_[node:29] = 0
+xi_y_i_[y:244][node:29] = 0.050000
+} 
+Node 30: {
+y_[node:30] = 1
+xi_y_i_[y:244][node:30] = 0.017241
+} 
+
+ } 
+
+ y = 245 { 
+Node 1: {
+y_[node:1] = 0
+xi_y_i_[y:245][node:1] = 0.050000
+} 
+Node 2: {
+y_[node:2] = 0
+xi_y_i_[y:245][node:2] = 0.027586
+} 
+Node 3: {
+y_[node:3] = 0
+xi_y_i_[y:245][node:3] = 0.050000
+} 
+Node 4: {
+y_[node:4] = 0
+xi_y_i_[y:245][node:4] = 0.037931
+} 
+Node 5: {
+y_[node:5] = 0
+xi_y_i_[y:245][node:5] = 0.050000
+} 
+Node 6: {
+y_[node:6] = 0
+xi_y_i_[y:245][node:6] = 0.022414
+} 
+Node 7: {
+y_[node:7] = 0
+xi_y_i_[y:245][node:7] = 0.022414
+} 
+Node 8: {
+y_[node:8] = 0
+xi_y_i_[y:245][node:8] = 0.005172
+} 
+Node 9: {
+y_[node:9] = 0
+xi_y_i_[y:245][node:9] = 0.017241
+} 
+Node 10: {
+y_[node:10] = 0
+xi_y_i_[y:245][node:10] = 0.027586
+} 
+Node 11: {
+y_[node:11] = 0
+xi_y_i_[y:245][node:11] = 0.015517
+} 
+Node 12: {
+y_[node:12] = 0
+xi_y_i_[y:245][node:12] = 0.015517
+} 
+Node 13: {
+y_[node:13] = 0
+xi_y_i_[y:245][node:13] = 0.050000
+} 
+Node 14: {
+y_[node:14] = 0
+xi_y_i_[y:245][node:14] = 0.050000
+} 
+Node 15: {
+y_[node:15] = 0
+xi_y_i_[y:245][node:15] = 0.050000
+} 
+Node 16: {
+y_[node:16] = 0
+xi_y_i_[y:245][node:16] = 0.006897
+} 
+Node 17: {
+y_[node:17] = 0
+xi_y_i_[y:245][node:17] = 0.050000
+} 
+Node 18: {
+y_[node:18] = 1
+xi_y_i_[y:245][node:18] = 0.010345
+} 
+Node 19: {
+y_[node:19] = 1
+xi_y_i_[y:245][node:19] = 0.022414
+} 
+Node 20: {
+y_[node:20] = 1
+xi_y_i_[y:245][node:20] = 0.022414
+} 
+Node 21: {
+y_[node:21] = 1
+xi_y_i_[y:245][node:21] = 0.037931
+} 
+Node 22: {
+y_[node:22] = 0
+xi_y_i_[y:245][node:22] = 0.050000
+} 
+Node 23: {
+y_[node:23] = 0
+xi_y_i_[y:245][node:23] = 0.050000
+} 
+Node 24: {
+y_[node:24] = 1
+xi_y_i_[y:245][node:24] = 0.048276
+} 
+Node 25: {
+y_[node:25] = 0
+xi_y_i_[y:245][node:25] = 0.032759
+} 
+Node 26: {
+y_[node:26] = 1
+xi_y_i_[y:245][node:26] = 0.022414
+} 
+Node 27: {
+y_[node:27] = 0
+xi_y_i_[y:245][node:27] = 0.037931
+} 
+Node 28: {
+y_[node:28] = 0
+xi_y_i_[y:245][node:28] = 0.050000
+} 
+Node 29: {
+y_[node:29] = 1
+xi_y_i_[y:245][node:29] = 0.050000
+} 
+Node 30: {
+y_[node:30] = 1
+xi_y_i_[y:245][node:30] = 0.017241
+} 
+
+ } 
+
+ y = 257 { 
+Node 1: {
+y_[node:1] = 1
+xi_y_i_[y:257][node:1] = 0.050000
+} 
+Node 2: {
+y_[node:2] = 0
+xi_y_i_[y:257][node:2] = 0.027586
+} 
+Node 3: {
+y_[node:3] = 0
+xi_y_i_[y:257][node:3] = 0.050000
+} 
+Node 4: {
+y_[node:4] = 0
+xi_y_i_[y:257][node:4] = 0.037931
+} 
+Node 5: {
+y_[node:5] = 0
+xi_y_i_[y:257][node:5] = 0.050000
+} 
+Node 6: {
+y_[node:6] = 0
+xi_y_i_[y:257][node:6] = 0.022414
+} 
+Node 7: {
+y_[node:7] = 1
+xi_y_i_[y:257][node:7] = 0.022414
+} 
+Node 8: {
+y_[node:8] = 0
+xi_y_i_[y:257][node:8] = 0.005172
+} 
+Node 9: {
+y_[node:9] = 1
+xi_y_i_[y:257][node:9] = 0.017241
+} 
+Node 10: {
+y_[node:10] = 1
+xi_y_i_[y:257][node:10] = 0.027586
+} 
+Node 11: {
+y_[node:11] = 1
+xi_y_i_[y:257][node:11] = 0.015517
+} 
+Node 12: {
+y_[node:12] = 1
+xi_y_i_[y:257][node:12] = 0.015517
+} 
+Node 13: {
+y_[node:13] = 0
+xi_y_i_[y:257][node:13] = 0.050000
+} 
+Node 14: {
+y_[node:14] = 0
+xi_y_i_[y:257][node:14] = 0.050000
+} 
+Node 15: {
+y_[node:15] = 0
+xi_y_i_[y:257][node:15] = 0.050000
+} 
+Node 16: {
+y_[node:16] = 0
+xi_y_i_[y:257][node:16] = 0.005172
+} 
+Node 17: {
+y_[node:17] = 0
+xi_y_i_[y:257][node:17] = 0.050000
+} 
+Node 18: {
+y_[node:18] = 0
+xi_y_i_[y:257][node:18] = 0.010345
+} 
+Node 19: {
+y_[node:19] = 1
+xi_y_i_[y:257][node:19] = 0.022414
+} 
+Node 20: {
+y_[node:20] = 1
+xi_y_i_[y:257][node:20] = 0.022414
+} 
+Node 21: {
+y_[node:21] = 0
+xi_y_i_[y:257][node:21] = 0.037931
+} 
+Node 22: {
+y_[node:22] = 0
+xi_y_i_[y:257][node:22] = 0.050000
+} 
+Node 23: {
+y_[node:23] = 0
+xi_y_i_[y:257][node:23] = 0.050000
+} 
+Node 24: {
+y_[node:24] = 0
+xi_y_i_[y:257][node:24] = 0.050000
+} 
+Node 25: {
+y_[node:25] = 1
+xi_y_i_[y:257][node:25] = 0.032759
+} 
+Node 26: {
+y_[node:26] = 0
+xi_y_i_[y:257][node:26] = 0.022414
+} 
+Node 27: {
+y_[node:27] = 0
+xi_y_i_[y:257][node:27] = 0.037931
+} 
+Node 28: {
+y_[node:28] = 0
+xi_y_i_[y:257][node:28] = 0.050000
+} 
+Node 29: {
+y_[node:29] = 0
+xi_y_i_[y:257][node:29] = 0.050000
+} 
+Node 30: {
+y_[node:30] = 0
+xi_y_i_[y:257][node:30] = 0.017241
+} 
+
+ } 
+
+ y = 261 { 
+Node 1: {
+y_[node:1] = 1
+xi_y_i_[y:261][node:1] = 0.050000
+} 
+Node 2: {
+y_[node:2] = 1
+xi_y_i_[y:261][node:2] = 0.027586
+} 
+Node 3: {
+y_[node:3] = 0
+xi_y_i_[y:261][node:3] = 0.050000
+} 
+Node 4: {
+y_[node:4] = 0
+xi_y_i_[y:261][node:4] = 0.037931
+} 
+Node 5: {
+y_[node:5] = 1
+xi_y_i_[y:261][node:5] = 0.043103
+} 
+Node 6: {
+y_[node:6] = 1
+xi_y_i_[y:261][node:6] = 0.022414
+} 
+Node 7: {
+y_[node:7] = 1
+xi_y_i_[y:261][node:7] = 0.022414
+} 
+Node 8: {
+y_[node:8] = 1
+xi_y_i_[y:261][node:8] = 0.005172
+} 
+Node 9: {
+y_[node:9] = 0
+xi_y_i_[y:261][node:9] = 0.017241
+} 
+Node 10: {
+y_[node:10] = 0
+xi_y_i_[y:261][node:10] = 0.027586
+} 
+Node 11: {
+y_[node:11] = 0
+xi_y_i_[y:261][node:11] = 0.015517
+} 
+Node 12: {
+y_[node:12] = 1
+xi_y_i_[y:261][node:12] = 0.015517
+} 
+Node 13: {
+y_[node:13] = 0
+xi_y_i_[y:261][node:13] = 0.050000
+} 
+Node 14: {
+y_[node:14] = 0
+xi_y_i_[y:261][node:14] = 0.050000
+} 
+Node 15: {
+y_[node:15] = 0
+xi_y_i_[y:261][node:15] = 0.050000
+} 
+Node 16: {
+y_[node:16] = 0
+xi_y_i_[y:261][node:16] = 0.012069
+} 
+Node 17: {
+y_[node:17] = 0
+xi_y_i_[y:261][node:17] = 0.050000
+} 
+Node 18: {
+y_[node:18] = 0
+xi_y_i_[y:261][node:18] = 0.010345
+} 
+Node 19: {
+y_[node:19] = 1
+xi_y_i_[y:261][node:19] = 0.022414
+} 
+Node 20: {
+y_[node:20] = 0
+xi_y_i_[y:261][node:20] = 0.022414
+} 
+Node 21: {
+y_[node:21] = 0
+xi_y_i_[y:261][node:21] = 0.037931
+} 
+Node 22: {
+y_[node:22] = 0
+xi_y_i_[y:261][node:22] = 0.050000
+} 
+Node 23: {
+y_[node:23] = 0
+xi_y_i_[y:261][node:23] = 0.050000
+} 
+Node 24: {
+y_[node:24] = 0
+xi_y_i_[y:261][node:24] = 0.050000
+} 
+Node 25: {
+y_[node:25] = 0
+xi_y_i_[y:261][node:25] = 0.032759
+} 
+Node 26: {
+y_[node:26] = 1
+xi_y_i_[y:261][node:26] = 0.022414
+} 
+Node 27: {
+y_[node:27] = 0
+xi_y_i_[y:261][node:27] = 0.037931
+} 
+Node 28: {
+y_[node:28] = 0
+xi_y_i_[y:261][node:28] = 0.050000
+} 
+Node 29: {
+y_[node:29] = 0
+xi_y_i_[y:261][node:29] = 0.050000
+} 
+Node 30: {
+y_[node:30] = 0
+xi_y_i_[y:261][node:30] = 0.017241
+} 
+
+ } 
+
+ y = 262 { 
+Node 1: {
+y_[node:1] = 0
+xi_y_i_[y:262][node:1] = 0.050000
+} 
+Node 2: {
+y_[node:2] = 0
+xi_y_i_[y:262][node:2] = 0.027586
+} 
+Node 3: {
+y_[node:3] = 0
+xi_y_i_[y:262][node:3] = 0.050000
+} 
+Node 4: {
+y_[node:4] = 0
+xi_y_i_[y:262][node:4] = 0.037931
+} 
+Node 5: {
+y_[node:5] = 0
+xi_y_i_[y:262][node:5] = 0.050000
+} 
+Node 6: {
+y_[node:6] = 0
+xi_y_i_[y:262][node:6] = 0.022414
+} 
+Node 7: {
+y_[node:7] = 1
+xi_y_i_[y:262][node:7] = 0.022414
+} 
+Node 8: {
+y_[node:8] = 0
+xi_y_i_[y:262][node:8] = 0.005172
+} 
+Node 9: {
+y_[node:9] = 1
+xi_y_i_[y:262][node:9] = 0.017241
+} 
+Node 10: {
+y_[node:10] = 1
+xi_y_i_[y:262][node:10] = 0.027586
+} 
+Node 11: {
+y_[node:11] = 1
+xi_y_i_[y:262][node:11] = 0.015517
+} 
+Node 12: {
+y_[node:12] = 1
+xi_y_i_[y:262][node:12] = 0.015517
+} 
+Node 13: {
+y_[node:13] = 0
+xi_y_i_[y:262][node:13] = 0.050000
+} 
+Node 14: {
+y_[node:14] = 0
+xi_y_i_[y:262][node:14] = 0.050000
+} 
+Node 15: {
+y_[node:15] = 0
+xi_y_i_[y:262][node:15] = 0.050000
+} 
+Node 16: {
+y_[node:16] = 0
+xi_y_i_[y:262][node:16] = 0.005172
+} 
+Node 17: {
+y_[node:17] = 0
+xi_y_i_[y:262][node:17] = 0.050000
+} 
+Node 18: {
+y_[node:18] = 1
+xi_y_i_[y:262][node:18] = 0.010345
+} 
+Node 19: {
+y_[node:19] = 0
+xi_y_i_[y:262][node:19] = 0.022414
+} 
+Node 20: {
+y_[node:20] = 1
+xi_y_i_[y:262][node:20] = 0.022414
+} 
+Node 21: {
+y_[node:21] = 1
+xi_y_i_[y:262][node:21] = 0.037931
+} 
+Node 22: {
+y_[node:22] = 0
+xi_y_i_[y:262][node:22] = 0.050000
+} 
+Node 23: {
+y_[node:23] = 0
+xi_y_i_[y:262][node:23] = 0.050000
+} 
+Node 24: {
+y_[node:24] = 0
+xi_y_i_[y:262][node:24] = 0.050000
+} 
+Node 25: {
+y_[node:25] = 1
+xi_y_i_[y:262][node:25] = 0.032759
+} 
+Node 26: {
+y_[node:26] = 1
+xi_y_i_[y:262][node:26] = 0.022414
+} 
+Node 27: {
+y_[node:27] = 0
+xi_y_i_[y:262][node:27] = 0.037931
+} 
+Node 28: {
+y_[node:28] = 0
+xi_y_i_[y:262][node:28] = 0.050000
+} 
+Node 29: {
+y_[node:29] = 0
+xi_y_i_[y:262][node:29] = 0.050000
+} 
+Node 30: {
+y_[node:30] = 0
+xi_y_i_[y:262][node:30] = 0.017241
+} 
+
+ } 
+
+ y = 268 { 
+Node 1: {
+y_[node:1] = 0
+xi_y_i_[y:268][node:1] = 0.050000
+} 
+Node 2: {
+y_[node:2] = 0
+xi_y_i_[y:268][node:2] = 0.027586
+} 
+Node 3: {
+y_[node:3] = 0
+xi_y_i_[y:268][node:3] = 0.050000
+} 
+Node 4: {
+y_[node:4] = 0
+xi_y_i_[y:268][node:4] = 0.037931
+} 
+Node 5: {
+y_[node:5] = 0
+xi_y_i_[y:268][node:5] = 0.050000
+} 
+Node 6: {
+y_[node:6] = 0
+xi_y_i_[y:268][node:6] = 0.022414
+} 
+Node 7: {
+y_[node:7] = 1
+xi_y_i_[y:268][node:7] = 0.022414
+} 
+Node 8: {
+y_[node:8] = 1
+xi_y_i_[y:268][node:8] = 0.005172
+} 
+Node 9: {
+y_[node:9] = 1
+xi_y_i_[y:268][node:9] = 0.017241
+} 
+Node 10: {
+y_[node:10] = 1
+xi_y_i_[y:268][node:10] = 0.027586
+} 
+Node 11: {
+y_[node:11] = 0
+xi_y_i_[y:268][node:11] = 0.015517
+} 
+Node 12: {
+y_[node:12] = 0
+xi_y_i_[y:268][node:12] = 0.015517
+} 
+Node 13: {
+y_[node:13] = 0
+xi_y_i_[y:268][node:13] = 0.050000
+} 
+Node 14: {
+y_[node:14] = 0
+xi_y_i_[y:268][node:14] = 0.050000
+} 
+Node 15: {
+y_[node:15] = 0
+xi_y_i_[y:268][node:15] = 0.050000
+} 
+Node 16: {
+y_[node:16] = 0
+xi_y_i_[y:268][node:16] = 0.005172
+} 
+Node 17: {
+y_[node:17] = 0
+xi_y_i_[y:268][node:17] = 0.050000
+} 
+Node 18: {
+y_[node:18] = 1
+xi_y_i_[y:268][node:18] = 0.010345
+} 
+Node 19: {
+y_[node:19] = 0
+xi_y_i_[y:268][node:19] = 0.022414
+} 
+Node 20: {
+y_[node:20] = 0
+xi_y_i_[y:268][node:20] = 0.022414
+} 
+Node 21: {
+y_[node:21] = 1
+xi_y_i_[y:268][node:21] = 0.037931
+} 
+Node 22: {
+y_[node:22] = 0
+xi_y_i_[y:268][node:22] = 0.050000
+} 
+Node 23: {
+y_[node:23] = 0
+xi_y_i_[y:268][node:23] = 0.050000
+} 
+Node 24: {
+y_[node:24] = 0
+xi_y_i_[y:268][node:24] = 0.050000
+} 
+Node 25: {
+y_[node:25] = 1
+xi_y_i_[y:268][node:25] = 0.032759
+} 
+Node 26: {
+y_[node:26] = 1
+xi_y_i_[y:268][node:26] = 0.022414
+} 
+Node 27: {
+y_[node:27] = 0
+xi_y_i_[y:268][node:27] = 0.037931
+} 
+Node 28: {
+y_[node:28] = 0
+xi_y_i_[y:268][node:28] = 0.050000
+} 
+Node 29: {
+y_[node:29] = 0
+xi_y_i_[y:268][node:29] = 0.050000
+} 
+Node 30: {
+y_[node:30] = 1
+xi_y_i_[y:268][node:30] = 0.017241
+} 
+
+ } 
+
+ y = 269 { 
+Node 1: {
+y_[node:1] = 1
+xi_y_i_[y:269][node:1] = 0.050000
+} 
+Node 2: {
+y_[node:2] = 1
+xi_y_i_[y:269][node:2] = 0.027586
+} 
+Node 3: {
+y_[node:3] = 0
+xi_y_i_[y:269][node:3] = 0.050000
+} 
+Node 4: {
+y_[node:4] = 0
+xi_y_i_[y:269][node:4] = 0.037931
+} 
+Node 5: {
+y_[node:5] = 1
+xi_y_i_[y:269][node:5] = 0.025862
+} 
+Node 6: {
+y_[node:6] = 1
+xi_y_i_[y:269][node:6] = 0.022414
+} 
+Node 7: {
+y_[node:7] = 1
+xi_y_i_[y:269][node:7] = 0.022414
+} 
+Node 8: {
+y_[node:8] = 0
+xi_y_i_[y:269][node:8] = 0.005172
+} 
+Node 9: {
+y_[node:9] = 1
+xi_y_i_[y:269][node:9] = 0.017241
+} 
+Node 10: {
+y_[node:10] = 1
+xi_y_i_[y:269][node:10] = 0.027586
+} 
+Node 11: {
+y_[node:11] = 1
+xi_y_i_[y:269][node:11] = 0.015517
+} 
+Node 12: {
+y_[node:12] = 0
+xi_y_i_[y:269][node:12] = 0.015517
+} 
+Node 13: {
+y_[node:13] = 0
+xi_y_i_[y:269][node:13] = 0.050000
+} 
+Node 14: {
+y_[node:14] = 0
+xi_y_i_[y:269][node:14] = 0.050000
+} 
+Node 15: {
+y_[node:15] = 0
+xi_y_i_[y:269][node:15] = 0.050000
+} 
+Node 16: {
+y_[node:16] = 0
+xi_y_i_[y:269][node:16] = 0.029310
+} 
+Node 17: {
+y_[node:17] = 0
+xi_y_i_[y:269][node:17] = 0.050000
+} 
+Node 18: {
+y_[node:18] = 0
+xi_y_i_[y:269][node:18] = 0.010345
+} 
+Node 19: {
+y_[node:19] = 1
+xi_y_i_[y:269][node:19] = 0.022414
+} 
+Node 20: {
+y_[node:20] = 0
+xi_y_i_[y:269][node:20] = 0.022414
+} 
+Node 21: {
+y_[node:21] = 0
+xi_y_i_[y:269][node:21] = 0.037931
+} 
+Node 22: {
+y_[node:22] = 0
+xi_y_i_[y:269][node:22] = 0.050000
+} 
+Node 23: {
+y_[node:23] = 0
+xi_y_i_[y:269][node:23] = 0.050000
+} 
+Node 24: {
+y_[node:24] = 0
+xi_y_i_[y:269][node:24] = 0.050000
+} 
+Node 25: {
+y_[node:25] = 0
+xi_y_i_[y:269][node:25] = 0.032759
+} 
+Node 26: {
+y_[node:26] = 0
+xi_y_i_[y:269][node:26] = 0.022414
+} 
+Node 27: {
+y_[node:27] = 0
+xi_y_i_[y:269][node:27] = 0.037931
+} 
+Node 28: {
+y_[node:28] = 0
+xi_y_i_[y:269][node:28] = 0.050000
+} 
+Node 29: {
+y_[node:29] = 0
+xi_y_i_[y:269][node:29] = 0.050000
+} 
+Node 30: {
+y_[node:30] = 0
+xi_y_i_[y:269][node:30] = 0.017241
+} 
+
+ } 
+
+ y = 271 { 
+Node 1: {
+y_[node:1] = 0
+xi_y_i_[y:271][node:1] = 0.050000
+} 
+Node 2: {
+y_[node:2] = 0
+xi_y_i_[y:271][node:2] = 0.027586
+} 
+Node 3: {
+y_[node:3] = 0
+xi_y_i_[y:271][node:3] = 0.050000
+} 
+Node 4: {
+y_[node:4] = 0
+xi_y_i_[y:271][node:4] = 0.037931
+} 
+Node 5: {
+y_[node:5] = 0
+xi_y_i_[y:271][node:5] = 0.050000
+} 
+Node 6: {
+y_[node:6] = 0
+xi_y_i_[y:271][node:6] = 0.022414
+} 
+Node 7: {
+y_[node:7] = 0
+xi_y_i_[y:271][node:7] = 0.022414
+} 
+Node 8: {
+y_[node:8] = 1
+xi_y_i_[y:271][node:8] = 0.005172
+} 
+Node 9: {
+y_[node:9] = 1
+xi_y_i_[y:271][node:9] = 0.017241
+} 
+Node 10: {
+y_[node:10] = 1
+xi_y_i_[y:271][node:10] = 0.027586
+} 
+Node 11: {
+y_[node:11] = 0
+xi_y_i_[y:271][node:11] = 0.015517
+} 
+Node 12: {
+y_[node:12] = 0
+xi_y_i_[y:271][node:12] = 0.015517
+} 
+Node 13: {
+y_[node:13] = 0
+xi_y_i_[y:271][node:13] = 0.050000
+} 
+Node 14: {
+y_[node:14] = 0
+xi_y_i_[y:271][node:14] = 0.050000
+} 
+Node 15: {
+y_[node:15] = 0
+xi_y_i_[y:271][node:15] = 0.050000
+} 
+Node 16: {
+y_[node:16] = 0
+xi_y_i_[y:271][node:16] = 0.005172
+} 
+Node 17: {
+y_[node:17] = 0
+xi_y_i_[y:271][node:17] = 0.050000
+} 
+Node 18: {
+y_[node:18] = 0
+xi_y_i_[y:271][node:18] = 0.010345
+} 
+Node 19: {
+y_[node:19] = 0
+xi_y_i_[y:271][node:19] = 0.022414
+} 
+Node 20: {
+y_[node:20] = 0
+xi_y_i_[y:271][node:20] = 0.022414
+} 
+Node 21: {
+y_[node:21] = 0
+xi_y_i_[y:271][node:21] = 0.037931
+} 
+Node 22: {
+y_[node:22] = 1
+xi_y_i_[y:271][node:22] = 0.050000
+} 
+Node 23: {
+y_[node:23] = 0
+xi_y_i_[y:271][node:23] = 0.050000
+} 
+Node 24: {
+y_[node:24] = 0
+xi_y_i_[y:271][node:24] = 0.050000
+} 
+Node 25: {
+y_[node:25] = 1
+xi_y_i_[y:271][node:25] = 0.032759
+} 
+Node 26: {
+y_[node:26] = 1
+xi_y_i_[y:271][node:26] = 0.022414
+} 
+Node 27: {
+y_[node:27] = 0
+xi_y_i_[y:271][node:27] = 0.037931
+} 
+Node 28: {
+y_[node:28] = 0
+xi_y_i_[y:271][node:28] = 0.050000
+} 
+Node 29: {
+y_[node:29] = 0
+xi_y_i_[y:271][node:29] = 0.050000
+} 
+Node 30: {
+y_[node:30] = 1
+xi_y_i_[y:271][node:30] = 0.017241
+} 
+
+ } 
+
+ y = 272 { 
+Node 1: {
+y_[node:1] = 1
+xi_y_i_[y:272][node:1] = 0.050000
+} 
+Node 2: {
+y_[node:2] = 1
+xi_y_i_[y:272][node:2] = 0.027586
+} 
+Node 3: {
+y_[node:3] = 0
+xi_y_i_[y:272][node:3] = 0.050000
+} 
+Node 4: {
+y_[node:4] = 0
+xi_y_i_[y:272][node:4] = 0.037931
+} 
+Node 5: {
+y_[node:5] = 1
+xi_y_i_[y:272][node:5] = 0.015517
+} 
+Node 6: {
+y_[node:6] = 1
+xi_y_i_[y:272][node:6] = 0.022414
+} 
+Node 7: {
+y_[node:7] = 1
+xi_y_i_[y:272][node:7] = 0.022414
+} 
+Node 8: {
+y_[node:8] = 0
+xi_y_i_[y:272][node:8] = 0.005172
+} 
+Node 9: {
+y_[node:9] = 1
+xi_y_i_[y:272][node:9] = 0.017241
+} 
+Node 10: {
+y_[node:10] = 1
+xi_y_i_[y:272][node:10] = 0.027586
+} 
+Node 11: {
+y_[node:11] = 1
+xi_y_i_[y:272][node:11] = 0.015517
+} 
+Node 12: {
+y_[node:12] = 0
+xi_y_i_[y:272][node:12] = 0.015517
+} 
+Node 13: {
+y_[node:13] = 0
+xi_y_i_[y:272][node:13] = 0.050000
+} 
+Node 14: {
+y_[node:14] = 0
+xi_y_i_[y:272][node:14] = 0.050000
+} 
+Node 15: {
+y_[node:15] = 0
+xi_y_i_[y:272][node:15] = 0.050000
+} 
+Node 16: {
+y_[node:16] = 0
+xi_y_i_[y:272][node:16] = 0.039655
+} 
+Node 17: {
+y_[node:17] = 0
+xi_y_i_[y:272][node:17] = 0.050000
+} 
+Node 18: {
+y_[node:18] = 1
+xi_y_i_[y:272][node:18] = 0.010345
+} 
+Node 19: {
+y_[node:19] = 1
+xi_y_i_[y:272][node:19] = 0.022414
+} 
+Node 20: {
+y_[node:20] = 0
+xi_y_i_[y:272][node:20] = 0.022414
+} 
+Node 21: {
+y_[node:21] = 0
+xi_y_i_[y:272][node:21] = 0.037931
+} 
+Node 22: {
+y_[node:22] = 0
+xi_y_i_[y:272][node:22] = 0.050000
+} 
+Node 23: {
+y_[node:23] = 0
+xi_y_i_[y:272][node:23] = 0.050000
+} 
+Node 24: {
+y_[node:24] = 0
+xi_y_i_[y:272][node:24] = 0.050000
+} 
+Node 25: {
+y_[node:25] = 0
+xi_y_i_[y:272][node:25] = 0.032759
+} 
+Node 26: {
+y_[node:26] = 0
+xi_y_i_[y:272][node:26] = 0.022414
+} 
+Node 27: {
+y_[node:27] = 0
+xi_y_i_[y:272][node:27] = 0.037931
+} 
+Node 28: {
+y_[node:28] = 0
+xi_y_i_[y:272][node:28] = 0.050000
+} 
+Node 29: {
+y_[node:29] = 0
+xi_y_i_[y:272][node:29] = 0.050000
+} 
+Node 30: {
+y_[node:30] = 0
+xi_y_i_[y:272][node:30] = 0.017241
+} 
+
+ } 
+
+ y = 276 { 
+Node 1: {
+y_[node:1] = 0
+xi_y_i_[y:276][node:1] = 0.050000
+} 
+Node 2: {
+y_[node:2] = 0
+xi_y_i_[y:276][node:2] = 0.027586
+} 
+Node 3: {
+y_[node:3] = 0
+xi_y_i_[y:276][node:3] = 0.050000
+} 
+Node 4: {
+y_[node:4] = 0
+xi_y_i_[y:276][node:4] = 0.037931
+} 
+Node 5: {
+y_[node:5] = 0
+xi_y_i_[y:276][node:5] = 0.050000
+} 
+Node 6: {
+y_[node:6] = 0
+xi_y_i_[y:276][node:6] = 0.022414
+} 
+Node 7: {
+y_[node:7] = 1
+xi_y_i_[y:276][node:7] = 0.022414
+} 
+Node 8: {
+y_[node:8] = 1
+xi_y_i_[y:276][node:8] = 0.005172
+} 
+Node 9: {
+y_[node:9] = 1
+xi_y_i_[y:276][node:9] = 0.017241
+} 
+Node 10: {
+y_[node:10] = 1
+xi_y_i_[y:276][node:10] = 0.027586
+} 
+Node 11: {
+y_[node:11] = 1
+xi_y_i_[y:276][node:11] = 0.015517
+} 
+Node 12: {
+y_[node:12] = 1
+xi_y_i_[y:276][node:12] = 0.015517
+} 
+Node 13: {
+y_[node:13] = 0
+xi_y_i_[y:276][node:13] = 0.050000
+} 
+Node 14: {
+y_[node:14] = 0
+xi_y_i_[y:276][node:14] = 0.050000
+} 
+Node 15: {
+y_[node:15] = 0
+xi_y_i_[y:276][node:15] = 0.050000
+} 
+Node 16: {
+y_[node:16] = 0
+xi_y_i_[y:276][node:16] = 0.005172
+} 
+Node 17: {
+y_[node:17] = 0
+xi_y_i_[y:276][node:17] = 0.050000
+} 
+Node 18: {
+y_[node:18] = 1
+xi_y_i_[y:276][node:18] = 0.010345
+} 
+Node 19: {
+y_[node:19] = 1
+xi_y_i_[y:276][node:19] = 0.022414
+} 
+Node 20: {
+y_[node:20] = 0
+xi_y_i_[y:276][node:20] = 0.022414
+} 
+Node 21: {
+y_[node:21] = 0
+xi_y_i_[y:276][node:21] = 0.037931
+} 
+Node 22: {
+y_[node:22] = 0
+xi_y_i_[y:276][node:22] = 0.050000
+} 
+Node 23: {
+y_[node:23] = 0
+xi_y_i_[y:276][node:23] = 0.050000
+} 
+Node 24: {
+y_[node:24] = 0
+xi_y_i_[y:276][node:24] = 0.050000
+} 
+Node 25: {
+y_[node:25] = 0
+xi_y_i_[y:276][node:25] = 0.032759
+} 
+Node 26: {
+y_[node:26] = 1
+xi_y_i_[y:276][node:26] = 0.022414
+} 
+Node 27: {
+y_[node:27] = 0
+xi_y_i_[y:276][node:27] = 0.037931
+} 
+Node 28: {
+y_[node:28] = 0
+xi_y_i_[y:276][node:28] = 0.050000
+} 
+Node 29: {
+y_[node:29] = 0
+xi_y_i_[y:276][node:29] = 0.050000
+} 
+Node 30: {
+y_[node:30] = 1
+xi_y_i_[y:276][node:30] = 0.017241
+} 
+
+ } 
+
+ y = 288 { 
+Node 1: {
+y_[node:1] = 0
+xi_y_i_[y:288][node:1] = 0.050000
+} 
+Node 2: {
+y_[node:2] = 0
+xi_y_i_[y:288][node:2] = 0.027586
+} 
+Node 3: {
+y_[node:3] = 0
+xi_y_i_[y:288][node:3] = 0.050000
+} 
+Node 4: {
+y_[node:4] = 0
+xi_y_i_[y:288][node:4] = 0.037931
+} 
+Node 5: {
+y_[node:5] = 0
+xi_y_i_[y:288][node:5] = 0.050000
+} 
+Node 6: {
+y_[node:6] = 0
+xi_y_i_[y:288][node:6] = 0.022414
+} 
+Node 7: {
+y_[node:7] = 0
+xi_y_i_[y:288][node:7] = 0.022414
+} 
+Node 8: {
+y_[node:8] = 0
+xi_y_i_[y:288][node:8] = 0.005172
+} 
+Node 9: {
+y_[node:9] = 0
+xi_y_i_[y:288][node:9] = 0.017241
+} 
+Node 10: {
+y_[node:10] = 0
+xi_y_i_[y:288][node:10] = 0.027586
+} 
+Node 11: {
+y_[node:11] = 0
+xi_y_i_[y:288][node:11] = 0.015517
+} 
+Node 12: {
+y_[node:12] = 1
+xi_y_i_[y:288][node:12] = 0.015517
+} 
+Node 13: {
+y_[node:13] = 0
+xi_y_i_[y:288][node:13] = 0.050000
+} 
+Node 14: {
+y_[node:14] = 0
+xi_y_i_[y:288][node:14] = 0.050000
+} 
+Node 15: {
+y_[node:15] = 0
+xi_y_i_[y:288][node:15] = 0.050000
+} 
+Node 16: {
+y_[node:16] = 0
+xi_y_i_[y:288][node:16] = 0.005172
+} 
+Node 17: {
+y_[node:17] = 1
+xi_y_i_[y:288][node:17] = 0.050000
+} 
+Node 18: {
+y_[node:18] = 0
+xi_y_i_[y:288][node:18] = 0.010345
+} 
+Node 19: {
+y_[node:19] = 0
+xi_y_i_[y:288][node:19] = 0.022414
+} 
+Node 20: {
+y_[node:20] = 0
+xi_y_i_[y:288][node:20] = 0.022414
+} 
+Node 21: {
+y_[node:21] = 0
+xi_y_i_[y:288][node:21] = 0.037931
+} 
+Node 22: {
+y_[node:22] = 0
+xi_y_i_[y:288][node:22] = 0.050000
+} 
+Node 23: {
+y_[node:23] = 0
+xi_y_i_[y:288][node:23] = 0.050000
+} 
+Node 24: {
+y_[node:24] = 0
+xi_y_i_[y:288][node:24] = 0.050000
+} 
+Node 25: {
+y_[node:25] = 0
+xi_y_i_[y:288][node:25] = 0.032759
+} 
+Node 26: {
+y_[node:26] = 1
+xi_y_i_[y:288][node:26] = 0.022414
+} 
+Node 27: {
+y_[node:27] = 1
+xi_y_i_[y:288][node:27] = 0.037931
+} 
+Node 28: {
+y_[node:28] = 0
+xi_y_i_[y:288][node:28] = 0.050000
+} 
+Node 29: {
+y_[node:29] = 1
+xi_y_i_[y:288][node:29] = 0.050000
+} 
+Node 30: {
+y_[node:30] = 1
+xi_y_i_[y:288][node:30] = 0.017241
+} 
+
+ } 
+
+ y = 296 { 
+Node 1: {
+y_[node:1] = 0
+xi_y_i_[y:296][node:1] = 0.050000
+} 
+Node 2: {
+y_[node:2] = 0
+xi_y_i_[y:296][node:2] = 0.027586
+} 
+Node 3: {
+y_[node:3] = 0
+xi_y_i_[y:296][node:3] = 0.050000
+} 
+Node 4: {
+y_[node:4] = 0
+xi_y_i_[y:296][node:4] = 0.037931
+} 
+Node 5: {
+y_[node:5] = 0
+xi_y_i_[y:296][node:5] = 0.050000
+} 
+Node 6: {
+y_[node:6] = 0
+xi_y_i_[y:296][node:6] = 0.022414
+} 
+Node 7: {
+y_[node:7] = 0
+xi_y_i_[y:296][node:7] = 0.022414
+} 
+Node 8: {
+y_[node:8] = 1
+xi_y_i_[y:296][node:8] = 0.005172
+} 
+Node 9: {
+y_[node:9] = 1
+xi_y_i_[y:296][node:9] = 0.017241
+} 
+Node 10: {
+y_[node:10] = 1
+xi_y_i_[y:296][node:10] = 0.027586
+} 
+Node 11: {
+y_[node:11] = 1
+xi_y_i_[y:296][node:11] = 0.015517
+} 
+Node 12: {
+y_[node:12] = 0
+xi_y_i_[y:296][node:12] = 0.015517
+} 
+Node 13: {
+y_[node:13] = 0
+xi_y_i_[y:296][node:13] = 0.050000
+} 
+Node 14: {
+y_[node:14] = 0
+xi_y_i_[y:296][node:14] = 0.050000
+} 
+Node 15: {
+y_[node:15] = 0
+xi_y_i_[y:296][node:15] = 0.050000
+} 
+Node 16: {
+y_[node:16] = 0
+xi_y_i_[y:296][node:16] = 0.005172
+} 
+Node 17: {
+y_[node:17] = 0
+xi_y_i_[y:296][node:17] = 0.050000
+} 
+Node 18: {
+y_[node:18] = 0
+xi_y_i_[y:296][node:18] = 0.010345
+} 
+Node 19: {
+y_[node:19] = 0
+xi_y_i_[y:296][node:19] = 0.022414
+} 
+Node 20: {
+y_[node:20] = 1
+xi_y_i_[y:296][node:20] = 0.022414
+} 
+Node 21: {
+y_[node:21] = 0
+xi_y_i_[y:296][node:21] = 0.037931
+} 
+Node 22: {
+y_[node:22] = 0
+xi_y_i_[y:296][node:22] = 0.050000
+} 
+Node 23: {
+y_[node:23] = 0
+xi_y_i_[y:296][node:23] = 0.050000
+} 
+Node 24: {
+y_[node:24] = 0
+xi_y_i_[y:296][node:24] = 0.050000
+} 
+Node 25: {
+y_[node:25] = 1
+xi_y_i_[y:296][node:25] = 0.032759
+} 
+Node 26: {
+y_[node:26] = 0
+xi_y_i_[y:296][node:26] = 0.022414
+} 
+Node 27: {
+y_[node:27] = 1
+xi_y_i_[y:296][node:27] = 0.037931
+} 
+Node 28: {
+y_[node:28] = 0
+xi_y_i_[y:296][node:28] = 0.050000
+} 
+Node 29: {
+y_[node:29] = 0
+xi_y_i_[y:296][node:29] = 0.050000
+} 
+Node 30: {
+y_[node:30] = 1
+xi_y_i_[y:296][node:30] = 0.017241
+} 
+
+ } 
+
+ y = 301 { 
+Node 1: {
+y_[node:1] = 0
+xi_y_i_[y:301][node:1] = 0.050000
+} 
+Node 2: {
+y_[node:2] = 0
+xi_y_i_[y:301][node:2] = 0.027586
+} 
+Node 3: {
+y_[node:3] = 0
+xi_y_i_[y:301][node:3] = 0.050000
+} 
+Node 4: {
+y_[node:4] = 0
+xi_y_i_[y:301][node:4] = 0.037931
+} 
+Node 5: {
+y_[node:5] = 0
+xi_y_i_[y:301][node:5] = 0.050000
+} 
+Node 6: {
+y_[node:6] = 0
+xi_y_i_[y:301][node:6] = 0.022414
+} 
+Node 7: {
+y_[node:7] = 0
+xi_y_i_[y:301][node:7] = 0.022414
+} 
+Node 8: {
+y_[node:8] = 0
+xi_y_i_[y:301][node:8] = 0.005172
+} 
+Node 9: {
+y_[node:9] = 0
+xi_y_i_[y:301][node:9] = 0.017241
+} 
+Node 10: {
+y_[node:10] = 0
+xi_y_i_[y:301][node:10] = 0.027586
+} 
+Node 11: {
+y_[node:11] = 0
+xi_y_i_[y:301][node:11] = 0.015517
+} 
+Node 12: {
+y_[node:12] = 0
+xi_y_i_[y:301][node:12] = 0.015517
+} 
+Node 13: {
+y_[node:13] = 0
+xi_y_i_[y:301][node:13] = 0.050000
+} 
+Node 14: {
+y_[node:14] = 0
+xi_y_i_[y:301][node:14] = 0.050000
+} 
+Node 15: {
+y_[node:15] = 0
+xi_y_i_[y:301][node:15] = 0.050000
+} 
+Node 16: {
+y_[node:16] = 1
+xi_y_i_[y:301][node:16] = 0.005172
+} 
+Node 17: {
+y_[node:17] = 0
+xi_y_i_[y:301][node:17] = 0.050000
+} 
+Node 18: {
+y_[node:18] = 0
+xi_y_i_[y:301][node:18] = 0.010345
+} 
+Node 19: {
+y_[node:19] = 1
+xi_y_i_[y:301][node:19] = 0.022414
+} 
+Node 20: {
+y_[node:20] = 0
+xi_y_i_[y:301][node:20] = 0.022414
+} 
+Node 21: {
+y_[node:21] = 0
+xi_y_i_[y:301][node:21] = 0.037931
+} 
+Node 22: {
+y_[node:22] = 0
+xi_y_i_[y:301][node:22] = 0.050000
+} 
+Node 23: {
+y_[node:23] = 0
+xi_y_i_[y:301][node:23] = 0.050000
+} 
+Node 24: {
+y_[node:24] = 0
+xi_y_i_[y:301][node:24] = 0.050000
+} 
+Node 25: {
+y_[node:25] = 1
+xi_y_i_[y:301][node:25] = 0.032759
+} 
+Node 26: {
+y_[node:26] = 0
+xi_y_i_[y:301][node:26] = 0.022414
+} 
+Node 27: {
+y_[node:27] = 1
+xi_y_i_[y:301][node:27] = 0.037931
+} 
+Node 28: {
+y_[node:28] = 1
+xi_y_i_[y:301][node:28] = 0.050000
+} 
+Node 29: {
+y_[node:29] = 0
+xi_y_i_[y:301][node:29] = 0.050000
+} 
+Node 30: {
+y_[node:30] = 1
+xi_y_i_[y:301][node:30] = 0.017241
+} 
+
+ } 
+
+ y = 316 { 
+Node 1: {
+y_[node:1] = 0
+xi_y_i_[y:316][node:1] = 0.050000
+} 
+Node 2: {
+y_[node:2] = 0
+xi_y_i_[y:316][node:2] = 0.027586
+} 
+Node 3: {
+y_[node:3] = 1
+xi_y_i_[y:316][node:3] = 0.050000
+} 
+Node 4: {
+y_[node:4] = 1
+xi_y_i_[y:316][node:4] = 0.037931
+} 
+Node 5: {
+y_[node:5] = 1
+xi_y_i_[y:316][node:5] = 0.050000
+} 
+Node 6: {
+y_[node:6] = 0
+xi_y_i_[y:316][node:6] = 0.022414
+} 
+Node 7: {
+y_[node:7] = 0
+xi_y_i_[y:316][node:7] = 0.022414
+} 
+Node 8: {
+y_[node:8] = 0
+xi_y_i_[y:316][node:8] = 0.005172
+} 
+Node 9: {
+y_[node:9] = 0
+xi_y_i_[y:316][node:9] = 0.017241
+} 
+Node 10: {
+y_[node:10] = 0
+xi_y_i_[y:316][node:10] = 0.027586
+} 
+Node 11: {
+y_[node:11] = 0
+xi_y_i_[y:316][node:11] = 0.015517
+} 
+Node 12: {
+y_[node:12] = 0
+xi_y_i_[y:316][node:12] = 0.015517
+} 
+Node 13: {
+y_[node:13] = 0
+xi_y_i_[y:316][node:13] = 0.050000
+} 
+Node 14: {
+y_[node:14] = 0
+xi_y_i_[y:316][node:14] = 0.050000
+} 
+Node 15: {
+y_[node:15] = 0
+xi_y_i_[y:316][node:15] = 0.050000
+} 
+Node 16: {
+y_[node:16] = 0
+xi_y_i_[y:316][node:16] = 0.022414
+} 
+Node 17: {
+y_[node:17] = 1
+xi_y_i_[y:316][node:17] = 0.032759
+} 
+Node 18: {
+y_[node:18] = 0
+xi_y_i_[y:316][node:18] = 0.010345
+} 
+Node 19: {
+y_[node:19] = 0
+xi_y_i_[y:316][node:19] = 0.022414
+} 
+Node 20: {
+y_[node:20] = 0
+xi_y_i_[y:316][node:20] = 0.022414
+} 
+Node 21: {
+y_[node:21] = 0
+xi_y_i_[y:316][node:21] = 0.037931
+} 
+Node 22: {
+y_[node:22] = 0
+xi_y_i_[y:316][node:22] = 0.050000
+} 
+Node 23: {
+y_[node:23] = 0
+xi_y_i_[y:316][node:23] = 0.050000
+} 
+Node 24: {
+y_[node:24] = 0
+xi_y_i_[y:316][node:24] = 0.050000
+} 
+Node 25: {
+y_[node:25] = 0
+xi_y_i_[y:316][node:25] = 0.032759
+} 
+Node 26: {
+y_[node:26] = 1
+xi_y_i_[y:316][node:26] = 0.022414
+} 
+Node 27: {
+y_[node:27] = 1
+xi_y_i_[y:316][node:27] = 0.037931
+} 
+Node 28: {
+y_[node:28] = 0
+xi_y_i_[y:316][node:28] = 0.050000
+} 
+Node 29: {
+y_[node:29] = 0
+xi_y_i_[y:316][node:29] = 0.050000
+} 
+Node 30: {
+y_[node:30] = 0
+xi_y_i_[y:316][node:30] = 0.017241
+} 
+
+ } 
+
+ y = 318 { 
+Node 1: {
+y_[node:1] = 0
+xi_y_i_[y:318][node:1] = 0.050000
+} 
+Node 2: {
+y_[node:2] = 0
+xi_y_i_[y:318][node:2] = 0.027586
+} 
+Node 3: {
+y_[node:3] = 0
+xi_y_i_[y:318][node:3] = 0.050000
+} 
+Node 4: {
+y_[node:4] = 0
+xi_y_i_[y:318][node:4] = 0.037931
+} 
+Node 5: {
+y_[node:5] = 0
+xi_y_i_[y:318][node:5] = 0.050000
+} 
+Node 6: {
+y_[node:6] = 0
+xi_y_i_[y:318][node:6] = 0.022414
+} 
+Node 7: {
+y_[node:7] = 0
+xi_y_i_[y:318][node:7] = 0.022414
+} 
+Node 8: {
+y_[node:8] = 0
+xi_y_i_[y:318][node:8] = 0.005172
+} 
+Node 9: {
+y_[node:9] = 0
+xi_y_i_[y:318][node:9] = 0.017241
+} 
+Node 10: {
+y_[node:10] = 0
+xi_y_i_[y:318][node:10] = 0.027586
+} 
+Node 11: {
+y_[node:11] = 0
+xi_y_i_[y:318][node:11] = 0.015517
+} 
+Node 12: {
+y_[node:12] = 0
+xi_y_i_[y:318][node:12] = 0.015517
+} 
+Node 13: {
+y_[node:13] = 0
+xi_y_i_[y:318][node:13] = 0.050000
+} 
+Node 14: {
+y_[node:14] = 0
+xi_y_i_[y:318][node:14] = 0.050000
+} 
+Node 15: {
+y_[node:15] = 0
+xi_y_i_[y:318][node:15] = 0.050000
+} 
+Node 16: {
+y_[node:16] = 1
+xi_y_i_[y:318][node:16] = 0.005172
+} 
+Node 17: {
+y_[node:17] = 0
+xi_y_i_[y:318][node:17] = 0.050000
+} 
+Node 18: {
+y_[node:18] = 0
+xi_y_i_[y:318][node:18] = 0.010345
+} 
+Node 19: {
+y_[node:19] = 1
+xi_y_i_[y:318][node:19] = 0.022414
+} 
+Node 20: {
+y_[node:20] = 0
+xi_y_i_[y:318][node:20] = 0.022414
+} 
+Node 21: {
+y_[node:21] = 0
+xi_y_i_[y:318][node:21] = 0.037931
+} 
+Node 22: {
+y_[node:22] = 0
+xi_y_i_[y:318][node:22] = 0.050000
+} 
+Node 23: {
+y_[node:23] = 0
+xi_y_i_[y:318][node:23] = 0.050000
+} 
+Node 24: {
+y_[node:24] = 0
+xi_y_i_[y:318][node:24] = 0.050000
+} 
+Node 25: {
+y_[node:25] = 0
+xi_y_i_[y:318][node:25] = 0.032759
+} 
+Node 26: {
+y_[node:26] = 1
+xi_y_i_[y:318][node:26] = 0.022414
+} 
+Node 27: {
+y_[node:27] = 1
+xi_y_i_[y:318][node:27] = 0.037931
+} 
+Node 28: {
+y_[node:28] = 1
+xi_y_i_[y:318][node:28] = 0.050000
+} 
+Node 29: {
+y_[node:29] = 0
+xi_y_i_[y:318][node:29] = 0.050000
+} 
+Node 30: {
+y_[node:30] = 1
+xi_y_i_[y:318][node:30] = 0.017241
+} 
+
+ } 
+
+ y = 319 { 
+Node 1: {
+y_[node:1] = 0
+xi_y_i_[y:319][node:1] = 0.050000
+} 
+Node 2: {
+y_[node:2] = 0
+xi_y_i_[y:319][node:2] = 0.027586
+} 
+Node 3: {
+y_[node:3] = 0
+xi_y_i_[y:319][node:3] = 0.050000
+} 
+Node 4: {
+y_[node:4] = 0
+xi_y_i_[y:319][node:4] = 0.037931
+} 
+Node 5: {
+y_[node:5] = 0
+xi_y_i_[y:319][node:5] = 0.050000
+} 
+Node 6: {
+y_[node:6] = 0
+xi_y_i_[y:319][node:6] = 0.022414
+} 
+Node 7: {
+y_[node:7] = 0
+xi_y_i_[y:319][node:7] = 0.022414
+} 
+Node 8: {
+y_[node:8] = 1
+xi_y_i_[y:319][node:8] = 0.005172
+} 
+Node 9: {
+y_[node:9] = 1
+xi_y_i_[y:319][node:9] = 0.017241
+} 
+Node 10: {
+y_[node:10] = 0
+xi_y_i_[y:319][node:10] = 0.027586
+} 
+Node 11: {
+y_[node:11] = 1
+xi_y_i_[y:319][node:11] = 0.015517
+} 
+Node 12: {
+y_[node:12] = 0
+xi_y_i_[y:319][node:12] = 0.015517
+} 
+Node 13: {
+y_[node:13] = 0
+xi_y_i_[y:319][node:13] = 0.050000
+} 
+Node 14: {
+y_[node:14] = 0
+xi_y_i_[y:319][node:14] = 0.050000
+} 
+Node 15: {
+y_[node:15] = 0
+xi_y_i_[y:319][node:15] = 0.050000
+} 
+Node 16: {
+y_[node:16] = 0
+xi_y_i_[y:319][node:16] = 0.005172
+} 
+Node 17: {
+y_[node:17] = 0
+xi_y_i_[y:319][node:17] = 0.050000
+} 
+Node 18: {
+y_[node:18] = 0
+xi_y_i_[y:319][node:18] = 0.010345
+} 
+Node 19: {
+y_[node:19] = 1
+xi_y_i_[y:319][node:19] = 0.022414
+} 
+Node 20: {
+y_[node:20] = 1
+xi_y_i_[y:319][node:20] = 0.022414
+} 
+Node 21: {
+y_[node:21] = 1
+xi_y_i_[y:319][node:21] = 0.037931
+} 
+Node 22: {
+y_[node:22] = 1
+xi_y_i_[y:319][node:22] = 0.050000
+} 
+Node 23: {
+y_[node:23] = 0
+xi_y_i_[y:319][node:23] = 0.050000
+} 
+Node 24: {
+y_[node:24] = 0
+xi_y_i_[y:319][node:24] = 0.050000
+} 
+Node 25: {
+y_[node:25] = 0
+xi_y_i_[y:319][node:25] = 0.032759
+} 
+Node 26: {
+y_[node:26] = 1
+xi_y_i_[y:319][node:26] = 0.022414
+} 
+Node 27: {
+y_[node:27] = 0
+xi_y_i_[y:319][node:27] = 0.037931
+} 
+Node 28: {
+y_[node:28] = 0
+xi_y_i_[y:319][node:28] = 0.050000
+} 
+Node 29: {
+y_[node:29] = 0
+xi_y_i_[y:319][node:29] = 0.050000
+} 
+Node 30: {
+y_[node:30] = 0
+xi_y_i_[y:319][node:30] = 0.017241
+} 
+
+ } 
+
+ y = 328 { 
+Node 1: {
+y_[node:1] = 0
+xi_y_i_[y:328][node:1] = 0.050000
+} 
+Node 2: {
+y_[node:2] = 0
+xi_y_i_[y:328][node:2] = 0.027586
+} 
+Node 3: {
+y_[node:3] = 0
+xi_y_i_[y:328][node:3] = 0.050000
+} 
+Node 4: {
+y_[node:4] = 0
+xi_y_i_[y:328][node:4] = 0.037931
+} 
+Node 5: {
+y_[node:5] = 0
+xi_y_i_[y:328][node:5] = 0.050000
+} 
+Node 6: {
+y_[node:6] = 0
+xi_y_i_[y:328][node:6] = 0.022414
+} 
+Node 7: {
+y_[node:7] = 0
+xi_y_i_[y:328][node:7] = 0.022414
+} 
+Node 8: {
+y_[node:8] = 0
+xi_y_i_[y:328][node:8] = 0.005172
+} 
+Node 9: {
+y_[node:9] = 0
+xi_y_i_[y:328][node:9] = 0.017241
+} 
+Node 10: {
+y_[node:10] = 0
+xi_y_i_[y:328][node:10] = 0.027586
+} 
+Node 11: {
+y_[node:11] = 0
+xi_y_i_[y:328][node:11] = 0.015517
+} 
+Node 12: {
+y_[node:12] = 0
+xi_y_i_[y:328][node:12] = 0.015517
+} 
+Node 13: {
+y_[node:13] = 0
+xi_y_i_[y:328][node:13] = 0.050000
+} 
+Node 14: {
+y_[node:14] = 1
+xi_y_i_[y:328][node:14] = 0.050000
+} 
+Node 15: {
+y_[node:15] = 0
+xi_y_i_[y:328][node:15] = 0.050000
+} 
+Node 16: {
+y_[node:16] = 1
+xi_y_i_[y:328][node:16] = 0.005172
+} 
+Node 17: {
+y_[node:17] = 1
+xi_y_i_[y:328][node:17] = 0.050000
+} 
+Node 18: {
+y_[node:18] = 0
+xi_y_i_[y:328][node:18] = 0.010345
+} 
+Node 19: {
+y_[node:19] = 0
+xi_y_i_[y:328][node:19] = 0.022414
+} 
+Node 20: {
+y_[node:20] = 0
+xi_y_i_[y:328][node:20] = 0.022414
+} 
+Node 21: {
+y_[node:21] = 0
+xi_y_i_[y:328][node:21] = 0.037931
+} 
+Node 22: {
+y_[node:22] = 0
+xi_y_i_[y:328][node:22] = 0.050000
+} 
+Node 23: {
+y_[node:23] = 0
+xi_y_i_[y:328][node:23] = 0.050000
+} 
+Node 24: {
+y_[node:24] = 0
+xi_y_i_[y:328][node:24] = 0.050000
+} 
+Node 25: {
+y_[node:25] = 0
+xi_y_i_[y:328][node:25] = 0.032759
+} 
+Node 26: {
+y_[node:26] = 0
+xi_y_i_[y:328][node:26] = 0.022414
+} 
+Node 27: {
+y_[node:27] = 1
+xi_y_i_[y:328][node:27] = 0.037931
+} 
+Node 28: {
+y_[node:28] = 1
+xi_y_i_[y:328][node:28] = 0.050000
+} 
+Node 29: {
+y_[node:29] = 0
+xi_y_i_[y:328][node:29] = 0.050000
+} 
+Node 30: {
+y_[node:30] = 0
+xi_y_i_[y:328][node:30] = 0.017241
+} 
+
+ } 
+
+ y = 332 { 
+Node 1: {
+y_[node:1] = 1
+xi_y_i_[y:332][node:1] = 0.050000
+} 
+Node 2: {
+y_[node:2] = 0
+xi_y_i_[y:332][node:2] = 0.027586
+} 
+Node 3: {
+y_[node:3] = 0
+xi_y_i_[y:332][node:3] = 0.050000
+} 
+Node 4: {
+y_[node:4] = 0
+xi_y_i_[y:332][node:4] = 0.037931
+} 
+Node 5: {
+y_[node:5] = 1
+xi_y_i_[y:332][node:5] = 0.050000
+} 
+Node 6: {
+y_[node:6] = 0
+xi_y_i_[y:332][node:6] = 0.022414
+} 
+Node 7: {
+y_[node:7] = 1
+xi_y_i_[y:332][node:7] = 0.022414
+} 
+Node 8: {
+y_[node:8] = 0
+xi_y_i_[y:332][node:8] = 0.005172
+} 
+Node 9: {
+y_[node:9] = 1
+xi_y_i_[y:332][node:9] = 0.017241
+} 
+Node 10: {
+y_[node:10] = 1
+xi_y_i_[y:332][node:10] = 0.027586
+} 
+Node 11: {
+y_[node:11] = 1
+xi_y_i_[y:332][node:11] = 0.015517
+} 
+Node 12: {
+y_[node:12] = 0
+xi_y_i_[y:332][node:12] = 0.015517
+} 
+Node 13: {
+y_[node:13] = 0
+xi_y_i_[y:332][node:13] = 0.050000
+} 
+Node 14: {
+y_[node:14] = 0
+xi_y_i_[y:332][node:14] = 0.050000
+} 
+Node 15: {
+y_[node:15] = 0
+xi_y_i_[y:332][node:15] = 0.050000
+} 
+Node 16: {
+y_[node:16] = 0
+xi_y_i_[y:332][node:16] = 0.005172
+} 
+Node 17: {
+y_[node:17] = 0
+xi_y_i_[y:332][node:17] = 0.050000
+} 
+Node 18: {
+y_[node:18] = 0
+xi_y_i_[y:332][node:18] = 0.010345
+} 
+Node 19: {
+y_[node:19] = 1
+xi_y_i_[y:332][node:19] = 0.022414
+} 
+Node 20: {
+y_[node:20] = 0
+xi_y_i_[y:332][node:20] = 0.022414
+} 
+Node 21: {
+y_[node:21] = 0
+xi_y_i_[y:332][node:21] = 0.037931
+} 
+Node 22: {
+y_[node:22] = 0
+xi_y_i_[y:332][node:22] = 0.050000
+} 
+Node 23: {
+y_[node:23] = 0
+xi_y_i_[y:332][node:23] = 0.050000
+} 
+Node 24: {
+y_[node:24] = 0
+xi_y_i_[y:332][node:24] = 0.050000
+} 
+Node 25: {
+y_[node:25] = 0
+xi_y_i_[y:332][node:25] = 0.032759
+} 
+Node 26: {
+y_[node:26] = 1
+xi_y_i_[y:332][node:26] = 0.022414
+} 
+Node 27: {
+y_[node:27] = 0
+xi_y_i_[y:332][node:27] = 0.037931
+} 
+Node 28: {
+y_[node:28] = 0
+xi_y_i_[y:332][node:28] = 0.050000
+} 
+Node 29: {
+y_[node:29] = 0
+xi_y_i_[y:332][node:29] = 0.050000
+} 
+Node 30: {
+y_[node:30] = 0
+xi_y_i_[y:332][node:30] = 0.017241
+} 
+
+ } 
+Legenda_Model:Instance_Name	Network_Name	Num_Nodes	Num_Prof_Nodes	Max_Tour_Duration	Max_Num_Discoveries	Max_Discoveries_Fraction	Best_LB	Best_Ub	Cplex_Gap	Root_Node_LB	Branch_and_Cut_Elapsed_Time	Starting_Cuts_Elapsed_Time	Tot_Time	Num_Logic_Benders_Cuts	Number_Starting_Scenarios	Num_BandC_Nodes	Number_Discoveries	Profit_cost	Discovery_cost	Card_Y	Num_Tight_Y	US_Type	US_Param	US_Tot_Det_Profit
+Table_Model:tsi_prob_1_mod_1_budget_25_D1_md075_US2_USpar5	tsi_prob_1_mod_1_budget_25	32	30	2500	23	0.750000	-0.236000	-0.235417	0.002478	0.000000	7202.134000	462.288000	7664.422000	2010	0	848	23	-0.235417	0.000000	478	88	2	0.050000	285.000000

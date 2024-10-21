@@ -1,0 +1,54 @@
+Instance_Name: SPP_n30_s8_B3_D1_d25
+U_Budget: 3
+Num_Nodes: 30
+Num_Archs: 261
+Max_Num_Discoveries: 66.000000
+DDDI_Version: 1
+BUB: 15.224398
+BLB: 15.224398
+Gap: 0.000000
+Elapsed_Time: 3.376000
+Branch_And_Cut_Time: 2.985000
+Starting_Cuts_Time: 0.391000
+Max_Num_Starting_Scenarios: 15
+Problem_is_feasible: 1
+
+
+-------------------------------
+
+
+
+Solution:
+
+w_7: arc (1, 19) = 1.000000
+w_8: arc (1, 24) = 1.000000
+w_10: arc (1, 27) = 1.000000
+w_17: arc (2, 24) = 1.000000
+w_22: arc (3, 6) = 1.000000
+w_37: arc (5, 14) = 1.000000
+w_64: arc (9, 1) = 1.000000
+w_69: arc (9, 27) = 1.000000
+w_86: arc (12, 2) = 1.000000
+w_102: arc (14, 6) = 1.000000
+w_131: arc (18, 11) = 1.000000
+w_142: arc (19, 26) = 1.000000
+w_145: arc (19, 29) = 1.000000
+w_147: arc (20, 2) = 1.000000
+w_156: arc (21, 13) = 1.000000
+w_159: arc (21, 30) = 1.000000
+w_161: arc (22, 8) = 1.000000
+w_193: arc (24, 30) = 1.000000
+w_215: arc (26, 30) = 1.000000
+w_230: arc (27, 26) = 1.000000
+w_234: arc (28, 21) = 1.000000
+w_241: arc (29, 6) = 1.000000
+w_252: arc (30, 8) = 1.000000
+w_254: arc (30, 21) = 1.000000
+w_257: arc (30, 24) = 1.000000
+w_259: arc (30, 28) = 1.000000
+
+
+-------------------------------
+
+Legenda:Instance_Name	Num_Nodes	Num_Archs	Seed	U_budget	Discovery_Fraction	Max_Num_Discoveries	DDDI_Version	BUB	BLB	Gap	BandC_Time	Starting_Time	Num_Scenarios	Problem_Y_Feasible
+Table	SPP_n30_s8_B3_D1_d25	30	261	8	3	0.250000	66.000000	1	15.224398	15.224398	0.000000	2.985000	0.391000	15	1

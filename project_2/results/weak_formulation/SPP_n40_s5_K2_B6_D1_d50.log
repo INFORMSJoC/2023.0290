@@ -1,0 +1,88 @@
+Instance_Name: SPP_n40_s5_K2_B6_D1_d50.log
+K: 2
+U_Budget: 6
+Num_Nodes: 40
+Num_Archs: 468
+Max_Num_Discoveries: 234
+DDDI_Version: 1
+BUB: 15.5474
+BLB: 5.11979
+Gap: 0.670699
+Elapsed_Time 7200.02
+
+
+Solution:
+
+w[] variables
+:w_0: arc (1, 2) = 1
+w_1: arc (1, 11) = 1
+w_17: arc (2, 11) = 1
+w_30: arc (3, 7) = 1
+w_32: arc (3, 14) = 1
+w_33: arc (3, 15) = 1
+w_36: arc (3, 22) = 1
+w_37: arc (3, 28) = 1
+w_46: arc (4, 25) = 1
+w_47: arc (4, 26) = 1
+w_60: arc (5, 38) = 1
+w_71: arc (7, 5) = 1
+w_84: arc (8, 9) = 1
+w_96: arc (9, 2) = 1
+w_97: arc (9, 4) = 1
+w_104: arc (9, 26) = 1
+w_114: arc (10, 8) = 1
+w_122: arc (11, 1) = 1
+w_125: arc (11, 19) = 1
+w_145: arc (12, 22) = 1
+w_159: arc (13, 8) = 1
+w_169: arc (13, 34) = 1
+w_170: arc (13, 37) = 1
+w_173: arc (14, 7) = 1
+w_174: arc (14, 13) = 1
+w_177: arc (14, 17) = 1
+w_182: arc (15, 3) = 1
+w_185: arc (15, 13) = 1
+w_202: arc (17, 3) = 1
+w_203: arc (17, 14) = 1
+w_204: arc (17, 28) = 1
+w_205: arc (17, 40) = 1
+w_222: arc (19, 20) = 1
+w_236: arc (20, 31) = 1
+w_238: arc (20, 39) = 1
+w_262: arc (22, 12) = 1
+w_268: arc (22, 21) = 1
+w_296: arc (25, 26) = 1
+w_298: arc (25, 38) = 1
+w_300: arc (26, 9) = 1
+w_313: arc (27, 40) = 1
+w_316: arc (28, 13) = 1
+w_318: arc (28, 15) = 1
+w_321: arc (28, 22) = 1
+w_323: arc (28, 37) = 1
+w_352: arc (31, 15) = 1
+w_372: arc (32, 26) = 1
+w_388: arc (34, 4) = 1
+w_422: arc (36, 31) = 1
+w_448: arc (38, 26) = 1
+w_464: arc (40, 3) = 1
+w_467: arc (40, 27) = 1
+
+**********************
+y_k[] variables:
+y_k0_i37: arc (3, 28) = 1
+y_k0_i84: arc (8, 9) = 1
+y_k0_i104: arc (9, 26) = 1
+y_k0_i159: arc (13, 8) = 1
+y_k0_i202: arc (17, 3) = 1
+y_k0_i316: arc (28, 13) = 1
+y_k1_i104: arc (9, 26) = 1
+y_k1_i164: arc (13, 21) = 1
+y_k1_i204: arc (17, 28) = 1
+y_k1_i243: arc (21, 9) = 1
+y_k1_i316: arc (28, 13) = 1
+
+
+------------------------
+
+Legenda:Instance_Name   K   Num_Nodes   Num_Archs Seed  U_budget    Max_Num_Discoveries    DDDI_Version Delta    BUB BLB Gap Elapsed_Time
+Table:SPP_n40_s5_K2_B6_D1_d50.log   2  40 468 5 6    234  1 0.5 15.5474 5.11979   0.670699 7200.02 

@@ -1,0 +1,87 @@
+Instance_Name: SPP_n30_s3_K2_B3_D1_d25.log
+K: 2
+U_Budget: 3
+Num_Nodes: 30
+Num_Archs: 261
+Max_Num_Discoveries: 66
+DDDI_Version: 1
+BUB: 13.9424
+BLB: 5.87798
+Gap: 0.578408
+Elapsed_Time 7200.05
+
+
+Solution:
+
+w[] variables
+:w_5: arc (1, 16) = 1
+w_6: arc (1, 18) = 1
+w_9: arc (1, 24) = 1
+w_10: arc (1, 27) = 1
+w_11: arc (2, 8) = 1
+w_12: arc (2, 11) = 1
+w_13: arc (2, 16) = 1
+w_18: arc (3, 7) = 1
+w_22: arc (3, 18) = 1
+w_23: arc (3, 21) = 1
+w_28: arc (4, 5) = 1
+w_31: arc (4, 11) = 1
+w_32: arc (4, 12) = 1
+w_33: arc (4, 18) = 1
+w_51: arc (7, 1) = 1
+w_90: arc (11, 4) = 1
+w_95: arc (11, 17) = 1
+w_119: arc (14, 28) = 1
+w_120: arc (14, 29) = 1
+w_121: arc (15, 1) = 1
+w_123: arc (15, 16) = 1
+w_126: arc (15, 22) = 1
+w_127: arc (15, 23) = 1
+w_128: arc (15, 25) = 1
+w_129: arc (15, 27) = 1
+w_152: arc (18, 7) = 1
+w_153: arc (18, 11) = 1
+w_156: arc (18, 19) = 1
+w_162: arc (19, 6) = 1
+w_168: arc (19, 17) = 1
+w_172: arc (19, 26) = 1
+w_174: arc (19, 29) = 1
+w_175: arc (20, 15) = 1
+w_177: arc (20, 25) = 1
+w_178: arc (20, 27) = 1
+w_186: arc (21, 14) = 1
+w_194: arc (22, 2) = 1
+w_199: arc (23, 20) = 1
+w_200: arc (23, 25) = 1
+w_201: arc (23, 27) = 1
+w_206: arc (24, 7) = 1
+w_217: arc (25, 18) = 1
+w_218: arc (25, 20) = 1
+w_219: arc (25, 23) = 1
+w_220: arc (25, 27) = 1
+w_221: arc (26, 6) = 1
+w_229: arc (27, 7) = 1
+w_233: arc (27, 18) = 1
+w_235: arc (27, 21) = 1
+w_247: arc (28, 29) = 1
+w_249: arc (29, 14) = 1
+
+**********************
+y_k[] variables:
+y_k0_i50: arc (6, 29) = 1
+y_k0_i59: arc (7, 19) = 1
+y_k0_i152: arc (18, 7) = 1
+y_k0_i162: arc (19, 6) = 1
+y_k0_i177: arc (20, 25) = 1
+y_k0_i220: arc (25, 27) = 1
+y_k0_i233: arc (27, 18) = 1
+y_k1_i156: arc (18, 19) = 1
+y_k1_i174: arc (19, 29) = 1
+y_k1_i177: arc (20, 25) = 1
+y_k1_i217: arc (25, 18) = 1
+
+
+------------------------
+
+Legenda:Instance_Name   K   Num_Nodes   Num_Archs Seed  U_budget    Max_Num_Discoveries    DDDI_Version Delta    BUB BLB Gap Elapsed_Time
+Table:SPP_n30_s3_K2_B3_D1_d25.log   2  30 261 3 3    66  1 0.25 13.9424 5.87798   0.578408 7200.05 

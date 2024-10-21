@@ -1,0 +1,85 @@
+Instance_Name: SPP_n30_s9_K4_B3_D1_d25.log
+K: 4
+U_Budget: 3
+Num_Nodes: 30
+Num_Archs: 261
+Max_Num_Discoveries: 66
+DDDI_Version: 1
+BUB: 14.083
+BLB: 14.083
+Gap: 0
+Elapsed_Time 370.677
+
+
+Solution:
+
+w[] variables
+:w_2: arc (1, 19) = 1
+w_4: arc (1, 28) = 1
+w_6: arc (2, 8) = 1
+w_13: arc (2, 22) = 1
+w_14: arc (2, 23) = 1
+w_21: arc (3, 6) = 1
+w_32: arc (4, 3) = 1
+w_34: arc (4, 7) = 1
+w_37: arc (4, 17) = 1
+w_48: arc (6, 13) = 1
+w_51: arc (6, 18) = 1
+w_66: arc (8, 22) = 1
+w_72: arc (9, 4) = 1
+w_87: arc (11, 1) = 1
+w_89: arc (11, 19) = 1
+w_90: arc (11, 26) = 1
+w_91: arc (11, 28) = 1
+w_92: arc (12, 2) = 1
+w_100: arc (12, 24) = 1
+w_103: arc (13, 2) = 1
+w_115: arc (13, 30) = 1
+w_128: arc (15, 12) = 1
+w_142: arc (17, 4) = 1
+w_143: arc (17, 6) = 1
+w_147: arc (17, 18) = 1
+w_159: arc (19, 1) = 1
+w_162: arc (19, 6) = 1
+w_168: arc (20, 2) = 1
+w_191: arc (22, 23) = 1
+w_195: arc (23, 2) = 1
+w_198: arc (23, 22) = 1
+w_202: arc (24, 2) = 1
+w_215: arc (25, 20) = 1
+w_220: arc (26, 12) = 1
+w_230: arc (27, 21) = 1
+w_239: arc (28, 13) = 1
+w_242: arc (28, 20) = 1
+w_243: arc (28, 24) = 1
+w_259: arc (30, 22) = 1
+
+**********************
+y_k[] variables:
+y_k0_i2: arc (1, 19) = 1
+y_k0_i14: arc (2, 23) = 1
+y_k0_i48: arc (6, 13) = 1
+y_k0_i87: arc (11, 1) = 1
+y_k0_i103: arc (13, 2) = 1
+y_k0_i162: arc (19, 6) = 1
+y_k0_i198: arc (23, 22) = 1
+y_k1_i13: arc (2, 22) = 1
+y_k1_i91: arc (11, 28) = 1
+y_k1_i202: arc (24, 2) = 1
+y_k1_i243: arc (28, 24) = 1
+y_k2_i6: arc (2, 8) = 1
+y_k2_i66: arc (8, 22) = 1
+y_k2_i90: arc (11, 26) = 1
+y_k2_i92: arc (12, 2) = 1
+y_k2_i220: arc (26, 12) = 1
+y_k3_i4: arc (1, 28) = 1
+y_k3_i87: arc (11, 1) = 1
+y_k3_i115: arc (13, 30) = 1
+y_k3_i239: arc (28, 13) = 1
+y_k3_i259: arc (30, 22) = 1
+
+
+------------------------
+
+Legenda:Instance_Name   K   Num_Nodes   Num_Archs Seed  U_budget    Max_Num_Discoveries    DDDI_Version Delta    BUB BLB Gap Elapsed_Time
+Table:SPP_n30_s9_K4_B3_D1_d25.log   4  30 261 9 3    66  1 0.25 14.083 14.083   0 370.677 

@@ -1,0 +1,56 @@
+\begin{tikzpicture}
+\begin{axis} [legend pos=south east,
+scatter/classes={%
+	start={mark=triangle*},
+	end={mark=triangle},
+discovery_on={mark=square*},
+discovery_off={mark=o}}]
+\addplot[scatter, only marks,  scatter src = explicit symbolic, forget plot] table[meta = label]{
+x     y      label
+11.600000	15.700000	start
+11.600000	15.700000	end
+18.000000	15.900000	discovery_on
+18.300000	13.300000	discovery_on
+16.500000	9.300000	discovery_off
+16.100000	19.600000	discovery_on
+15.700000	20.600000	discovery_on
+14.000000	5.100000	discovery_off
+11.400000	6.700000	discovery_off
+8.300000	5.000000	discovery_off
+7.900000	9.800000	discovery_off
+10.200000	22.100000	discovery_on
+9.700000	23.800000	discovery_on
+10.100000	26.400000	discovery_on
+7.400000	24.000000	discovery_on
+5.600000	11.100000	discovery_off
+4.900000	18.900000	discovery_off
+};
+	\addplot[thick, dashed, mark=none] coordinates {
+(11.6, 15.7)
+(11.4, 6.7)
+(14, 5.1)
+(16.5, 9.3)
+(11.6, 15.7)
+};
+	\addplot[thick,dash dot,mark=none, color=blue] coordinates {
+(11.6, 15.7)
+(16.1, 19.6)
+(15.7, 20.6)
+(18, 15.9)
+(18.3, 13.3)
+(11.6, 15.7)
+};
+	\addplot[mark=none, color=green] coordinates {
+(11.6, 15.7)
+(7.4, 24)
+(10.1, 26.4)
+(9.7, 23.8)
+(10.2, 22.1)
+(11.6, 15.7)
+};
+\addlegendentry{{\scriptsize k = 1}}
+\addlegendentry{{\scriptsize k = 2}}
+\addlegendentry{{\scriptsize k = 3}}
+\addlegendentry{{\scriptsize k = 4}}
+\end{axis}
+\end{tikzpicture}
