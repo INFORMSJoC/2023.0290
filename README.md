@@ -21,7 +21,7 @@ Below is the BibTex for citing this snapshot of the repository.
 
 ```
 @misc{Paradiso2024,
-  author =        {R. Paradiso, A. Georghiou, S. Dabia, D. Tönissen},
+  author =        {Paradiso, Rosario and Georghiou, Angelos and Dabia, Said and Tönissen, Denise},
   publisher =     {INFORMS Journal on Computing},
   title =         {{Exact and Approximate Schemes for Robust Optimization Problems with Decision Dependent Information Discovery}},
   year =          {2024},
